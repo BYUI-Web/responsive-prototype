@@ -39,16 +39,16 @@
 
   <script>
     $(function() {
-      $('.site-navigation').hide();
-      $('.site-navigation-dropdown').hide();
+      $('.mobile-navigation').hide();
+      $('.mobile-dropdown').hide();
       $('.mobile-nav-toggle').show();
       $('.close-that-nav').remove();
       $('.mobile-nav-toggle').click(function(e){
-        $('.site-navigation').slideToggle(600);
+        $('.mobile-navigation').slideToggle(600);
       });
-      $('.site-navigation-toggle > a').click(function(e){
+      $('.mobile-dropdown-toggle > a').click(function(e){
         e.preventDefault();
-        $(this).siblings('.site-navigation-dropdown').slideToggle(600);
+        $(this).siblings('.mobile-dropdown').slideToggle(600);
       });
     });
   </script>
@@ -59,72 +59,113 @@
   <a href="" id="top"></a>
 
 	<header class="site-header">
-		
-    <div class="site-header-branding clearfix">
-      <h1 class="site-title"><a href="/" title="Home"><span aria-hidden="true" class="icon-byui-logo"></span><span class="logo-text">Brigham Young University - Idaho</span></a></h1>
+    
+    <div class="site-navigation clearfix">
+      <div class="inner-wrap">
+      <nav class="desktop-navigation">
+        <ul class="container">
+          <li id="Administrative" class="site-dropdown-toggle">
+            <a href="#Administrative">Administrative<span aria-hidden="true" class="site-navigation-arrow icon-arrow-down"></span></a>
+              <ul class="site-dropdown"><a href="#top" class="close-that-nav">x</a>
+                <li><a href="#">About BYU-Idaho</a></li>
+                <li><a href="#">Admissions</a></li>
+                <li><a href="#">Ecclesiastical Endorsement</a></li>
+                <li><a href="#">Financial Aid</a></li>
+                <li><a href="#">Honor Code</a></li>
+                <li><a href="#">Human Resources</a></li>
+                <li><a href="#">President's Office</a></li>
+                <li><a href="#">Registrar</a></li>
+              </ul>
+          </li>
+          <li id="Academic" class="site-dropdown-toggle">
+            <a href="#Academic">Academic<span aria-hidden="true" class="site-navigation-arrow icon-arrow-down"></span></a>
+            <ul class="site-dropdown"><a href="#top" class="close-that-nav">×</a>
+              <li><a href="#">Academic Advising</a></li>
+              <li><a href="#">Colleges and Departments</a></li>
+              <li><a href="#">Continuing Education</a></li>
+              <li><a href="#">Library</a></li>
+              <li><a href="#">Pathways</a></li>
+              <li><a href="#">Schedule</a></li>
+              <li><a href="#">Student Support</a></li>
+            </ul></li>
+          <li id="StudentLife" class="site-dropdown-toggle">
+            <a href="#StudentLife">Student Life<span aria-hidden="true" class="site-navigation-arrow icon-arrow-down"></span></a>
+            <ul class="site-dropdown"><a href="#top" class="close-that-nav">×</a>
+              <li><a href="#">Activities</a></li>
+              <li><a href="#">Health and Wellness</a></li>
+              <li><a href="#">Housing</a></li>
+              <li><a href="#">Food</a></li>
+              <li><a href="#">Gym</a></li>
+              <li><a href="#">Local Information</a></li>
+              <li><a href="#">Student Ambassadors</a></li>
+              <li><a href="#">Travel</a></li>
+            </ul></li>
+          <li id="CampusServices" class="site-dropdown-toggle">
+            <a href="#CampusServices">Campus Services<span aria-hidden="true" class="site-navigation-arrow icon-arrow-down"></span></a>
+            <ul class="site-dropdown"><a href="#top" class="close-that-nav">×</a>
+              <li><a href="#">Associations and Societies</a></li>
+              <li><a href="#">Bookstore</a></li>
+              <li><a href="#">Campus Map</a></li>
+              <li><a href="#">Help Desk</a></li>
+              <li><a href="#">Parking and Security</a></li>
+            </ul></li>
+        </ul>
+      </nav>
+      <nav class="mobile-navigation">
+        <ul class="container">
+          <li id="Administrative" class="mobile-dropdown-toggle">
+            <a href="#Administrative">Administrative<span aria-hidden="true" class="site-navigation-arrow icon-arrow-down"></span></a>
+              <ul class="mobile-dropdown"><a href="#top" class="close-that-nav">x</a>
+                <li><a href="#">About BYU-Idaho</a></li>
+                <li><a href="#">Admissions</a></li>
+                <li><a href="#">Ecclesiastical Endorsement</a></li>
+                <li><a href="#">Financial Aid</a></li>
+                <li><a href="#">Honor Code</a></li>
+                <li><a href="#">Human Resources</a></li>
+                <li><a href="#">President's Office</a></li>
+                <li><a href="#">Registrar</a></li>
+              </ul>
+          </li>
+          <li id="Academic" class="mobile-dropdown-toggle">
+            <a href="#Academic">Academic<span aria-hidden="true" class="site-navigation-arrow icon-arrow-down"></span></a>
+            <ul class="mobile-dropdown"><a href="#top" class="close-that-nav">×</a>
+              <li><a href="#">Academic Advising</a></li>
+              <li><a href="#">Colleges and Departments</a></li>
+              <li><a href="#">Continuing Education</a></li>
+              <li><a href="#">Library</a></li>
+              <li><a href="#">Pathways</a></li>
+              <li><a href="#">Schedule</a></li>
+              <li><a href="#">Student Support</a></li>
+            </ul></li>
+          <li id="StudentLife" class="mobile-dropdown-toggle">
+            <a href="#StudentLife">Student Life<span aria-hidden="true" class="site-navigation-arrow icon-arrow-down"></span></a>
+            <ul class="mobile-dropdown"><a href="#top" class="close-that-nav">×</a>
+              <li><a href="#">Activities</a></li>
+              <li><a href="#">Health and Wellness</a></li>
+              <li><a href="#">Housing</a></li>
+              <li><a href="#">Food</a></li>
+              <li><a href="#">Gym</a></li>
+              <li><a href="#">Local Information</a></li>
+              <li><a href="#">Student Ambassadors</a></li>
+              <li><a href="#">Travel</a></li>
+            </ul></li>
+          <li id="CampusServices" class="mobile-dropdown-toggle">
+            <a href="#CampusServices">Campus Services<span aria-hidden="true" class="site-navigation-arrow icon-arrow-down"></span></a>
+            <ul class="mobile-dropdown"><a href="#top" class="close-that-nav">×</a>
+              <li><a href="#">Associations and Societies</a></li>
+              <li><a href="#">Bookstore</a></li>
+              <li><a href="#">Campus Map</a></li>
+              <li><a href="#">Help Desk</a></li>
+              <li><a href="#">Parking and Security</a></li>
+            </ul></li>
+        </ul>
+      </nav>
 
-      <div class="mobile-nav-toggle">
-        <span aria-hidden="true" class="icon-list"></span>
-      </div>
-    </div>
-		
-
-    <div class="site-menu">
-      
-    </div>
-    <nav class="site-navigation">
-      <ul class="container">
-        <li id="Administrative" class="site-navigation-toggle">
-          <a href="#Administrative">Administrative<span aria-hidden="true" class="site-navigation-arrow icon-arrow-down"></span></a>
-            <ul class="site-navigation-dropdown"><a href="#top" class="close-that-nav">x</a>
-              <li><a href="#">About BYU-Idaho</a></li>
-              <li><a href="#">Admissions</a></li>
-              <li><a href="#">Ecclesiastical Endorsement</a></li>
-              <li><a href="#">Financial Aid</a></li>
-              <li><a href="#">Honor Code</a></li>
-              <li><a href="#">Human Resources</a></li>
-              <li><a href="#">President's Office</a></li>
-              <li><a href="#">Registrar</a></li>
-            </ul>
-        </li>
-        <li id="Academic" class="site-navigation-toggle">
-          <a href="#Academic">Academic<span aria-hidden="true" class="site-navigation-arrow icon-arrow-down"></span></a>
-          <ul class="site-navigation-dropdown"><a href="#top" class="close-that-nav">×</a>
-            <li><a href="#">Academic Advising</a></li>
-            <li><a href="#">Colleges and Departments</a></li>
-            <li><a href="#">Continuing Education</a></li>
-            <li><a href="#">Library</a></li>
-            <li><a href="#">Pathways</a></li>
-            <li><a href="#">Schedule</a></li>
-            <li><a href="#">Student Support</a></li>
-          </ul></li>
-        <li id="StudentLife" class="site-navigation-toggle">
-          <a href="#StudentLife">Student Life<span aria-hidden="true" class="site-navigation-arrow icon-arrow-down"></span></a>
-          <ul class="site-navigation-dropdown"><a href="#top" class="close-that-nav">×</a>
-            <li><a href="#">Activities</a></li>
-            <li><a href="#">Health and Wellness</a></li>
-            <li><a href="#">Housing</a></li>
-            <li><a href="#">Food</a></li>
-            <li><a href="#">Gym</a></li>
-            <li><a href="#">Local Information</a></li>
-            <li><a href="#">Student Ambassadors</a></li>
-            <li><a href="#">Travel</a></li>
-          </ul></li>
-        <li id="CampusServices" class="site-navigation-toggle">
-          <a href="#CampusServices">Campus Services<span aria-hidden="true" class="site-navigation-arrow icon-arrow-down"></span></a>
-          <ul class="site-navigation-dropdown"><a href="#top" class="close-that-nav">×</a>
-            <li><a href="#">Associations and Societies</a></li>
-            <li><a href="#">Bookstore</a></li>
-            <li><a href="#">Campus Map</a></li>
-            <li><a href="#">Help Desk</a></li>
-            <li><a href="#">Parking and Security</a></li>
-          </ul></li>
-      </ul>
       <div class="container">
-        <div class="my-byui">
-          <a href="#" class="button">myBYUI</a>
+        <div class="log-in">
+          <a href="#" class="button">Log In</a>
         </div>
-        <div class="site-search">
+        <div class="mobile-search">
           <form method="get" action="http://search.byui.edu/search?">
             <input type="text" class="search-box" name="q" placeholder="Search BYU-I"/>
             <button class="search-button" type="submit" value="Search" id="searchsubmit">
@@ -133,17 +174,38 @@
           </form>
         </div>
       </div>
-      
-      
-    </nav>
+      </div><!-- end inner-wrap -->
+    </div><!-- end site-navigation -->
+		
+    <div class="site-header-branding clearfix">
+      <div class="inner-wrap">
+      <h1 class="site-title"><a href="/" title="Home"><span aria-hidden="true" class="icon-byui-logo"></span><span class="logo-text">Brigham Young University - Idaho</span></a></h1>
+
+      <div class="mobile-nav-toggle">
+        <span aria-hidden="true" class="icon-list"></span>
+      </div>
+
+      <div class="desktop-search">
+        <form method="get" action="http://search.byui.edu/search?">
+          <input type="text" class="search-box" name="q" placeholder="Search BYU-I"/>
+          <button class="search-button" type="submit" value="Search" id="searchsubmit">
+            <span aria-hidden="true" class="icon-search"></span>
+          </button>
+        </form>
+      </div>
+      </div><!-- end inner-wrap -->
+    </div>
+
+    
 		<nav class="audience-navigation">
 			
 		</nav>
 		
-
+    
 	</header><!-- end site_header -->
 	
-	<section class="page-content">
+	<section class="site-content">
+    <div class="inner-wrap">
 
 			
 <nav class="breadcrumbs">
@@ -1192,10 +1254,13 @@
 
 </section>
 
+
+</div><!-- end inner-wrap -->
 </section><!-- end main_content -->
 
 
 <footer class="site-footer">
+  <div class="inner-wrap">
   <nav class="branding">
     <a class="lds-church-link" href="http://www.lds.org/?cid=fli:182" title="The Church of Jesus Christ of Latter-Day Saints"><span aria-hidden="true" class="icon-lds-church"></span><span class="logo-text">The Church of Jesus Christ of Latter-Day Saints</span></a>
     <a id="byu_link" href="http://www.byu.edu/?cid=fli:183" title="Brigham Young University - Provo">Brigham Young University - Provo</a>
@@ -1219,6 +1284,7 @@
     <a href="http://www.byui.edu/legal" alt="A variety of legal notices collected into one place, copyright, discrimination, etc.">Legal Notices</a>
     <a href="http://www.byui.edu/feedback/?cid=fli:192" title="General feedback">Feedback</a>
   </nav>
+  </div><!-- end inner-wrap -->
 </footer><!-- site-footer -->
 
 
