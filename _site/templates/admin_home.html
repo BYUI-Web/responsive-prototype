@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+
+	<title>Brigham Young University - Idaho</title>
+	<meta name="description" content="Brigham Young University - Idaho">
+    <meta name="author" content="Brigham Young University - Idaho">
+
+	<!-- Mobile viewport optimized: j.mp/bplateviewport -->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+	
+	<!-- favicon section for all device types -->
+	<!-- For iPhone 4 with high-resolution Retina display: -->
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/apple-touch-icon-114x114-precomposed.png">
+	<!-- For first-generation iPad: -->
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/apple-touch-icon-72x72-precomposed.png">
+	<!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+	<link rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon-precomposed.png">
+	<link rel="icon" href="/images/favicon.ico" />
+    
+    <!-- Blueprint and Regressive/Progressive Adaptive scripts for older/cross-browser compliance -->
+	<link rel="stylesheet" href="/css/print.css" type="text/css" media="print"> 
+	<!--[if lt IE 9]>
+		<link rel="stylesheet" href="css/ie.css" type="text/css" media="screen, projection">
+	<![endif]-->
+
+	<!-- Global Stylesheet -->
+	<link rel="stylesheet" href="/css/main.css" type="text/css" media="screen, projection">
+
+	<!-- Modernizr script, for js and feature detection -->
+	<script src="/js/libs/modernizr-2.0.6.min.js"></script>
+	
+	<!-- jQuery -->
+	<script id="jQueryLoad" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+  <script>
+    $(function() {
+      $('.site-navigation').hide();
+      $('.site-navigation-dropdown').hide();
+      $('.mobile-nav-toggle').show();
+      $('.close-that-nav').remove();
+      $('.mobile-nav-toggle').click(function(e){
+        $('.site-navigation').slideToggle(600);
+      });
+      $('.site-navigation-toggle > a').click(function(e){
+        e.preventDefault();
+        $(this).siblings('.site-navigation-dropdown').slideToggle(600);
+      });
+    });
+  </script>
+	
+</head>
+
+<body id="admin_home"><!-- Body tag must have page template name in it to inherit template-specific css rules -->
+  <a href="" id="top"></a>
+
+	<header class="site-header">
+		
+    <div class="site-header-branding clearfix">
+      <h1 class="site-title"><a href="/" title="Home"><span aria-hidden="true" class="icon-byui-logo"></span><span class="logo-text">Brigham Young University - Idaho</span></a></h1>
+
+      <div class="mobile-nav-toggle">
+        <span aria-hidden="true" class="icon-list"></span>
+      </div>
+    </div>
+		
+
+    <div class="site-menu">
+      
+    </div>
+    <nav class="site-navigation">
+      <ul class="container">
+        <li id="Administrative" class="site-navigation-toggle">
+          <a href="#Administrative">Administrative<span aria-hidden="true" class="site-navigation-arrow icon-arrow-down"></span></a>
+            <ul class="site-navigation-dropdown"><a href="#top" class="close-that-nav">x</a>
+              <li><a href="#">About BYU-Idaho</a></li>
+              <li><a href="#">Admissions</a></li>
+              <li><a href="#">Ecclesiastical Endorsement</a></li>
+              <li><a href="#">Financial Aid</a></li>
+              <li><a href="#">Honor Code</a></li>
+              <li><a href="#">Human Resources</a></li>
+              <li><a href="#">President's Office</a></li>
+              <li><a href="#">Registrar</a></li>
+            </ul>
+        </li>
+        <li id="Academic" class="site-navigation-toggle">
+          <a href="#Academic">Academic<span aria-hidden="true" class="site-navigation-arrow icon-arrow-down"></span></a>
+          <ul class="site-navigation-dropdown"><a href="#top" class="close-that-nav">×</a>
+            <li><a href="#">Academic Advising</a></li>
+            <li><a href="#">Colleges and Departments</a></li>
+            <li><a href="#">Continuing Education</a></li>
+            <li><a href="#">Library</a></li>
+            <li><a href="#">Pathways</a></li>
+            <li><a href="#">Schedule</a></li>
+            <li><a href="#">Student Support</a></li>
+          </ul></li>
+        <li id="StudentLife" class="site-navigation-toggle">
+          <a href="#StudentLife">Student Life<span aria-hidden="true" class="site-navigation-arrow icon-arrow-down"></span></a>
+          <ul class="site-navigation-dropdown"><a href="#top" class="close-that-nav">×</a>
+            <li><a href="#">Activities</a></li>
+            <li><a href="#">Health and Wellness</a></li>
+            <li><a href="#">Housing</a></li>
+            <li><a href="#">Food</a></li>
+            <li><a href="#">Gym</a></li>
+            <li><a href="#">Local Information</a></li>
+            <li><a href="#">Student Ambassadors</a></li>
+            <li><a href="#">Travel</a></li>
+          </ul></li>
+        <li id="CampusServices" class="site-navigation-toggle">
+          <a href="#CampusServices">Campus Services<span aria-hidden="true" class="site-navigation-arrow icon-arrow-down"></span></a>
+          <ul class="site-navigation-dropdown"><a href="#top" class="close-that-nav">×</a>
+            <li><a href="#">Associations and Societies</a></li>
+            <li><a href="#">Bookstore</a></li>
+            <li><a href="#">Campus Map</a></li>
+            <li><a href="#">Help Desk</a></li>
+            <li><a href="#">Parking and Security</a></li>
+          </ul></li>
+      </ul>
+      <div class="container">
+        <div class="my-byui">
+          <a href="#" class="button">myBYUI</a>
+        </div>
+        <div class="site-search">
+          <form method="get" action="http://search.byui.edu/search?">
+            <input type="text" class="search-box" name="q" placeholder="Search BYU-I"/>
+            <button class="search-button" type="submit" value="Search" id="searchsubmit">
+              <span aria-hidden="true" class="icon-search"></span>
+            </button>
+          </form>
+        </div>
+      </div>
+      
+      
+    </nav>
+		<nav class="audience-navigation">
+			
+		</nav>
+		
+
+	</header><!-- end site_header -->
+	
+	<section class="page-content">
+
+			
+<nav class="breadcrumbs">
+    <a href="/">BYU-Idaho Home</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;
+    <a href="activities">Student Housing</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;
+    <a href="activities/resources">Resources</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;
+</nav>
+<div class="left-column">
+    <script>
+    $(function() {
+        $('.department-title').click(function(e){
+            e.preventDefault();
+            $('.department-nav-list').slideToggle(600);
+        });
+    });
+  </script>
+    <nav id="department-nav" class="department-nav">
+        <h2 class="department-title"><a href="#department-nav">Student Housing<span aria-hidden="true" class="department-nav-arrow icon-arrow-down"></span></a></h2>
+        <ul class="department-nav-list">
+            <a href="#top" class="close-that-nav">×</a>
+            <li><a href="">On-Campus Housing Options</a></li>
+            <li><a href="">Single Student Approved Housing</a></li>
+            <li><a href="">Student-Family and Community</a></li>
+            <li><a href="">Information, Support and Services</a></li>
+            <li><a href="">Student Living</a></li>
+            <li><a href="">About</a></li>
+        </ul>
+    </nav>
+</div>
+<section id="content_region" class="span-18 last">
+   <!-- BEGIN TOP_CONTENT  -->           
+<section id="top_content">
+    <div id="page_title"><h2>Student Living</h2></div><!-- OPTIONAL -->
+	<div class="cell_row">
+		<div class="cell span-6">
+			<a href="housing/view-all-housing-options/byu-idaho-on-campus-housing">
+				<img alt="this alt text" class="cell_img" src="http://beta.byui.edu/images/Admin_Offices/Housing/Graphics/Headers/HSL Main-95.png" />
+			</a>
+			<p class="cell_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut leo ligula. Proin vehicula metus ut quam varius id congue est ullamcorper.</p>
+		</div>
+		<div class="cell span-6" >
+			<a href="http://www.byui.edu/studentliving/">
+				<img alt="this alt text" class="cell_img" src="http://beta.byui.edu/images/Admin_Offices/Housing/Graphics/Headers/HSL Main-96.png" />
+			</a>
+			<p class="cell_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut leo ligula. </p>
+		</div>
+		<div class="cell span-6 last">
+			<a href="housing/information-support-and-services">
+				<img alt="this alt text" class="cell_img" src="http://beta.byui.edu/images/Admin_Offices/Housing/Graphics/Headers/HSL Main-94.png" />
+			</a>
+			<p class="cell_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut leo ligula. Proin vehicula metus ut quam varius id congue est ullamcorper. Morbi ac purus ante. Fusce neque massa, luctus et eleifend vel, pulvinar in turpis.</p>
+		</div>
+	</div>
+    
+	<div class="cell_row">
+		<div class="cell span-9">
+			<a href="housing/view-all-housing-options/byu-idaho-on-campus-housing">
+				<img alt="this alt text" class="cell_img" src="http://beta.byui.edu/images/Admin_Offices/Housing/Graphics/Headers/HSL Main-95.png" />
+			</a>
+			<p class="cell_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut leo ligula. Proin vehicula metus ut quam varius id congue est ullamcorper.</p>
+		</div>
+		<div class="cell span-9 last" >
+			<a href="http://www.byui.edu/studentliving/">
+				<img alt="this alt text" class="cell_img" src="http://beta.byui.edu/images/Admin_Offices/Housing/Graphics/Headers/HSL Main-96.png" />
+			</a>
+			<p class="cell_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut leo ligula. </p>
+		</div>
+	</div>
+
+
+	<div class="cell_row">
+		<div class="cell span-18 last">
+			<a href="housing/view-all-housing-options/byu-idaho-on-campus-housing">
+				<img alt="this alt text" class="cell_img" src="http://beta.byui.edu/images/Admin_Offices/Housing/Graphics/Headers/HSL Main-95.png" />
+			</a>
+			<p class="cell_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut leo ligula. Proin vehicula metus ut quam varius id congue est ullamcorper.</p>
+		</div>
+	</div>
+    
+    
+	<div class="cell_row">
+		<div class="cell span-9">
+			<a href="housing/view-all-housing-options/byu-idaho-on-campus-housing">
+				<img alt="this alt text" class="cell_img" src="http://beta.byui.edu/images/Admin_Offices/Housing/Graphics/Headers/HSL Main-95.png" />
+			</a>
+			<p class="cell_text span-5 last">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut leo ligula. Proin vehicula metus ut quam varius id congue est ullamcorper.</p>
+		</div>
+		<div class="cell span-9 last" >
+			<p class="cell_text span-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut leo ligula. Duis id purus vel neque laoreet tincidunt. Aliquam rhoncus nulla non nunc congue non posuere ante blandit. Cras id erat non turpis tempus sodales in sit amet nisl.</p>
+			<a href="http://www.byui.edu/studentliving/">
+				<img alt="this alt text" class="cell_img last" src="http://beta.byui.edu/images/Admin_Offices/Housing/Graphics/Headers/HSL Main-96.png" />
+			</a>
+		</div>
+	</div>
+    
+	<div class="cell_row">
+		<div class="cell span-18 last">
+			<a href="housing/view-all-housing-options/byu-idaho-on-campus-housing">
+				<img alt="this alt text" class="cell_img" src="http://beta.byui.edu/images/Admin_Offices/Housing/Graphics/Headers/HSL Main-95.png" />
+			</a>
+			<p class="cell_text span-12 last">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut leo ligula. Proin vehicula metus ut quam varius id congue est ullamcorper. Morbi ac purus ante. Fusce neque massa, luctus et eleifend vel, pulvinar in turpis. Morbi porta malesuada neque ut vestibulum. Nam quis leo felis. Integer lacinia adipiscing libero eu vehicula. In pharetra dui in massa lobortis id elementum magna accumsan. Duis id purus vel neque laoreet tincidunt. Aliquam rhoncus nulla non nunc congue non posuere ante blandit. Cras id erat non turpis tempus sodales in sit amet nisl. Phasellus est tortor, convallis ac facilisis sit amet, euismod non. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut leo ligula.Integer lacinia adipiscing libero eu vehicula. In pharetra dui in massa lobortis id elementum magna accumsan. Duis id purus vel neque laoreet tincidunt. Aliquam rhoncus nulla non nunc congue non posuere ante blandit.</p>
+		</div>
+	</div>
+</section><!-- END TOP_CONTENT  -->
+<span class="clearall"></span>
+
+<!-- BEGIN MAIN_CONTENT  -->
+<section id="main_content" class="span-18 last"><!-- IF NO CONTENT IN RIGHT ASIDE, SPAN-18 LAST -->
+	<h4>This is the Specs for the admin home page cell width sizes using blueprint.css</h4>
+
+	<table border="1" cellpadding="5" style="width: 300px; font-size: 14px; color: black; float: left; margin-right: 20px;">
+		<tr>
+			<th colspan="2">Image on Top</th>
+		</tr>
+		<tr>
+			<th>Column Size</th>
+			<th>Width Size</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>Span 18</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Span 9</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>Span 6</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>Remove</td>
+		</tr>
+		<tr>
+			<td>5</td>
+			<td>Remove</td>
+		</tr>
+	</table>
+
+	<table border="1" cellpadding="5" style="width: 300px; font-size: 14px; color: black;">
+		<tr>
+			<th colspan="3">Image on Side</th>
+		</tr>
+		<tr>
+			<th>Column Size</th>
+			<th>Left Side</th>
+			<th>Right Side</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>Span 6</td>
+			<td>Span 12</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Span 4</td>
+			<td>Span 5</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td colspan="2">Go to image on top</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td colspan="2">Remove</td>
+		</tr>
+		<tr>
+			<td>5</td>
+			<td colspan="2">Remove</td>
+		</tr>
+	</table>
+	
+	<p style="color: black; font-size: 14px;">
+		<strong>&lt;&lt; You can use this pseudocode for the Cell template &gt;&gt;<br /></strong>
+		PARAMETER <em>left_span</em>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  &lt;!-- Ether ‘span-6’ or ‘span-4’ determined by column_size --&gt;<br />
+		PARAMETER <em>right_span</em>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  &lt;!-- Ether ‘span-12 last’ or ‘span-5 last’ determined by column_size --&gt;<br />
+		<br />
+		when (image given)<br />
+		<br />
+		&nbsp;&nbsp;&nbsp; if (URL given)<br />
+		&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; if (<em>float_image</em>  not = ‘right’ OR <em>column_size</em> = 3)<br />
+		&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Open <strong>&lt;a&gt; tag</strong>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  &lt;!-- See comments in this web page's code --&gt;<br />
+		<br />
+		&nbsp;&nbsp;&nbsp; when (<em>float_image</em>  = ‘top’ OR <em>column_size</em> = 3)<br />
+		&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Display <strong>image</strong><br />
+		&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; if (URL given)<br />
+		&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Close <strong>&lt;/a&gt; tag</strong>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  &lt;!-- See comments in this web page's code --&gt;<br />
+		&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Display <strong>body copy</strong><br />
+		&nbsp;&nbsp;&nbsp; otherwise<br />
+		&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; when (<em>float_image</em> = ‘left’)<br />
+		&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Display <strong>image</strong> with class <em>left_span</em><br />
+		&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; if (URL given)<br />
+		&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Close <strong>&lt;/a&gt; tag</strong>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  &lt;!-- See comments in this web page's code --&gt;<br />
+		&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Display <strong>body copy</strong> with class <em>right_span</em><br />
+		&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; otherwise<br />
+		&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Display <strong>body copy</strong> with class <em>left_span</em><br />
+		&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; when (URL given)<br />
+		&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Wrap &lt;a&gt;&lt;/a&gt; tag around and Display <strong>image</strong> with class <em>right_span</em><br />
+		&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; otherwise<br />
+		&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Display <strong>image</strong> with class <em>right_span</em><br />
+		&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; .<br />
+		&nbsp;&nbsp;&nbsp; .<br />
+		otherwise<br />
+		&nbsp;&nbsp;&nbsp; Display <strong>body copy</strong><br />
+		<br />
+		if (URL given AND <em>display_footer</em> = TRUE)<br />
+		&nbsp;&nbsp;&nbsp; Wrap &lt;a&gt;&lt;/a&gt; tag around and display <strong>footer link</strong>
+	</p>
+</section><!-- END TOP_CONTENT  -->
+
+<!-- BEGIN BOTTOM_CONTENT  -->
+<section id="bottom_content" class="span-18 last">
+
+	<!-- CYCLE GALLERY -->
+	<!-- All id names should not be changed. This will center the cycled elements within the gallery, both in height and width. Width will be determined by the declared width of id 'cycle_gallery'. Any cycled element with a greater width will be scaled to fit. It will dynamically match the height to the tallest cycled element after scaling if any.   -->
+
+	<div id="cycle_gallery" class="span-18 last"> 
+		<div id="cycle_nav"></div><!-- this is a pagenation navigation -->
+		<div id="cycle_control" >
+			<div id="cycle_next" class="span-2 last right"></div>
+			<div id="cycle_prev" class="span-2"></div>
+		</div>
+		<div id="cycle" class="fadeZoom"><!-- You can set the type of transition you want by giving id 'cycle' a class name of a valide transition (default is fade).  blindX, blindY,	blindZ, cover, curtainX, curtainY, fade, fadeZoom, growX, growY, scrollUp, scrollDown, scrollLeft, scrollRight, scrollHorz, scrollVert, shuffle, slideX, slideY, toss, turnUp, turnDown, turnLeft, turnRight, uncover, wipe, zoom -->
+			<img src="http://beta.byui.edu/images/Admin_Offices/Activities/Talent/051021AcousticCafe_4644(0).jpg" alt="" title="" />
+			<img src="http://beta.byui.edu/images/Admin_Offices/Activities/Talent/AcousticCafe_65.jpg" alt="" title="" />
+			<img src="http://beta.byui.edu/images/Admin_Offices/Activities/Talent/AcousticCafe_42.jpg" alt="" title="" />
+			<img src="http://beta.byui.edu/images/Admin_Offices/Activities/Talent/110319_GuitarsUnplugged_135.jpg" alt="" title="" />
+			<img src="http://beta.byui.edu/images/Admin_Offices/Activities/Talent/080315Guitar'sUnplugged_747(2).jpg" alt="" title="" />
+			<img src="http://beta.byui.edu/images/Colleges_and_Departments/Business%20and%20Communication/Business%20Management/businessSlideShowImages3.jpg" alt="" title="" />
+		</div>
+	</div><!-- end of cycle gallery -->
+
+	<!-- UPCOMING EVENTS -->
+	<div id="events_bar_horizontal" class="span-18 last">
+		<div class="heading_with_calendar_link">
+			<span class="heading span-4">HIGHLIGHTED DATES</span>
+			<a class="span-4 last right" href="http://stream.byui.edu/tutorials/calendar/calendar_intro.swf" style=" float: right;">
+				<span id="cal_help">CALENDAR HELP</span>
+				<img src="/images/interface/icon_calendar_18x18.jpg" alt="calendar icon">
+			</a>
+		</div>
+		<div id="window">
+			<div id="events_bar_control">
+				<span class="prev"></span>
+				<span class="next"></span>
+			</div>
+			<div id="pane">
+				<div class="single_event">
+					<a class="event_link" href="activities/social/activities---social-halloween-carnival">
+						<span class="event_date">
+							<span class="cal_day"> 29</span>
+							<span class="cal_month">Oct</span>
+						</span>
+						<span class="event_info">
+							<span class="event_heading">Halloween Carnival ... </span>
+							<span class="event_content">River of Stix, Carnival Games, Spook Alley, Dance</span>
+						</span>
+					</a>
+				</div>
+				<div class="single_event">
+					<a class="event_link" href="x10631.xml">
+						<span class="event_date">
+							<span class="cal_day"> 11</span>
+							<span class="cal_month">Nov</span>
+						</span>
+						<span class="event_info">
+							<span class="event_heading">Classic Movie Night</span>
+							<span class="event_content">Watch old movies for only $1 with I-card (free po... </span>
+						</span>
+					</a>
+				</div>
+				<div class="single_event">
+					<a class="event_link" href="activities/social/activities-social---mystery-dinner">
+						<span class="event_date">
+							<span class="cal_day"> 11</span>
+							<span class="cal_month">Nov</span>
+						</span>
+						<span class="event_info">
+							<span class="event_heading">Mystery Dinner</span>
+							<span class="event_content">A 1950's fiasco where you play the character. Com... </span>
+						</span>
+					</a>
+				</div>
+				<div class="single_event">
+					<a class="event_link" href="activities/social/activities-social-jane-austen-yule-ball">
+						<span class="event_date">
+							<span class="cal_day"> 02</span>
+							<span class="cal_month">Dec</span>
+						</span>
+						<span class="event_info">
+							<span class="event_heading">Jane Austen Yule Ba... </span>
+							<span class="event_content">In connection with the English Society we will be... </span>
+						</span>
+					</a>
+				</div>
+				<div class="single_event">
+					<a class="event_link" href="activities/social/activities-social---dance-party">
+						<span class="event_date">
+							<span class="cal_day"> 09</span>
+							<span class="cal_month">Dec</span>
+						</span>
+						<span class="event_info">
+							<span class="event_heading">Party in the Hart</span>
+							<span class="event_content">In the Hart. $1 w/I-card.</span>
+						</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<a href="#" class="to_cal_link">See All Activities On The University Calendar</a>
+	</div>
+
+<!-- QUICK LINKS -->
+<div class="quick_links span-18 last">
+	<div class="quick_link_column span-6">
+		<ul>
+			<li class="quick_links_header">Song Requests</li>
+			<li><a href="http://web.byui.edu/songrequest/" target="_blank">Request a Song</a></li>
+			<li><a href="http://www.facebook.com/byuisocial" target="_blank">Social Facebook Page</a></li>
+			<li><a href="http://activities.byui.edu/getinvolved/social.htm" target="_blank">Applications for Service Area Director</a></li>
+		</ul>
+	</div>
+	<div class="quick_link_column span-6">
+		<ul>
+			<li  class="quick_links_header">Dance and Event Pictures</li>
+			<li><a href="https://secure.byui.edu/cas/login?service=https://web.byui.edu/Services/Login/?RedirectURL=http%253a%252f%252fweb.byui.edu%252fdancephotos%252fdefault.aspx" target="_blank">Download Pictures Here</a></li>
+			<li><a href="http://web.byui.edu/songrequest/" target="_blank">Request a Song</a></li>
+			<li><a href="http://www.facebook.com/byuisocial" target="_blank">Social Facebook Page</a></li>
+			<li><a href="http://activities.byui.edu/getinvolved/social.htm" target="_blank">Applications for Service Area Director, Directors, Coordinators, Managers, Volunteers</a></li>
+		</ul>
+	</div>
+	<div class="quick_link_column span-6 last">
+		<ul class="last">
+			<li class="quick_links_header">Applications</li>
+			<li><a href="http://activities.byui.edu/getinvolved/social.htm" target="_blank">Directors, Coordinators</a></li>
+			<li><a href="http://www.facebook.com/byuisocial" target="_blank">Social Facebook Page</a></li>
+		</ul>
+	</div>
+</div> <!-- quick links end -->
+</section><!-- END BOTTOM_CONTENT  -->
+
+
+
+
+
+
+
+	
+</section>
+
+<section id="bottom_region" class="span-24">
+		<div class="highlighted_ads">
+			<div class="Ad_Column_1">
+				<a href="http://activities.byui.edu/email_signup.htm">
+					<img class="span-6" src="http://beta.byui.edu/images/Admin_Offices/Activities/email_newsletter_ad.jpg" alt="" >
+				</a>
+			</div>
+			<div class="Ad_Column_2">
+				<a href="activities/why/student-leaders-organization-chart">
+					<img class="span-6" src="http://beta.byui.edu/images/Admin_Offices/Activities/create_an_activity_ad.jpg" alt="">
+				</a>
+			</div>
+			<div class="Ad_Column_3">
+				<a href="http://activities.byui.edu/">
+					<img class="span-6" src="http://beta.byui.edu/images/Admin_Offices/Activities/Old-Website-ad.jpg" alt="">
+				</a>
+			</div>
+			<div class="Ad_Column_4">
+				<a href="activities/why/guiding-principles">
+					<img class="span-6 last" src="http://beta.byui.edu/images/Admin_Offices/Activities/principle_one_ad.jpg" alt="">
+				</a>
+			</div>
+		</div>
+		<div class="quick_links span-24">
+			<div class="quick_link_column span-6">
+				<h4 class="quick_links_header">Song Requests</h4>
+				<ul>
+					<li><a href="http://web.byui.edu/songrequest/" target="_blank">Request a Song</a></li>
+					<li><a href="http://www.facebook.com/byuisocial" target="_blank">Social Facebook Page</a></li>
+					<li><a href="http://activities.byui.edu/getinvolved/social.htm" target="_blank">Applications for Service Area Director</a></li>
+				</ul>
+			</div>
+			<div class="quick_link_column span-6">
+				<h4 class="quick_links_header">Dance and Event Pictures</h4>
+				<ul>
+					<li><a href="https://secure.byui.edu/cas/login?service=https://web.byui.edu/Services/Login/?RedirectURL=http%253a%252f%252fweb.byui.edu%252fdancephotos%252fdefault.aspx" target="_blank">Download Pictures Here</a></li>
+					<li><a href="http://web.byui.edu/songrequest/" target="_blank">Request a Song</a></li>
+					<li><a href="http://www.facebook.com/byuisocial" target="_blank">Social Facebook Page</a></li>
+					<li><a href="http://activities.byui.edu/getinvolved/social.htm" target="_blank">Applications for Service Area Director, Directors, Coordinators, Managers, Volunteers</a></li>
+				</ul>
+			</div>
+			<div class="quick_link_column span-6">
+				<h4 class="quick_links_header">Applications</h4>
+				<ul>
+					<li><a href="http://activities.byui.edu/getinvolved/social.htm" target="_blank">Directors, Coordinators</a></li>
+					<li><a href="http://www.facebook.com/byuisocial" target="_blank">Social Facebook Page</a></li>
+				</ul>
+			</div>
+			<div class="quick_link_column span-6 last">
+				<h4 class="quick_links_header">Social Media</h4>
+				<ul class="last">
+					<li><a href="http://www.facebook.com/byuisocial" target="_blank">Social Facebook Page</a></li>
+					<li><a href="http://web.byui.edu/songrequest/" target="_blank">Request a Song</a></li>
+					<li><a href="http://activities.byui.edu/getinvolved/social.htm" target="_blank">Directors, Coordinators, Managers, Volunteers</a></li>
+				</ul>
+			</div>
+		</div>
+	</section><!-- END BOTTOM_REGION -->
+
+<!-- Page-Specific Scripts -->
+<script src="/js/mylibs/accordionNav.js"></script>
+<script src="/js/libs/jquery.cycle.all.js"></script>
+<script src="/js/mylibs/cycle_gallery.js"></script>
+<script src="/js/mylibs/leftNav_contactExpander.js"></script>
+<script src="/js/mylibs/scrolling_events_bar.js"></script>
+</section><!-- end main_content -->
+
+
+<footer class="site-footer">
+  <nav class="branding">
+    <a class="lds-church-link" href="http://www.lds.org/?cid=fli:182" title="The Church of Jesus Christ of Latter-Day Saints"><span aria-hidden="true" class="icon-lds-church"></span><span class="logo-text">The Church of Jesus Christ of Latter-Day Saints</span></a>
+    <a id="byu_link" href="http://www.byu.edu/?cid=fli:183" title="Brigham Young University - Provo">Brigham Young University - Provo</a>
+    <a id="byuh_link" href="http://www.byuh.edu/?cid=fli:184" title="Brigham Young University - Hawaii">Brigham Young University - Hawaii</a>
+    <a id="ldsbc_link" href="http://www.ldsbc.edu/?cid=fli:185" title="LDS Business College">LDS Business College</a>
+  </nav>
+  <nav class="social">
+    <a id="byui_facebook_link" href="http://www.byui.edu/social-media/facebook/?cid=fli:186" title="BYU-I Facebook">BYU-I Facebook</a>
+    <a id="byui_youtube_link" href="http://www.byui.edu/social-media/youtube/?cid=fli:187" title="BYU-I YouTube">BYU-I YouTube</a>
+    <a id="byui_linkedIn_link" href="http://www.byui.edu/social-media/linkedin/?cid=fli:188" title="BYU-I LinkedIn">BYU-I LinkedIn</a>
+    <a id="byui_social_media_link" href="http://www.byui.edu/social-media/?cid=fli:189" title="BYU-I Social Media Sites">More</a>
+  </nav>
+	<p><a href="http://www.byui.edu/copyright/policy/terms-of-use/?cid=fli:190">© 2012</a> Brigham Young University–Idaho</p>
+	<address>
+		525 South Center St.,<br>
+		Rexburg, ID 83460,<br>
+		<a href="tel:12084961411">(208) 496-1411</a>
+	</address>
+  <nav class="access">
+    <a href="http://www.byui.edu/disabilities/?cid=fli:191">Disability Services</a>
+    <a href="http://www.byui.edu/legal" alt="A variety of legal notices collected into one place, copyright, discrimination, etc.">Legal Notices</a>
+    <a href="http://www.byui.edu/feedback/?cid=fli:192" title="General feedback">Feedback</a>
+  </nav>
+</footer><!-- site-footer -->
+
+
+
+<!--Temporary Qualtrics survey -->
+<!--BEGIN QUALTRICS POPUP-->
+
+<!--END QUALTRICS POPUP-->
+
+<!-- University web alaytics code for all university pages. -->
+
+<!-- LivePerson Chat code for syncing operator with user's web page. Should be on pages that use livechat (everywhere). -->
+
+</body>
+</html>
+

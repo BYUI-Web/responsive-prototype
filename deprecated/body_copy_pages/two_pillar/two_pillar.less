@@ -1,0 +1,227 @@
+/* IMPORT ALL GLOBAL AND COMMON CSS temporarly to have scope access to global variables and mixins. remove when pagetype is complete */
+
+	/* defaults [contains LESS, css for common compatability not found in blueprint, etc ] */
+	@import "defaults.less";
+
+	/*VARIABLES [contains LESS variables for BYU-I Identity Standards and other common values]*/
+	@import "variables.less";
+
+	/* MIXINS [contains LESS mixins shortcuts for common css tasks] */
+	@import "mixins.less";	
+
+	/* GLOBAL [contains all TRULY GLOBAL css for header/footer] */
+	@import "global.less";
+
+	/* COMMON [contains all css elements that are common among many or most pagetypes] */
+	@import "common.less";
+
+	/*IMPORT ADDITIONAL GLOBAL/COMMON STYLESHEETS*/
+	/*TYPOGRAPHY [contains all typography-related styles]*/
+	@import "typography.less";
+
+	/*UI_PATTERNS [contains LESS classes for BYU-I Identity Standards and other common tasks]*/
+	@import "ui_patterns.less";
+
+/* TWO PILLARS - 2ND TIER BEGIN*/
+#content_region{
+	width:950px;
+	margin-top: -10px;
+}
+.ie7 #content_region {
+	margin-top:0px;
+}
+#main_content{
+	width:1556px;
+	margin-left: -303px;
+	clear:both;
+}
+#pillar_content_area, #top_img_left, #top_img_right{
+	float:left;
+	border:0;
+	width:303px;
+	background-color:#fff;
+}
+#pillar_content_area{
+	padding: 20px 75px;
+	width:800px;
+	min-height:900px;
+	background: #666666; /* for non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dadada', endColorstr='#ffffff'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#dadada), to(#fff)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #dadada,  #fff); /* for firefox 3.6+ */ 
+}
+#top_inner_box{
+	background-color:#fff;
+	padding: 30px 25px;
+	margin-bottom: -2px;
+	-moz-box-shadow: 0px 0px 45px #999;
+  	-webkit-box-shadow: 0px 0px 45px #999;
+  	box-shadow: 0px 0px 45px #999;
+  	height:223px;
+  	#image_and_blurb {
+  		border-bottom:1px solid #bdbdbd;
+  		display:block;
+  		height:131px;
+	  	img{
+			border: 1px solid #bdbdbd;
+			float:left;
+			margin-right: 0px;
+			margin-bottom: -1px;
+		}
+		p {
+			.serif;
+			font-style: italic;
+			font-size: 28px;
+			color: #252525;
+			margin: 0;
+			display: block;
+			width: 593px;
+			float: right;
+			line-height: 37px;
+		}
+	}
+	#lower_paras {
+		width: 775px;
+		.para_blocks {
+			.sans-serif;
+			display: block;
+			width: 354px;
+			float: left;
+			color: #252525;
+			font-size: 14px;
+			line-height: 19px;
+			padding: 15px 20px 0px 0px;
+			margin:0;
+		}
+		#left_para {
+			border-right:1px solid #bdbdbd;
+			padding-bottom: 10px;
+			margin-bottom:-10px;
+		}
+		#right_para {
+			padding: 15px 0px 0px 35px;
+			width: 45%;
+		}
+	}
+}
+#white_directional_arrow{
+	clear:both;
+	margin-left:179px;
+	margin-top:-1px;
+	.transition(margin-left, 0.5s, ease-out);
+}
+#white_directional_arrow img{
+	border:0;
+}
+#lower_two_pillar_content {
+	.pillars {
+		display:block;
+		float:left;
+		width:390px;
+		background-color:#ffffff;
+		&#left_pillar {
+			margin-right:20px;
+		}
+		.pillar_heading {
+			background-image:url('../images/pillar_pages/two_pillars/gray_stripe_bg.png');
+			color:#ffffff;
+			.serif;
+			font-style:italic;
+			padding:12px 10px;
+			text-align:center;
+		}
+		.pillar_item {
+			display: block;
+			width: 390px;
+			height:120px;
+			.opacity(50);
+			position:relative;
+			margin-top: 1px;
+			a {
+				position: absolute;
+				width: 390px;
+				height: 120px;
+				left:0;
+				display:block;
+				cursor:pointer;
+				z-index:1;
+			}
+			&:hover {
+				background-color:@byui_tan;
+				.opacity(100);
+			}
+			.pillar_item_inner {
+				display: block;
+				height:82px;
+				width:325px;
+				margin-left: 30px;
+				padding: 18px 0px;
+				border-bottom:1px solid #bdbdbd;
+				top: 2px;
+				position: relative;
+				cursor:pointer;
+				&.last_item {
+					border-bottom:none;
+				}
+				img {
+					float:left;
+					cursor:pointer;
+				}
+				.pillar_item_right {
+					float:left;
+					width: 225px;
+					padding-left: 20px;
+					margin-top: 15px;
+					cursor:pointer;
+					h3 {
+						font-size:21px;
+						line-height: 1em;
+						margin: 0px 0 6px 0;
+						margin: 0;
+						cursor:pointer;
+					}
+					p {
+						font-size:12px;
+						color:#000000;
+						cursor:pointer;
+					}
+				}
+			}
+		}
+		&.active_pillar {
+			.box-shadow(0, 0, 40px, 0.4);
+			.pillar_heading {
+				background-image:url('../images/pillar_pages/two_pillars/blue_stripe_bg.png');
+			}
+			.pillar_item {
+				.opacity(100);
+			}
+		}
+	}
+}
+/* BROWSER COMPATABILITY PATCH AREA BEGIN*/
+
+.ie7, .ie8 {
+	.pillars {
+		border:1px solid #bdbdbd;
+		width:388px !important;
+		.pillar_item {
+			width:388px;
+		}
+	}
+}
+/* BROWSER COMPATABILITY PATCH AREA END */
+/* TWO PILLARS - 2ND TIER END*/
+
+
+
+
+
+
+
+
+
+
+
+
+

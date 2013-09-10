@@ -1,0 +1,106 @@
+/* BEGIN LEGACY BROWSER NOTIFICATION STYLE */
+#legacy_browser_notification {
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	display:none;
+	.container {
+		margin:0 auto;
+		background:url('../images/browser_notification/notifier_sprite.png') 0px -309px repeat-x;
+		border-left: 5px solid #555;
+		border-top: 5px solid #555;
+		border-right: 5px solid #555;
+		border-bottom: 0px;
+		padding: 20px;
+		width: 910px;
+		p {
+			margin: 0px;
+			padding: 0px;
+		}
+		#left_notify {
+			#browser_notification_alert {
+				display:block;
+				width:49px;
+				height:59px;
+				background:url('../images/browser_notification/notifier_sprite.png') 0px 0px no-repeat;
+				position: relative;
+				left: 30px;
+				top: 5px;
+			}
+		}
+		#center_notify {
+			position: relative;
+			top: 5px;
+			#legacy_message, #compat_message {
+				display:none;
+				a {
+					text-decoration:none;
+					display:block;
+					color:#333333;
+					&:hover {
+						background:#eeeeee;
+						color:#333333;
+					}
+				}
+				#modern_browsers {
+					left: 95px;
+					position: relative;
+					margin-top: 10px;
+					a {
+						display:inline-block;
+						text-align: center;
+						padding: 15px;
+						cursor:pointer;
+						img {
+							cursor:pointer;
+						}
+					}
+				}
+			}
+			#compat_message {
+				a {
+					display:inline;
+					text-decoration:underline;
+					background-color:transparent;
+				}
+			}
+		}
+		#window_buttons {
+			position:absolute;
+			top:0px;
+			right:0px;
+			width:65px;
+			.question_button {
+				position:relative;
+				float:left;
+				width:30px;
+				height:28px;
+				margin:10px 1px;
+				cursor:pointer;
+				background:url('../images/browser_notification/notifier_sprite.png') 0px -61px no-repeat;
+			}
+			.close_button {
+				position:relative;
+				float:left;
+				width:30px;
+				height:28px;
+				margin:10px 1px;
+				top: 0px;
+				right: 0px;
+				cursor:pointer;
+				background:url('../images/browser_notification/notifier_sprite.png') 0px -90px no-repeat;
+			}
+		}
+	}
+}
+/* IE8 conditional styling */
+.ie7, .ie8 {
+	#legacy_browser_notification {
+		.container {
+			position:relative;
+			top:5px;
+		}
+	}
+}
+/* END LEGACY BROWSER NOTIFICATION STYLE */

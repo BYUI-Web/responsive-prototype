@@ -1,0 +1,703 @@
+/*responsive css sample */
+
+/* NOTE: This stylesheet will need to be completely redone, 
+         given major DOM changes in the overall layout of our pagetypes 
+         and global structure - Jakob [02.03.2012] 
+         PS: Try not to target HTML5 elements, for best cross-browser redundancy */
+
+
+/*toggle show container for width testing*/
+
+/*body {background:black;}*/
+
+
+.responsive {
+	.page_content {background:white;}
+	.top_header {overflow: hidden;}
+	#search_box_bottom ul li a {
+		font-size:13px;
+	}
+	.footer_brand{
+		min-height:auto;
+		#footer_brand {
+			min-height:auto;
+			#left_container{
+				#lds_church_link {
+					width:155px;
+					background-position:-9px -40px;
+					padding-right: 24px;
+					margin-right:25px;
+					padding-right: 24px;
+					&:hover{
+						background-position:-9px -116px;
+					}
+				}
+				#byu_link {
+					width: 72px;
+					background-position: -219px -40px;
+					margin-right:25px;
+					left:10px;
+					&:hover{
+						background-position:-219px -116px;
+					}
+				}
+				#byuh_link {
+					width: 71px;
+					background-position: -320px -40px;
+					margin-right:25px;
+					left:10px;
+					&:hover{
+						background-position:-320px -116px;
+					}
+				}
+				#ldsbc_link {
+					width: 69px;
+					background-position: -419px -40px;
+					margin-right:25px;
+					left:10px;
+					&:hover{
+						background-position:-419px -116px;
+					}
+				}
+			}
+		}
+	}
+}
+
+/*RESPONSIVE WEB EXAMPLES*/
+/******************************************************************************************/
+/**
+/**                  320 PX RESPONSIVE for Mobile Landscape View
+/**
+/******************************************************************************************/
+/*styles for 320px and up! Max container width using blueprint is to be 310px, or span-8 */
+@media only screen and (min-width: 320px), only screen and (max-width: 480px) {
+	
+	.responsive {	
+		.global_outside {
+			min-width:320px;
+			&.main_header {height:55px;}
+			&.footer_nav {
+				height:100px;
+				#footer_nav {height:100px;}
+			}
+		}
+		.container {
+			width:310px; 
+		}
+		/*TOP HEADER (BLACK HEADER AREA)*/
+		.top_header {
+			height:0;
+			#top_header {
+				height:0;
+			}
+		}
+ 
+		/*MAIN HEADER (blue heading area)*/
+		#main_header {
+			height:40px;
+			.span-2 a img {
+				width:45px;
+				height:auto;
+			}
+			#university_name {
+				font-size:15px;
+				padding:4px 0 0 5px;
+			}
+			.span-2 {
+				width:45px;
+			}
+			.span-9 {
+				width:245px;
+			}
+			#audience_nav_box {
+				display:none;
+			}
+			#search_box {
+				left:520px; 
+				display:none;
+			}
+		}
+		
+		/*Breadcrumb Common Module*/
+		#breadcrumbs a:last-child {
+			padding-bottom:5px;
+		}
+
+		/*CONTENT AREA (CHANGE TAGS FOR NEW JOE HTML 5 CONTENT AREA*/
+		/*CONTENT AREA*/
+		aside.span-6 {
+			display:none;
+		}
+		section.span-18 {
+			width:100%;
+		}
+
+		/*FOOTER AREA*/
+		#mega_footer {
+			.span-6 {
+				width:100%;
+			}
+			#left_container {
+				display:none;
+			}
+			#audience_nav_box_bottom {
+				width:100%;
+				li a {
+					font-size:12px;
+					padding: 3px 20px;
+				}
+			}
+			#secondary_nav {
+				display:none;
+			}
+			#footer_nav #audience_nav_box_bottom ul {
+				padding-top: 10px;
+				li {
+					width:50%;
+					float:left;
+					height:25px;
+					margin-bottom:5px;
+					a{
+						text-align:center;
+					}
+				}
+			}
+			#search_box_bottom{
+				display:block;
+				width:100%;
+				margin:7px 0 10px;
+				clear: both;
+				/*background: url('../images/head/searchboxbkg.jpg') repeat-x #326ba9;*/
+				background-color:#326ba9;
+				.box_gradient_4stop(#2b5a8e, #326ba9, #326ba9, #326ba9);
+				.box_shadow;
+				ul {
+					/*margin: 4px 0 0 12px;*/
+					margin: 4px 0 0 6px;
+					li {
+					    display: inline;
+					    border-right: solid 1px #999;
+					    a {
+							color: #fff;
+							padding: 4px 5px;
+						}
+					}
+					li.last {
+					    border-right: none;
+					}
+				}
+				#search_wrapper_bottom {
+					height: 24px;
+					background-image:none;
+					background-color:#fff;
+					margin: 5px 6px 5px 6px;
+					form {
+						height: 100%;
+						position:relative;
+					}
+					.search_box {
+						border: 0px;
+						background-color: transparent;
+						position: relative;
+						/*top: -3px;*/
+						margin: 0;
+						padding-left: 4px;
+						width: 267px;
+						font-size: 13px;
+					}
+					.search_box_submit {
+						position:relative;
+						border: 0px;
+						top:2px;
+						right:5px;
+						background-image: url('../images/head/search.png');
+						background-repeat: no-repeat;
+						background-color: transparent;
+						width: 20px;
+						height: 20px;
+						position:absolute;
+					}
+				}
+			}
+			#footer_links {
+				clear:both;
+				#lds_church_link {
+					padding-right: 0px;
+				}
+			}
+			#footer_brand {
+				/*min-height:300px;*/
+			}
+		}
+	}
+}
+/******************************************************************************************/
+/**
+/**                  480 PX RESPONSIVE for Mobile Landscape View
+/**
+/******************************************************************************************/
+/*styles for 480px and up! Max container width using blueprint is to be 470px, or span-12 */
+@media screen and (min-width: 480px), only print, projector {
+	
+	.responsive {	
+		.global_outside {
+			min-width:480px;
+			&.main_header {height:55px;}
+			&.footer_nav {
+				height:100px;
+				#footer_nav {height:100px;}
+			}
+		}
+		.container {
+			width:470px; 
+		}
+
+		/*TOP HEADER (BLACK HEADER AREA)*/
+		.top_header {
+			height:0;
+			#top_header {
+				height:0;
+			}
+		}
+
+		/*MAIN HEADER (blue heading area)*/
+		#main_header {
+			height:40px;
+			.span-2 a img {
+				width:45px;
+				height:auto;
+			}
+			#university_name {
+				font-size:15px;
+				padding:4px 0 0 5px;
+			}
+			.span-2 {
+				width:45px;
+			}
+			.span-9 {
+				width:245px;
+			}
+			#audience_nav_box {
+				display:none;
+			}
+			#search_box {
+				left:520px; 
+				display:none;
+			}
+		}
+		
+		/*Breadcrumb Common Module*/
+		#breadcrumbs a:last-child {
+			padding-bottom:5px;
+		}
+
+		/*CONTENT AREA (CHANGE TAGS FOR NEW JOE HTML 5 CONTENT AREA*/
+		/*CONTENT AREA*/
+		aside.span-6 {
+			display:none;
+		}
+		section.span-18 {
+			width:100%;
+		}
+
+		/*FOOTER AREA*/
+		#mega_footer {
+			.span-6 {
+				width:230px;
+			}
+			.span-6:nth-of-type(2) {
+				margin-right:0px;
+			}
+			#left_container {
+				display:none;
+			}
+			#audience_nav_box_bottom {
+				width:100%;
+				li a {
+					font-size:12px;
+					padding: 3px 20px;
+				}
+			}
+			#secondary_nav {
+				display:none;
+			}
+			#footer_nav #audience_nav_box_bottom ul {
+				padding-top: 10px;
+				li {
+					width:50%;
+					float:left;
+					height:25px;
+					margin-bottom:5px;
+					a{
+						text-align:center;
+					}
+				}
+			}
+			#search_box_bottom{
+				display:block;
+				width:100%;
+				margin:7px 0 10px;
+				clear: both;
+				/*background: url('../images/head/searchboxbkg.jpg') repeat-x #326ba9;*/
+				background-color:#326ba9;
+				.box_gradient_4stop(#2b5a8e, #326ba9, #326ba9, #326ba9);
+				.box_shadow;
+				ul {
+					/*margin: 4px 0 0 12px;*/
+					margin: 4px 0 0 71px;
+					li {
+					    display: inline;
+					    border-right: solid 1px #999;
+					    a {
+							color: #fff;
+							padding: 7px;
+						}
+					}
+					li.last {
+					    border-right: none;
+					}
+				}
+				#search_wrapper_bottom {
+					height: 24px;
+					background-image:none;
+					background-color:#fff;
+					margin: 5px 6px 5px 6px;
+					form {
+						height: 100%;
+					}
+					.search_box {
+						border: 0px;
+						background-color: transparent;
+						position: relative;
+						top: 0px;
+						margin: 0;
+						padding-left: 4px;
+						width: 92%;
+						font-size: 13px;
+					}
+					.search_box_submit {
+						position:relative;
+						border: 0px;
+						top:2px;
+						background-image: url('../images/head/search.png');
+						background-repeat: no-repeat;
+						background-color: transparent;
+						width: 20px;
+						height: 20px;
+						float:right;
+						right:5px;
+					}
+				}
+			}
+			#footer_links {
+				clear:both;
+				#lds_church_link {
+					padding-right: 0px;
+				}
+			}
+			#footer_brand {
+				/*min-height:300px;*/
+			}
+		}
+	}
+}
+
+/******************************************************************************************/
+/**
+/**                  760 PX RESPONSIVE for Tablet Portrait View
+/**
+/******************************************************************************************/
+/*styles for 800px and up! Max container width using blueprint is to be 750px, or span-19 */
+@media screen and (min-width: 760px){
+	
+	.responsive {	
+		.global_outside {
+			min-width:760px;
+			&.main_header {height:70px;}
+			&.footer_nav {
+				height:78px;
+				#footer_nav {height:78px;}
+			}
+		}
+		.container {
+			width:750px;
+		}
+		.top_header {
+			height:38px;
+			#top_header {
+				height:38px;
+			}
+		}
+		#main_header div.span-9 {
+			width:327px;
+		}
+		
+		#main_header {
+			height:55px;
+			.span-2 a img {
+				width:70px;
+				height:auto;
+			}
+			#university_name {
+				font-size:18px;
+				padding:13px 0 0 5px;
+			}
+			.span-2 {
+				width:70px;
+			}
+			.span-9 {
+				width:350px;
+			}
+			#audience_nav_box {
+				display:block;
+				width:373px;
+				font-size:11px;
+				left:377px;
+				li a {
+					padding: 3px 5px;
+				}
+			}
+			#search_box {
+				left:480px; 
+				display:block;
+			}
+		}
+		/*Breadcrumb Common Module*/
+		#breadcrumbs a:last-child {
+			padding-bottom:5px;
+		}
+
+		/*CONTENT AREA*/
+		aside.span-6 {
+			display:block;
+		}
+		section.span-18 {
+			.span-13;
+		}
+
+		/*footer AREA*/
+		#mega_footer {
+			.span-6 {
+				width:180px;
+			}
+			.span-6:nth-of-type(2) {
+				margin-right:10px;
+			}
+			#left_container {
+				display:block;
+			}
+			#audience_nav_box_bottom {
+				width:405px;
+				li a {
+					padding: 3px 5px;
+					font-size:12px;
+				}
+			}
+			#secondary_nav {
+				display:block;
+				width:335px;
+				li{
+					padding:0 6px;
+					font-size:12px;
+				}
+				li.last {
+					padding: 0 0 0 6px;
+				}
+			}
+			#footer_nav #audience_nav_box_bottom ul {
+				padding-top: 18px;
+				li {
+					padding-bottom:0px;
+					width:auto;
+					float:left;
+					height:auto;
+					margin-bottom:0px;
+				}
+			}
+			#search_box_bottom {
+				display:none;
+			}
+			#footer_brand {
+				#left_container {
+					width:430px;
+					#lds_church_link {
+						padding-right: 10px;
+						margin-right:10px;
+						left:0px;
+					}
+					#byu_link {
+						margin-right:10px;
+						left:0px;
+					}
+					#byuh_link {
+						margin-right:10px;
+						left:0px;
+					}
+					#ldsbc_link {
+						margin-right:10px;
+						left:0px;
+					}
+				}
+			}
+			#footer_links {
+				.link_list {
+					height:100%;
+				}
+				.link_list:hover {
+					height:100%;
+				}
+			}
+			#footer_brand {
+				min-height:inherit;
+			}
+		}
+	}
+}
+
+/******************************************************************************************/
+/**
+/**                  1100 PX RESPONSIVE for Tablet Landscape / Normal Desktop View
+/**
+/******************************************************************************************/
+/*styles for 1100px and up! Max container width using blueprint is to be 950px, or span-24 */
+@media screen and (min-width: 1100px){
+	
+	.responsive {
+		.global_outside {
+			min-width:960px;
+			&.main_header {height:70px;}
+			&.footer_nav {
+				height:78px;
+				#footer_nav {height:78px;}
+			}
+		}
+		.container {
+			width:950px;
+		}
+		/*HEADER AREA*/
+		.top_header {
+			height:38px;
+			#top_header {
+				height:38px;
+			}
+		}
+		#main_header div.span-9 {
+			.span-9;
+		}
+		#main_header {
+			height:55px;
+			a img {
+				width:70px;
+				height:auto;
+			}
+			#university_name {
+				font-size:18px;
+				padding:13px 0 0 5px;
+			}
+			.span-2 {
+				width:70px;
+			}
+			.span-9 {
+				width:350px;
+			}
+			#audience_nav_box {
+				display:block;
+				.span-13;
+				left:440px;
+				li a {
+					padding: 3px 9px;
+				}
+			}
+			#search_box {
+				left:680px;
+				display:block;
+			}
+		}
+
+		/*Breadcrumb Common Module*/
+		#breadcrumbs a:last-child {
+			padding-bottom:5px;
+		}
+		/*CONTENT AREA*/
+		aside.span-6 {
+			display:block;
+		}
+		section.span-18 {
+			.span-18;
+		}
+		/*Footer Area*/
+		#mega_footer {
+			.span-6 {
+				width:230px;
+			}
+			.span-6:nth-of-type(2) {
+				margin-right:10px;
+			}
+			#secondary_nav {
+				width:567px;
+				display:block;
+			}
+			#left_container {
+				display:block;
+			}
+			#secondary_nav {
+				width:475px;
+				li{
+					padding:0 13px 0 12px;
+					font-size:12px;
+				}
+			}
+			#footer_nav #audience_nav_box_bottom {
+				width:465px;
+				ul {
+					padding-top: 18px;
+					li {
+						padding-bottom:0px;
+						width:auto;
+						float:left;
+						height:auto;
+						margin-bottom:0px;
+						a {
+							font-size:12px;
+							padding:3px 10px;
+						}
+					}
+				}
+			}
+			#search_box_bottom {
+				display:none;
+			}
+			#footer_brand {
+				min-height:inherit;
+				#left_container {
+					width:630px;
+					#lds_church_link {
+						margin-right:25px;
+						padding-right: 24px;
+					}
+					#byu_link {
+						margin-right:25px;
+						left:10px;
+					}
+					#byuh_link {
+						margin-right:25px;
+						left:10px;
+					}
+					#ldsbc_link {
+						margin-right:25px;
+						left:10px;
+					}
+				}
+			}
+			#footer_links {
+				.link_list {
+					height:100%;
+				}
+				.link_list:hover {
+					height:100%;
+				}
+			}
+		}
+	}
+}

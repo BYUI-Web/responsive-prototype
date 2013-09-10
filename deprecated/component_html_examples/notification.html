@@ -1,0 +1,63 @@
+<link rel="stylesheet" href="css/browser_notification.css" type="text/css" media="screen, projection">
+
+    <div id="legacy_browser_notification" >
+		<div id="browser_msg" class="container">
+			<div id="left_notify" class="span-4 left">
+				<img src="images/browser_notification/attention.png" alt="browser notification"/>
+			</div>
+			<div id="center_notify">
+				<div class="span-18 left last rust_txt">
+					<strong>BYU-I Browser Alert:</strong> Your browser does not support all of the features this website has to offer.
+				</div>
+				<p id="browser_info" class="span-18 left last"></p>
+			</div>
+			<div id="toggle_browser_notify" class="close_button span-2 last right">
+				<img src="images/browser_notification/error_1.png" alt="close this notification" width="20"/>
+			</div>
+		</div>
+	</div>
+
+<script>
+	// Function to set cookie, to be called later
+function setCookie(c_name,value,exdays){
+	//console.log('inside setCookie');
+	var exdate=new Date();
+	exdate.setDate(exdate.getDate() + exdays);
+	var c_value=escape(value) + ((exdays==null) ? "" : "; expires="+exdate.toUTCString());
+	document.cookie=c_name + "=" + c_value;
+}
+
+// Function to get cookie, to be called later
+function getCookie(c_name) {
+//console.log('inside getCookie');
+var i,x,y,ARRcookies=document.cookie.split(";");
+for (i=0;i<ARRcookies.length;i++)
+{
+  x=ARRcookies[i].substr(0,ARRcookies[i].indexOf("="));
+  y=ARRcookies[i].substr(ARRcookies[i].indexOf("=")+1);
+  x=x.replace(/^\s+|\s+$/g,"");
+  if (x==c_name)
+    {
+    return unescape(y);
+    }
+  }
+}
+
+// Function to check cookie and run the browser detection/notification function, to be called later
+function checkCookie() {
+	//console.log('inside checkCookie');
+	var notified=getCookie("legacy_browser_notified");
+  	if (notified!=null && notified!="") {
+  		console.log('browser has already been notified during this set period. Killing cookie and detection process.');
+  	}
+	else {
+		console.log('No cookie detected, launching browser detection and notifier function.');
+		browserDetectNotify();
+    	// Only set a new cookie if browser fails the baseline test and user has already been notified:
+    	if (browserDetectNotify.notification_used == 'false') {
+    		//setCookie("legacy_browser_notified","true");
+    		console.log("cookie set: legacy_browser_notified = true");
+    	}
+    }
+}
+</script>

@@ -1,0 +1,47 @@
+/* IMPORT ALL GLOBAL AND COMMON CSS */
+
+	/* defaults [contains LESS, css for common compatability not found in blueprint, etc ] */
+	@import "defaults.less";
+
+	/*VARIABLES [contains LESS variables for BYU-I Identity Standards and other common values]*/
+	@import "variables.less";
+
+	/*GRID [contains LESS mixins for Blueprint grid values]*/
+	@import "grid.less";
+
+	/* MIXINS [contains LESS mixins shortcuts for common css tasks] */
+	@import "mixins.less";	
+
+	/* GLOBAL [contains all TRULY GLOBAL css for header/footer] */
+	@import "global.less";
+
+	/* COMMON [contains all css elements that are common among many or most pagetypes] */
+	@import "common.less";
+
+	/* GLOBAL_REDO [contains all css elements that are part of the transition to header_footer2.html] */
+	@import "global_redo.less";
+
+	/* IMPORT ADDITIONAL GLOBAL/COMMON STYLESHEETS */
+	/* TYPOGRAPHY [contains all typography-related styles] */
+	@import "typography.less";
+
+	/* UI_PATTERNS [contains LESS classes for BYU-I Identity Standards and other common tasks] */
+	@import "ui_patterns.less";
+
+	/* LEGACY BROWSER NOTIFICATION [contains all css elements that pertain to the global legacy browser notification] */
+	//@import "browser_notification.less"; /* not included yet */
+
+	/* DEBUGGING STYLES [contains all css elements that pertain to the debugging styles] */
+	//@import "debugging.less"; /* not included, pagetypes prototypes that use this must import it seperately */
+
+	/****************************************************************/
+	/*                                                              */
+	/*   NOTE: Responsive CSS has been re-included [02.15.2012].    */
+	/*   It is now inherited in scope of only the pages who have    */
+	/*   the "responsive" class on the body tag, thus keeping       */
+	/*   the site down to only one global main.css style file       */
+	/*   - Jakob Anderson and08073@byui.edu                         */
+	/*                                                              */
+	/****************************************************************/
+
+	@import "responsive.less"; 

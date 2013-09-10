@@ -1,0 +1,85 @@
+/* ============================================================================================================================================================== */
+/* ! GENERAL IMAGE GALLERY FULL-WIDTH
+	This page houses the exceptions that make the full-width image gallery different from the left-nav standard image gallery   */
+/* ============================================================================================================================================================== */
+/*#mainBody {
+	width: 950px;
+	height: 850px;
+}*/
+/*div.navigation-container {
+	width: 100%;
+}*//*
+div.navigation {
+	width:100%;
+}*/
+/*div.caption-container {
+	width: 790px;
+	left: 83px;
+	top: 140px;
+}*/
+div.slideshow img {
+/*
+	border-style:solid;
+	border-width:1px;
+	float:left;
+	height:auto;
+	max-width:450px;
+	width:auto;
+*/
+	/* border-style:solid; */
+	/* border-width:1px; */
+	/*max-width:790px;
+	max-height:650px;*/
+/*
+	width:auto;
+	height:auto;
+*/
+}
+div.content {
+	/* width:651px; */
+	/*width:950px;
+	float: left;
+	margin-bottom: 90px;*/
+}
+/*div.slideshow {
+	background-color: #cacaca;
+	overflow: hidden;
+	height: 650px;
+	width: 790px;
+	top: 5px;
+	left:95px;
+	position: absolute;
+}
+div.slideshow-container, div.loader, div.slideshow a.advance-link {
+	width: 950px;
+}
+div.controls a.prevHover {
+top: 290px;
+left: 120px;
+z-index: 9999;
+border: none;
+}
+div.controls a.nextHover {
+top: 290px;
+right: 100px;
+z-index: 9999;
+border: none;
+}
+div.image-title {
+	background-color: white;
+	color: black;
+	font-size: 12px;
+	font-weight: normal;
+	display: inline;
+	float: left;
+}
+ul.thumbs {
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 0;
+	max-width: 750px;
+	width: auto;
+	height: 69px;
+	overflow: hidden;
+}*/

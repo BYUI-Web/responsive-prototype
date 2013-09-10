@@ -1,0 +1,234 @@
+#image_gallery a .play,
+#ImageGallery a .play,
+#image_gallery a .pause,
+#ImageGallery a .pause {
+  position: absolute;
+  top: -53px;
+}
+#image_gallery .navigation-container, #ImageGallery .navigation-container {
+  float: left;
+  position: relative;
+  width: 100%;
+  margin-bottom: 10px;
+}
+#image_gallery .navigation-container .navigation, #ImageGallery .navigation-container .navigation {
+  width: 950px;
+  height: 70px;
+  border-top: 1px solid #cdcdcd;
+  border-bottom: 1px solid #cdcdcd;
+  padding: 8px 0px 8px 0;
+}
+#image_gallery .navigation-container .navigation a, #ImageGallery .navigation-container .navigation a {
+  text-decoration: none;
+}
+#image_gallery .navigation-container .navigation a.prev,
+#ImageGallery .navigation-container .navigation a.prev,
+#image_gallery .navigation-container .navigation a.next,
+#ImageGallery .navigation-container .navigation a.next {
+  position: relative;
+  height: 80px;
+  width: 20px;
+  display: block;
+  float: left;
+  margin: 2px;
+  *margin: 1px 2px 2px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#image_gallery .navigation-container .navigation a.prev, #ImageGallery .navigation-container .navigation a.prev {
+  background-image: url(../../images/interface/gallery/previous_group.png);
+  top: -9px;
+  left: 48px;
+}
+#image_gallery .navigation-container .navigation a.next, #ImageGallery .navigation-container .navigation a.next {
+  background-image: url(../../images/interface/gallery/next_group.png);
+  position: absolute;
+  right: 10px;
+  top: 0px;
+}
+#image_gallery .navigation-container .navigation .thumbs, #ImageGallery .navigation-container .navigation .thumbs {
+  position: relative;
+  float: left;
+  margin: 0;
+  padding: 0;
+  max-width: 750px;
+  width: auto;
+  height: 69px;
+  overflow: hidden;
+}
+#image_gallery .navigation-container .navigation .thumbs li, #ImageGallery .navigation-container .navigation .thumbs li {
+  float: left;
+  padding: 0;
+  margin: 2px;
+  list-style: none;
+}
+#image_gallery .navigation-container .navigation .thumbs li img, #ImageGallery .navigation-container .navigation .thumbs li img {
+  border: none;
+  display: block;
+  height: 65px;
+}
+#image_gallery .content, #ImageGallery .content {
+  float: left;
+}
+#image_gallery .content .slideshow-container, #ImageGallery .content .slideshow-container {
+  width: 100%;
+  height: 650px;
+}
+#image_gallery .content .slideshow-container .controls, #ImageGallery .content .slideshow-container .controls {
+  position: relative;
+  top: -92px;
+  *top: -87px;
+}
+#image_gallery .content .slideshow-container .controls .ss-controls, #ImageGallery .content .slideshow-container .controls .ss-controls {
+  float: left;
+  top: 10px;
+}
+#image_gallery .content .slideshow-container .controls a, #ImageGallery .content .slideshow-container .controls a {
+  display: block;
+}
+#image_gallery .content .slideshow-container .controls a.pause,
+#ImageGallery .content .slideshow-container .controls a.pause,
+#image_gallery .content .slideshow-container .controls a.play,
+#ImageGallery .content .slideshow-container .controls a.play {
+  border-right: 1px solid #999;
+  padding: 19px 10px 31px;
+  *padding: 24px 10px 26px;
+  height: 16px;
+}
+#image_gallery .content .slideshow-container .controls .prevHover, #ImageGallery .content .slideshow-container .controls .prevHover {
+  top: 245px;
+  left: 20px;
+  z-index: 9999;
+  border: none;
+}
+#image_gallery .content .slideshow-container .controls .prevHover img, #ImageGallery .content .slideshow-container .controls .prevHover img {
+  display: none;
+}
+#image_gallery .content .slideshow-container .controls .nextHover, #ImageGallery .content .slideshow-container .controls .nextHover {
+  top: 245px;
+  right: 30px;
+  z-index: 9999;
+  border: none;
+}
+#image_gallery .content .slideshow-container .controls .nextHover img, #ImageGallery .content .slideshow-container .controls .nextHover img {
+  display: none;
+}
+#image_gallery .content .slideshow-container .controls .nav-controls .prev,
+#ImageGallery .content .slideshow-container .controls .nav-controls .prev,
+#image_gallery .content .slideshow-container .controls .nav-controls .next,
+#ImageGallery .content .slideshow-container .controls .nav-controls .next {
+  padding: 20px 10px 30px;
+  *padding: 24px 10px 26px;
+  position: absolute;
+  cursor: pointer;
+  height: 16px;
+}
+#image_gallery .content .slideshow-container .controls .nav-controls a.prev, #ImageGallery .content .slideshow-container .controls .nav-controls a.prev {
+  border-right: 1px solid #999999;
+  left: 67px;
+}
+#image_gallery .content .slideshow-container .controls .nav-controls a.next, #ImageGallery .content .slideshow-container .controls .nav-controls a.next {
+  border-left: 1px solid #999999;
+  right: -130px;
+  *right: -870px;
+}
+#image_gallery .content .slideshow-container .controls .nav-controls a.prevHover,
+#ImageGallery .content .slideshow-container .controls .nav-controls a.prevHover,
+#image_gallery .content .slideshow-container .controls .nav-controls a.nextHover,
+#ImageGallery .content .slideshow-container .controls .nav-controls a.nextHover {
+  border: none;
+  top: 260px;
+  z-index: 9999;
+  border: none;
+  width: 50px;
+  padding: 100px 10px;
+}
+#image_gallery .content .slideshow-container .controls .nav-controls a.prevHover, #ImageGallery .content .slideshow-container .controls .nav-controls a.prevHover {
+  left: 100px;
+}
+#image_gallery .content .slideshow-container .controls .nav-controls a.nextHover, #ImageGallery .content .slideshow-container .controls .nav-controls a.nextHover {
+  right: -90px;
+}
+#image_gallery .content .slideshow-container .controls .nav-controls a.prevHover:hover, #ImageGallery .content .slideshow-container .controls .nav-controls a.prevHover:hover {
+  background: url(../../images/interface/gallery/hoverarrow_prev.png) no-repeat;
+  background-position: 16px 90px;
+}
+#image_gallery .content .slideshow-container .controls .nav-controls a.nextHover:hover, #ImageGallery .content .slideshow-container .controls .nav-controls a.nextHover:hover {
+  background: url(../../images/interface/gallery/hoverarrow_next.png) no-repeat;
+  background-position: 16px 90px;
+}
+#image_gallery .content .slideshow-container .slideshow, #ImageGallery .content .slideshow-container .slideshow {
+  background-color: #cacaca;
+  overflow: hidden;
+  height: 650px;
+  width: 790px;
+  left: 95px;
+  /*top:5px;*/
+
+  position: absolute;
+}
+#image_gallery .content .slideshow-container .slideshow img, #ImageGallery .content .slideshow-container .slideshow img {
+  border-color: #ccc;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 790px;
+  max-height: 650px;
+  cursor: default;
+  *position: relative !important;
+  *left: -80 !important;
+}
+#image_gallery .content .slideshow-container .slideshow .advance-link, #ImageGallery .content .slideshow-container .slideshow .advance-link {
+  display: block;
+  text-align: center;
+}
+#image_gallery .content .slideshow-container .slideshow .advance-link:hover,
+#ImageGallery .content .slideshow-container .slideshow .advance-link:hover,
+#image_gallery .content .slideshow-container .slideshow .advance-link:active,
+#ImageGallery .content .slideshow-container .slideshow .advance-link:active,
+#image_gallery .content .slideshow-container .slideshow .advance-link:visited,
+#ImageGallery .content .slideshow-container .slideshow .advance-link:visited,
+#image_gallery .content .slideshow-container .slideshow .advance-link:focus,
+#ImageGallery .content .slideshow-container .slideshow .advance-link:focus {
+  text-decoration: none;
+  outline: none;
+}
+#image_gallery .caption-container, #ImageGallery .caption-container {
+  font-size: 12px;
+  width: 790px;
+  position: relative;
+  left: 95px;
+  margin-top: 12px;
+  float: left;
+}
+#image_gallery .caption-container .image-keywords, #ImageGallery .caption-container .image-keywords {
+  display: inline;
+  float: left;
+  padding: 2px 5px 0 0;
+  margin-right: 5px;
+  border-right: 1px solid #444;
+}
+#image_gallery .caption-container .image-caption, #ImageGallery .caption-container .image-caption {
+  display: inline;
+  float: left;
+  background-color: white;
+  margin-left: 15px;
+  position: absolute;
+}
+#image_gallery .loader, #ImageGallery .loader {
+  background-image: url(../../images/interface/gallery/loader.gif);
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#image_gallery #thumbs, #ImageGallery #thumbs {
+  /*opacity: 1;*/
+
+}
+#image_gallery #thumbs li, #ImageGallery #thumbs li {
+  opacity: 0.5;
+}
+#image_gallery #thumbs li.selected a.thumb, #ImageGallery #thumbs li.selected a.thumb {
+  background: #000;
+}

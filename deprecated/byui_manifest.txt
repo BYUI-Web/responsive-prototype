@@ -1,0 +1,79 @@
+CACHE MANIFEST
+# BYUI Manifest 
+# 2012-03-16:
+# version: 1.007
+
+
+# Explicitly cached entries
+
+# css
+css/blueprint/screen.css
+css/main.css
+
+#images
+
+# js
+https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js
+js/libs/modernizr-2.0.6.min.js
+js/mylibs/accordionNav.js
+js/mylibs/leftNav_contactExpander.js
+http://web.byui.edu/Omniture/omniture_code.js
+http://web.byui.edu/Omniture/s_code.js
+
+
+
+# offline.html will be displayed if the user is offline
+# FALLBACK:
+# / /offline.html
+
+
+# Additional resources to cache
+CACHE:
+
+# CSS
+http://s7.addthis.com/static/r07/widget76.css
+
+# Interface Images
+images/interface/arrow_bullet.png
+images/foot/background_1.png
+images/foot/background_2.png
+images/head/blankimg.png
+images/interface/buttonbackground.png
+images/interface/buttonbackgroundhover.png
+images/head/byuilogo.png
+images/byui_home/center_pillar_box.png
+images/foot/footer_sprite.png
+images/byui_home/left_rotator_arrow.png
+images/byui_home/message_arrow.png
+images/interface/mid_bg.png
+images/byui_home/pillar_hash.png
+images/byui_home/right_rotator_arrow.png
+images/head/search.png
+images/head/searchboxbkg.jpg
+images/foot/taylor_graphic.png
+images/interface/arrow_bullet_gray_5x9.png
+images/interface/icon_calendar_18x18.jpg
+images/leftNav/localSearch_ButtonTransparent_29x29.png
+images/leftNav/blue-arrow_5x9.png
+images/leftNav/accordion_background_270x6.jpg
+images/academic_home/blogger_button.png
+images/academic_home/social_addthis_button.png
+images/academic_home/email_button.png
+images/academic_home/facebook_button.png
+images/academic_home/twitter_button.png
+images/academic_home/digg_button.png
+images/academic_home/fb_bar.jpg
+
+# Scripts
+js/mylibs/scrolling_events_bar.js
+js/mylibs/cycle_gallery.js
+js/libs/jquery.cycle.all.js
+http://s7.addthis.com/js/152/addthis_widget.js
+
+# END CACHE
+
+# All other resources (e.g. sites) require the user to be online. 
+NETWORK:
+http://*
+https://*
+*

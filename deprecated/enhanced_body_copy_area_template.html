@@ -1,0 +1,63 @@
+<!-- BEGIN Enhanced Body Copy Area Template 2012, by Jakob Anderson [ and08073@byui.edu ] -->
+<!-- Please fill in all areas as noted in order to get Jquery to work in the body copy area -->
+
+<!-- Add existing CSS file imports here -->
+<link href="path/to/existing/css/file.css" rel="stylesheet" type="text/css" />
+
+<!-- Insert inline CSS styles here -->
+<style>
+	.insert_your_style_elements_here {
+		/*insert your css attribute/value rules here*/
+		color:#000000;
+		margin:10px 0 10px 0;
+	}
+</style>
+
+<!-- Insert your body html here -->
+<div class="insert_your_style_elements_here"></div>
+<!-- END html area -->
+
+<script type="text/javascript">
+
+//Ignore this function area
+function loadScript(url, callback){
+	//load script tag at end of body
+	var body = document.getElementsByTagName('body')[0];
+	var script = document.createElement('script');
+	script.type = 'text/javascript';
+	script.src = url;
+
+	// then bind the event to the callback function 
+	// there are several events for cross browser compatibility
+	script.onreadystatechange = callback;
+	script.onload = callback;
+
+	// fire the loading
+	body.appendChild(script);
+}
+
+//define inline script to be called inside the callback function parameter
+var scriptCallback = function(){
+	//insert any inline jquery you would like to run here, ie
+	//things that normally go between script tags, for example:
+	$("#object").css('width', 200px);
+}
+
+// Execute the entire function after page has finished 
+// loading (script import and callback inline javascript)
+window.onload = function(){ 
+	//put the path to your jquery-dependent script below here
+	loadScript("path/to/existing/js/file.js", scriptCallback);
+}
+</script>
+<!-- END Enhanced Body Copy Area Template 2012, by Jakob Anderson [ and08073@byui.edu ] -->
+
+
+
+
+
+
+
+
+
+

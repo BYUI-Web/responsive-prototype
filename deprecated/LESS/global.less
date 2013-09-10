@@ -1,0 +1,481 @@
+// /*GLOBAL BEGIN*/
+
+// /**************** BEGIN GLOBAL CSS RULES [HEADER/FOOTER] ******************/
+// /*                                                                        */
+// /*      GLOBAL elements are those elements that appear on EVERY           */
+// /*      page type. These occur mostly in the HEADER/FOOTER                */
+// /*      areas and are to be treated with immense respect.                 */
+// /*                                                                        */
+// /**************************************************************************/
+
+.global_outside {
+	width:100%;
+	min-width: 980px;
+}
+.container {
+	position:relative;
+}
+.container section#top_region img {
+	max-width:100%;
+	height:auto;
+}
+#body_wrapper {
+	overflow: auto;
+}
+.italics{
+	font-style: italic;
+	font-family: Georgia;
+}
+.margin_bleed {
+	margin: auto -1000px;
+	padding-left: 1000px;
+	padding-right: 1000px;
+	overflow: auto;
+}
+nav li {
+	cursor: pointer;
+}
+
+/******** HEADER ********/
+
+.top_header {
+	background-color: #252525;
+	overflow: visible;
+	height: 38px;
+}
+#top_header {
+	height: 38px;
+	overflow:hidden;
+}
+#main_nav ul {
+	padding-left: 0;
+}
+.main_header {
+	background-color: #326ba9;
+	.box_gradient_4stop(#2b5a8e, #326ba9, #326ba9, #326ba9);
+	overflow: visible;
+	height:70px;
+}
+#main_header {
+	padding-top: 15px;
+	height: 55px;
+	overflow: visible;
+}
+#university_name {
+	font-size: 18px;
+	padding: 13px 0 0 5px;
+}
+#university_name a {
+	color: #fff;
+}
+#university_name a:active {
+	color: #bbb;
+}
+#search_mobile {
+	display:none;
+}
+#search_box{
+	position: absolute;
+	left: 680px;
+	clear: both;
+	background: url('../images/head/searchboxbkg.jpg') repeat-x #326ba9;
+	-moz-box-shadow: 0 0px 15px #000;
+	-webkit-box-shadow: 0 0px 15px #000;
+	box-shadow: 0 0px 15px #000;
+	top:-38px;
+}
+#search_box ul{
+	font-size: 8px;
+	margin:4px 0 0 8px
+}
+#search_box ul li{
+	display: inline;
+	border-right: solid 1px #999;
+}
+#search_box li.last{
+	border-right: none;
+} 
+#search_box ul li a{
+	color: #fff;
+	padding: 0 5px;
+	font-size: 11px
+}
+#search_wrapper {
+	height: 24px;
+	background-image:none;
+	background-color:#fff;
+	margin: 5px 6px 5px 6px;
+	form {
+		height: 100%;
+	}
+	.search_box {
+		border: 0px;
+		background-color: transparent;
+		position: relative;
+		margin: 0;
+		padding-left: 4px;
+		font-size: 13px;
+		width: 220px;
+		top:1px;
+	}
+	.search_box_submit {
+		position:relative;
+		border: 0px;
+		top:2px;
+		background-image: url('../images/head/search.png');
+		background-repeat: no-repeat;
+		background-color: transparent;
+		width: 20px;
+		height: 20px;
+		float: right;
+		right: 2px;
+	}
+}
+#search_wrapper:hover .search_box_submit {
+		background-position: 0px -20px;
+}
+.ie7 .main_header #main_header #search_box #search_wrapper .search_box_submit {
+	right:-6px;
+	float:none;
+}
+.ie7 .main_header #main_header #search_box #search_wrapper .search_box {top:-3px;}
+#main_header #audience_nav_box {
+	display:block;
+	left:440px;			
+	position:absolute;
+	right:0;
+	font-size:11px;
+}
+#main_header #audience_nav_box ul {
+	float: right;
+}
+
+/******** HEADER AND FOOTER *********/
+
+#top_header a, #main_header a, #mega_footer a {
+	color: #fff;
+}
+.mega_footer {background:black;}
+#top_header a:visited, #main_header a:visited, #mega_footer a:visited{
+	color: #e2e2e2;
+}
+#top_header ul, #main_header ul, #mega_footer ul {
+	list-style: none outside none;
+	padding: 0;
+	margin: 0;
+}
+#search_box ul {
+	font-size: 8px;
+	margin: 4px 0 0 12px;
+}
+#main_nav li, #secondary_nav li{
+	padding-right: 13px;
+	padding-left: 12px;
+	border-right: solid 1px #666;
+	float: left;
+	/*height:20px;*/
+	/*margin-bottom:10px;*/
+	/*padding: 0px 13px 0px 13px;
+	height: 20px;*/
+}
+#main_nav {
+	position: relative;
+	top: 9px;
+	li {
+		padding:0;
+		a {
+			padding: 0px 13px 0px 13px;
+			height: 20px;
+			display: block;
+		}
+		&.first {
+			a {
+				padding-left: 0;
+			}
+		}
+	}
+}
+#mega_footer #secondary_nav li.last{
+		padding:0 0 0 12px;
+	}
+#main_nav li.first, #access_links li.first {
+	padding-left: 0;
+	border-left: none;
+}
+
+#main_nav li.last, #search_nav li.last, #secondary_nav li.last, #access_links li.last {
+	border-right: none;
+	padding-right: 0;
+	height:20px;
+}
+#main_nav li a, #search_nav li a, #secondary_nav li a, #access_links li a {
+	color: #e2e2e2;
+	font-size:12px;
+	/*vertical-align:top;*/
+}
+#main_nav li a:hover, #search_box li a:hover, #secondary_nav li a:hover, #access_links li a:hover {
+	color: #f3d375;
+}
+#audience_nav_box ul, #audience_nav_box_bottom ul{
+	padding-top: 13px;
+	margin: 0;
+	font-size:11px;
+}
+#audience_nav_box ul li, #audience_nav_box_bottom ul li{
+	float: left;
+}
+#audience_nav_box li a, #audience_nav_box_bottom li a {
+	display: block;
+	padding: 3px 9px 3px 9px;
+	margin: 0px 2px 0px 2px;
+	text-shadow: #222 1px 1px .5px;
+	background-image: url('../images/interface/buttonbackground.png');
+	background-repeat: repeat-x ;
+	background-color: #326ba9;
+	.rounded-corners(5px);
+	color:#fff;
+} 
+#audience_nav_box li a:hover, #audience_nav_box_bottom li a:hover{
+	background-image: url('../images/interface/buttonbackgroundhover.png');
+	color:#ddd;
+}
+#audience_nav_box li.first a, #audience_nav_box_bottom li.first a {
+	margin-left: 0;
+}
+#audience_nav_box li.last a, #audience_nav_box_bottom li.last a {
+	margin-right: 0;
+}
+
+/******** FOOTER ********/
+
+#footer_graphic {
+	background: url('../images/foot/background_1.png') repeat-x;
+	clear:both;
+}
+#footer_graphic div {
+	background: url('../images/foot/taylor_graphic.png') no-repeat center;
+	height: 146px;
+}
+.footer_graphic {
+	background-image:url('../images/interface/mid_bg.png');
+	background-repeat:repeat-x;
+	background-position:0 -5px;
+	height:146px;
+	#footer_graphic {
+		margin-bottom:0;
+		padding:0;
+	}
+}
+
+/**** footer navigation ***/	
+.footer_nav {
+	background-color: #326ba9;
+	height:78px;
+}
+#footer_nav #audience_nav_box_bottom ul {
+	padding-top: 24px;
+	padding-left: 0;
+	margin: 0;
+}
+#search_box_bottom{
+	display:none;
+}
+#secondary_nav{
+	margin: 20px 0;
+	padding-left: 0;
+}
+#secondary_nav ul {
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+#secondary_nav li{
+	border-right: solid 1.5px #999;
+}
+
+/**** quicklink area ****/
+.footer_links_container {
+	background: #333333;
+	#footer_links_container {
+		background:transparent;
+		clear: both;
+	}
+}
+#footer_links {
+	overflow: hidden;
+	ul{
+		margin: 0 0 30px 15px;
+		padding: 0 10px 0 0;
+	}
+}
+.link_list {
+	background-color: #252525;
+	.rounded-corners;
+	margin: 10px 10px -500px 0;
+	font-size: 12px;
+	padding: 15px 0 500px 0;
+}
+.link_list ul {
+	height:100%;
+}
+.link_list li {
+	color: #b7b7b7;
+	background: url('../images/foot/footer_sprite.png') no-repeat;
+	background-position: -532px 6px;
+	padding: 6px 0 6px 25px;
+}
+.link_list li:hover {
+	background-position: -532px -52px;
+}
+#footer_links .link_list a {
+	color: #b7b7b7;
+	display:block;
+}
+#footer_links .link_list a:hover {
+	color: #FFF;
+	text-decoration: underline;
+}
+#footer_links h4 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: .5px;
+	font-weight: bold;
+	color: #FFF;
+	padding-left: 15px;
+
+}
+
+/**** branding area ****/
+#footer_brand {
+	color: #646464;
+	font-size: 11px;
+	background-color: #000;
+	padding-top: 22px;
+	padding-bottom: 20px;
+	overflow:hidden;
+}
+.footer_brand {
+	background:#000000;
+	min-height:187px;
+}
+#left_container div a {
+	float: left;
+	position: relative;
+	top: 10px;
+	text-indent:-1000px;
+}
+#lds_church_link {
+	background: url('../images/foot/footer_sprite.png') no-repeat;
+	background-position: 0px -40px;
+	height: 75px;
+	width: 188px;
+	border-right: 1px solid #5c5d5d;
+}
+#byu_link {
+	background: url('../images/foot/footer_sprite.png') no-repeat;
+	background-position: -200px -40px;
+	height: 45px;
+	width: 100px;
+	left: 10px;
+}
+#byuh_link {
+	background: url('../images/foot/footer_sprite.png') no-repeat;
+	background-position: -305px -40px;
+	height: 65px;
+	width: 100px;
+	left: 10px;
+}
+#ldsbc_link {
+	background: url('../images/foot/footer_sprite.png') no-repeat;
+	background-position: -400px -40px;
+	height: 75px;
+	width: 100px;
+	left: 10px;
+}
+#lds_church_link:hover {
+	background: url('../images/foot/footer_sprite.png') no-repeat;
+	background-position: 0 -116px;
+}
+#byu_link:hover {
+	background: url('../images/foot/footer_sprite.png') no-repeat;
+	background-position: -200px -116px;
+}
+#byuh_link:hover {
+	background: url('../images/foot/footer_sprite.png') no-repeat;
+	background-position: -305px -116px;
+}
+#ldsbc_link:hover {
+	background: url('../images/foot/footer_sprite.png') no-repeat;
+	background-position: -400px -116px;
+}
+#social_icons {
+	background: url('../images/foot/footer_sprite.png') no-repeat;
+	background-position: -2px 0px;
+	height: 40px;
+	margin-bottom: 15px;
+	overflow:hidden;
+}
+#social_icons a {
+	float: left;
+	position: relative;
+	top: 0px;
+	text-indent:-1000px;
+
+}
+#byui_facebook_link {
+	height: 40px;
+	width: 36px;
+	left: 0px;
+}
+#byui_youtube_link {
+	height: 40px;
+	width: 41px;
+	left: 1px;
+}
+#byui_email_link {
+	height: 40px;
+	width: 41px;
+	left: 2px;
+}
+#byui_linkedIn_link {
+	height: 40px;
+	width: 41px;
+	left: 2px;
+}
+#access_links { 	
+	background: black url('../images/foot/footer_sprite.png') no-repeat;
+	background-repeat: no-repeat;
+	background-position: -527px -116px;
+	height: 22px;
+	padding-top: 2px;
+	padding-left: 30px;
+}
+#access_links ul {
+	padding: 0;
+	margin: 0;
+}
+#access_links li {
+	padding-right: 8px;
+	padding-left: 8px;
+	border-right: solid 1px #666;
+	display: inline;
+}
+#access_links li a {
+	color: #b7b7b7;
+	font-size:11px;
+}
+#bottom_padding{
+	background: #333333;
+	height: 10px;
+}
+.last {
+	border-right: none;
+	margin-right: 0;
+}
+/******** END FOOTER ********/
+
+
+/**************** END GLOBAL CSS RULES [HEADER/FOOTER] ******************/
+
+/*GLOBAL END*/

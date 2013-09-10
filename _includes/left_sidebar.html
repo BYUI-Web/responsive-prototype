@@ -1,0 +1,22 @@
+<div class="left-column">
+    <script>
+    $(function() {
+        $('.department-title').click(function(e){
+            e.preventDefault();
+            $('.department-nav-list').slideToggle(600);
+        });
+    });
+  </script>
+    <nav id="department-nav" class="department-nav">
+        <h2 class="department-title"><a href="#department-nav">Student Housing<span aria-hidden="true" class="department-nav-arrow icon-arrow-down"></span></a></h2>
+        <ul class="department-nav-list">
+            <a href="#top" class="close-that-nav">×</a>
+            <li><a href="">On-Campus Housing Options</a></li>
+            <li><a href="">Single Student Approved Housing</a></li>
+            <li><a href="">Student-Family and Community</a></li>
+            <li><a href="">Information, Support and Services</a></li>
+            <li><a href="">Student Living</a></li>
+            <li><a href="">About</a></li>
+        </ul>
+    </nav>
+</div>

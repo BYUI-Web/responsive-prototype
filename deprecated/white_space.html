@@ -1,0 +1,834 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html lang="en" class="no-js"  > <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+  <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> -->
+
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+
+    <title>Brigham Young University - Idaho</title>
+    <meta name="description" content="Brigham Young University - Idaho">
+    <meta name="author" content="Brigham Young University - Idaho">
+
+    <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    
+    <!-- favicon section for all device types -->
+    <!-- For iPhone 4 with high-resolution Retina display: -->
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png">
+    <!-- For first-generation iPad: -->
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png">
+    <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+    <link rel="icon" href="favicon.ico" />
+    
+    <!-- Blueprint and Regressive/Progressive Adaptive scripts for older/cross-browser compliance -->
+    <link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="css/blueprint/print.css" type="text/css" media="print"> 
+    <!--[if lt IE 9]>
+        <link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection">
+    <![endif]-->
+
+    <!-- Global Stylesheet -->
+    <link rel="stylesheet" href="css/main.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="css/debugging.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="css/white_space.css" type="text/css" media="screen, projection">
+
+    <!-- Modernizr script, for js and feature detection -->
+    <script src="js/libs/modernizr-2.0.6.min.js"></script>
+
+    <script>
+        // Default states for element toggle:
+        var page_title   = 'on';
+        var local_nav    = 'on';
+        var right_column = 'on';
+        var quick_links  = 'on';
+    </script>
+</head>
+
+<body id="Content"><!-- Body tag must have page template name in it to inherit template-specific css rules -->
+
+    <div class="global_outside top_header">
+        <div id="top_header" class="container">
+            <nav id="main_nav" class="span-17">
+                <ul>
+                    <li class="first"><a href="http://www.byui.edu/">Home</a></li>
+                    <li><a href="http://www.byui.edu/about/">About BYUI</a></li>
+                    <li><a href="http://www.byui.edu/about/academics/">Academics</a></li>
+                    <li><a href="http://www.byui.edu/about/student-life/">Student Life</a></li>
+                    <li class="last"><a href="http://www.byui.edu/contact-us/">Contact BYUI</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div><!-- end global_outside top -->
+
+    <header class="global_outside main_header">
+        <div id="main_header" class="container">
+            <div class="span-2">
+                <a href="http://www.byui.edu"><img src="images/head/byuilogo.png" alt="Brigham Young University Logo" height="41" width="70" /></a>
+            </div>
+            <div class="span-9">
+                <h1 id="university_name"><a href="http://www.byui.edu/">Brigham Young University - Idaho</a></h1>
+            </div>
+            <nav id="audience_nav_box" class="span-13 last">
+                <ul>
+                    <li class="first"><a href="http://www.byui.edu/students/">Students</a></li>
+                    <li><a href="http://www.byui.edu/future-students/">Future Students</a></li>
+                    <li><a href="http://www.byui.edu/parents/">Parents</a></li>
+                    <li><a href="http://www.byui.edu/employees/">Employees</a></li>
+                    <li><a href="http://www.byui.edu/alumni/">Alumni</a></li>
+                    <li class="last"><a href="http://www.byui.edu/visitors/">Visitors</a></li>  
+                </ul>
+            </nav>
+            <div id="search_box" class="span-7 last">
+                <nav>
+                    <ul>
+                        <li class="first"><a href="http://www.byui.edu/directories/">Directories</a></li>
+                        <li><a href="http://www.byui.edu/ask/live-chat/" target="_blank"><span class="italics">Ask</span> <strong>BYUI</strong></a></li>
+                        <li><a href="http://m.byui.edu/">Mobile Tools</a></li>
+                        <li class="last"><a href="https://my.byui.edu/"><span class="italics">my</span><strong>BYUI</strong></a></li>
+                    </ul>
+                </nav>
+                <div id="search_wrapper">
+                    <form method="get" action="http://search.byui.edu/search?">
+                        <input type="text" class="search_box" name="q" alt="Search the BYU-I website"/>
+                        <input type="image" src="images/head/blankimg.png" class="search_box_submit" alt="Submit Search"/>
+                        <input type="hidden" name="site" value="default_collection"/>
+                        <input type="hidden" name="client" value="beta_frontend"/>
+                        <input type="hidden" name="output" value="xml_no_dtd"/>
+                        <input type="hidden" name="proxystylesheet" value="beta_frontend"/>
+                        <input type="hidden" name="proxyreload" value="0"/>
+                    </form>
+                </div>
+            </div><!-- end search_box -->
+
+        </div><!-- end main_header container -->
+    </header><!-- end global_outside main_header -->
+    
+    <div class="global_outside page_content">   
+        <section id="page_content" class="container">
+            <!-- BEGIN BREADCRUMBS AREA -->
+            <nav id="breadcrumbs" class="span-24"> 
+                <a href="/">BYU-Idaho Home</a> &gt; &nbsp; 
+                <a href="activities">Activities</a> &gt;  &nbsp;
+                <a href="activities/resources">Resources</a> &gt;  &nbsp;
+                <a href="activities/resources/exercise-facilities-and-play-fields">Exercise Facilities and Play Fields</a> &gt;  &nbsp;
+                <a href="activities/resources/exercise-facilities-and-play-fields/hart-building">Hart Building</a> &gt;  &nbsp;
+                <a href="activities/resources/exercise-facilities-and-play-fields/hart-building/swim-suit-policy">Swim Suit Policy</a>
+            </nav><!-- END BREADCRUMBS AREA -->
+            
+            <!-- BEGIN CONTENT AREA -->
+
+            <!-- BEGIN LOCAL_NAV -->
+            <nav id="local_nav" class="span-6">
+                <h2 class="box_header">
+                    <a href="">Housing &amp; Student Living</a>
+                </h2>
+                <ul class="accordion">
+                    <li class="folder">
+                        <a class="lvl_1" href="">On-Campus Housing Options</a>
+                        <span class="expander">+</span>
+                        <ul style="display: none; ">
+                            <li>
+                                <a class="lvl_2" href="https://web.byui.edu/housingasp">Start/View Your Contract</a>
+                            </li>
+                            <li>
+                                <a class="lvl_2" href="">Men's On-Campus</a>
+                                <span class="expander">+</span>
+                                <ul style="display: none; ">
+                                    <li>
+                                        <a class="lvl_3" href="">Biddulph Hall</a>
+                                    </li>
+                                    <li>
+                                        <a class="lvl_3" href="">Chapman Hall</a>
+                                    </li>
+                                    <li>
+                                        <a class="lvl_3" href="">NEW! Lamprecht Hall</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="lvl_2" href="">Women's On-Campus</a>
+                            </li>
+                            <li>
+                                <a class="lvl_2" href="">University Village (Student Family)</a>
+                                <span class="expander">+</span>
+                                <ul style="display: none; ">
+                                    <li>
+                                    <a class="lvl_3" href="">Apply for University Village</a>
+                                    </li>
+                                    <li>
+                                    <a class="lvl_3" href="">Flat (2 Bedroom)</a>
+                                    </li>
+                                    <li>
+                                    <a class="lvl_3" href="">Townhouse (Two-Bedroom)</a>
+                                    </li>
+                                    <li>
+                                        <a class="lvl_3" href="">Frequently Asked Questions</a>
+                                        <span class="expander">+</span>
+                                        <ul class="accordLvl4" style="display: none; ">
+                                            <li>
+                                                <a class="lvl_4" href="">Occupancy Guidelines</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="folder">
+                        <a class="lvl_1" href="https://web.byui.edu/TIS/search">Single Student Approved Housing</a>
+                        <span class="expander">+</span>
+                        <ul style="display: none; ">
+                            <li>
+                                <a class="lvl_2" href="">Approved Housing: Interactive Tool</a>
+                            </li>
+                            <li>
+                                <a class="lvl_2" href="">About Approved Housing</a>
+                                <span class="expander">+</span>
+                                <ul style="display: none; ">
+                                    <li>
+                                        <a class="lvl_3" href="">Apartment Living Standards</a>
+                                    </li>
+                                    <li>
+                                        <a class="lvl_3" href="">Frequently Asked Questions</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="lvl_2" href="">Off-Campus Parking</a>
+                                <span class="expander">+</span>
+                                <ul style="display: none; ">
+                                    <li>
+                                        <a class="lvl_3" href="">Rexburg Parking Ordinance</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="lvl_2" href="">Frequently Asked Questions</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="folder">
+                        <a class="lvl_1" href="">Student-Family and Community</a>
+                        <span class="expander">+</span>
+                        <ul style="display: none; ">
+                            <li>
+                                <a class="lvl_2" href="">University Village </a>
+                            </li>
+                            <li>
+                                <a class="lvl_2" href="">Community Housing List</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="folder">
+                        <a class="lvl_1" href="">Information, Support and Services with a really really really really long title.</a>
+                        <span class="expander">+</span>
+                        <ul style="display: none; ">
+                            <li>
+                                <a class="lvl_2" href="">Managers &amp; Owners</a>
+                            </li>
+                            <li>
+                                <a class="lvl_2" href="">View All Policies and Information </a>
+                            </li>
+                            <li>
+                                <a class="lvl_2" href="">Documents for Owners and Managers</a>
+                            </li>
+                            <li>
+                                <a class="lvl_2" href="https://web.byui.edu/ApprovedHousing/Management/Logon.aspx?ReturnUrl=/ApprovedHousing/Management/default.aspx">Tenant Information System (TIS)</a>
+                            </li>
+                            <li>
+                                <a class="lvl_2" href="">Open Management Positions</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="folder">
+                        <a class="lvl_1" href="">Information, Support and Services</a>
+                    </li>
+                    <li class="folder">
+                        <a class="lvl_1" href="">Student Living</a>
+                        <span class="expander">+</span>
+                        <ul style="display: none; ">
+                            <li>
+                                <a class="lvl_2" href="">Students </a>
+                            </li>
+                            <li>
+                                <a class="lvl_2" href="">Apartment Managers</a>
+                                <span class="expander">+</span>
+                                <ul style="display: none; ">
+                                    <li>
+                                        <a class="lvl_3" href="">Manager Forums</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="lvl_2" href="">Ward &amp; Stake Leaders</a>
+                                <span class="expander">+</span>
+                                <ul style="display: none; ">
+                                    <li>
+                                        <a class="lvl_3" href="">Student Living for Bishops</a>
+                                    </li>
+                                    <li>
+                                        <a class="lvl_3" href="">Home Evening Lessons</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="lvl_2" href="">Instructor Reflection</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="folder">
+                        <a class="lvl_1" href="">About</a>
+                        <span class="expander">+</span>
+                        <ul style="display: none; ">
+                            <li>
+                                <a class="lvl_2" href="http://web.byui.edu/directory/">Related Campus Offices &amp; Services</a>
+                                <span class="expander">+</span>
+                                <ul style="display: none; ">
+                                    <li>
+                                        <a class="lvl_3" href="http://www.byui.edu/AccountingOffice">Accounting &amp; Bursar's Office</a>
+                                    </li>
+                                    <li>
+                                        <a class="lvl_3" href="http://www.byui.edu/Admissions/">Admissions Office</a>
+                                    </li>
+                                    <li>
+                                        <a class="lvl_3" href="http://www.byui.edu/helpdesk/">Computer Help Desk</a>
+                                    </li>
+                                    <li>
+                                        <a class="lvl_3" href="http://www.byui.edu/deanofstudents">Dean of Students</a>
+                                    </li>
+                                    <li>
+                                        <a class="lvl_3" href="http://www.byui.edu/FinancialAid/">Financial Aid/Scholarships</a>
+                                    </li>
+                                    <li>
+                                        <a class="lvl_3" href="http://www.byui.edu/foodservices">Food Services</a>
+                                    </li>
+                                    <li>
+                                        <a class="lvl_3" href="http://www.byui.edu/healthcenter/">Health Center</a>
+                                    </li>
+                                    <li>
+                                        <a class="lvl_3" href="http://www.byui.edu/HonorCodeOffice">Student Honor Office</a>
+                                    </li>
+                                    <li>
+                                        <a class="lvl_3" href="http://www.byui.edu/StudentEmployment/">Student Employment</a>
+                                    </li>
+                                    <li>
+                                        <a class="lvl_3" href="http://www.byui.edu/spencer/local/eccldsp.htm">Ward &amp; Stake Locator</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="lvl_2" href="">Meet Our Employees</a>
+                                <span class="expander">+</span>
+                                <ul style="display: none; ">
+                                    <li>
+                                        <a class="lvl_3" href="">On-Campus Managers</a>
+                                    </li>
+                                    <li>
+                                        <a class="lvl_3" href="">University Village Management</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="lvl_2" href="">Contact Us</a>
+                            </li>
+                            <li>
+                                <a class="lvl_2" href="">Site Map</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div id="highlighted_links" editfieldname="HighlightedLinks" editfieldrequired="false">
+                    <h2 class="box_header">University Village Links</h2>
+                    <a href="">Two-Bedroom Townhouse</a>
+                    <a href="">Two-Bedroom Flat</a>
+                    <a href="Documents/Admin_Offices/Housing/ISS/UV Addendum 2011.pdf" target="_blank">University Village Contract Addendum</a>
+                    <a href="">What are the occupancy guidelines at University Village?</a>
+                </div>
+
+                <div id="university_message" class="message_block span-6">
+                    <div class="message_block_top_nav">
+                        <div class="message_title_block">University Message</div>
+                    </div>
+                    <div class="message_block_content" style="height: 180px">
+                        <a href="http://www2.byui.edu/magazine/fall2011/features/A_Look_Into_the_Future/videos/employees_role.htm">
+                            <img alt="fpo" src="images/fpo_images/grid/span-6-rows-10.png">
+                        </a>
+                    </div>
+                </div>
+
+            </nav><!-- END LOCAL_NAV -->
+            
+            <section id="content_region">
+                <!-- BEGIN TOP_CONTENT  -->           
+                <section id="top_content" class="span-18 last">
+                    <div id="page_title"><h2>This is the Page Title</h2></div><!-- OPTIONAL --> 
+                </section><!-- END TOP_CONTENT  -->
+
+                <!-- BEGIN MAIN_CONTENT  -->
+                <section id="main_content" class="span-12 type"><!-- IF NO CONTENT IN RIGHT ASIDE, SPAN-18 LAST -->
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+
+                    <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p>
+
+                    <p>Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
+                </section><!-- END TOP_CONTENT  -->
+
+                <!-- BEGIN RIGHT_ASIDE  -->
+                <aside id="right_aside" class="type span-6 last">
+                    <img alt="fpo image" src="images/fpo_images/grid/span-6-rows-10.png" class="append-bottom" >
+                    <img alt="fpo image" src="images/fpo_images/grid/span-6-rows-10.png" class="append-bottom" >
+                </aside><!-- END RIGHT_ASIDE  -->
+
+                <!-- BEGIN QUICK_LINKS  -->
+                <div class="quick_links span-18 last">
+                    <div class="quick_link_column span-6" style="height: 168px; ">
+                    <h4>General</h4>
+                    <ul>
+                        <li><a href="">Sign Up for On-Campus Housing</a></li>
+                        <li><a href="https://web.byui.edu/housingasp" target="_blank">View/Edit On-Campus Contract</a></li>
+                        <li><a href="">Approved Housing for Single Students at BYU-Idaho</a></li>
+                        <li><a href="">University Village</a></li>
+                        <li><a href="">Information, Support &amp; Services Index</a></li>
+                    </ul>
+                </div>
+                <div class="quick_link_column span-6" style="height: 168px; ">
+                    <h4>Approved Housing</h4>
+                    <ul>
+                        <li><a href="http://web.byui.edu/tis/search" target="_blank">Search now for Approved Housing</a></li>
+                        <li><a href="">Learn More About Approved Housing</a></li>
+                        <li><a href="">Who can live in Approved Housing?</a></li>
+                        <li><a href="">Apartment Living Standards</a></li>
+                    </ul>
+                </div>
+                <div class="quick_link_column span-6 last" style="height: 168px; ">
+                    <h4>Academics</h4>
+                    <ul>
+                        <li><a href="http://www.apple.com" target="_blank">Apple</a></li>
+                        <li><a href="http://www.lds.org" target="_blank">Church Site</a></li>
+                        <li><a href="http://www.mormon.org" target="_blank">I'm A Mormon Site</a></li>
+                    </ul>
+                </div>
+                <!-- END QUICK_LINKS  -->
+                <span class="clearall"></span>
+            </section>
+
+            <!-- BEGIN BOTTOM_REGION -->
+            <section id="bottom_region" class="span-24">
+            </section><!-- END BOTTOM_REGION -->
+            <span class="clearall"></span>
+        </section>
+    </div><!-- end global_outside page_content -->
+
+
+    <!-- <div class="global bg bottom">  -->
+    <footer id="mega_footer" class="global_outside">
+        
+        <div class="global_outside footer_graphic">
+            <div id="footer_graphic" class="container">
+                <div></div>
+            </div>
+        </div><!-- end global_outside footer_graphic -->
+
+        <div class="global_outside footer_nav">
+            <div id="footer_nav" class="container">
+                <nav id="audience_nav_box_bottom" class="span-15">
+                    <ul>
+                        <li class="first"><a href="http://www.byui.edu/students/">Students</a></li>
+                        <li><a href="http://www.byui.edu/future-students/">Future Students</a></li>
+                        <li><a href="http://www.byui.edu/parents/">Parents</a></li>
+                        <li><a href="http://www.byui.edu/employees/">Employees</a></li>
+                        <li><a href="http://www.byui.edu/alumni/">Alumni</a></li>
+                        <li class="last"><a href="http://www.byui.edu/visitors/">Visitors</a></li>  
+                    </ul>
+                </nav>
+                <div id="search_box_bottom" class="span-7 last">
+                    <nav>
+                        <ul>
+                            <li class="first"><a href="http://www.byui.edu/directories/">Directories</a></li>
+                            <li><a href="http://www.byui.edu/ask/live-chat/" target="_blank"><span class="italics">Ask</span> <strong>BYUI</strong></a></li>
+                            <li><a href="http://m.byui.edu/">Mobile Tools</a></li>
+                            <li class="last"><a href="https://my.byui.edu/"><span class="italics">my</span><strong>BYUI</strong></a></li>
+                        </ul>
+                    </nav>
+                    <div id="search_wrapper_bottom">
+                        <form method="get" action="http://search.byui.edu/search?">
+                            <input type="text" class="search_box" name="q" alt="Search the BYU-I website"/>
+                            <input type="image" src="images/head/blankimg.png" class="search_box_submit" alt="Submit Search"/>
+                            <input type="hidden" name="site" value="default_collection"/>
+                            <input type="hidden" name="client" value="beta_frontend"/>
+                            <input type="hidden" name="output" value="xml_no_dtd"/>
+                            <input type="hidden" name="proxystylesheet" value="beta_frontend"/>
+                            <input type="hidden" name="proxyreload" value="0"/>
+                        </form>
+                    </div>
+                </div>
+                <nav id="secondary_nav" class="span-9 last">
+                    <ul>
+                            <li class="first"><a href="http://www.byui.edu/directories/">Directories</a></li>
+                            <li><a href="http://www.byui.edu/ask/live-chat/" target="_blank"><span class="italics">Ask</span> <strong>BYUI</strong></a></li>
+                            <li><a href="http://m.byui.edu/">Mobile Tools</a></li>
+                            <li class="last"><a href="https://my.byui.edu/"><span class="italics">my</span><strong>BYUI</strong></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div><!-- end global_outside footer_nav -->
+
+        <div class="global_outside footer_links_container">
+            <div id="footer_links_container" class="container">
+                <nav id="footer_links">
+                    <div class="span-6 link_list box-shadow">
+                        <h4>Popular Links</h4>
+                        <ul>
+                            <li><a href="http://www.byui.edu/directories/colleges-and-departments/">Academic Programs</a></li>
+                            <li><a href="http://www.byui.edu/activities/">Activities</a></li>
+                            <li><a href="http://www.byui.edu/Admissions/">Admissions</a></li>
+                            <li><a href="http://web.byui.edu/BulletinBoard2/">Bulletin Board</a></li>
+                            <li><a href="http://www.byui.edu/catalog/">Catalog</a></li>
+                            <li><a href="http://web.byui.edu/directory/student/schedule/">Class Schedule</a></li>
+                            <li><a href="http://www.byui.edu/ce/">Continuing Education and Community Connections</a></li>
+                            <li><a href="http://www.byui.edu/devotionals/default.htm">Devotionals and Speeches</a></li>
+                            <li><a href="http://www.byui.edu/employment/">Employment Opportunities</a></li>
+                            <li><a href="http://www.byui.edu/FinancialAid/">Financial Aid and Scholarships</a></li>
+                            <li><a href="http://www.byui.edu/foodservices/">Food Services</a></li>
+                            <li><a href="http://www.byui.edu/sle/default.htm">Giving to BYU-Idaho</a></li>
+                            <li><a href="http://www.byui.edu/housing/">Housing</a></li>
+                            <li><a href="http://www.byui.edu/ilearn/">I-Learn</a></li>
+                            <li><a href="http://www.lib.byui.edu/">Library</a></li>
+                            <li><a href="http://www.byui.edu/online/">Online Learning</a></li>
+                            <li><a href="http://www.byui.edu/registrarsoffice/">Registration</a></li>
+                            <li><a href="http://activities.byui.edu/">Student Services and Activities</a></li>
+                            <li><a href="http://www.byui.edu/webcameras/">Web Cams, Road and Weather Report</a></li>
+                        </ul>
+                    </div>
+                    <div class="span-6 link_list">
+                        <h4>Registration</h4>
+                        <ul>
+                            <li><a href="http://www.byui.edu/StudentHonor/Continuing%20Endorsement.htm ">Ecclesiastical Endorsements</a></li>
+                            <li><a href="http://www.byui.edu/registrarsoffice/RegSchedule.htm">Registration dates</a></li>
+                            <li><a href="https://secure.byui.edu/cas/login?service=https://web.byui.edu/Services/Login/?RedirectURL=https://my.byui.edu">Registering online</a></li>
+                            <li><a href="http://www.byui.edu/catalog/2011-2012/default.htm">Course Offerings</a></li>
+                            <li><a href="http://www.byui.edu/admissions/students/current/meddeferment.shtml">Deferment</a></li>
+                        </ul>
+                        <h4>Help Tools</h4>
+                        <ul>
+                            <li><a href="http://www.besmart.com/">Accept Admissions</a></li>
+                            <li><a href="http://www.byui.edu/CareerServices/">Career Advising</a></li>
+                            <li><a href="https://byui-csm.symplicity.com/">Career Navigator</a></li>
+                            <li><a href="http://www.byui.edu/Disabilities/">Disability Services Center</a></li>
+                            <li><a href="http://www.byui.edu/helpdesk/">Help Desk (technology)</a></li>
+                            <li><a href="http://www.byui.edu/international/">International Student Services</a></li>
+                            <li><a href="http://www.byui.edu/maps/">Maps</a></li>
+                            <li><a href="http://www.byui.edu/eventservices/">Room Scheduling</a></li>
+                            <li><a href="http://www.byui.edu/stc/">Student Technology Center</a></li>
+                        </ul>
+                    </div>
+                    <div class="span-6 link_list">
+                        <h4>Academic Tools</h4>
+                        <ul>
+                            <li><a href="http://www.byui.edu/graduation/apply.htm">Apply for graduation</a></li>
+                            <li><a href="http://web.byui.edu/directory/student/schedule/">Class schedule</a></li>
+                            <li><a href="https://my.byui.edu/ICS/Academics/Degree_Information.jnz">Degree Audit</a></li>
+                            <li><a href="http://owa.byui.edu/">Email</a></li>
+                            <li><a href="http://www.byui.edu/FinancialAid/">Financial Help &amp; Tools</a></li>
+                            <li><a href="http://www.lib.byui.edu/">Library</a></li>
+                            <li><a href="http://www.byui.edu/financialaid/fa/loans.htm">Loans/Grants</a></li>
+                            <li><a href="http://www.byui.edu/financialaid/scholarships/apply.htm">Scholarships</a></li>
+                            <li><a href="https://my.byui.edu/ICS/Academics/">Grade Report</a></li>
+                            <li><a href="http://www.byui.edu/ilearn/">I-Learn</a></li>
+                            <li><a href="http://web.byui.edu/PhysicalFacilities/LockerRentals/LockerRental.aspx">Locker Rentals</a></li>
+                            <li><a href="http://my.byui.edu/">MY.BYUI.EDU</a></li>
+                            <li><a href="http://www.byui.edu/online/">Online Learning</a></li>
+                            <li><a href="http://testing.byui.edu/">Testing Center</a></li>
+                            <li><a href="http://www.byuistore.com/c-21-textbooks.aspx">Textbooks</a></li>
+                            <li><a href="http://www.byui.edu/academic-support-centers/study-skills-tutoring-center/">Tutoring Center</a></li>
+                        </ul>
+                    </div>
+                    <div class="span-6 link_list last">
+                        <h4>Student Life</h4>
+                        <ul>
+                            <li><a href="http://activities.byui.edu/">Activities</a></li>
+                            <li><a href="http://www.byuistore.com/">Bookstore</a></li>
+                            <li><a href="http://www.byui.edu/bulletinboard/">Classified Ads</a></li>
+                            <li><a href="http://www.byui.edu/visitcampus/">Campus Tours</a></li>
+                            <li><a href="http://web.byui.edu/BulletinBoard2/Rides.aspx">Carpools</a></li>
+                            <li><a href="http://www.byui.edu/deanofstudents/">Conflict Mediation</a></li>
+                            <li><a href="http://www.byui.edu/counselingcenter/">Counseling Center</a></li>
+                            <li><a href="http://www.byui.edu/devotionals/default.htm">Devotionals &amp;Forums</a></li>
+                            <li><a href="http://www.byui.edu/eventservices/">Event Services</a></li>
+                            <li><a href="http://www.byui.edu/foodservices/">Food Services</a></li>
+                            <li><a href="http://www.byui.edu/health-center/">Health Center</a></li>
+                            <li><a href="http://www.byui.edu/StudentHonor/">Honor Code</a></li>
+                            <li><a href="http://www.byui.edu/housing/">Housing</a></li>
+                            <li><a href="http://www.byui.edu/Bursar/I-CardPolicies.htm">I-Card services</a></li>
+                            <li><a href="http://www.byui.edu/foodservices/onlinepurchasing/diningdollars/diningdollars.htm">Meal plans</a></li>
+                            <li><a href="http://www.byui.edu/ParkingServices/">Parking Services</a></li>
+                            <li><a href="http://www.byui.edu/security/">Safety and Security</a></li>
+                            <li><a href="http://www.byuicomm.net/">Scroll/I-Comm</a></li>
+                            <li><a href="http://www.byui.edu/StudentEmployment/">Student Employment</a></li>
+                            <li><a href="http://www.byui.edu/tickets/">Ticket Office</a></li>
+                        </ul>
+                    </div>
+                </nav>      
+            </div>
+            <div id="bottom_padding" class="container"></div>
+        </div><!-- end global_outside footer_links_container -->
+
+        <div class="global_outside footer_brand">
+            <div id="footer_brand" class="container">
+                <div id="left_container" class="span-16">
+                    <div>
+                        <a id="lds_church_link" href="http://www.lds.org/" title="The Church of Jesus Christ of Latter-Day Saints">The Church of Jesus Christ of Latter-Day Saints</a>
+                        <a id="byu_link" href="http://www.byu.edu/" title="Brigham Young University - Provo">Brigham Young University - Provo</a>
+                        <a id="byuh_link" href="http://www.byuh.edu/" title="Brigham young University - Hawai'i">Brigham young University - Hawai'i</a>
+                        <a id="ldsbc_link" href="http://www.ldsbc.edu/" title="LDS Business College">LDS Business College</a>
+                    </div>
+                </div>
+                <div id="right_container" class="span-8 last">
+                    <div id="social_icons">
+                        <a id="byui_facebook_link" href="http://www.byui.edu/social-media/facebook/" title="BYU-I Facebook">BYU-I Facebook</a>
+                        <a id="byui_youtube_link" href="http://www.byui.edu/social-media/youtube/" title="BYU-I YouTube">BYU-I YouTube</a>
+                        <a id="byui_linkedIn_link" href="http://www.byui.edu/social-media/linkedin/" title="BYU-I LinkedIn">BYU-I LinkedIn</a>
+                        <a id="byui_social_media_link" href="http://www.byui.edu/social-media/" title="BYU-I Social Media Sites">More</a>
+                    </div>
+                    <div>
+                        <a href="http://www.byui.edu/copyright/policy/terms-of-use/">© 2012</a> 
+                        Brigham Young University–Idaho <address>525 South Center St., Rexburg, ID 83460, <span class="tel"><span class="value">+1 (208) 496-1411</span></span></address>
+                    </div>
+                    <nav id="access_links">
+                        <ul>
+                            <li class="first"><a href="http://www.byui.edu/disabilities/">Disability Services</a></li>
+                            <li class="last"><a href="http://www.byui.edu/feedback/" title="General feedback">Feedback</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div><!-- end global_outside footer_brand --> 
+
+    </footer><!-- end mega_footer global_outside -->
+
+    <!-- Load JQuery from Google CDN. Detect if not loaded for some reason, if true then load from local source file. -->
+    <script id="jQueryLoad" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script id="jQueryLoad" src="prebuilt/stylenew/js/libs/jquery-1.7.min.js"><\/script>')</script>
+    
+    <!-- Begin prototype-only section. DO NOT INCLUDE THIS IN XSLT TRANSFORM -->
+    <div id="element_toggler" name="element_toggler">
+        <h3>Toggle elements</h3>
+        <form name="element_toggler">  
+            
+            <label>Page Title</label>
+            <li>
+                <input name="page_title" type="checkbox" data-icon1="off" data-icon2="on" >
+            </li>
+
+            <label>Local Navigation</label>
+            <li>
+                <input name="local_nav" type="checkbox" data-icon1="off" data-icon2="on" >
+            </li>
+
+            <label>Right Column</label>
+            <li>
+                <input name="right_column" type="checkbox" data-icon1="off" data-icon2="on" >
+            </li>
+
+            <label>Quick Links</label>
+            <li>
+                <input name="quick_links" type="checkbox" data-icon1="off" data-icon2="on" >
+            </li>
+
+        </form>
+    </div>
+    <script>
+    
+        // Script that makes dom elements toggle:
+          
+        function toggle_elements() {
+            // The toggle script that turn items on and off, changing classes where appropriate.
+           
+            // page_title on/off:
+            if (page_title == 'on') {
+                $('#top_content').css('display', 'block');
+            } 
+            else {
+                $('#top_content').css('display', 'none');
+            }
+
+
+            // local_nav on/off:
+            if (local_nav == 'on') {
+
+                $('#local_nav').css('display', 'block');
+                
+                if (right_column == 'on') {
+                    // remove class
+                    $('#main_content, #top_content').removeClass();
+                    // add class
+                    $('#main_content').addClass('span-12 type');
+                    $('#top_content').addClass('span-18 last');
+                }
+                else {
+                    // remove class
+                    $('#main_content, #top_content').removeClass();
+                    // add class
+                    $('#main_content, #top_content').addClass('span-18 type last');
+                }
+            } 
+            else if (local_nav == 'off'){
+                
+                // hide local_nav
+                $('#local_nav').css('display', 'none');
+
+                if (right_column == 'on') {
+                    // remove class
+                    $('#main_content, #top_content').removeClass();
+                    // add class
+                    $('#main_content').addClass('span-18 type');
+                    $('#top_content').addClass('span-24 last');
+                }
+                else {
+                    // remove class
+                    $('#main_content, #top_content').removeClass();
+                    // add class
+                    $('#main_content, #top_content').addClass('span-24 type last');
+                }
+            }
+
+
+            // right_column on/off:
+            if (right_column == 'on') {
+                $('#right_aside').css('display', 'block');
+            } 
+            else if (right_column == 'off'){
+                // hide top_content
+                $('#right_aside').css('display', 'none');
+            }
+
+
+            // quicklinks on/off:
+            if (quick_links == 'on') {
+                $('.quick_links').css('display', 'block');
+            } 
+            else if (quick_links == 'off'){
+                $('.quick_links').css('display', 'none');
+            }
+
+
+        } /* end element_toggle() */   
+         
+        $(window).load(function() {
+
+            // set all default attributes to variable values
+            if (page_title == 'on')
+                $(":checkbox[name=page_title]").prop('checked',true);
+            else {
+                $(":checkbox[name=page_title]").prop('checked',false);
+            }
+            if (local_nav == 'on')
+                $(":checkbox[name=local_nav]").prop('checked',true);
+            else {
+                $(":checkbox[name=local_nav]").prop('checked',false);
+            }
+            if (right_column == 'on')
+                $(":checkbox[name=right_column]").prop('checked',true);
+            else {
+                $(":checkbox[name=right_column]").prop('checked',false);
+            }
+            if (quick_links == 'on')
+                $(":checkbox[name=quick_links]").prop('checked',true);
+            else {
+                $(":checkbox[name=quick_links]").prop('checked',false);
+            }
+            
+            toggle_elements();
+            // Note: this script is meant for prototype html only, it should never be included in any XSLT pagetype
+            // Content pagetype element toggle options:
+
+            // When checkboxes change state: do this
+            $(":checkbox").change(function(){
+
+
+
+                if($('input[name=page_title]').attr("checked")) {
+                    //call the function to be fired when your box changes from unchecked to checked
+                    page_title = 'on';
+                    console.log('page_title = on');
+                }
+                else {
+                    //call the function to be fired when your box changes from checked to unchecked
+                    page_title = 'off';
+                    console.log('page_title = off');
+                }
+                if($('input[name=local_nav]').attr("checked")) {
+                    //call the function to be fired when your box changes from unchecked to checked
+                    local_nav = 'on';
+                    console.log('local_nav = on');
+                }
+                else {
+                    //call the function to be fired when your box changes from checked to unchecked
+                    local_nav = 'off';
+                    console.log('local_nav = off');
+                }
+                if($('input[name=right_column]').attr("checked")) {
+                    //call the function to be fired when your box changes from unchecked to checked
+                    right_column = 'on';
+                    console.log('right_column = on');
+                }
+                else {
+                    //call the function to be fired when your box changes from checked to unchecked
+                    right_column = 'off';
+                    console.log('right_column = off');
+                }
+                if($('input[name=quick_links]').attr("checked")) {
+                    //call the function to be fired when your box changes from unchecked to checked
+                    quick_links = 'on';
+                    console.log('quick_links = on');
+                }
+                else {
+                    //call the function to be fired when your box changes from checked to unchecked
+                    quick_links = 'off';
+                    console.log('quick_links = off');
+                }
+            
+                toggle_elements();
+
+            });
+        });
+    </script>
+
+    <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+    chromium.org/developers/how-tos/chrome-frame-getting-started -->
+    <!--[if lt IE 7 ]>
+      <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+      <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+    <![endif]-->
+
+    <!-- accordion nav script -->
+    <script src="js/mylibs/accordionNav.js"></script>
+
+    <!-- Script that detects current page and area in left navigation, and opens it up to provide local context -->
+    <script src="js/mylibs/leftNav_contactExpander.js"></script>
+
+    <!-- Begin Jakob's Legacy Browser Detection & Upgrade Notification Module -->
+    <!-- Coming soon -->
+    <!-- END Legacy Browser Detection & Upgrade Notication Module -->
+
+    <!-- University web alaytics code for all university pages. (load last to prevent pageload hangups) -->
+    <script type="text/javascript" src="http://web.byui.edu/Omniture/s_code.js"></script>
+    <script type="text/javascript" src="http://web.byui.edu/Omniture/omniture_code.js"></script>
+
+</body>

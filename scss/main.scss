@@ -1,0 +1,460 @@
+
+$byui-blue: #326ba9;
+$byui-link: #266EA9;
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+@mixin clearfix {
+    *zoom: 1;
+    &:before, &:after {
+        content: " "; /* 1 */
+        display: table; /* 2 */
+    }
+    &:after {
+        clear: both;
+    }
+}
+.container {
+  @include clearfix;
+}
+
+
+
+
+
+// Following the SASS Style Guide outlined on CSS-Tricks:
+// http://css-tricks.com/sass-style-guide/
+
+@import "main/_normalize.scss";
+@import "main/_icon_fonts.scss";
+
+body {
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, Verdana, sans-serif;
+}
+a {
+  color: $byui-link;
+  &:hover {
+    color: darken($byui-link, 40%);
+  }
+}
+
+
+/* HEADER STUFF */
+.site-header {
+  background: $byui-blue;
+  @include clearfix;
+  margin-bottom: 1em;
+}
+.site-title {
+  margin: 0;
+  padding: 0;
+}
+.site-title a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  float: left;
+  font-size: 3em;
+  height: 1em;
+  line-height: .9em;
+  position: relative;
+  transition: all .4s;
+  text-shadow: 1px 1px 3px #222;
+  &:hover {
+    top: -3px;
+    color: #111;
+  }
+
+}
+.logo-text {
+  text-indent: -9999px;
+  height: 0;
+  width: 0;
+  display: block;
+}
+.mobile-nav-toggle {
+  color: #fff;
+  font-size: 3em;
+  position: absolute;
+  top: .4em;
+  right: .3em;
+  cursor: pointer;
+  display: none;
+  transition: all .4s;
+  &:hover {
+    top: .3em;
+    color: #111;
+  }
+}
+.site-navigation {
+  position: relative;
+  @include clearfix;
+  background: #222;
+  > ul {
+    @media screen and (min-width:800px) {
+      float: left;
+    }
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  a {
+    color: #eee;
+    width: 100%;
+    display: block;
+    padding: .5em .8em;
+    text-decoration: none;
+    &:hover {
+      background: #333;
+    }
+    &.close-that-nav {
+      position: absolute;
+      right: 1em;
+      top: 1em;
+      background: #333;
+      width: auto;
+      padding: .5em 1em .6em;
+      &:hover {
+        background: #eee;
+        color: #333;
+      }
+    }
+  }
+  
+}
+.site-navigation-arrow {
+  position: absolute;
+  right: .4em;
+  top: .3em;
+  font-size: 1.5em;
+}
+
+.no-js {
+  .site-navigation-dropdown {
+    display: none;
+  }
+  .site-navigation-toggle {
+    &:target .site-navigation-dropdown {
+      display: block;
+    }
+  }
+}
+.site-navigation-toggle {
+  position: relative;
+  > a {
+    padding-right: 2.5em;
+  }
+  @media screen and (min-width: 480px) {
+    width: 50%;
+    float: left;
+  }
+  @media screen and (min-width: 700px) {
+    width: 25%;
+  }
+  @media screen and (min-width: 800px) {
+    width: auto;
+
+  }
+}
+
+.site-navigation-dropdown {
+  overflow: hidden;
+  position: relative;
+  background: #555;
+  @media screen and (min-width: 800px) {
+    width: 15em;
+    position: absolute;
+    z-index: 1000;
+  }
+}
+.site-search {
+  width: 100%;
+  position: relative;
+  padding: .5em;
+  @media screen and (min-width: 420px) {
+    width: 50%;
+    float: right;
+  }
+}
+.search-box {
+  padding: .5em;
+  border: none;
+  border-radius: 2em;
+  width: 100%;
+  box-sizing: border-box;
+}
+.my-byui {
+  padding: .5em;
+  width: 100%;
+  box-sizing: border-box;
+  .button {
+    padding: .5em 1em;
+    background: lighten($byui-blue, 20%);
+    border-radius: 2em;
+    color: #fff;
+    width: auto;
+    text-align: center;
+    line-height: 1.125em;
+    &:hover {
+      background: lighten($byui-blue, 10%);
+    }
+  }
+  @media screen and (min-width: 420px) {
+    width: 50%;
+    float: right;
+  }
+}
+.search-button {
+  border: none;
+  background: #222;
+  color: #eee;
+  position: absolute;
+  top: .8em;
+  right: .9em;
+  border-radius: 2em;
+  padding: .25em .25em .1em;
+  &:hover {
+    background: #999;
+  }
+}
+
+.breadcrumbs {
+  padding: .5em .8em;
+  background: #eee;
+  font-size: .8em;
+}
+
+
+#slideout, #slideout2 {
+  // temporary
+  display: none;
+}
+
+/* Page Content */
+.page-content {
+  margin: 0 1em;
+}
+
+/* LEFT NAV */
+.department-nav {
+  &:target .department-nav-list {
+    display: block;
+  }
+  &:target .department-title {
+    display: block;
+   .department-nav-arrow {
+      display: none;
+    }
+  }
+}
+.department-title {
+  margin-bottom: 0;
+  font-weight: normal;
+  font-size: 1em;
+  a {
+    background: $byui-blue;
+    color: #fff;
+    display: block;
+    padding: .5em 1em;
+    text-decoration: none;
+    transition: all .4s;
+    position: relative;
+    &:hover {
+      color: #111;
+    }
+  }
+}
+.department-nav-list {
+  background: #333;
+  padding: 0;
+  margin: 0;
+  display: none;
+  overflow: hidden;
+  li {
+    @media screen and (min-width:700px) {
+      width: 50%;
+      float: left;
+    }
+  }
+
+  a {
+    display: block;
+    color: #fff;
+    padding: .5em 1em;
+    text-decoration: none;
+    &.close-that-nav {
+      float: right;
+      position: relative;
+      top: -2.4em;
+    }
+    &:hover {
+      background: #555;
+    }
+  }
+}
+.department-nav-arrow {
+  float: right;
+  font-size: 1.4em;
+  padding-top: .1em;
+  margin-right: -.25em;
+}
+
+
+/* FOOTER STUFF */
+.site-footer {
+  padding: 1em;
+  background: #000;
+  color: #ccc;
+  border-top: 10px solid #ddd;
+  margin-top: 3em;
+  a {
+    color: #999;
+    &:hover {
+      color: #eee;
+    }
+  }
+}
+.branding a, .social a, .access a {
+  display: block;
+  margin-bottom: .8em;
+  &.lds-church-link {
+    text-decoration: none;
+    font-size: 7em;
+    text-align: center;
+    margin: 0;
+  }
+}
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+
+}
