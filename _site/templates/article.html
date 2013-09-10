@@ -42,13 +42,21 @@
       $('.mobile-navigation').hide();
       $('.mobile-dropdown').hide();
       $('.mobile-nav-toggle').show();
-      $('.close-that-nav').remove();
+      // $('.close-that-nav').remove();
+      $('.site-header-branding, .site-content').click(function(e){
+        $('.mobile-dropdown').slideUp(300);
+      });
       $('.mobile-nav-toggle').click(function(e){
         $('.mobile-navigation').slideToggle(600);
       });
       $('.mobile-dropdown-toggle > a').click(function(e){
         e.preventDefault();
+        $('.mobile-dropdown').slideUp(300);
         $(this).siblings('.mobile-dropdown').slideToggle(600);
+      });
+      $('.close-that-nav').click(function(e){
+        $('.mobile-dropdown').slideUp(300);
+        $('.department-nav-list').slideUp(300);
       });
     });
   </script>
