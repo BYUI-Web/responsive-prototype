@@ -17,6 +17,12 @@ $byui-link: #266EA9;
         clear: both;
     }
 }
+@mixin sans-serif {
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, Verdana, sans-serif;
+}
+@mixin serif {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
 .container {
   @include clearfix;
 }
@@ -32,7 +38,8 @@ $byui-link: #266EA9;
 @import "main/_icon_fonts.scss";
 
 body {
-    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, Verdana, sans-serif;
+    @include sans-serif;
+    color: #333;
 }
 a {
   color: $byui-link;
@@ -44,13 +51,19 @@ a {
   max-width: 960px;
   margin: 0 auto;
 }
+.site-content {
+  padding: 1em;
+  @include clearfix;
+  @media screen and (min-width: 960px) {
+    padding: 0;
+  }
+}
 
 
 /* HEADER STUFF */
 .site-header {
   background: $byui-blue;
   @include clearfix;
-  margin-bottom: 1em;
 }
 .site-header-branding {
   position: relative;
@@ -111,7 +124,7 @@ a {
     color: #eee;
     width: 100%;
     display: block;
-    padding: .5em .8em;
+    padding: .7em 1.4em;
     text-decoration: none;
     &:hover {
       background: #333;
@@ -153,7 +166,7 @@ a {
   }
 }
 .site-dropdown {
-  overflow: hidden;
+  @include clearfix;
   background: #555;
   display: none;
   width: 15em;
@@ -212,8 +225,8 @@ a {
     }
     &.close-that-nav {
       position: absolute;
-      right: 1em;
-      top: 1em;
+      right: 0;
+      top: -2.5em;
       background: #333;
       width: auto;
       padding: .5em 1em .6em;
@@ -226,8 +239,8 @@ a {
 }
 .site-navigation-arrow {
   position: absolute;
-  right: .4em;
-  top: .3em;
+  right: .7em;
+  top: .4em;
   font-size: 1.5em;
 }
 
@@ -235,10 +248,8 @@ a {
   .mobile-dropdown {
     display: none;
   }
-  .mobile-dropdown-toggle {
-    &:target .site-navigation-dropdown {
+  .mobile-dropdown-toggle:target .mobile-dropdown {
       display: block;
-    }
   }
 }
 .mobile-dropdown-toggle {
@@ -260,7 +271,7 @@ a {
 }
 
 .mobile-dropdown {
-  overflow: hidden;
+  @include clearfix;
   position: relative;
   background: #555;
   @media screen and (min-width: 800px) {
@@ -364,7 +375,6 @@ a {
 
 /* Page Content */
 .page-content {
-  margin: 0 1em;
 }
 
 /* LEFT NAV */
@@ -383,6 +393,7 @@ a {
   margin-bottom: 0;
   font-weight: normal;
   font-size: 1em;
+  @include sans-serif;
   a {
     background: $byui-blue;
     color: #fff;
@@ -401,7 +412,7 @@ a {
   padding: 0;
   margin: 0;
   display: none;
-  overflow: hidden;
+  @include clearfix;
   li {
     @media screen and (min-width:700px) {
       width: 50%;
@@ -439,6 +450,7 @@ a {
   color: #ccc;
   border-top: 10px solid #ddd;
   margin-top: 3em;
+  @include clearfix;
   a {
     color: #999;
     &:hover {
@@ -459,9 +471,14 @@ a {
 
 // TYPOGRAPHY
 h1, h2, h3, h4, h5, h6 {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  @include serif;
 }
 
+#page-content {
+  h1 {
+    font-size: 1.5em;
+  }
+}
 
 
 /* ==========================================================================

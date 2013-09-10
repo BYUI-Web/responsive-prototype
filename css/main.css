@@ -629,7 +629,8 @@ you can use the generic selector below, but it's slower:
   content: "\e00f"; }
 
 body {
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, Verdana, sans-serif; }
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, Verdana, sans-serif;
+  color: #333; }
 
 a {
   color: #266ea9; }
@@ -640,11 +641,24 @@ a {
   max-width: 960px;
   margin: 0 auto; }
 
+.site-content {
+  padding: 1em;
+  *zoom: 1; }
+  .site-content:before, .site-content:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */ }
+  .site-content:after {
+    clear: both; }
+  @media screen and (min-width: 960px) {
+    .site-content {
+      padding: 0; } }
+
 /* HEADER STUFF */
 .site-header {
   background: #326ba9;
-  *zoom: 1;
-  margin-bottom: 1em; }
+  *zoom: 1; }
   .site-header:before, .site-header:after {
     content: " ";
     /* 1 */
@@ -712,7 +726,7 @@ a {
     color: #eee;
     width: 100%;
     display: block;
-    padding: .5em .8em;
+    padding: .7em 1.4em;
     text-decoration: none; }
     .desktop-navigation a:hover {
       background: #333; }
@@ -745,13 +759,20 @@ a {
       width: auto; } }
 
 .site-dropdown {
-  overflow: hidden;
+  *zoom: 1;
   background: #555;
   display: none;
   width: 15em;
   position: absolute;
   z-index: 1000;
   box-shadow: 0px 0px 3px #222; }
+  .site-dropdown:before, .site-dropdown:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */ }
+  .site-dropdown:after {
+    clear: both; }
 
 .mobile-nav-toggle {
   color: #fff;
@@ -801,8 +822,8 @@ a {
       background: #333; }
     .mobile-navigation a.close-that-nav {
       position: absolute;
-      right: 1em;
-      top: 1em;
+      right: 0;
+      top: -2.5em;
       background: #333;
       width: auto;
       padding: .5em 1em .6em; }
@@ -812,13 +833,13 @@ a {
 
 .site-navigation-arrow {
   position: absolute;
-  right: .4em;
-  top: .3em;
+  right: .7em;
+  top: .4em;
   font-size: 1.5em; }
 
 .no-js .mobile-dropdown {
   display: none; }
-.no-js .mobile-dropdown-toggle:target .site-navigation-dropdown {
+.no-js .mobile-dropdown-toggle:target .mobile-dropdown {
   display: block; }
 
 .mobile-dropdown-toggle {
@@ -837,9 +858,16 @@ a {
       width: auto; } }
 
 .mobile-dropdown {
-  overflow: hidden;
+  *zoom: 1;
   position: relative;
   background: #555; }
+  .mobile-dropdown:before, .mobile-dropdown:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */ }
+  .mobile-dropdown:after {
+    clear: both; }
   @media screen and (min-width: 800px) {
     .mobile-dropdown {
       width: 15em;
@@ -930,9 +958,6 @@ a {
   display: none; }
 
 /* Page Content */
-.page-content {
-  margin: 0 1em; }
-
 /* LEFT NAV */
 .department-nav:target .department-nav-list {
   display: block; }
@@ -944,7 +969,8 @@ a {
 .department-title {
   margin-bottom: 0;
   font-weight: normal;
-  font-size: 1em; }
+  font-size: 1em;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, Verdana, sans-serif; }
   .department-title a {
     background: #326ba9;
     color: #fff;
@@ -961,7 +987,14 @@ a {
   padding: 0;
   margin: 0;
   display: none;
-  overflow: hidden; }
+  *zoom: 1; }
+  .department-nav-list:before, .department-nav-list:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */ }
+  .department-nav-list:after {
+    clear: both; }
   @media screen and (min-width: 700px) {
     .department-nav-list li {
       width: 50%;
@@ -990,7 +1023,15 @@ a {
   background: #000;
   color: #ccc;
   border-top: 10px solid #ddd;
-  margin-top: 3em; }
+  margin-top: 3em;
+  *zoom: 1; }
+  .site-footer:before, .site-footer:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */ }
+  .site-footer:after {
+    clear: both; }
   .site-footer a {
     color: #999; }
     .site-footer a:hover {
@@ -1007,6 +1048,9 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: Georgia, "Times New Roman", Times, serif; }
+
+#page-content h1 {
+  font-size: 1.5em; }
 
 /* ==========================================================================
    Helper classes
