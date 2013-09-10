@@ -367,7 +367,6 @@ a {
 .breadcrumbs {
   padding: .5em .8em;
   background: #eee;
-  font-size: .8em;
 }
 
 
@@ -465,7 +464,7 @@ a {
     }
   }
 }
-.branding a, .social a, .access a {
+.footer-left a, .footer-right a {
   display: block;
   margin-bottom: .8em;
   &.lds-church-link {
@@ -473,6 +472,32 @@ a {
     font-size: 7em;
     text-align: center;
     margin: 0;
+  }
+}
+.footer-left {
+  @include clearfix;
+  @media screen and (min-width:800px) {
+    width: 60%;
+    float: left;
+  }
+}
+.footer-right {
+  @include clearfix;
+  @media screen and (min-width:800px) {
+    width: 40%;
+    float: right;
+  }
+}
+.branding-church {
+  @media screen and (min-width:460px) {
+    width: 45%;
+    float: left;
+  }
+}
+.branding-schools {
+  @media screen and (min-width:460px) {
+    width: 45%;
+    float: right;
   }
 }
 

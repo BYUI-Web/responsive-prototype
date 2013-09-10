@@ -956,8 +956,7 @@ a {
 
 .breadcrumbs {
   padding: .5em .8em;
-  background: #eee;
-  font-size: .8em; }
+  background: #eee; }
 
 #slideout, #slideout2 {
   display: none; }
@@ -1045,14 +1044,52 @@ a {
     .site-footer a:hover {
       color: #eee; }
 
-.branding a, .social a, .access a {
+.footer-left a, .footer-right a {
   display: block;
   margin-bottom: .8em; }
-  .branding a.lds-church-link, .social a.lds-church-link, .access a.lds-church-link {
+  .footer-left a.lds-church-link, .footer-right a.lds-church-link {
     text-decoration: none;
     font-size: 7em;
     text-align: center;
     margin: 0; }
+
+.footer-left {
+  *zoom: 1; }
+  .footer-left:before, .footer-left:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */ }
+  .footer-left:after {
+    clear: both; }
+  @media screen and (min-width: 800px) {
+    .footer-left {
+      width: 60%;
+      float: left; } }
+
+.footer-right {
+  *zoom: 1; }
+  .footer-right:before, .footer-right:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */ }
+  .footer-right:after {
+    clear: both; }
+  @media screen and (min-width: 800px) {
+    .footer-right {
+      width: 40%;
+      float: right; } }
+
+@media screen and (min-width: 460px) {
+  .branding-church {
+    width: 45%;
+    float: left; } }
+
+@media screen and (min-width: 460px) {
+  .branding-schools {
+    width: 45%;
+    float: right; } }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: Georgia, "Times New Roman", Times, serif; }
