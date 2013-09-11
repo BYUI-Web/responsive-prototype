@@ -188,6 +188,7 @@
     <div class="site-header-branding clearfix">
       <div class="inner-wrap">
       <h1 class="site-title"><a href="/" title="Home"><span aria-hidden="true" class="icon-byui-logo"></span><span class="logo-text">Brigham Young University - Idaho</span></a></h1>
+      <h2 class="department-title"><a href="#">Student Activities</a></h2>
 
       <div class="mobile-nav-toggle">
         <span aria-hidden="true" class="icon-list"></span>
@@ -221,28 +222,148 @@
     <a href="activities">Student Housing</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;
     <a href="activities/resources">Resources</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;
 </nav>
-<div class="left-column">
-    <script>
-    $(function() {
-        $('.department-title').click(function(e){
-            e.preventDefault();
-            $('.department-nav-list').slideToggle(600);
-        });
+<script>
+	$(function() {
+      $('.department-list-lv1').hide();
+      $('.department-list-lv2').hide();
+      $('.department-list-lv3').hide();
+      $('.department-list-lv4').hide();
+      $('.dropdown-toggle').click(function(e){
+      	e.stopPropagation();
+      	e.preventDefault();
+        $(this).siblings('.dropdown').slideToggle(400);
+      });
+      // $('.mobile-dropdown-toggle > a').click(function(e){
+      //   e.preventDefault();
+      //   $('.mobile-dropdown').slideUp(300);
+      //   $(this).siblings('.mobile-dropdown').slideToggle(600);
+      // });
+      // $('.close-that-nav').click(function(e){
+      //   $('.mobile-dropdown').slideUp(300);
+      //   $('.department-nav-list').slideUp(300);
+      // });
     });
-  </script>
-    <nav id="department-nav" class="department-nav">
-        <h2 class="department-title"><a href="#department-nav">Student Housing<span aria-hidden="true" class="department-nav-arrow icon-arrow-down"></span></a></h2>
-        <ul class="department-nav-list">
-            <a href="#top" class="close-that-nav">×</a>
-            <li><a href="">On-Campus Housing Options</a></li>
-            <li><a href="">Single Student Approved Housing</a></li>
-            <li><a href="">Student-Family and Community</a></li>
-            <li><a href="">Information, Support and Services</a></li>
-            <li><a href="">Student Living</a></li>
-            <li><a href="">About</a></li>
-        </ul>
-    </nav>
-</div>
+</script>
+<nav class="department-navigation">
+    <a href="#" class="department-navigation-toggle dropdown-toggle">Student Activities Program<span aria-hidden="true" class="department icon-list"></span></a>
+    <ul class="department-list-lv1 dropdown">
+        <li>
+            <a href="#" class="dropdown-toggle">Get Involved<span aria-hidden="true" class="site-navigation-arrow icon-arrow-down"></span></a>
+            <ul class="department-list-lv2 dropdown">
+                <li><a href="#">Talent Student Leaders</a></li>
+                <li><a href="#">NewActivity</a></li>
+                <li><a href="#">Life Skills Student Leader Information</a></li>
+                <li><a href="#">Wellness Student Leader Information</a></li>
+                <li><a href="#">Sports - Competitive Student Leadership</a></li>
+                <li><a href="#">Sports - Recreational Student Leader Information</a></li>
+                <li><a href="#">Social Activities Student Leader Information</a></li>
+                <li><a href="#">Service Student Leader Information</a></li>
+                <li><a href="#">Outdoor Student Leader Information</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Areas of Activities</a></li>
+        <li>
+            <a href="#" class="dropdown-toggle">Social<span aria-hidden="true" class="site-navigation-arrow icon-arrow-down"></span></a>
+            <ul class="department-list-lv2 dropdown">
+                <li><a href="">Activities Social - Like Us on Facebook</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#" class="dropdown-toggle">Outdoor<span aria-hidden="true" class="site-navigation-arrow icon-arrow-down"></span></a>
+            <ul class="department-list-lv2 dropdown">
+                <li><a href="#">How to get involved</a></li>
+                <li><a href="#">Photos</a></li>
+                <li><a href="#">Videos</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Talent</a></li>
+        <li><a href="#" class="dropdown-toggle">Sports<span aria-hidden="true" class="site-navigation-arrow icon-arrow-down"></span></a>
+            <ul class="department-list-lv2 dropdown">
+                <li>
+                    <a href="#" class="dropdown-toggle">Competitive Sports<span aria-hidden="true" class="site-navigation-arrow icon-arrow-down"></span></a>
+                    <ul class="department-list-lv3 dropdown">
+                        <li><a href="#">Contact Page</a></li>
+                        <li><a href="#">Sports First Aid</a></li>
+                        <li><a href="#">Policies and Procedures</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#" class="dropdown-toggle">Recreational Sports<span aria-hidden="true" class="site-navigation-arrow icon-arrow-down"></span></a>
+                    <ul class="department-list-lv3 dropdown">
+                        <li><a href="#">How to resolve a misconduct</a></li>
+                        <li><a href="">Employment Opportunities</a></li>
+                        <li>
+                            <a href="" class="dropdown-toggle">General Information<span aria-hidden="true" class="site-navigation-arrow icon-arrow-down"></span></a>
+                            <ul class="department-list-lv4 dropdown">
+                                <li><a class="" href="">Entry Fees and Charges</a></li>
+								<li><a class="lvl_4" href="#">Facilities</a></li>
+                                <li><a class="lvl_4" href="#">New Event Proposal</a></li>
+                                <li><a class="lvl_4" href="#">Participation</a></li>
+                                <li><a class="lvl_4" href="#">Student Employment Opportunities</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Get Involved</a></li>
+                        <li><a href="#">How to Sign Up</a></li>
+                        <li><a href="#">Social Media</a></li>
+                        <li><a href="#">Sport Rules</a></li>
+                        <li>
+                            <a href="#" class="dropdown-toggle">Sports Leagues<span aria-hidden="true" class="site-navigation-arrow icon-arrow-down"></span></a>
+                            <ul class="department-list-lv4 dropdown">
+                                <li><a href="#">Sports Leagues - Right Column</a></li>
+                                <li><a class="" href="#">Basketball, M/W</a></li>
+                                <li><a class="" href="#">Basketball, Coed</a></li>
+                                <li><a class="" href="#">Bowling, Coed</a></li>
+                                <li><a class="" href="#">Dodgeball, Mixed</a></li>
+                                <li><a class="" href="#">Flag Football, M/W</a></li>
+                                <li><a class="" href="#">Floor Hockey, Mixed</a></li>
+                                <li><a class="" href="#">Futsal, Mixed</a></li>
+                                <li><a class="" href="#">Grass Volleyball, Coed</a></li>
+                                <li><a class="" href="#">Ping Pong, Singles</a></li>
+                                <li><a href="#">Racquetball, Singles</a></li>
+								<li><a href="#">Soccer, Mixed</a></li>
+								<li><a href="#">Softball, Coed</a></li>
+								<li><a href="#">Volleyball, Coed</a></li>
+								<li><a href="#">Wallyball, Coed</a></li>
+								<li><a href="#">Tennis, Doubles</a></li>
+								<li><a href="#">Ultimate Frisbee, Mixed</a></li>
+							</ul>
+                        </li>
+                        <li><a href="#">Weekly Reflections</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Sports Events</a></li>
+            </ul>
+        </li>
+
+        <li><a href="#" class="dropdown-toggle">Service<span aria-hidden="true" class="site-navigation-arrow icon-arrow-down"></span></a>
+            <ul class="department-list-lv2 dropdown">
+                <li><a href= "#">Videos</a></li>
+            </ul>
+        </li>
+
+        <li><a href="#" class="dropdown-toggle">LifeSkills<span aria-hidden="true" class="site-navigation-arrow icon-arrow-down"></span></a>
+            <ul class="department-list-lv2 dropdown">
+                <li><a href="#">Like Us on Facebook</a></li>
+            </ul>
+        </li>
+
+        <li><a href="#" class="dropdown-toggle">Wellness<span aria-hidden="true" class="site-navigation-arrow icon-arrow-down"></span></a>
+
+            <ul class="department-list-lv2 dropdown">
+                <li>
+                    <a href="#" class="dropdown-toggle">Fitness Center</a>
+
+                    <ul class="department-list-lv3 dropdown">
+                        <li><a href="#">One on One</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Fitness class schedule</a></li>
+                <li><a href="#">Fitness Classes</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
 <section id="content_region" class="span-18 last">
    <!-- BEGIN TOP_CONTENT  -->           
 <section id="top_content">
