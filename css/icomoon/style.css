@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot');
-	src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
-		url('fonts/icomoon.woff') format('woff'),
-		url('fonts/icomoon.ttf') format('truetype'),
-		url('fonts/icomoon.svg#icomoon') format('svg');
+	src:url('../fonts/icomoon.eot');
+	src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.woff') format('woff'),
+		url('../fonts/icomoon.ttf') format('truetype'),
+		url('../fonts/icomoon.svg#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -28,7 +28,7 @@ Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="icon-"] {
 */
-.icon-list, .icon-location, .icon-search, .icon-popup, .icon-arrow-left, .icon-arrow-right, .icon-arrow-left-2, .icon-arrow-right-2, .icon-checkmark, .icon-cross, .icon-quotes-left, .icon-cd, .icon-byui-logo, .icon-arrow-down, .icon-arrow-up, .icon-lds-church {
+.icon-list, .icon-location, .icon-search, .icon-popup, .icon-arrow-left, .icon-arrow-right, .icon-arrow-left-2, .icon-arrow-right-2, .icon-checkmark, .icon-cross, .icon-quotes-left, .icon-cd, .icon-arrow-down, .icon-arrow-up, .icon-lds-church, .icon-byui-logo {
 	font-family: 'icomoon';
 	speak: none;
 	font-style: normal;
@@ -74,9 +74,6 @@ you can use the generic selector below, but it's slower:
 .icon-cd:before {
 	content: "\e00b";
 }
-.icon-byui-logo:before {
-	content: "\e00c";
-}
 .icon-arrow-down:before {
 	content: "\e00d";
 }
@@ -85,4 +82,7 @@ you can use the generic selector below, but it's slower:
 }
 .icon-lds-church:before {
 	content: "\e00f";
+}
+.icon-byui-logo:before {
+	content: "\e00c";
 }
