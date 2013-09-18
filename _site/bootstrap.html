@@ -1,9 +1,14 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
 	<meta charset="UTF-8">
 	<title>Bootstrap Sandbox</title>
 	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/icomoon/style.css">
+	<script type="text/javascript" src="/js/libs/modernizr-latest.js"></script>
 	<style>
 		body {
 		  padding-top: 50px;
@@ -23,6 +28,12 @@
 			padding: 0;
 			font-size: 32px !important;
 		}
+		.site-navigation {
+			margin: 0;
+		}
+		.site-navigation .navbar-inverse .navbar-nav > li > a {
+			color: #eee;
+		}
 		.search {
 			padding-left: 0;
 		}
@@ -32,10 +43,20 @@
 		.department-nav {
 			margin-bottom: 1em;
 		}
+		.container {
+			transition: width 0.5s;
+		}
+		.site-logo {
+			font-size: 50px;
+			padding: 0 15px;
+		}
+		.sign-in {
+			margin-right: -15px;
+		}
 	</style>
 </head>
 <body>
-	<div class="navbar navbar-inverse navbar-fixed-top">
+	<div class="site-navigation navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".site-navbar-collapse">
@@ -43,7 +64,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">BYU - Idaho</a>
+          <a class="site-logo navbar-brand" href="#" title="BYU-Idaho"><span aria-hidden="true" class="icon-byui-logo"></span></a>
         </div>
         <div class="navbar-collapse site-navbar-collapse collapse">
           <ul class="nav navbar-nav">
@@ -100,14 +121,16 @@
             </li>
           </ul>
           <div class="navbar-right">
-          	<a href="#" class="btn btn-primary navbar-btn">Sign In</a>
+          	<a href="#" class="sign-in btn btn-primary navbar-btn">Sign In</a>
 
           </div>
-          <form class="navbar-form navbar-right form-horizontal container visible-xs" role="search">
-		      <div class="search col-xs-8">
-		        <input type="text" class="form-control" placeholder="Search">
-		      </div>
-		      <button type="submit" class="btn btn-success col-xs-4">Submit</button>
+            <form class="navbar-form navbar-right form-horizontal container visible-xs" role="search">
+		        <div class="search input-group">
+		            <input type="text" class="form-control" placeholder="Search BYU-I">
+		            <span class="input-group-btn">
+						<button type="submit" class="btn btn-success"><span aria-hidden="true" class="icon-search"></span></button>
+					</span>
+		        </div>
 		    </form>
         </div><!--/.navbar-collapse -->
       </div>
@@ -119,10 +142,12 @@
       <div class="container">
   		<h1 class="page-title col-sm-8 row">Student Activities</h1>
 		<form class="desktop-search form-horizontal container hidden-xs col-sm-4 row" role="search">
-			<div class="search col-xs-8">
+			<div class="search input-group">
 				<input type="text" class="form-control" placeholder="Search">
+				<span class="input-group-btn">
+					<button type="submit" class="btn btn-success"><span aria-hidden="true" class="icon-search"></span></button>
+				</span>
 			</div>
-			<button type="submit" class="btn btn-success col-xs-4">Submit</button>
 		</form>
       </div>
     </div>
@@ -137,7 +162,7 @@
 			      <span class="icon-bar"></span>
 			      <span class="icon-bar"></span>
 			    </button>
-			    <a class="navbar-brand" href="#">Student Activities</a>
+			    <a class="navbar-brand visible-xs visible-xs" href="#">Student Activities</a>
 			</div>
 			<div class="collapse navbar-collapse department-navbar-collapse">
 	    		<ul class="nav navbar-nav">
@@ -262,10 +287,11 @@
 	.site-footer.jumbotron {
 		background: #222;
 		font-size: 16px;
-		color: #777;
+		color: #ccc;
 	}
 	.site-footer.jumbotron a {
-		color: #bbb;
+		color: #999;
+		text-decoration: underline;
 	}
 	.site-footer.jumbotron a:hover {
 		color: #eee;
@@ -438,7 +464,14 @@
       			<div class="link-box"><a class="logo-link" href="http://www.ldsbc.edu" id="ldsbc-link" title="LDS Business College">LDS Business College</a></div>
       		</div>
       		<div class="footer-meta col-sm-5 row">
-      			<p><a href="http://www.byui.edu/copyright/policy/terms-of-use/?cid=fli:190">© 2013</a> Brigham Young University–Idaho</p>
+      			<div class="footer-social">
+      				<a href="http://www.byui.edu/social-media/facebook" class="social-icon" title="BYUI Social Media - Facebook"><img src="images/media-icons/facebook-icon.png" alt="Facebook Icon"></a>
+      				<a href="http://www.byui.edu/social-media/linkedin" class="social-icon" title="BYUI Social Media - LinkedIn"><img src="images/media-icons/linkedin-icon.png" alt="LinkedIn Icon"></a>
+      				<a href="http://www.byui.edu/social-media/twitter" class="social-icon" title="BYUI Social Media - Twitter"><img src="images/media-icons/twitter-icon.png" alt="Twitter Icon"></a>
+      				<a href="http://www.byui.edu/social-media/youtube" class="social-icon" title="BYUI Social Media - YouTube"><img src="images/media-icons/youtube-icon.png" alt="YouTube Icon"></a>
+      			</div>
+      			<p><a href="http://www.byui.edu/copyright/policy/terms-of-use/?cid=fli:190">© 2013</a> 
+      				Brigham Young University–Idaho</p>
       			<address>525 South Center St., Rexburg, ID 83460<br/>
       				<a href="tel:12084961411">(208) 496-1411</a>
       			</address>

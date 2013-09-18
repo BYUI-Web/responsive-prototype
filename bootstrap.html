@@ -1,10 +1,14 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
 	<meta charset="UTF-8">
 	<title>Bootstrap Sandbox</title>
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/icomoon/style.css">
+	<script type="text/javascript" src="/js/libs/modernizr-latest.js"></script>
 	<style>
 		body {
 		  padding-top: 50px;
@@ -23,6 +27,12 @@
 			margin: 0;
 			padding: 0;
 			font-size: 32px !important;
+		}
+		.site-navigation {
+			margin: 0;
+		}
+		.site-navigation .navbar-inverse .navbar-nav > li > a {
+			color: #eee;
 		}
 		.search {
 			padding-left: 0;
@@ -46,7 +56,7 @@
 	</style>
 </head>
 <body>
-	<div class="navbar navbar-inverse navbar-fixed-top">
+	<div class="site-navigation navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".site-navbar-collapse">
@@ -277,10 +287,11 @@
 	.site-footer.jumbotron {
 		background: #222;
 		font-size: 16px;
-		color: #777;
+		color: #ccc;
 	}
 	.site-footer.jumbotron a {
-		color: #bbb;
+		color: #999;
+		text-decoration: underline;
 	}
 	.site-footer.jumbotron a:hover {
 		color: #eee;
