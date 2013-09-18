@@ -1,0 +1,12 @@
+.no-js .dropdown:hover > .dropdown-menu {
+  display: block;
+}
+.no-js .dropdown:hover > a {
+  outline: 0;
+}
+.no-js .navbar-fixed-top {
+  position: relative;
+}
+.no-js .collapse {
+  display: block;
+}

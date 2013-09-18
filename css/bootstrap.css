@@ -2204,7 +2204,7 @@ input[type="button"].btn-block {
   position: absolute;
   top: 100%;
   left: 0;
-  z-index: 1000;
+  z-index: 1010;
   display: none;
   float: left;
   min-width: 160px;
@@ -2266,12 +2266,6 @@ input[type="button"].btn-block {
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   cursor: not-allowed;
 }
-.dropdown:hover > .dropdown-menu {
-  display: block;
-}
-.dropdown:hover > a {
-  outline: 0;
-}
 .open > .dropdown-menu {
   display: block;
 }
@@ -2291,7 +2285,7 @@ input[type="button"].btn-block {
   right: 0;
   bottom: 0;
   top: 0;
-  z-index: 990;
+  z-index: 1000;
 }
 .pull-right > .dropdown-menu {
   right: 0;
@@ -3053,7 +3047,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-fixed-top {
-  z-index: 1030;
+  z-index: 1040;
   top: 0;
 }
 .navbar-fixed-bottom {
@@ -3114,6 +3108,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     float: none;
     width: auto;
     margin-top: 0;
+    overflow: hidden;
     background-color: transparent;
     border: 0;
     box-shadow: none;
@@ -4271,7 +4266,7 @@ body.modal-open,
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 1040;
+  z-index: 1050;
 }
 .modal.fade .modal-dialog {
   -webkit-transform: translate(0, -25%);
@@ -4292,7 +4287,7 @@ body.modal-open,
   margin-right: auto;
   width: auto;
   padding: 10px;
-  z-index: 1050;
+  z-index: 1060;
 }
 .modal-content {
   position: relative;
@@ -4311,7 +4306,7 @@ body.modal-open,
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 1030;
+  z-index: 1040;
   background-color: #000000;
 }
 .modal-backdrop.fade {
@@ -4493,7 +4488,7 @@ body.modal-open,
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 1010;
+  z-index: 1020;
   display: none;
   max-width: 276px;
   padding: 1px;
@@ -5326,9 +5321,74 @@ td.visible-print {
     display: none !important;
   }
 }
-.no-js body {
-  padding: 0;
-  margin: 0;
+.no-js .dropdown:hover > .dropdown-menu {
+  display: block;
+}
+.no-js .dropdown:hover > a {
+  outline: 0;
+}
+.no-js .navbar-toggle {
+  display: none;
+}
+@media (max-width: 767px) {
+  .no-js .navbar {
+    overflow: scroll;
+  }
+  .no-js .dropdown:hover .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    overflow: hidden;
+    background-color: transparent;
+    margin-top: 0;
+    border: 0;
+    box-shadow: none;
+  }
+  .no-js .navbar-nav > .dropdown:hover > a,
+  .no-js .navbar-nav > .dropdown:hover > a:hover,
+  .no-js .navbar-nav > .dropdown:hover > a:focus {
+    background-color: #e7e7e7;
+    color: #555555;
+  }
+  .no-js .navbar-nav > .dropdown:hover > a .caret,
+  .no-js .navbar-nav > .dropdown:hover > a:hover .caret,
+  .no-js .navbar-nav > .dropdown:hover > a:focus .caret {
+    border-top-color: #555555;
+    border-bottom-color: #555555;
+  }
+  .no-js .navbar-nav > .dropdown > a .caret {
+    border-top-color: #777777;
+    border-bottom-color: #777777;
+  }
+  .no-js .navbar-inverse .navbar-nav > .dropdown:hover > a,
+  .no-js .navbar-inverse .navbar-nav > .dropdown:hover > a:hover,
+  .no-js .navbar-inverse .navbar-nav > .dropdown:hover > a:focus {
+    background-color: #080808;
+    color: #ffffff;
+  }
+  .no-js .navbar-inverse .navbar-nav .dropdown:hover .dropdown-menu > .dropdown-header {
+    border-color: #080808;
+  }
+  .no-js .navbar-inverse .navbar-nav .dropdown:hover .dropdown-menu > li > a {
+    color: #eeeeee;
+  }
+  .no-js .navbar-inverse .navbar-nav .dropdown:hover .dropdown-menu > li > a:hover,
+  .no-js .navbar-inverse .navbar-nav .dropdown:hover .dropdown-menu > li > a:focus {
+    color: #ffffff;
+    background-color: transparent;
+  }
+  .no-js .navbar-inverse .navbar-nav .dropdown:hover .dropdown-menu > .active > a,
+  .no-js .navbar-inverse .navbar-nav .dropdown:hover .dropdown-menu > .active > a:hover,
+  .no-js .navbar-inverse .navbar-nav .dropdown:hover .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #080808;
+  }
+  .no-js .navbar-inverse .navbar-nav .dropdown:hover .dropdown-menu > .disabled > a,
+  .no-js .navbar-inverse .navbar-nav .dropdown:hover .dropdown-menu > .disabled > a:hover,
+  .no-js .navbar-inverse .navbar-nav .dropdown:hover .dropdown-menu > .disabled > a:focus {
+    color: #444444;
+    background-color: transparent;
+  }
 }
 .no-js .navbar-fixed-top {
   position: relative;
