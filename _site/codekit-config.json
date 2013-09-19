@@ -176,6 +176,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/images\/message_arrow_hover.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/message_arrow_hover.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/message_arrow_hover.png",
+      "initialSize" : 2030,
+      "fileType" : 8192
+    },
     "\/_site\/prototypes\/responsive_test.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -194,26 +205,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/images\/message_arrow_hover.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/message_arrow_hover.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/message_arrow_hover.png",
-      "initialSize" : 2030,
-      "fileType" : 8192
-    },
-    "\/_site\/prototypes\/mega_menu.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/prototypes\/mega_menu.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/_site\/images\/interface\/gallery\/hoverarrow_next.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -224,6 +215,15 @@
       "outputAbbreviatedPath" : "\/_site\/images\/interface\/gallery\/hoverarrow_next.png",
       "initialSize" : 1146,
       "fileType" : 8192
+    },
+    "\/_site\/prototypes\/mega_menu.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/prototypes\/mega_menu.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/_site\/images\/interface\/up-down_arrows_36x20.png" : {
       "ignoreWasSetByUser" : 0,
@@ -894,6 +894,17 @@
       "initialSize" : 52107,
       "fileType" : 4096
     },
+    "\/js\/libs\/jquery.min.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery.min-ck.js",
+      "fileType" : 64
+    },
     "\/_site\/templates\/search.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -941,6 +952,17 @@
       "outputStyle" : 0,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/_site\/js\/libs\/jquery.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/js\/libs\/jquery.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/_site\/js\/libs\/jquery.min-ck.js",
+      "fileType" : 64
     },
     "\/less\/bootstrap\/forms.less" : {
       "ieCompatibility" : 1,
@@ -1139,7 +1161,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_site\/css\/bootstrap.css",
-      "outputAbbreviatedPath" : "No Output Path",
+      "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 16
     },
     "\/images\/placeholders\/test_ad.jpg" : {
@@ -1153,14 +1175,16 @@
       "initialSize" : 4892,
       "fileType" : 4096
     },
-    "\/_site\/templates\/admin_events.html" : {
+    "\/images\/placeholders\/academic_home\/article_image.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/templates\/admin_events.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/images\/placeholders\/academic_home\/article_image.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/placeholders\/academic_home\/article_image.jpg",
+      "initialSize" : 19263,
+      "fileType" : 4096
     },
     "\/_site\/images\/apple-touch-icon-precomposed.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1173,16 +1197,14 @@
       "initialSize" : 2703,
       "fileType" : 8192
     },
-    "\/images\/placeholders\/academic_home\/article_image.jpg" : {
+    "\/_site\/templates\/admin_events.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/placeholders\/academic_home\/article_image.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/placeholders\/academic_home\/article_image.jpg",
-      "initialSize" : 19263,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/_site\/templates\/admin_events.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/_site\/images\/interface\/gallery\/paused.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1217,15 +1239,6 @@
       "initialSize" : 19263,
       "fileType" : 4096
     },
-    "\/_layouts\/default.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_layouts\/default.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/_site\/less\/bootstrap\/jumbotron.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/_site\/less\/bootstrap\/jumbotron.less",
@@ -1242,6 +1255,15 @@
       "outputStyle" : 0,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/_layouts\/default.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_layouts\/default.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/images\/byui_home\/test_bkg1.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1360,21 +1382,21 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/_layouts\/post.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_layouts\/post.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/_layouts\/academic_home.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_layouts\/academic_home.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_layouts\/post.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_layouts\/post.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1517,28 +1539,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_site\/images\/byui_home\/pillar_hash.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/images\/byui_home\/pillar_hash.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/_site\/images\/byui_home\/pillar_hash.png",
-      "initialSize" : 193,
-      "fileType" : 8192
-    },
-    "\/_site\/images\/byui_home\/message_arrow.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/images\/byui_home\/message_arrow.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/_site\/images\/byui_home\/message_arrow.png",
-      "initialSize" : 2060,
-      "fileType" : 8192
-    },
     "\/_site\/less\/bootstrap\/input-groups.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/_site\/less\/bootstrap\/input-groups.less",
@@ -1556,6 +1556,28 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
+    "\/_site\/images\/byui_home\/message_arrow.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/images\/byui_home\/message_arrow.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/_site\/images\/byui_home\/message_arrow.png",
+      "initialSize" : 2060,
+      "fileType" : 8192
+    },
+    "\/_site\/images\/byui_home\/pillar_hash.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/images\/byui_home\/pillar_hash.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/_site\/images\/byui_home\/pillar_hash.png",
+      "initialSize" : 193,
+      "fileType" : 8192
+    },
     "\/images\/byui_home\/twin_pillars_hover.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1566,17 +1588,6 @@
       "outputAbbreviatedPath" : "\/images\/byui_home\/twin_pillars_hover.png",
       "initialSize" : 18822,
       "fileType" : 8192
-    },
-    "\/_site\/images\/placeholders\/newsroom\/ElderGay(thumb).jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/images\/placeholders\/newsroom\/ElderGay(thumb).jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/_site\/images\/placeholders\/newsroom\/ElderGay(thumb).jpg",
-      "initialSize" : 12026,
-      "fileType" : 4096
     },
     "\/_site\/less\/bootstrap\/badges.less" : {
       "ieCompatibility" : 1,
@@ -1594,6 +1605,17 @@
       "outputStyle" : 0,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/_site\/images\/placeholders\/newsroom\/ElderGay(thumb).jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/images\/placeholders\/newsroom\/ElderGay(thumb).jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/_site\/images\/placeholders\/newsroom\/ElderGay(thumb).jpg",
+      "initialSize" : 12026,
+      "fileType" : 4096
     },
     "\/_site\/images\/interface\/cycle\/page_bullets_20x10.png" : {
       "ignoreWasSetByUser" : 0,
@@ -2153,8 +2175,8 @@
       "fileType" : 8192
     },
     "\/js\/libs\/bootstrap.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/bootstrap.min.js",
@@ -2550,15 +2572,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_site\/templates\/section_index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/templates\/section_index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/images\/byui_home\/main_image_top_title.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2569,6 +2582,15 @@
       "outputAbbreviatedPath" : "\/images\/byui_home\/main_image_top_title.png",
       "initialSize" : 9284,
       "fileType" : 8192
+    },
+    "\/_site\/templates\/section_index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/templates\/section_index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/_site\/less\/bootstrap\/popovers.less" : {
       "ieCompatibility" : 1,
@@ -2624,10 +2646,10 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/less\/bootstrap\/tables.less" : {
+    "\/less\/bootstrap\/navbar.less" : {
       "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/less\/bootstrap\/tables.less",
-      "outputAbbreviatedPath" : "\/less\/css\/tables.css",
+      "inputAbbreviatedPath" : "\/less\/bootstrap\/navbar.less",
+      "outputAbbreviatedPath" : "\/less\/css\/navbar.css",
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
@@ -2641,10 +2663,10 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/less\/bootstrap\/navbar.less" : {
+    "\/less\/bootstrap\/tables.less" : {
       "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/less\/bootstrap\/navbar.less",
-      "outputAbbreviatedPath" : "\/less\/css\/navbar.css",
+      "inputAbbreviatedPath" : "\/less\/bootstrap\/tables.less",
+      "outputAbbreviatedPath" : "\/less\/css\/tables.css",
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
@@ -3069,6 +3091,17 @@
       "initialSize" : 11516,
       "fileType" : 8192
     },
+    "\/_site\/css\/icomoon\/lte-ie7.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/css\/icomoon\/lte-ie7.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/_site\/css\/icomoon\/lte-ie7-ck.js",
+      "fileType" : 64
+    },
     "\/bootstrap.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -3088,17 +3121,6 @@
       "outputAbbreviatedPath" : "\/_site\/images\/byui_home\/top_text_arrow_right.png",
       "initialSize" : 2943,
       "fileType" : 8192
-    },
-    "\/_site\/css\/icomoon\/lte-ie7.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/css\/icomoon\/lte-ie7.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/_site\/css\/icomoon\/lte-ie7-ck.js",
-      "fileType" : 64
     },
     "\/_site\/images\/interface\/arrow_bullet_gray_5x9.png" : {
       "ignoreWasSetByUser" : 0,
@@ -3199,26 +3221,6 @@
       "initialSize" : 165975,
       "fileType" : 8192
     },
-    "\/_site\/images\/placeholders\/newsroom\/INL(thumb).jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/images\/placeholders\/newsroom\/INL(thumb).jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/_site\/images\/placeholders\/newsroom\/INL(thumb).jpg",
-      "initialSize" : 44181,
-      "fileType" : 4096
-    },
-    "\/templates\/article_index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/article_index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/images\/head\/blankimg.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -3229,6 +3231,26 @@
       "outputAbbreviatedPath" : "\/images\/head\/blankimg.png",
       "initialSize" : 82,
       "fileType" : 8192
+    },
+    "\/templates\/article_index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/article_index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_site\/images\/placeholders\/newsroom\/INL(thumb).jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/images\/placeholders\/newsroom\/INL(thumb).jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/_site\/images\/placeholders\/newsroom\/INL(thumb).jpg",
+      "initialSize" : 44181,
+      "fileType" : 4096
     },
     "\/less\/bootstrap\/close.less" : {
       "ieCompatibility" : 1,
@@ -3253,7 +3275,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/css\/bootstrap.css",
-      "outputAbbreviatedPath" : "No Output Path",
+      "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 16
     },
     "\/_site\/prototypes\/typography2.html" : {
@@ -3305,7 +3327,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/css\/global.css",
-      "outputAbbreviatedPath" : "No Output Path",
+      "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 16
     },
     "\/_site\/images\/interface\/arrow_bullet.png" : {
@@ -3869,16 +3891,22 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/images\/feedback-button.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
+    "\/less\/bootstrap\/carousel.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/less\/bootstrap\/carousel.less",
+      "outputAbbreviatedPath" : "\/less\/css\/carousel.css",
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/feedback-button.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/feedback-button.png",
-      "initialSize" : 2706,
-      "fileType" : 8192
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 0,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/_site\/less\/bootstrap\/pagination.less" : {
       "ieCompatibility" : 1,
@@ -3925,22 +3953,16 @@
       "initialSize" : 696,
       "fileType" : 8192
     },
-    "\/less\/bootstrap\/carousel.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/less\/bootstrap\/carousel.less",
-      "outputAbbreviatedPath" : "\/less\/css\/carousel.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 1,
-      "strictImports" : 0,
+    "\/images\/byui_home\/center_pillar_box.png" : {
       "ignoreWasSetByUser" : 0,
-      "shouldRunBless" : 0,
+      "ignore" : 0,
       "hidden" : 0,
-      "strictMath" : 0,
-      "outputStyle" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/byui_home\/center_pillar_box.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/byui_home\/center_pillar_box.png",
+      "initialSize" : 8739,
+      "fileType" : 8192
     },
     "\/images\/digg_button.png" : {
       "ignoreWasSetByUser" : 0,
@@ -3953,15 +3975,15 @@
       "initialSize" : 3425,
       "fileType" : 8192
     },
-    "\/images\/byui_home\/center_pillar_box.png" : {
+    "\/images\/feedback-button.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/byui_home\/center_pillar_box.png",
+      "inputAbbreviatedPath" : "\/images\/feedback-button.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/byui_home\/center_pillar_box.png",
-      "initialSize" : 8739,
+      "outputAbbreviatedPath" : "\/images\/feedback-button.png",
+      "initialSize" : 2706,
       "fileType" : 8192
     },
     "\/_site\/images\/blankimg.png" : {
@@ -4012,6 +4034,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/images\/search.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/search.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/search.png",
+      "initialSize" : 1430,
+      "fileType" : 8192
+    },
     "\/_site\/images\/head\/superceded\/header_search_sprite_278x23.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -4032,17 +4065,6 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/_site\/images\/rss-32x32.png",
       "initialSize" : 2229,
-      "fileType" : 8192
-    },
-    "\/images\/search.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/search.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/search.png",
-      "initialSize" : 1430,
       "fileType" : 8192
     },
     "\/_site\/less\/bootstrap\/grid.less" : {
@@ -4222,7 +4244,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_site\/css\/global.css",
-      "outputAbbreviatedPath" : "No Output Path",
+      "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 16
     },
     "\/images\/placeholders\/newsroom\/madison(thumb).jpg" : {
@@ -4236,6 +4258,15 @@
       "initialSize" : 35383,
       "fileType" : 4096
     },
+    "\/templates\/event.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/event.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/_site\/images\/placeholders\/buildings\/benson2.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -4246,15 +4277,6 @@
       "outputAbbreviatedPath" : "\/_site\/images\/placeholders\/buildings\/benson2.jpg",
       "initialSize" : 35739,
       "fileType" : 4096
-    },
-    "\/templates\/event.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/event.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/_site\/less\/bootstrap\/code.less" : {
       "ieCompatibility" : 1,
@@ -4329,8 +4351,8 @@
       "fileType" : 8192
     },
     "\/css\/icomoon\/lte-ie7.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/css\/icomoon\/lte-ie7.js",
@@ -4560,17 +4582,6 @@
       "initialSize" : 23774,
       "fileType" : 8192
     },
-    "\/_site\/images\/message_arrow.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/images\/message_arrow.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/_site\/images\/message_arrow.png",
-      "initialSize" : 2060,
-      "fileType" : 8192
-    },
     "\/less\/bootstrap\/badges.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/less\/bootstrap\/badges.less",
@@ -4587,6 +4598,17 @@
       "outputStyle" : 0,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/_site\/images\/message_arrow.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/images\/message_arrow.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/_site\/images\/message_arrow.png",
+      "initialSize" : 2060,
+      "fileType" : 8192
     },
     "\/templates\/employee_individual.html" : {
       "ignoreWasSetByUser" : 0,
@@ -4718,17 +4740,6 @@
       "initialSize" : 4892,
       "fileType" : 4096
     },
-    "\/images\/interface\/icon_calendar_18x18.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/interface\/icon_calendar_18x18.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/interface\/icon_calendar_18x18.jpg",
-      "initialSize" : 532,
-      "fileType" : 4096
-    },
     "\/_site\/images\/interface\/gallery\/previous_group.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -4756,6 +4767,17 @@
       "outputStyle" : 0,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/images\/interface\/icon_calendar_18x18.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/interface\/icon_calendar_18x18.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/interface\/icon_calendar_18x18.jpg",
+      "initialSize" : 532,
+      "fileType" : 4096
     },
     "\/_site\/images\/academic_home\/social_addthis_button.png" : {
       "ignoreWasSetByUser" : 0,
@@ -4801,6 +4823,23 @@
       "initialSize" : 37312,
       "fileType" : 4096
     },
+    "\/_site\/less\/bootstrap\/component-animations.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/_site\/less\/bootstrap\/component-animations.less",
+      "outputAbbreviatedPath" : "\/_site\/less\/css\/component-animations.css",
+      "outputPathIsSetByUser" : 0,
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 0,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
     "\/images\/academic_home\/test_ad.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -4822,23 +4861,6 @@
       "outputAbbreviatedPath" : "\/_site\/images\/interface\/buttonbackground.png",
       "initialSize" : 275,
       "fileType" : 8192
-    },
-    "\/_site\/less\/bootstrap\/component-animations.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/_site\/less\/bootstrap\/component-animations.less",
-      "outputAbbreviatedPath" : "\/_site\/less\/css\/component-animations.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 1,
-      "strictImports" : 0,
-      "ignoreWasSetByUser" : 0,
-      "shouldRunBless" : 0,
-      "hidden" : 0,
-      "strictMath" : 0,
-      "outputStyle" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
     },
     "\/_site\/images\/apple-touch-icon-72x72-precomposed.png" : {
       "ignoreWasSetByUser" : 0,
