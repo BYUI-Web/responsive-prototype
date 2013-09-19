@@ -1,4 +1,4 @@
 name: BYU-Idaho Front-End Framework
 markdown: redcarpet
 pygments: true
-exclude: ['deprecated', 'documentation', 'LESS', 'css/LESS', 'css/LESS/', 'css/LESS/*', 'scss', 'scss/*']
+exclude: ['deprecated', 'documentation', '_less', '_less/', '_less/*']
