@@ -1,148 +1,4 @@
-/* BYU-IDAHO GLOBAL STYLESHEET */
-@font-face {
-  font-family: 'icomoon';
-  src: url('icon-font/fonts/icomoon.eot');
-  src: url('icon-font/fonts/icomoon.eot?#iefix') format('embedded-opentype'), url('icon-font/fonts/icomoon.woff') format('woff'), url('icon-font/fonts/icomoon.ttf') format('truetype'), url('icon-font/fonts/icomoon.svg#icomoon') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-/* Use the following CSS code if you want to use data attributes for inserting your icons */
-[data-icon]:before {
-  font-family: 'icomoon';
-  content: attr(data-icon);
-  speak: none;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-/* Use the following CSS code if you want to have a class per icon */
-/*
-Instead of a list of all class selectors,
-you can use the generic selector below, but it's slower:
-[class*="icon-"] {
-*/
-.icon-list,
-.icon-location,
-.icon-search,
-.icon-popup,
-.icon-arrow-left,
-.icon-arrow-right,
-.icon-arrow-left-2,
-.icon-arrow-right-2,
-.icon-checkmark,
-.icon-cross,
-.icon-quotes-left,
-.icon-cd,
-.icon-arrow-down,
-.icon-arrow-up,
-.icon-lds-church,
-.icon-byui-logo {
-  font-family: 'icomoon';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-}
-.icon-list:before {
-  content: "\e004";
-}
-.icon-location:before {
-  content: "\e000";
-}
-.icon-search:before {
-  content: "\e003";
-}
-.icon-popup:before {
-  content: "\e005";
-}
-.icon-arrow-left:before {
-  content: "\e006";
-}
-.icon-arrow-right:before {
-  content: "\e007";
-}
-.icon-arrow-left-2:before {
-  content: "\e001";
-}
-.icon-arrow-right-2:before {
-  content: "\e002";
-}
-.icon-checkmark:before {
-  content: "\e009";
-}
-.icon-cross:before {
-  content: "\e00a";
-}
-.icon-quotes-left:before {
-  content: "\e008";
-}
-.icon-cd:before {
-  content: "\e00b";
-}
-.icon-arrow-down:before {
-  content: "\e00d";
-}
-.icon-arrow-up:before {
-  content: "\e00e";
-}
-.icon-lds-church:before {
-  content: "\e00f";
-}
-.icon-byui-logo:before {
-  content: "\e00c";
-}
-/* HEADER STYLES */
-body {
-  margin-bottom: -50px;
-}
-.starter-template {
-  padding: 40px 15px;
-  text-align: center;
-}
-.jumbotron.homepage-jumbotron {
-  background: #056cb6;
-  color: #fff;
-  padding: 1em;
-}
-.page-title {
-  margin: 0;
-  padding: 0;
-  font-size: 32px !important;
-}
-.site-navigation {
-  margin: 0;
-  border-radius: 0;
-  z-index: 1060;
-}
-.site-navigation .navbar-inverse .navbar-nav > li > a {
-  color: #eee;
-}
-.search {
-  padding-left: 0;
-}
-.desktop-search {
-  float: right;
-}
-.department-nav {
-  margin-bottom: 1em;
-  z-index: 1040;
-}
-.container {
-  transition: width 0.5s;
-}
-.site-logo {
-  font-size: 50px;
-  padding: 0 15px;
-}
-.sign-in {
-  margin-right: -15px;
-}
+// GLOBAL STYLES PARTIAL
 /* FOOTER STYLES */
 .site-footer.jumbotron {
   background: #222;
@@ -225,13 +81,14 @@ body {
   background-position: -2px 0px;
   height: 40px;
   margin-bottom: 15px;
-  overflow: hidden;
+  overflow:hidden;
 }
 .social-icons a {
   float: left;
   position: relative;
   top: 0px;
-  text-indent: -1000px;
+  text-indent:-1000px;
+
 }
 #byui_facebook_link {
   height: 40px;
@@ -274,6 +131,7 @@ body {
 }
 .secondary-nav li {
   float: right;
+
 }
 .footer-graphic {
   margin: 0;
