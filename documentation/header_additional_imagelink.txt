@@ -1,9 +1,0 @@
-Documentation for addition to banner to add an extra link
-
-The image added to the left of the header navigation is currently for use for the 125 years anniversy to take people to the 125 years page.  It can be easily reused or hidden.
-
-The anchor/images parent div is negatively margined to the left of the header and has the same width as a pages main content.
-
-The anchor/image itself is floated right in this div.  So if the image needs to be changed to some other image for use in another project the right side of the image will always be in the same place, left of the navigation.  No need to try to figure out image widths and adjusting it's position according to that.
-
-If no image needs to be displayed you can simply delete the image tag and then re add it later.  There are no special classes or ids needed for the image to pick up it's styling.  It's parent div and wrapper do not need to be deleted, they will just simply not take up any space.
