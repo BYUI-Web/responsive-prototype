@@ -5,11 +5,13 @@ module.exports = function(grunt) {
 
   grunt.initConfig({
 
-    compass: {
-      dev: {
+    less: {
+      development: {
         options: {
-          config: 'config.rb',
-          force: true
+          paths: ["assets/css"]
+        },
+        files: {
+          "path/to/result.css": "path/to/source.less"
         }
       }
     },
