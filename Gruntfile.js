@@ -1,9 +1,8 @@
 module.exports = function(grunt) {
 
-  // load all grunt tasks
-  require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
-
   grunt.initConfig({
+
+    pkg: grunt.file.readJSON('package.json'),
 
     less: {
       development: {
@@ -11,32 +10,45 @@ module.exports = function(grunt) {
           paths: ["assets/css"]
         },
         files: {
-          "path/to/result.css": "path/to/source.less"
+          "assets/css/bootstrap.css": "_less/bootstrap.less",
+          "assets/css/global.css": "_less/global.less"
         }
       }
     },
 
-    watch: {
-      sass: {
-        files: ['assets/sass/**/*.scss'],
-        tasks: ['compass:dev']
-      },
-      /* watch and see if our javascript files change, or new packages are installed */
-      js: {
-        files: ['assets/js/main.js', 'components/**/*.js'],
-        tasks: ['uglify']
-      },
-      /* watch our files for change, reload */
-      livereload: {
-        files: ['*.html', 'assets/css/*.css', 'assets/images/*', 'assets/js/{main.min.js, plugins.min.js}'],
+    connect: {
+      server: {
         options: {
-          livereload: true
+          port: 4000,
+          base: './_site/'
         }
-      },
-    }
+      }
+    },
 
+    jekyll: {
+      build: {}
+    },
+
+    watch: {
+      less: {
+        files: ['_less/bootstrap.less', '_less/global.less'],
+        tasks: ['less'],
+      },
+
+      jekyll: {
+        files: ['./*'],
+        tasks: ['jekyll'],
+        options: { livereload: true }
+      },
+
+    },
   });
 
-  grunt.registerTask('default', 'watch');
+  grunt.loadNpmTasks('grunt-contrib-connect');
+  grunt.loadNpmTasks('grunt-contrib-less');
+  grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-jekyll');
 
-}
+  grunt.registerTask('default', ['less', 'jekyll', 'connect', 'watch']);
+
+};
