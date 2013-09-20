@@ -16,12 +16,12 @@ Repository Dependencies:
 ## Getting Started ##
 
 To locally view the framework, install [Jekyll](http://jekyllrb.com/), cd to the directory in your shell terminal, and use the following commands:
-    ```
-    $ jekyll build
-    $ jekyll watch
-    ```
+```
+$ jekyll build
+$ jekyll watch
+```
     
 To develop locally, install [Grunt](http://gruntjs.com/) and run npm install to download the grunt plugins, then grunt to run the automated tasks.
-    ```
-    $ npm install
-    ```
+```
+$ npm install
+```
