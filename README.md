@@ -21,7 +21,7 @@ $ jekyll build
 $ jekyll watch
 ```
     
-To develop locally, install [Grunt](http://gruntjs.com/), cd to the directory and run the following commands to download the grunt plugins and run the automated tasks.
+To develop locally, install [Node](http://nodejs.org/download/), cd to the directory and run the following commands to download the grunt plugins and run the automated tasks.
 ```
 $ npm install
 $ grunt
