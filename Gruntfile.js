@@ -31,15 +31,15 @@ module.exports = function(grunt) {
 
     watch: {
       less: {
-        files: ['_less/bootstrap.less', '_less/global.less'],
+        files: ["_less/**/*.less"],
         tasks: ['less'],
       },
 
       jekyll: {
-        files: ['./*'],
+        files: ['assets/**/*', '**.*.html'],
         tasks: ['jekyll'],
         options: { livereload: true }
-      },
+      }
 
     },
   });
