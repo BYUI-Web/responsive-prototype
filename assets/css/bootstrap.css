@@ -32,7 +32,7 @@
   color: #fff;
   background-color: #28a2f9;
 }
-.dark-blue {
+.primary-dark {
   color: #fff;
   background: #044f84;
 }
@@ -422,7 +422,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 500;
   line-height: 1.1;
 }
@@ -3699,7 +3699,7 @@ a.list-group-item.active > .badge,
   background-color: #eeeeee;
 }
 .jumbotron h1 {
-  line-height: 1;
+  line-height: 1.4;
   color: inherit;
 }
 .jumbotron p {
