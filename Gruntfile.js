@@ -20,7 +20,8 @@ module.exports = function(grunt) {
       server: {
         options: {
           port: 4000,
-          base: './_site/'
+          base: './_site/',
+          livereload: true
         }
       }
     },
