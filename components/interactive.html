@@ -1,0 +1,177 @@
+---
+layout: content
+page-type: Content
+---
+
+<div class="page-header">
+  <h1>Interactive Components</h1>
+</div>
+
+<h2>Modal</h2>
+<p>A pop-up dialog box with customized content</p>
+<div class="example">
+  <!-- Button trigger modal -->
+  <a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">Launch demo modal</a>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">Modal title</h4>
+        </div>
+        <div class="modal-body">
+          <p>Body content goes here.</p>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, nostrum doloremque pariatur nam sit voluptates aspernatur. Facere, quas impedit itaque sed esse quaerat distinctio sequi tempore dignissimos dolores ducimus aspernatur.</p>
+          <p>Illo, quibusdam, qui nulla sit sunt magni nihil alias ullam quasi ipsa laborum ad placeat! Sed, quisquam, iste sint voluptatibus molestias modi voluptatum consequuntur dolorum placeat officia asperiores provident harum.</p>
+          <p>Consequuntur, error ea quidem nihil a vero eius aliquam modi non sed ipsum animi veritatis temporibus officia provident inventore iusto. Ratione, ad consequuntur aliquid esse quia ea nam sequi aperiam!</p>
+          <p>Praesentium, cupiditate, perspiciatis minus tempore repellat repudiandae facere omnis aut consequuntur beatae dolorem animi sequi distinctio aspernatur rem excepturi magni harum optio voluptatum quam debitis laboriosam alias consectetur tenetur quae!</p>
+          <p>Eius, iusto, ipsam, quam eveniet saepe corrupti beatae eos eum quod consequuntur praesentium voluptatibus rem qui! Iure, sunt, sequi, magni, alias ea inventore corporis asperiores ducimus veritatis excepturi animi ullam!</p>
+          <p>Commodi, dolorem, excepturi, ut, explicabo culpa fugiat vitae ullam eius perferendis soluta cum iste natus cumque veniam officiis provident atque est omnis. Fugit, accusamus iusto totam in pariatur cupiditate ratione.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+</div>
+
+<h2>Tabs</h2>
+<p>A way to hide and show content within the same page using tabs.</p>
+<div class="example">
+  <ul id="tabExample" class="nav nav-tabs">
+    <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+    <li><a href="#profile" data-toggle="tab">Profile</a></li>
+    <li><a href="#messages" data-toggle="tab">Messages</a></li>
+    <li><a href="#settings" data-toggle="tab">Settings</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div class="tab-pane active" id="home">
+      <h3>Home Page Information</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, asperiores, quo, laudantium illo necessitatibus nulla eum praesentium maiores rerum ipsam labore amet similique voluptatibus alias eius provident obcaecati nobis maxime.</p>
+      <p>Sed, officia, repellendus officiis ad quasi dicta perferendis delectus debitis quisquam cumque inventore libero fugit voluptatem. Expedita, voluptas, deleniti, quam, ipsam repudiandae veritatis atque id pariatur enim quod aliquam vitae.</p>
+    </div>
+    <div class="tab-pane" id="profile">
+      <h3>Profile Information</h3>
+      <p>Reiciendis, assumenda, sint ratione iure unde illum ex eos voluptate adipisci eum eaque tempora nulla beatae pariatur ipsam ullam magni rerum odio optio est sequi dolores consequatur quidem repudiandae hic!</p>
+      <p>Corporis, nulla, tenetur, fugiat minima officia atque ipsum quod omnis blanditiis nisi facere odio earum deserunt provident laborum asperiores maxime sequi voluptate similique aperiam quasi consequuntur perspiciatis praesentium est pariatur.</p>
+    </div>
+    <div class="tab-pane" id="messages">
+      <h3>Messages and Information</h3>
+      <p>Eius, commodi, quo, repellendus, cum temporibus enim quis sed aut debitis dignissimos quae laborum suscipit eligendi accusantium possimus porro soluta accusamus necessitatibus illum voluptatibus voluptatem corporis molestias dicta magnam vel.</p>
+      <p>Quis, repudiandae, dolores laborum corrupti doloremque delectus tenetur voluptate asperiores eaque itaque error qui dignissimos maiores eligendi veniam fuga accusamus nesciunt fugiat reprehenderit explicabo! Officia eius eligendi fugit a ipsam.</p>
+    </div>
+    <div class="tab-pane" id="settings">
+      <h3>Settings and Information</h3>
+      <p>Tempora, nihil, rerum possimus velit optio aliquam deserunt ipsum numquam quod consectetur quam quae saepe ex iusto rem quos eveniet libero quia inventore sapiente architecto impedit dolore omnis delectus harum.</p>
+      <p>Placeat, vero, exercitationem cum aperiam sint laboriosam quibusdam animi fuga et ullam perspiciatis debitis reiciendis. Repudiandae, nemo, rem assumenda necessitatibus asperiores reprehenderit a alias harum minima ex soluta pariatur eaque.</p>
+    </div>
+  </div>
+
+  <script>
+  $('#tabExample a').click(function (e) {
+    e.preventDefault()
+    $(this).tab('show')
+  });
+  </script>
+</div>
+
+<h2>Collapse</h2>
+<p>A way to hide and show content within the same page using a collapsible accordion.</p>
+<div class="example">
+  <div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+            Collapsible Group Item #1
+          </a>
+        </h4>
+      </div>
+      <div id="collapseOne" class="panel-collapse collapse in">
+        <div class="panel-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+            Collapsible Group Item #2
+          </a>
+        </h4>
+      </div>
+      <div id="collapseTwo" class="panel-collapse collapse">
+        <div class="panel-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+            Collapsible Group Item #3
+          </a>
+        </h4>
+      </div>
+      <div id="collapseThree" class="panel-collapse collapse">
+        <div class="panel-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h2>Carousel</h2>
+<p>A responsive animated slideshow</p>
+<div class="example">
+  <div id="carousel-example-generic" class="carousel slide">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="http://placehold.it/710x400" alt="Alt tag info">
+        <div class="carousel-caption">
+          <h3>First Slide Label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, eaque, officiis, enim officia error perspiciatis quae culpa mollitia cum consectetur impedit deleniti iste dicta dolorum accusantium pariatur doloremque odit architecto.</p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="http://placehold.it/710x400" alt="Alt tag info">
+        <div class="carousel-caption">
+          <h3>Second Slide Label</h3>
+          <p>Ea, maiores, provident tempora fugit sapiente placeat asperiores doloribus quasi sunt sit accusamus quia aliquam unde. Dicta, autem, natus, asperiores officia architecto facere animi temporibus veritatis repellat esse nam quia.</p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="http://placehold.it/710x400" alt="Alt tag info">
+        <div class="carousel-caption">
+          <h3>Third Slide Label</h3>
+          <p>Debitis, reiciendis, ipsum tempora eaque velit unde enim asperiores cupiditate libero cumque aut alias aperiam consequuntur consectetur dignissimos repudiandae facere. Veritatis, repellat explicabo vitae voluptates nesciunt assumenda dolore saepe ipsam.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+      <span class="icon-prev"></span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+      <span class="icon-next"></span>
+    </a>
+  </div>
+</div>

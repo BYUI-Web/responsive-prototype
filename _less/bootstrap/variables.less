@@ -15,10 +15,32 @@
 @gray-light:             lighten(#000, 60%);   // #999
 @gray-lighter:           lighten(#000, 93.5%); // #eee
 
+.gray-darker {
+	color: #fff;
+	background-color: @gray-darker;
+}
+.gray-dark {
+	color: #fff;
+	background-color: @gray-dark;
+}
+.gray {
+	color: #fff;
+	background-color: @gray;
+}
+.gray-light {
+	color: #fff;
+	background-color: @gray-light;
+}
+.gray-lighter {
+	color: #333;
+	background-color: @gray-lighter;
+}
+
 // Brand colors
 // -------------------------
 
 @brand-primary:         #056cb6;
+@brand-dark: 			darken(@brand-primary, 10%); // #044f84
 @brand-success:         #129f47;
 @brand-warning:         #ffcf01;
 @brand-danger:          #d9541e;
@@ -27,6 +49,10 @@
 .primary, .blue {
 	color: #fff;
 	background-color: @brand-primary;
+}
+.primary-dark {
+	color: #fff;
+	background: @brand-dark; 
 }
 .success, .green {
 	color: #fff;
@@ -43,10 +69,6 @@
 .info, .light-blue {
 	color: #fff;
 	background-color: @brand-info;
-}
-.primary-dark {
-	color: #fff;
-	background: darken(@brand-primary, 10%); // #044f84
 }
 
 // Scaffolding
@@ -219,7 +241,7 @@
 @zindex-tooltip:           1030;
 @zindex-navbar-fixed:      1040;
 @zindex-modal-background:  1050;
-@zindex-modal:             1060;
+@zindex-modal:             3060;
 
 // Media queries breakpoints
 // --------------------------------------------------
