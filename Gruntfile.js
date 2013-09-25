@@ -20,7 +20,7 @@ module.exports = function(grunt) {
       server: {
         options: {
           port: 4000,
-          base: './_site/',
+          base: '../generated-responsive-framework/',
           livereload: true
         }
       }
@@ -37,7 +37,7 @@ module.exports = function(grunt) {
       },
 
       jekyll: {
-        files: ['assets/**/*', '**.*.html'],
+        files: ['assets/**/*', '**/*.html'],
         tasks: ['jekyll'],
         options: { livereload: true }
       }
