@@ -1,5 +1,6 @@
 name: BYU-Idaho Front-End Framework
 markdown: redcarpet
 pygments: true
+baseurl: 'responsive-prototype'
 destination: '../generated-prototype'
 exclude: ['deprecated', 'documentation', '_less', '_less/', '_less/*']
