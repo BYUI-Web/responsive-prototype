@@ -20,7 +20,7 @@ module.exports = function(grunt) {
       server: {
         options: {
           port: 4000,
-          base: '../generated-prototype',
+          base: '../',
           livereload: true
         }
       }
