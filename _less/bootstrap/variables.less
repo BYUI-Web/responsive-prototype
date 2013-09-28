@@ -50,7 +50,7 @@
 	color: #fff;
 	background-color: @brand-primary;
 }
-.primary-dark {
+.dark {
 	color: #fff;
 	background: @brand-dark; 
 }
@@ -180,6 +180,10 @@
 @btn-primary-bg:                 @brand-primary;
 @btn-primary-border:             darken(@btn-primary-bg, 5%);
 
+@btn-dark-color:                 #fff;
+@btn-dark-bg:	                   @brand-dark;
+@btn-dark-border:        		     darken(@btn-dark-bg, 5%);
+
 @btn-success-color:              #fff;
 @btn-success-bg:                 @brand-success;
 @btn-success-border:             darken(@btn-success-bg, 5%);
@@ -266,25 +270,35 @@
 // --------------------------------------------------
 
 // Extra small screen / phone
-@screen-xs:                  480px;
-@screen-phone:               @screen-xs;
+@screen-xs: 								320px;
+@screen-phone: 							@screen-xs;
 
-// Small screen / tablet
-@screen-sm:                  768px;
-@screen-tablet:              @screen-sm;
+// Small screen / wide phone
+@screen-sm: 								480px;
+@screen-lg-phone: 						@screen-sm;
 
-// Medium screen / desktop
-@screen-md:                  992px;
-@screen-desktop:             @screen-md;
+// Medium screen / tablet
+@screen-md: 								600px;
+@screen-tablet: 						@screen-md;
 
-// Large screen / wide desktop
-@screen-lg:                  1200px;
-@screen-lg-desktop:          @screen-lg;
+// Large screen / wide tablet
+@screen-ml: 								800px;
+@screen-lg-tablet: 					@screen-ml;
+
+// Extra Large screen / desktop
+@screen-lg: 								960px;
+@screen-desktop: 						@screen-lg;
+
+// Super Large screen / wide desktop
+@screen-xl: 								1200px;
+@screen-lg-desktop: 				@screen-xl;
 
 // So media queries don't overlap when required, provide a maximum
 @screen-xs-max:              (@screen-sm - 1);
 @screen-sm-max:              (@screen-md - 1);
-@screen-md-max:              (@screen-lg - 1);
+@screen-md-max:              (@screen-ml - 1);
+@screen-ml-max:              (@screen-lg - 1);
+@screen-lg-max:              (@screen-xl - 1);
 
 
 // Grid system
@@ -293,9 +307,9 @@
 // Number of columns in the grid system
 @grid-columns:              12;
 // Padding, to be divided by two and applied to the left and right of all columns
-@grid-gutter-width:         30px;
+@grid-gutter-width:         40px;
 // Point at which the navbar stops collapsing
-@grid-float-breakpoint:     @screen-tablet;
+@grid-float-breakpoint:     @screen-lg-tablet;
 
 
 // Navbar
@@ -676,11 +690,42 @@
 // Container sizes
 // --------------------------------------------------
 
-// Small screen / tablet
-@container-tablet:            ((720px + @grid-gutter-width));
+// Small screen / wide phone
+@container-lg-phone: 					((@screen-lg-phone + @grid-gutter-width));
 
-// Medium screen / desktop
-@container-desktop:           ((940px + @grid-gutter-width));
+// Medium screen / tablet
+@container-tablet: 						((@screen-tablet + @grid-gutter-width));
 
-// Large screen / wide desktop
-@container-lg-desktop:        ((1140px + @grid-gutter-width));
+// Medium screen / tablet
+@container-lg-tablet: 				((@screen-lg-tablet + @grid-gutter-width));
+
+// Large screen / desktop
+@container-desktop: 					((@screen-desktop + @grid-gutter-width));
+
+// Extra Large screen / wide desktop
+@container-lg-desktop: 				((@screen-lg-desktop + @grid-gutter-width));
+
+
+// Extra small screen / phone
+@screen-xs: 								320px;
+@screen-phone: 							@screen-xs;
+
+// Small screen / wide phone
+@screen-sm: 								480px;
+@screen-lg-phone: 						@screen-sm;
+
+// Medium screen / tablet
+@screen-md: 								600px;
+@screen-tablet: 						@screen-md;
+
+// Large screen / wide tablet
+@screen-ml: 								800px;
+@screen-lg-tablet: 					@screen-ml;
+
+// Extra Large screen / desktop
+@screen-lg: 								960px;
+@screen-desktop: 						@screen-lg;
+
+// Super Large screen / wide desktop
+@screen-xl: 								1200px;
+@screen-lg-desktop: 				@screen-xl;
