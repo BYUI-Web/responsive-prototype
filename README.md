@@ -26,3 +26,5 @@ To develop locally, install [Node](http://nodejs.org/download/) and [Grunt](http
 $ npm install
 $ grunt
 ```
+
+This task will run LESS to compile and concatenate less files, run jekyll to generate the site in a sibling folder, and run a local server. After running grunt, you can preview the site in your browser at: http://localhost:4000/generated-prototype/
