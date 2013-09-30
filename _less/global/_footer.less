@@ -7,6 +7,17 @@
     margin: .2em;
   }
 }
+.audience-nav, .help-nav {
+  text-align: center;
+}
+@media (min-width: @screen-lg-tablet) {
+  .audience-nav {
+    text-align: left;
+  }
+  .help-nav {
+    text-align: right;
+  }
+}
 .audience-nav {
   margin-bottom: .5em;
 }
@@ -37,6 +48,14 @@
     &:hover {
       color: #eee;
     }
+  }
+}
+.footer-social {
+  list-style: none;
+  padding-left: 10px;
+  img {
+    max-width: 2em;
+    margin-right: .25em;
   }
 }
 .footer-links {
