@@ -3,4 +3,14 @@ markdown: redcarpet
 pygments: true
 baseurl: '/generated-prototype'
 destination: '../generated-prototype'
-exclude: ['deprecated', 'documentation', '_less', '_less/', '_less/*']
+exclude: [
+	'_less', 
+	'_less/', 
+	'_less/*', 
+	'node_modules', 
+	'node_modules/', 
+	'node_modules/*',
+	'package.json',
+	'Gruntfile.js',
+	'to-do.md'
+]

@@ -1,6 +1,10 @@
 {
   "name": "byui-responsive",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BYUI-Web/responsive-prototype"
+  },
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-connect": "~0.5.0",
