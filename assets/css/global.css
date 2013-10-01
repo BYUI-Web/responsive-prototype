@@ -6335,7 +6335,9 @@ td.visible-print {
 .no-js .collapse {
   display: block;
 }
-/* BYU-IDAHO GLOBAL STYLESHEET */
+/*!
+ * BYU Idaho Global Styles
+ */
 @font-face {
   font-family: 'icomoon';
   src: url('../fonts/icomoon.eot');
