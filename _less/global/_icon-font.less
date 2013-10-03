@@ -1,17 +1,18 @@
+
 @font-face {
-	font-family: 'iconic';
-	src:url('../fonts/iconic.eot');
-	src:url('../fonts/iconic.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/iconic.woff') format('woff'),
-		url('../fonts/iconic.ttf') format('truetype'),
-		url('../fonts/iconic.svg#iconic') format('svg');
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot');
+	src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.woff') format('woff'),
+		url('../fonts/icomoon.ttf') format('truetype'),
+		url('../fonts/icomoon.svg#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 /* Use the following CSS code if you want to use data attributes for inserting your icons */
 [data-icon]:before {
-	font-family: 'iconic';
+	font-family: 'icomoon';
 	content: attr(data-icon);
 	speak: none;
 	font-weight: normal;
@@ -28,8 +29,8 @@ Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="icon-"] {
 */
-.icon {
-	font-family: 'iconic';
+.icon-byui-logo, .icon-lds-church, .icon-vcard, .icon-export, .icon-graduation, .icon-book, .icon-megaphone, .icon-briefcase, .icon-pictures, .icon-install, .icon-book-2, .icon-triangle-left, .icon-triangle-down, .icon-triangle-up, .icon-triangle-right, .icon-angle-left, .icon-angle-down, .icon-angle-up, .icon-angle-right, .icon-home, .icon-office, .icon-phone, .icon-address-book, .icon-keyboard, .icon-radio-unchecked, .icon-radio-checked, .icon-flashlight, .icon-play, .icon-pushpin, .icon-chat-alt-stroke, .icon-chat-alt-fill, .icon-checkmark, .icon-check-alt, .icon-x, .icon-x-altx-alt, .icon-denied, .icon-cursor, .icon-rss, .icon-rss-alt, .icon-wrench, .icon-dial, .icon-cog, .icon-calendar-alt-stroke, .icon-calendar-alt-fill, .icon-share, .icon-mail, .icon-heart-stroke, .icon-heart-fill, .icon-movie, .icon-document-alt-stroke, .icon-document-alt-fill, .icon-document-stroke, .icon-document-fill, .icon-plus, .icon-plus-alt, .icon-minus, .icon-minus-alt, .icon-pin, .icon-link, .icon-bolt, .icon-move-alt2, .icon-award-fill, .icon-award-stroke, .icon-magnifying-glass, .icon-key-stroke, .icon-key-fill, .icon-new-window, .icon-lightbulb, .icon-spin-alt, .icon-curved-arrow, .icon-undo, .icon-reload, .icon-loop, .icon-arrow-left, .icon-arrow-left-alt1, .icon-arrow-right, .icon-arrow-right-alt1, .icon-arrow-up, .icon-arrow-up-alt1, .icon-arrow-down, .icon-arrow-down-alt1, .icon-steering-wheel, .icon-microphone, .icon-headphones, .icon-volume, .icon-volume-mute, .icon-play-2, .icon-pause, .icon-stop, .icon-first, .icon-last, .icon-play-alt, .icon-fullscreen-exit, .icon-fullscreen-exit-alt, .icon-fullscreen, .icon-fullscreen-alt, .icon-iphone, .icon-compass, .icon-box, .icon-folder-stroke, .icon-folder-fill, .icon-at, .icon-ampersand, .icon-info, .icon-question-mark, .icon-pilcrow, .icon-hash, .icon-left-quote, .icon-right-quote, .icon-read-more, .icon-list, .icon-book-3, .icon-book-alt, .icon-book-alt2, .icon-pen, .icon-brush, .icon-layers-alt, .icon-layers, .icon-image, .icon-camera, .icon-chart, .icon-chart-alt, .icon-eye, .icon-user, .icon-home-2, .icon-clock, .icon-tag-stroke, .icon-tag-fill, .icon-star, .icon-map-pin-fill, .icon-download, .icon-upload, .icon-cloud-download, .icon-cloud-upload, .icon-fork, .icon-paperclip, .icon-trash-fill, .icon-trash-stroke, .icon-eject, .icon-article, .icon-list-nested, .icon-pen-alt-fill, .icon-eyedropper, .icon-lock-stroke, .icon-lock-fill, .icon-unlock-stroke, .icon-unlock-fill, .icon-file-pdf, .icon-file-word, .icon-file-excel, .icon-facebook, .icon-twitter, .icon-feed, .icon-youtube, .icon-linkedin, .icon-file-zip, .icon-libreoffice, .icon-books, .icon-library, .icon-bell, .icon-map, .icon-map-2, .icon-food, .icon-spinner, .icon-spinner-2, .icon-clipboard, .icon-code, .icon-earth, .icon-suitcase, .icon-chat, .icon-camera-2, .icon-calendar, .icon-bell-2, .icon-link-2, .icon-search, .icon-popup, .icon-network, .icon-upload-2, .icon-download-2, .icon-install-2, .icon-cloud, .icon-upload-3, .icon-archive, .icon-bookmark {
+	font-family: 'icomoon';
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
@@ -125,32 +126,11 @@ you can use the generic selector below, but it's slower:
 .icon-pushpin:before {
 	content: "\e030";
 }
-.icon-chat:before {
-	content: "\e004";
-}
 .icon-chat-alt-stroke:before {
 	content: "\e008";
 }
 .icon-chat-alt-fill:before {
 	content: "\e00a";
-}
-.icon-comment-alt1-stroke:before {
-	content: "\e016";
-}
-.icon-comment-alt1-fill:before {
-	content: "\e017";
-}
-.icon-comment-stroke:before {
-	content: "\e018";
-}
-.icon-comment-fill:before {
-	content: "\e019";
-}
-.icon-comment-alt2-stroke:before {
-	content: "\e01e";
-}
-.icon-comment-alt2-fill:before {
-	content: "\e020";
 }
 .icon-checkmark:before {
 	content: "\e021";
@@ -184,9 +164,6 @@ you can use the generic selector below, but it's slower:
 }
 .icon-cog:before {
 	content: "\e02e";
-}
-.icon-calendar:before {
-	content: "\e031";
 }
 .icon-calendar-alt-stroke:before {
 	content: "\e032";
@@ -242,17 +219,8 @@ you can use the generic selector below, but it's slower:
 .icon-bolt:before {
 	content: "\e043";
 }
-.icon-move:before {
-	content: "\e044";
-}
-.icon-move-alt1:before {
-	content: "\e045";
-}
 .icon-move-alt2:before {
 	content: "\e046";
-}
-.icon-equalizer:before {
-	content: "\e047";
 }
 .icon-award-fill:before {
 	content: "\e048";
@@ -262,18 +230,6 @@ you can use the generic selector below, but it's slower:
 }
 .icon-magnifying-glass:before {
 	content: "\e04a";
-}
-.icon-trash-stroke:before {
-	content: "\e04b";
-}
-.icon-trash-fill:before {
-	content: "\e04c";
-}
-.icon-beaker-alt:before {
-	content: "\e04d";
-}
-.icon-beaker:before {
-	content: "\e04e";
 }
 .icon-key-stroke:before {
 	content: "\e04f";
@@ -290,9 +246,6 @@ you can use the generic selector below, but it's slower:
 .icon-spin-alt:before {
 	content: "\e053";
 }
-.icon-spin:before {
-	content: "\e054";
-}
 .icon-curved-arrow:before {
 	content: "\e055";
 }
@@ -302,44 +255,8 @@ you can use the generic selector below, but it's slower:
 .icon-reload:before {
 	content: "\e057";
 }
-.icon-reload-alt:before {
-	content: "\e058";
-}
 .icon-loop:before {
 	content: "\e059";
-}
-.icon-loop-alt1:before {
-	content: "\e05a";
-}
-.icon-loop-alt2:before {
-	content: "\e05b";
-}
-.icon-loop-alt3:before {
-	content: "\e05c";
-}
-.icon-loop-alt4:before {
-	content: "\e05d";
-}
-.icon-transfer:before {
-	content: "\e05e";
-}
-.icon-move-vertical:before {
-	content: "\e05f";
-}
-.icon-move-vertical-alt1:before {
-	content: "\e060";
-}
-.icon-move-vertical-alt2:before {
-	content: "\e061";
-}
-.icon-move-horizontal:before {
-	content: "\e062";
-}
-.icon-move-horizontal-alt1:before {
-	content: "\e063";
-}
-.icon-move-horizontal-alt2:before {
-	content: "\e064";
 }
 .icon-arrow-left:before {
 	content: "\e065";
@@ -347,17 +264,11 @@ you can use the generic selector below, but it's slower:
 .icon-arrow-left-alt1:before {
 	content: "\e066";
 }
-.icon-arrow-left-alt2:before {
-	content: "\e067";
-}
 .icon-arrow-right:before {
 	content: "\e068";
 }
 .icon-arrow-right-alt1:before {
 	content: "\e069";
-}
-.icon-arrow-right-alt2:before {
-	content: "\e06a";
 }
 .icon-arrow-up:before {
 	content: "\e06b";
@@ -365,20 +276,11 @@ you can use the generic selector below, but it's slower:
 .icon-arrow-up-alt1:before {
 	content: "\e06c";
 }
-.icon-arrow-up-alt2:before {
-	content: "\e06d";
-}
 .icon-arrow-down:before {
 	content: "\e06e";
 }
 .icon-arrow-down-alt1:before {
 	content: "\e06f";
-}
-.icon-arrow-down-alt2:before {
-	content: "\e070";
-}
-.icon-cd:before {
-	content: "\e071";
 }
 .icon-steering-wheel:before {
 	content: "\e072";
@@ -404,9 +306,6 @@ you can use the generic selector below, but it's slower:
 .icon-stop:before {
 	content: "\e079";
 }
-.icon-eject:before {
-	content: "\e07a";
-}
 .icon-first:before {
 	content: "\e07b";
 }
@@ -430,18 +329,6 @@ you can use the generic selector below, but it's slower:
 }
 .icon-iphone:before {
 	content: "\e082";
-}
-.icon-battery-empty:before {
-	content: "\e083";
-}
-.icon-battery-half:before {
-	content: "\e084";
-}
-.icon-battery-full:before {
-	content: "\e085";
-}
-.icon-battery-charging:before {
-	content: "\e086";
 }
 .icon-compass:before {
 	content: "\e087";
@@ -479,23 +366,11 @@ you can use the generic selector below, but it's slower:
 .icon-right-quote:before {
 	content: "\e092";
 }
-.icon-left-quote-alt:before {
-	content: "\e093";
-}
-.icon-right-quote-alt:before {
-	content: "\e094";
-}
-.icon-article:before {
-	content: "\e095";
-}
 .icon-read-more:before {
 	content: "\e096";
 }
 .icon-list:before {
 	content: "\e097";
-}
-.icon-list-nested:before {
-	content: "\e098";
 }
 .icon-book-3:before {
 	content: "\e099";
@@ -509,23 +384,8 @@ you can use the generic selector below, but it's slower:
 .icon-pen:before {
 	content: "\e09c";
 }
-.icon-pen-alt-stroke:before {
-	content: "\e09d";
-}
-.icon-pen-alt-fill:before {
-	content: "\e09e";
-}
-.icon-pen-alt2:before {
-	content: "\e09f";
-}
 .icon-brush:before {
 	content: "\e0a0";
-}
-.icon-brush-alt:before {
-	content: "\e0a1";
-}
-.icon-eyedropper:before {
-	content: "\e0a2";
 }
 .icon-layers-alt:before {
 	content: "\e0a3";
@@ -539,23 +399,11 @@ you can use the generic selector below, but it's slower:
 .icon-camera:before {
 	content: "\e0a6";
 }
-.icon-aperture:before {
-	content: "\e0a7";
-}
-.icon-aperture-alt:before {
-	content: "\e0a8";
-}
 .icon-chart:before {
 	content: "\e0a9";
 }
 .icon-chart-alt:before {
 	content: "\e0aa";
-}
-.icon-bars:before {
-	content: "\e0ab";
-}
-.icon-bars-alt:before {
-	content: "\e0ac";
 }
 .icon-eye:before {
 	content: "\e0ad";
@@ -569,59 +417,17 @@ you can use the generic selector below, but it's slower:
 .icon-clock:before {
 	content: "\e0b0";
 }
-.icon-lock-stroke:before {
-	content: "\e0b1";
-}
-.icon-lock-fill:before {
-	content: "\e0b2";
-}
-.icon-unlock-stroke:before {
-	content: "\e0b3";
-}
-.icon-unlock-fill:before {
-	content: "\e0b4";
-}
 .icon-tag-stroke:before {
 	content: "\e0b5";
 }
 .icon-tag-fill:before {
 	content: "\e0b6";
 }
-.icon-sun-stroke:before {
-	content: "\e0b7";
-}
-.icon-sun-fill:before {
-	content: "\e0b8";
-}
-.icon-moon-stroke:before {
-	content: "\e0b9";
-}
-.icon-moon-fill:before {
-	content: "\e0ba";
-}
-.icon-cloud:before {
-	content: "\e0bb";
-}
-.icon-rain:before {
-	content: "\e0bc";
-}
-.icon-umbrella:before {
-	content: "\e0bd";
-}
 .icon-star:before {
 	content: "\e0be";
 }
-.icon-map-pin-stroke:before {
-	content: "\e0bf";
-}
 .icon-map-pin-fill:before {
 	content: "\e0c0";
-}
-.icon-map-pin-alt:before {
-	content: "\e0c1";
-}
-.icon-target:before {
-	content: "\e0c2";
 }
 .icon-download:before {
 	content: "\e0c3";
@@ -640,4 +446,148 @@ you can use the generic selector below, but it's slower:
 }
 .icon-paperclip:before {
 	content: "\e0c8";
+}
+.icon-trash-fill:before {
+	content: "\e04c";
+}
+.icon-trash-stroke:before {
+	content: "\e04b";
+}
+.icon-eject:before {
+	content: "\e07a";
+}
+.icon-article:before {
+	content: "\e095";
+}
+.icon-list-nested:before {
+	content: "\e098";
+}
+.icon-pen-alt-fill:before {
+	content: "\e09e";
+}
+.icon-eyedropper:before {
+	content: "\e0a2";
+}
+.icon-lock-stroke:before {
+	content: "\e0b1";
+}
+.icon-lock-fill:before {
+	content: "\e0b2";
+}
+.icon-unlock-stroke:before {
+	content: "\e0b3";
+}
+.icon-unlock-fill:before {
+	content: "\e0b4";
+}
+.icon-file-pdf:before {
+	content: "\e004";
+}
+.icon-file-word:before {
+	content: "\e016";
+}
+.icon-file-excel:before {
+	content: "\e017";
+}
+.icon-facebook:before {
+	content: "\e018";
+}
+.icon-twitter:before {
+	content: "\e019";
+}
+.icon-feed:before {
+	content: "\e01e";
+}
+.icon-youtube:before {
+	content: "\e020";
+}
+.icon-linkedin:before {
+	content: "\e031";
+}
+.icon-file-zip:before {
+	content: "\e044";
+}
+.icon-libreoffice:before {
+	content: "\e045";
+}
+.icon-books:before {
+	content: "\e047";
+}
+.icon-library:before {
+	content: "\e04d";
+}
+.icon-bell:before {
+	content: "\e04e";
+}
+.icon-map:before {
+	content: "\e054";
+}
+.icon-map-2:before {
+	content: "\e058";
+}
+.icon-food:before {
+	content: "\e05a";
+}
+.icon-spinner:before {
+	content: "\e05b";
+}
+.icon-spinner-2:before {
+	content: "\e05c";
+}
+.icon-clipboard:before {
+	content: "\e05d";
+}
+.icon-code:before {
+	content: "\e05e";
+}
+.icon-earth:before {
+	content: "\e05f";
+}
+.icon-suitcase:before {
+	content: "\e060";
+}
+.icon-chat:before {
+	content: "\e061";
+}
+.icon-camera-2:before {
+	content: "\e062";
+}
+.icon-calendar:before {
+	content: "\e063";
+}
+.icon-bell-2:before {
+	content: "\e064";
+}
+.icon-link-2:before {
+	content: "\e067";
+}
+.icon-search:before {
+	content: "\e06a";
+}
+.icon-popup:before {
+	content: "\e06d";
+}
+.icon-network:before {
+	content: "\e070";
+}
+.icon-upload-2:before {
+	content: "\e071";
+}
+.icon-download-2:before {
+	content: "\e083";
+}
+.icon-install-2:before {
+	content: "\e084";
+}
+.icon-cloud:before {
+	content: "\e085";
+}
+.icon-upload-3:before {
+	content: "\e086";
+}
+.icon-archive:before {
+	content: "\e093";
+}
+.icon-bookmark:before {
+	content: "\e094";
 }

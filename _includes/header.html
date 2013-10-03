@@ -39,7 +39,8 @@
 </head>
 
 <body>
-  <div class="site-navigation navbar navbar-inverse">
+  <header class="global-header">
+    <div class="site-navigation navbar navbar-inverse">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".site-navbar-collapse">
@@ -52,48 +53,46 @@
         <div class="navbar-collapse site-navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="dropdown">
-              <a href="#administrative" class="administrative" class="dropdown-toggle" data-toggle="dropdown">Records <b class="caret"></b></a>
+              <a href="#administrative" class="administrative" class="dropdown-toggle" data-toggle="dropdown"><span aria-hidden="true" class="icon icon-library">&nbsp;&nbsp;</span>University <b class="caret"></b></a>
               <ul class="dropdown-menu">
+                <li><a href="#">About BYUI</a></li>
+                <li class="divider"></li>
                 <li><a href="#">Apply</a></li>
-                <li><a href="#">Course Catalog</a></li>
-                <li><a href="#">Registration</a></li>
                 <li><a href="#">Financial Aid</a></li>
-                <li><a href="#">Honor Code</a></li>
-                <li><a href="#">Human Resources</a></li>
+                <li><a href="#">Registration</a></li>
                 <li><a href="#">University Relations</a></li>
+                <li><a href="#">President's Office</a></li>
               </ul>
             </li>
             <li class="dropdown">
-              <a href="#academic" class="dropdown-toggle" data-toggle="dropdown"></span>Learning <b class="caret"></b></a>
+              <a href="#academic" class="dropdown-toggle" data-toggle="dropdown"><span aria-hidden="true" class="icon icon-books">&nbsp;&nbsp;</span>Academics <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="#">Learning Model</a></li>
                 <li><a href="#">Academic Schedule</a></li>
                 <li class="divider"></li>
                 <li><a href="#">Advising</a></li>
                 <li><a href="#">Colleges and Departments</a></li>
-                <li><a href="#">Continuing Education</a></li>
-                <li><a href="#">Online</a></li>
-                <li><a href="#">Pathways</a></li>
+                <li><a href="#">Course Catalog</a></li>
+                <li><a href="#">Testing Center</a></li>
                 <li><a href="#">Tutoring</a></li>
               </ul>
             </li>
             <li class="dropdown">
-              <a href="#student-life" class="dropdown-toggle" data-toggle="dropdown">Living <b class="caret"></b></a>
+              <a href="#student-life" class="dropdown-toggle" data-toggle="dropdown"><span aria-hidden="true" class="icon icon-food">&nbsp;&nbsp;</span>Living <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Student Employment</a></li>
+                <li><a href="#">Activities</a></li>
+                <li><a href="#">Honor Code</a></li>
+                <li><a href="#">Get Involved</a></li>
+                <li class="divider"></li>
                 <li><a href="#">Food</a></li>
                 <li><a href="#">Gym</a></li>
                 <li><a href="#">Health and Wellness</a></li>
                 <li><a href="#">Housing</a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header">Social</li>
-                <li><a href="#">Activities</a></li>
-                <li><a href="#">Associations</a></li>
-                <li><a href="#">Academic Societies</a></li>
+                <li><a href="#">Student Employment</a></li>
                 </ul>
             </li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span aria-hidden="true" class="icon icon-bell-2">&nbsp;&nbsp;</span>Services <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="#">Ask BYUI</a></li>
                 <li><a href="#">Technical Help</a></li>
@@ -107,10 +106,8 @@
               </ul>
             </li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Info <b class="caret"></b></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span aria-hidden="true" class="icon icon-cursor">&nbsp;&nbsp;</span>Find <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="#">About BYUI</a></li>
-                <li class="divider"></li>
                 <li><a href="#">A-Z Directory</a></li>
                 <li><a href="#">Bulletin Board</a></li>
                 <li><a href="#">Calendar</a></li>
@@ -122,7 +119,7 @@
             <a href="#" class="sign-in btn btn-primary navbar-btn">Sign In</a>
 
           </div>
-          <form class="navbar-form navbar-right form-horizontal container visible-xs visible-sm visible-md visible-ml" role="search">
+          <form class="navbar-form navbar-right form-horizontal container visible-xs visible-sm visible-md" role="search">
             <div class="search input-group">
               <input type="text" class="form-control" placeholder="Search BYU-I">
               <span class="input-group-btn">
@@ -139,7 +136,7 @@
     <div class="jumbotron homepage-jumbotron">
       <div class="container">
         <h1 class="page-title col-sm-8 row">Student Activities</h1>
-        <form class="desktop-search form-horizontal container hidden-xs hidden-sm hidden-md hidden-ml col-sm-4 row" role="search">
+        <form class="desktop-search form-horizontal container hidden-xs hidden-sm hidden-md col-sm-4 row" role="search">
           <div class="search input-group">
             <input type="text" class="form-control" placeholder="Search">
             <span class="input-group-btn">
@@ -149,6 +146,8 @@
         </form>
       </div>
     </div>
+  </header>
+  
     
 
     <section class="site-content container" role="main">
