@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'iconic';
-	src:url('../fonts/iconic.eot');
-	src:url('../fonts/iconic.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/iconic.woff') format('woff'),
-		url('../fonts/iconic.ttf') format('truetype'),
-		url('../fonts/iconic.svg#iconic') format('svg');
+	src:url('fonts/iconic.eot');
+	src:url('fonts/iconic.eot?#iefix') format('embedded-opentype'),
+		url('fonts/iconic.woff') format('woff'),
+		url('fonts/iconic.ttf') format('truetype'),
+		url('fonts/iconic.svg#iconic') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -28,7 +28,7 @@ Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="icon-"] {
 */
-.icon {
+.icon-byui-logo, .icon-lds-church, .icon-vcard, .icon-export, .icon-graduation, .icon-book, .icon-megaphone, .icon-briefcase, .icon-pictures, .icon-install, .icon-book-2, .icon-triangle-left, .icon-triangle-down, .icon-triangle-up, .icon-triangle-right, .icon-angle-left, .icon-angle-down, .icon-angle-up, .icon-angle-right, .icon-home, .icon-office, .icon-phone, .icon-address-book, .icon-keyboard, .icon-radio-unchecked, .icon-radio-checked, .icon-flashlight, .icon-play, .icon-pushpin, .icon-chat, .icon-chat-alt-stroke, .icon-chat-alt-fill, .icon-comment-alt1-stroke, .icon-comment-alt1-fill, .icon-comment-stroke, .icon-comment-fill, .icon-comment-alt2-stroke, .icon-comment-alt2-fill, .icon-checkmark, .icon-check-alt, .icon-x, .icon-x-altx-alt, .icon-denied, .icon-cursor, .icon-rss, .icon-rss-alt, .icon-wrench, .icon-dial, .icon-cog, .icon-calendar, .icon-calendar-alt-stroke, .icon-calendar-alt-fill, .icon-share, .icon-mail, .icon-heart-stroke, .icon-heart-fill, .icon-movie, .icon-document-alt-stroke, .icon-document-alt-fill, .icon-document-stroke, .icon-document-fill, .icon-plus, .icon-plus-alt, .icon-minus, .icon-minus-alt, .icon-pin, .icon-link, .icon-bolt, .icon-move, .icon-move-alt1, .icon-move-alt2, .icon-equalizer, .icon-award-fill, .icon-award-stroke, .icon-magnifying-glass, .icon-trash-stroke, .icon-trash-fill, .icon-beaker-alt, .icon-beaker, .icon-key-stroke, .icon-key-fill, .icon-new-window, .icon-lightbulb, .icon-spin-alt, .icon-spin, .icon-curved-arrow, .icon-undo, .icon-reload, .icon-reload-alt, .icon-loop, .icon-loop-alt1, .icon-loop-alt2, .icon-loop-alt3, .icon-loop-alt4, .icon-transfer, .icon-move-vertical, .icon-move-vertical-alt1, .icon-move-vertical-alt2, .icon-move-horizontal, .icon-move-horizontal-alt1, .icon-move-horizontal-alt2, .icon-arrow-left, .icon-arrow-left-alt1, .icon-arrow-left-alt2, .icon-arrow-right, .icon-arrow-right-alt1, .icon-arrow-right-alt2, .icon-arrow-up, .icon-arrow-up-alt1, .icon-arrow-up-alt2, .icon-arrow-down, .icon-arrow-down-alt1, .icon-arrow-down-alt2, .icon-cd, .icon-steering-wheel, .icon-microphone, .icon-headphones, .icon-volume, .icon-volume-mute, .icon-play-2, .icon-pause, .icon-stop, .icon-eject, .icon-first, .icon-last, .icon-play-alt, .icon-fullscreen-exit, .icon-fullscreen-exit-alt, .icon-fullscreen, .icon-fullscreen-alt, .icon-iphone, .icon-battery-empty, .icon-battery-half, .icon-battery-full, .icon-battery-charging, .icon-compass, .icon-box, .icon-folder-stroke, .icon-folder-fill, .icon-at, .icon-ampersand, .icon-info, .icon-question-mark, .icon-pilcrow, .icon-hash, .icon-left-quote, .icon-right-quote, .icon-left-quote-alt, .icon-right-quote-alt, .icon-article, .icon-read-more, .icon-list, .icon-list-nested, .icon-book-3, .icon-book-alt, .icon-book-alt2, .icon-pen, .icon-pen-alt-stroke, .icon-pen-alt-fill, .icon-pen-alt2, .icon-brush, .icon-brush-alt, .icon-eyedropper, .icon-layers-alt, .icon-layers, .icon-image, .icon-camera, .icon-aperture, .icon-aperture-alt, .icon-chart, .icon-chart-alt, .icon-bars, .icon-bars-alt, .icon-eye, .icon-user, .icon-home-2, .icon-clock, .icon-lock-stroke, .icon-lock-fill, .icon-unlock-stroke, .icon-unlock-fill, .icon-tag-stroke, .icon-tag-fill, .icon-sun-stroke, .icon-sun-fill, .icon-moon-stroke, .icon-moon-fill, .icon-cloud, .icon-rain, .icon-umbrella, .icon-star, .icon-map-pin-stroke, .icon-map-pin-fill, .icon-map-pin-alt, .icon-target, .icon-download, .icon-upload, .icon-cloud-download, .icon-cloud-upload, .icon-fork, .icon-paperclip {
 	font-family: 'iconic';
 	speak: none;
 	font-style: normal;
