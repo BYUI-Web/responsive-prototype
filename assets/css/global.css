@@ -7196,8 +7196,10 @@ body {
 .footer-column-heading {
   letter-spacing: 3px;
   border-bottom: 1px solid #999;
-  padding-bottom: .5em;
+  padding-bottom: .3em;
+  margin-bottom: 1em;
   font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .footer-social {
   list-style: none;

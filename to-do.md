@@ -9,3 +9,5 @@
 
 * Add semantic elements/aria roles
 * Add 'International Services' to Academic Menu
+* Tweak footer links
+* Document Outline updated
