@@ -11,4 +11,4 @@
 * Tweak footer links
 * Document Outline updated
 * Fix black bar nav at medium screen-width
-* Finish Accessibility checklist
+* Finish Accessibility checklist http://a11yproject.com/checklist.html
