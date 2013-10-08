@@ -7187,16 +7187,17 @@ body {
   background-color: #000;
   padding: 50px 0 0;
 }
-.site-footer h4 {
-  letter-spacing: 3px;
-  border-bottom: 1px solid #999;
-  padding-bottom: .5em;
-}
 .site-footer a {
   color: #ccc;
 }
 .site-footer a:hover {
   color: #eee;
+}
+.footer-column-heading {
+  letter-spacing: 3px;
+  border-bottom: 1px solid #999;
+  padding-bottom: .5em;
+  font-size: 18px;
 }
 .footer-social {
   list-style: none;
