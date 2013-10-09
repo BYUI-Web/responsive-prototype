@@ -350,12 +350,12 @@ textarea {
 }
 a {
   color: #056cb6;
-  text-decoration: none;
+  text-decoration: underline;
 }
 a:hover,
 a:focus {
   color: #03406c;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:focus {
   outline: thin dotted #333;
@@ -2228,6 +2228,7 @@ textarea.input-lg {
   font-weight: normal;
   line-height: 1.428571429;
   text-align: center;
+  text-decoration: none;
   vertical-align: middle;
   cursor: pointer;
   border: 1px solid transparent;
@@ -3344,6 +3345,9 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 .navbar:after {
   clear: both;
+}
+.navbar a {
+  text-decoration: none;
 }
 @media (min-width: 800px) {
   .navbar {
@@ -7186,8 +7190,7 @@ body {
   padding: 3em 0;
 }
 .footer-links a {
-  color: #ccc;
-  text-decoration: underline;
+  color: #ddd;
 }
 .footer-links a:hover {
   color: #fff;
@@ -7215,6 +7218,10 @@ body {
 }
 .footer-brand a {
   color: #ccc;
+}
+.footer-brand a:hover,
+.footer-brand a:focus {
+  text-decoration: none;
 }
 .church-branding {
   font-size: 8em;
