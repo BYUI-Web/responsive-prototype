@@ -7163,6 +7163,8 @@ body {
 }
 .footer-audience {
   background-color: #ccc;
+  border-top: 1px solid #bbb;
+  border-bottom: 1px solid #ddd;
   margin: 0;
   border-radius: 0;
   padding: .675em;
@@ -7187,6 +7189,8 @@ body {
   font-size: 1em;
   color: #fff;
   background-color: #056cb6;
+  border-top: 1px solid #044f84;
+  border-bottom: 1px solid #0689e8;
   padding: 3em 0;
 }
 .footer-links a {
@@ -7231,4 +7235,5 @@ body {
 }
 .church-branding a:hover {
   text-decoration: none;
+  color: #fff;
 }

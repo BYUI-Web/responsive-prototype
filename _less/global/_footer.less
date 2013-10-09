@@ -1,5 +1,7 @@
 .footer-audience {
   background-color: #ccc;
+  border-top: 1px solid #bbb;
+  border-bottom: 1px solid #ddd;
   margin: 0;
   border-radius: 0;
   padding: .675em;
@@ -24,6 +26,9 @@
   font-size: 1em;
   color: #fff;
   background-color: @brand-primary;
+  border-top: 1px solid darken(@brand-primary, 10%);
+
+  border-bottom: 1px solid lighten(@brand-primary, 10%);
   padding: 3em 0;
   h4 {
     // text-transform: uppercase;
@@ -72,6 +77,7 @@
     text-decoration: none;
     &:hover {
       text-decoration: none;
+      color: #fff;
     }
   }
 }
