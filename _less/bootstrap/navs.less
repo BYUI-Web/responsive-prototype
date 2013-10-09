@@ -11,6 +11,9 @@
   padding-left: 0; // Override default ul/ol
   list-style: none;
   .clearfix();
+  a {
+    text-decoration: none;
+  }
 
   > li {
     position: relative;
@@ -22,7 +25,6 @@
       padding: @nav-link-padding;
       &:hover,
       &:focus {
-        text-decoration: none;
         background-color: @nav-link-hover-bg;
       }
     }
@@ -34,7 +36,6 @@
       &:hover,
       &:focus {
         color: @nav-disabled-link-hover-color;
-        text-decoration: none;
         background-color: transparent;
         cursor: not-allowed;
       }

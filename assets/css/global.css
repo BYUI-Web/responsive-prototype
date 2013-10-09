@@ -3136,6 +3136,9 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav:after {
   clear: both;
 }
+.nav a {
+  text-decoration: none;
+}
 .nav > li {
   position: relative;
   display: block;
@@ -3147,7 +3150,6 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
-  text-decoration: none;
   background-color: #cccccc;
 }
 .nav > li.disabled > a {
@@ -3156,7 +3158,6 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav > li.disabled > a:hover,
 .nav > li.disabled > a:focus {
   color: #999999;
-  text-decoration: none;
   background-color: transparent;
   cursor: not-allowed;
 }
@@ -3194,8 +3195,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
-  color: #555555;
-  background-color: #ffffff;
+  color: #ffffff;
+  background-color: #056cb6;
   border: 1px solid #dddddd;
   border-bottom-color: transparent;
   cursor: default;
@@ -3854,10 +3855,9 @@ textarea.input-group-sm > .input-group-btn > .btn {
   color: #ffffff;
 }
 .breadcrumb {
-  padding: 8px 15px;
+  padding: 0;
   margin-bottom: 20px;
   list-style: none;
-  background-color: #f5f5f5;
   border-radius: 4px;
 }
 .breadcrumb > li {
@@ -7161,6 +7161,34 @@ body {
 .sign-in {
   margin-right: -20px;
 }
+/* LOCAL NAV STYLES */
+.department-nav .nav-tabs > li > a:hover,
+.department-nav .nav-tabs > li > a:active {
+  background-color: #056cb6;
+  color: #fff;
+  border: 1px solid #045d9d;
+}
+.department-nav .nav-tabs > li > a:hover .caret,
+.department-nav .nav-tabs > li > a:active .caret {
+  border-top-color: #fff;
+}
+.department-nav .nav-tabs .active > a {
+  color: #056cb6;
+  background-color: #fff;
+  border-bottom-color: transparent;
+  cursor: default;
+}
+.department-nav .nav-tabs .active > a .caret {
+  border-top-color: #fff;
+}
+.department-nav .nav-tabs .open > a {
+  background-color: #056cb6;
+  color: #fff;
+  border: 1px solid #045d9d;
+}
+.department-nav .nav-tabs .open > a .caret {
+  border-top-color: #fff;
+}
 .footer-audience {
   background-color: #ccc;
   border-top: 1px solid #bbb;
@@ -7217,6 +7245,7 @@ body {
 }
 .footer-brand {
   background: #000;
+  border-top: 1px solid #666;
   color: #aaa;
   padding-top: 2em;
 }

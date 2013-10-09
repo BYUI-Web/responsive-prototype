@@ -1,0 +1,33 @@
+// GLOBAL STYLES PARTIAL
+/* LOCAL NAV STYLES */
+.department-nav .nav-tabs  {
+  > li > a {
+    &:hover, &:active {
+      background-color: @brand-primary;
+      color: #fff;
+      border: 1px solid darken(@brand-primary, 5%);
+      .caret {
+        border-top-color: #fff;
+      }
+    }
+  }
+  .active > a {
+    color: @brand-primary;
+    background-color: #fff;
+    border-bottom-color: transparent;
+    cursor: default;
+    .caret {
+        border-top-color: #fff;
+
+    }
+  }
+  .open > a {
+    background-color: @brand-primary;
+    color: #fff;
+    border: 1px solid darken(@brand-primary, 5%);
+    .caret {
+      border-top-color: #fff;
+    }
+  }
+}
+  
