@@ -21,29 +21,33 @@ body {
   margin: 0;
   border-radius: 0;
   z-index: 1020;
-}
-.site-navigation .navbar-inverse .navbar-nav > li > a {
-  // color: #eee;
+  .navbar-nav {
+    margin-left: -20px;
+  }
 }
 .search {
   padding-left: 0;
 }
 .desktop-search {
   float: right;
+  margin-right: -20px;
 }
 .department-nav {
   margin-bottom: 1em;
   z-index: 1010;
 }
-.container {
-  transition: width 0.5s;
-}
+
 .site-logo {
-  font-size: 50px;
-  padding: 0 15px;
-  position: relative;
-  top: -0.05em;
-}
+    text-decoration: none;
+    color: #fff;
+    font-size: 75px;
+    margin-top: -26px;
+    margin-bottom: -26px;
+    margin-left: -6px;
+    &:hover {
+      color: #aaa;
+    }
+  }
 .sign-in {
   margin-right: -20px;
 }

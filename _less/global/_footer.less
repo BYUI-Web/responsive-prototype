@@ -1,7 +1,6 @@
 .footer-audience {
-  background-color: #ccc;
-  border-top: 1px solid #bbb;
-  border-bottom: 1px solid #ddd;
+  background-color: #eee;
+  border-top: 1px solid #ddd;
   margin: 0;
   border-radius: 0;
   padding: .675em;
@@ -16,7 +15,7 @@
   margin: 0;
   padding: 0;
   background: #fff;
-  background: url('http://www.byui.edu/prebuilt/stylenew/images/foot/taylor_graphic.png') no-repeat;
+  // background: url('http://www.byui.edu/prebuilt/stylenew/images/foot/taylor_graphic.png') no-repeat;
   background-position: center;
   height: 146px;
   margin-top: 2em;
@@ -29,36 +28,38 @@
   border-top: 1px solid darken(@brand-primary, 10%);
 
   border-bottom: 1px solid lighten(@brand-primary, 10%);
-  padding: 3em 0;
+  padding: 3em 0 1em;
   h4 {
     // text-transform: uppercase;
     
   }
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    list-style: none;
+    margin-bottom: .75em;
+  }
   a {
-    color: #ddd;
+    color: #fff;
     &:hover {
-      color: #fff;
+      color: #ddd;
     }
   }
 }
 .footer-column {
-  // margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 .footer-column-heading {
-  letter-spacing: 3px;
   border-bottom: 1px solid #fff;
   padding-bottom: .3em;
   margin-bottom: 1em;
   font-size: 18px;
-  font-family: @font-family-serif;
+  font-family: @font-family-sans-serif;
 }
-.footer-social {
-  list-style: none;
-  padding-left: 10px;
-  img {
-    max-width: 2em;
-    margin-right: .25em;
-  }
+.footer-column .footer-social {
+  padding-bottom: 2em;
 }
 .footer-brand {
   background: #000;
