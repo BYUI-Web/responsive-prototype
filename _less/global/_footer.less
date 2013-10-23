@@ -58,8 +58,10 @@
   font-size: 18px;
   font-family: @font-family-sans-serif;
 }
-.footer-column .footer-social {
-  padding-bottom: 2em;
+.footer-social {
+  li {
+    min-height: 2em;
+  }
 }
 .footer-brand {
   background: #000;
@@ -75,12 +77,12 @@
   }
 }
 .church-branding {
-  font-size: 8em;
   a {
     text-decoration: none;
-    &:hover {
-      text-decoration: none;
-      color: #fff;
-    }
+    display: block;
+    text-indent: -9999px;
+    height: 125px;
+    background: url(../images/lds-logo.png) no-repeat center;
+    background-size: 250px 125px;
   }
 }

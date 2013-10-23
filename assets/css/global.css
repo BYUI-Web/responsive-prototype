@@ -6366,12 +6366,6 @@ td.visible-print {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.icon-lds-church:before {
-  content: "\e600";
-}
-.icon-vcard:before {
-  content: "\e601";
-}
 .icon-export:before {
   content: "\e602";
 }
@@ -6660,6 +6654,9 @@ td.visible-print {
 .icon-byui-logo:before {
   content: "\e000";
 }
+.icon-sharepoint:before {
+  content: "\e62d";
+}
 .icon-menu:before {
   content: "\e61e";
 }
@@ -6796,8 +6793,8 @@ body {
   font-size: 18px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.footer-column .footer-social {
-  padding-bottom: 2em;
+.footer-social li {
+  min-height: 2em;
 }
 .footer-brand {
   background: #000;
@@ -6812,13 +6809,11 @@ body {
 .footer-brand a:focus {
   color: #fff;
 }
-.church-branding {
-  font-size: 8em;
-}
 .church-branding a {
   text-decoration: none;
-}
-.church-branding a:hover {
-  text-decoration: none;
-  color: #fff;
+  display: block;
+  text-indent: -9999px;
+  height: 125px;
+  background: url(../images/lds-logo.png) no-repeat center;
+  background-size: 250px 125px;
 }
