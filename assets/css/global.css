@@ -536,7 +536,7 @@ h4 small,
 }
 .page-header {
   padding-bottom: 9px;
-  margin: 40px 0 20px;
+  margin: 0 0 20px;
   border-bottom: 1px solid #cccccc;
 }
 ul,
@@ -1672,30 +1672,6 @@ pre code {
   .col-xl-offset-11 {
     margin-left: 91.66666666666666%;
   }
-}
-.no-pad {
-  padding: 0 !important;
-}
-.no-margin {
-  margin: 0 !important;
-}
-.space-1 {
-  margin-bottom: .5em;
-}
-.space-2 {
-  margin-bottom: 1em;
-}
-.space-3 {
-  margin-bottom: 1.5em;
-}
-.space-4 {
-  margin-bottom: 2em;
-}
-.space-5 {
-  margin-bottom: 2.5em;
-}
-.space-6 {
-  margin-bottom: 3em;
 }
 table {
   max-width: 100%;
@@ -3352,7 +3328,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 600px) {
   .navbar {
-    border-radius: 4px;
+    border-radius: 0;
   }
 }
 .navbar-header:before,
@@ -3533,7 +3509,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   padding-bottom: 10px;
   line-height: 20px;
 }
-@media (max-width: 799px) {
+@media (max-width: 599px) {
   .navbar-nav .open .dropdown-menu {
     position: static;
     float: none;
@@ -3610,7 +3586,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     margin-left: 0;
   }
 }
-@media (max-width: 799px) {
+@media (max-width: 599px) {
   .navbar-form .form-group {
     margin-bottom: 5px;
   }
@@ -3726,7 +3702,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   border-top-color: #777777;
   border-bottom-color: #777777;
 }
-@media (max-width: 799px) {
+@media (max-width: 599px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #777777;
   }
@@ -3823,7 +3799,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   border-top-color: #ffffff;
   border-bottom-color: #ffffff;
 }
-@media (max-width: 799px) {
+@media (max-width: 599px) {
   .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
     border-color: #080808;
   }
@@ -5242,6 +5218,36 @@ body.modal-open,
 }
 .affix {
   position: fixed;
+}
+.no-pad {
+  padding: 0 !important;
+}
+.no-pad-l {
+  padding-left: 0 !important;
+}
+.no-pad-r {
+  padding-right: 0 !important;
+}
+.no-margin {
+  margin: 0 !important;
+}
+.space-1 {
+  margin-bottom: .5em;
+}
+.space-2 {
+  margin-bottom: 1em;
+}
+.space-3 {
+  margin-bottom: 1.5em;
+}
+.space-4 {
+  margin-bottom: 2em;
+}
+.space-5 {
+  margin-bottom: 2.5em;
+}
+.space-6 {
+  margin-bottom: 3em;
 }
 @-ms-viewport {
   width: device-width;
@@ -6668,10 +6674,11 @@ body {
   padding: 40px 15px;
   text-align: center;
 }
-.jumbotron.homepage-jumbotron {
+.homepage-jumbotron {
   background: #056cb6;
   color: #fff;
-  padding: 1em;
+  padding: 1em 0;
+  margin: 0;
 }
 .page-title {
   margin: 0;
@@ -6691,6 +6698,7 @@ body {
 }
 .desktop-search {
   float: right;
+  margin-top: 9px;
   margin-right: -20px;
 }
 .department-nav {
@@ -6710,6 +6718,9 @@ body {
 }
 .sign-in {
   margin-right: -20px;
+}
+.site-content {
+  padding-top: 20px;
 }
 /* LOCAL NAV STYLES */
 .department-nav .nav-tabs > li > a:hover,
@@ -6759,7 +6770,6 @@ body {
   background: url('http://www.byui.edu/prebuilt/stylenew/images/foot/taylor_graphic.png') no-repeat;
   background-position: center;
   height: 146px;
-  margin-top: 2em;
   margin-bottom: -11px;
 }
 .footer-links {
@@ -6809,6 +6819,9 @@ body {
 .footer-brand a:hover,
 .footer-brand a:focus {
   color: #fff;
+}
+.church-branding {
+  padding: 2em 0;
 }
 .church-branding a {
   text-decoration: none;
