@@ -43,19 +43,41 @@
   a {
     color: #fff;
     &:hover {
-      color: #ddd;
+      /*color: #ddd;*/
     }
   }
 }
 .footer-column {
   margin-bottom: 2em;
+  .collapse {
+    @media (min-width:@screen-sm) {
+      display:block;
+      height: auto;
+    }
+  }
 }
 .footer-column-heading {
   border-bottom: 1px solid #fff;
+  display: block;
   padding-bottom: .3em;
   margin-bottom: 1em;
   font-size: 18px;
   font-family: @font-family-sans-serif;
+  position: relative;
+  &:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  .caret {
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+    position: absolute;
+    right: 0;
+    bottom: .5em;
+    @media (min-width:@screen-sm) {
+      display:none;
+    }
+  }
 }
 .footer-social {
   li {
