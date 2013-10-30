@@ -4,17 +4,6 @@ module.exports = function(grunt) {
 
     pkg: grunt.file.readJSON('package.json'),
 
-    less: {
-      development: {
-        options: {
-          paths: ["assets/css"]
-        },
-        files: {
-          "assets/css/global.css": "_less/global.less"
-        }
-      }
-    },
-
     connect: {
       server: {
         options: {
@@ -29,10 +18,21 @@ module.exports = function(grunt) {
       build: {}
     },
 
+    less: {
+      development: {
+        options: {
+          paths: ["assets/css"]
+        },
+        files: {
+          "assets/css/global.css": "_less/global.less"
+        }
+      }
+    },
+
     watch: {
       less: {
         files: ["_less/**/*.less"],
-        tasks: ['less'],
+        tasks: ['less']
       },
 
       jekyll: {
