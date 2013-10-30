@@ -9,18 +9,15 @@
 // Core styles
 .btn {
   display: inline-block;
-  padding: @padding-base-vertical @padding-base-horizontal;
   margin-bottom: 0; // For input.btn
-  font-size: @font-size-base;
   font-weight: @btn-font-weight;
-  line-height: @line-height-base;
   text-align: center;
-  text-decoration: none;
   vertical-align: middle;
   cursor: pointer;
+  background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
   border: 1px solid transparent;
-  border-radius: @border-radius-base;
   white-space: nowrap;
+  .button-size(@padding-base-vertical; @padding-base-horizontal; @font-size-base; @line-height-base; @border-radius-base);
   .user-select(none);
 
   &:focus {
@@ -60,9 +57,6 @@
 }
 .btn-primary {
   .button-variant(@btn-primary-color; @btn-primary-bg; @btn-primary-border);
-}
-.btn-dark {
-  .button-variant(@btn-dark-color; @btn-dark-bg; @btn-dark-border);
 }
 // Warning appears as orange
 .btn-warning {

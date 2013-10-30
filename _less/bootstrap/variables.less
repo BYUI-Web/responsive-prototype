@@ -13,87 +13,16 @@
 @gray-dark:              lighten(#000, 20%);   // #333
 @gray:                   lighten(#000, 33.5%); // #555
 @gray-light:             lighten(#000, 60%);   // #999
-@gray-lighter:           lighten(#000, 80%);   // #ccc
-@gray-lightest:          lighten(#000, 93.5%); // #eee
-
-.gray-darker {
-	color: #fff;
-	background-color: @gray-darker;
-}
-.gray-dark {
-	color: #fff;
-	background-color: @gray-dark;
-}
-.gray {
-	color: #fff;
-	background-color: @gray;
-}
-.gray-light {
-	color: #fff;
-	background-color: @gray-light;
-}
-.gray-lighter {
-	color: #333;
-	background-color: @gray-lighter;
-}
-.gray-lightest {
-	color: #333;
-	background-color: @gray-lightest;
-}
+@gray-lighter:           lighten(#000, 93.5%); // #eee
 
 // Brand colors
 // -------------------------
 
-@brand-primary:         #056cb6;
-@brand-dark: 			darken(@brand-primary, 10%); // #044f84
-@brand-success:         #129f47;
-@brand-warning:         #ffcf01;
-@brand-danger:          #d9541e;
-@brand-info:            lighten(@brand-primary, 20%);
-
-.primary {
-	color: #fff;
-	background-color: @brand-primary;
-}
-.dark {
-	color: #fff;
-	background: @brand-dark; 
-}
-.success {
-	color: #fff;
-	background-color: @brand-success;
-}
-.warning {
-	color: #fff;
-	background-color: @brand-warning;
-}
-.danger {
-	color: #fff;
-	background-color: @brand-danger;
-}
-.info {
-	color: #fff;
-	background-color: @brand-info;
-}
-
-.blue {
-	color: @brand-primary;
-}
-.dark-blue {
-	color: @brand-dark;
-}
-.light-blue {
-	color: @brand-info;
-}
-.green {
-	color: @brand-success;
-}
-.yellow {
-	color: @brand-warning;
-}
-.red {
-	color: @brand-danger;
-}
+@brand-primary:         #428bca;
+@brand-success:         #5cb85c;
+@brand-warning:         #f0ad4e;
+@brand-danger:          #d9534f;
+@brand-info:            #5bc0de;
 
 // Scaffolding
 // -------------------------
@@ -119,12 +48,21 @@
 @font-size-large:         ceil(@font-size-base * 1.25); // ~18px
 @font-size-small:         ceil(@font-size-base * 0.85); // ~12px
 
+@font-size-h1:            floor(@font-size-base * 2.6); // ~36px
+@font-size-h2:            floor(@font-size-base * 2.15); // ~30px
+@font-size-h3:            ceil(@font-size-base * 1.7); // ~24px
+@font-size-h4:            ceil(@font-size-base * 1.25); // ~18px
+@font-size-h5:            @font-size-base;
+@font-size-h6:            ceil(@font-size-base * 0.85); // ~12px
+
 @line-height-base:        1.428571429; // 20/14
 @line-height-computed:    floor(@font-size-base * @line-height-base); // ~20px
 
-@headings-font-family:    @font-family-serif;
+@headings-font-family:    @font-family-base;
 @headings-font-weight:    500;
 @headings-line-height:    1.1;
+@headings-color:          inherit;
+
 
 // Iconography
 // -------------------------
@@ -153,6 +91,7 @@
 @border-radius-large:            6px;
 @border-radius-small:            3px;
 
+@component-active-color:         #fff;
 @component-active-bg:            @brand-primary;
 
 @caret-width-base:               4px;
@@ -184,10 +123,6 @@
 @btn-primary-color:              #fff;
 @btn-primary-bg:                 @brand-primary;
 @btn-primary-border:             darken(@btn-primary-bg, 5%);
-
-@btn-dark-color:                 #fff;
-@btn-dark-bg:	                   @brand-dark;
-@btn-dark-border:        		     darken(@btn-dark-bg, 5%);
 
 @btn-success-color:              #fff;
 @btn-success-bg:                 @brand-success;
@@ -240,12 +175,12 @@
 @dropdown-fallback-border:       #ccc;
 @dropdown-divider-bg:            #e5e5e5;
 
-@dropdown-link-active-color:     #fff;
-@dropdown-link-active-bg:        @component-active-bg;
-
 @dropdown-link-color:            @gray-dark;
-@dropdown-link-hover-color:      #fff;
-@dropdown-link-hover-bg:         @dropdown-link-active-bg;
+@dropdown-link-hover-color:      darken(@gray-dark, 5%);
+@dropdown-link-hover-bg:         #f5f5f5;
+
+@dropdown-link-active-color:     @component-active-color;
+@dropdown-link-active-bg:        @component-active-bg;
 
 @dropdown-link-disabled-color:   @gray-light;
 
@@ -264,46 +199,44 @@
 // Try to avoid customizing these :)
 
 @zindex-navbar:            1000;
-@zindex-dropdown:          1010;
-@zindex-popover:           1020;
+@zindex-dropdown:          1000;
+@zindex-popover:           1010;
 @zindex-tooltip:           1030;
-@zindex-navbar-fixed:      1040;
-@zindex-modal-background:  1050;
-@zindex-modal:             3060;
+@zindex-navbar-fixed:      1030;
+@zindex-modal-background:  1040;
+@zindex-modal:             1050;
 
 // Media queries breakpoints
 // --------------------------------------------------
 
 // Extra small screen / phone
-@screen-xs: 								320px;
-@screen-phone: 							@screen-xs;
+// Note: Deprecated @screen-xs and @screen-phone as of v3.0.1
+@screen-xs:                  480px;
+@screen-xs-min:              @screen-xs;
+@screen-phone:               @screen-xs-min;
 
-// Small screen / wide phone
-@screen-sm: 								480px;
-@screen-lg-phone: 						@screen-sm;
+// Small screen / tablet
+// Note: Deprecated @screen-sm and @screen-tablet as of v3.0.1
+@screen-sm:                  768px;
+@screen-sm-min:              @screen-sm;
+@screen-tablet:              @screen-sm-min;
 
-// Medium screen / tablet
-@screen-md: 								600px;
-@screen-tablet: 						@screen-md;
+// Medium screen / desktop
+// Note: Deprecated @screen-md and @screen-desktop as of v3.0.1
+@screen-md:                  992px;
+@screen-md-min:              @screen-md;
+@screen-desktop:             @screen-md-min;
 
-// Large screen / wide tablet
-@screen-ml: 								800px;
-@screen-lg-tablet: 					@screen-ml;
-
-// Extra Large screen / desktop
-@screen-lg: 								960px;
-@screen-desktop: 						@screen-lg;
-
-// Super Large screen / wide desktop
-@screen-xl: 								1200px;
-@screen-lg-desktop: 				@screen-xl;
+// Large screen / wide desktop
+// Note: Deprecated @screen-lg and @screen-lg-desktop as of v3.0.1
+@screen-lg:                  1200px;
+@screen-lg-min:              @screen-lg;
+@screen-lg-desktop:          @screen-lg-min;
 
 // So media queries don't overlap when required, provide a maximum
-@screen-xs-max:              (@screen-sm - 1);
-@screen-sm-max:              (@screen-md - 1);
-@screen-md-max:              (@screen-ml - 1);
-@screen-ml-max:              (@screen-lg - 1);
-@screen-lg-max:              (@screen-xl - 1);
+@screen-xs-max:              (@screen-sm-min - 1);
+@screen-sm-max:              (@screen-md-min - 1);
+@screen-md-max:              (@screen-lg-min - 1);
 
 
 // Grid system
@@ -312,9 +245,9 @@
 // Number of columns in the grid system
 @grid-columns:              12;
 // Padding, to be divided by two and applied to the left and right of all columns
-@grid-gutter-width:         40px;
+@grid-gutter-width:         30px;
 // Point at which the navbar stops collapsing
-@grid-float-breakpoint:     @screen-tablet;
+@grid-float-breakpoint:     @screen-sm-min;
 
 
 // Navbar
@@ -323,15 +256,13 @@
 // Basics of a navbar
 @navbar-height:                    50px;
 @navbar-margin-bottom:             @line-height-computed;
-@navbar-default-color:             #777;
-@navbar-default-bg:                #f8f8f8;
-@navbar-default-border:            darken(@navbar-default-bg, 6.5%);
-@navbar-border-radius:             0;
-@navbar-default-bg:                #fff;
-@navbar-default-border:            darken(@navbar-default-bg, 15%);
 @navbar-border-radius:             @border-radius-base;
 @navbar-padding-horizontal:        floor(@grid-gutter-width / 2);
 @navbar-padding-vertical:          ((@navbar-height - @line-height-computed) / 2);
+
+@navbar-default-color:             #777;
+@navbar-default-bg:                #f8f8f8;
+@navbar-default-border:            darken(@navbar-default-bg, 6.5%);
 
 // Navbar links
 @navbar-default-link-color:                #777;
@@ -344,7 +275,7 @@
 
 // Navbar brand label
 @navbar-default-brand-color:               @navbar-default-link-color;
-@navbar-default-brand-hover-color:         darken(@navbar-default-link-color, 10%);
+@navbar-default-brand-hover-color:         darken(@navbar-default-brand-color, 10%);
 @navbar-default-brand-hover-bg:            transparent;
 
 // Navbar toggle
@@ -361,7 +292,7 @@
 @navbar-inverse-border:                     darken(@navbar-inverse-bg, 10%);
 
 // Inverted navbar links
-@navbar-inverse-link-color:                 @gray-lighter;
+@navbar-inverse-link-color:                 @gray-light;
 @navbar-inverse-link-hover-color:           #fff;
 @navbar-inverse-link-hover-bg:              transparent;
 @navbar-inverse-link-active-color:          @navbar-inverse-link-hover-color;
@@ -373,13 +304,6 @@
 @navbar-inverse-brand-color:                @navbar-inverse-link-color;
 @navbar-inverse-brand-hover-color:          #fff;
 @navbar-inverse-brand-hover-bg:             transparent;
-
-// Inverted navbar search
-// Normal navbar needs no special styles or vars
-@navbar-inverse-search-bg:                  lighten(@navbar-inverse-bg, 25%);
-@navbar-inverse-search-bg-focus:            #fff;
-@navbar-inverse-search-border:              @navbar-inverse-bg;
-@navbar-inverse-search-placeholder-color:   #ccc;
 
 // Inverted navbar toggle
 @navbar-inverse-toggle-hover-bg:            #333;
@@ -404,16 +328,17 @@
 
 @nav-tabs-link-hover-border-color:          @gray-lighter;
 
-@nav-tabs-active-link-hover-bg:             @brand-primary;
-@nav-tabs-active-link-hover-color:          #fff;
+@nav-tabs-active-link-hover-bg:             @body-bg;
+@nav-tabs-active-link-hover-color:          @gray;
 @nav-tabs-active-link-hover-border-color:   #ddd;
 
 @nav-tabs-justified-link-border-color:            #ddd;
 @nav-tabs-justified-active-link-border-color:     @body-bg;
 
 // Pills
+@nav-pills-border-radius:                   @border-radius-base;
 @nav-pills-active-link-hover-bg:            @component-active-bg;
-@nav-pills-active-link-hover-color:         #fff;
+@nav-pills-active-link-hover-color:         @component-active-color;
 
 
 // Pagination
@@ -443,28 +368,28 @@
 @jumbotron-padding:              30px;
 @jumbotron-color:                inherit;
 @jumbotron-bg:                   @gray-lighter;
-
 @jumbotron-heading-color:        inherit;
+@jumbotron-font-size:            ceil(@font-size-base * 1.5);
 
 
 // Form states and alerts
 // -------------------------
 
-@state-warning-text:             darken(@brand-warning, 20%);
-@state-warning-bg:               lighten(@brand-warning, 35%);
-@state-warning-border:           darken(spin(@state-warning-bg, -10), 3%);
-
-@state-danger-text:              darken(@brand-danger, 20%);
-@state-danger-bg:                lighten(@brand-danger, 40%);
-@state-danger-border:            darken(spin(@state-danger-bg, -10), 3%);
-
-@state-success-text:             darken(@brand-success, 20%);
-@state-success-bg:               lighten(@brand-success, 50%);
+@state-success-text:             #468847;
+@state-success-bg:               #dff0d8;
 @state-success-border:           darken(spin(@state-success-bg, -10), 5%);
 
-@state-info-text:                darken(@brand-info, 20%);
-@state-info-bg:                  lighten(@brand-info, 35%);
+@state-info-text:                #3a87ad;
+@state-info-bg:                  #d9edf7;
 @state-info-border:              darken(spin(@state-info-bg, -10), 7%);
+
+@state-warning-text:             #c09853;
+@state-warning-bg:               #fcf8e3;
+@state-warning-border:           darken(spin(@state-warning-bg, -10), 5%);
+
+@state-danger-text:              #b94a48;
+@state-danger-bg:                #f2dede;
+@state-danger-border:            darken(spin(@state-danger-bg, -10), 5%);
 
 
 // Tooltips
@@ -566,7 +491,7 @@
 @list-group-border-radius:    @border-radius-base;
 
 @list-group-hover-bg:         #f5f5f5;
-@list-group-active-color:     #fff;
+@list-group-active-color:     @component-active-color;
 @list-group-active-bg:        @component-active-bg;
 @list-group-active-border:    @list-group-active-bg;
 
@@ -641,6 +566,7 @@
 @breadcrumb-bg:               #f5f5f5;
 @breadcrumb-color:            #ccc;
 @breadcrumb-active-color:     @gray-light;
+@breadcrumb-separator:        "/";
 
 
 // Carousel
@@ -661,8 +587,8 @@
 
 // Close
 // ------------------------
-@close-color:                 #000;
 @close-font-weight:           bold;
+@close-color:                 #000;
 @close-text-shadow:           0 1px 0 #fff;
 
 
@@ -698,42 +624,14 @@
 // Container sizes
 // --------------------------------------------------
 
-// Small screen / wide phone
-@container-lg-phone: 					((@screen-lg-phone + @grid-gutter-width));
+// Small screen / tablet
+@container-tablet:             ((720px + @grid-gutter-width));
+@container-sm:                 @container-tablet;
 
-// Medium screen / tablet
-@container-tablet: 						((@screen-tablet + @grid-gutter-width));
+// Medium screen / desktop
+@container-desktop:            ((940px + @grid-gutter-width));
+@container-md:                 @container-desktop;
 
-// Medium screen / tablet
-@container-lg-tablet: 				((@screen-lg-tablet + @grid-gutter-width));
-
-// Large screen / desktop
-@container-desktop: 					((@screen-desktop + @grid-gutter-width));
-
-// Extra Large screen / wide desktop
-@container-lg-desktop: 				((@screen-lg-desktop + @grid-gutter-width));
-
-
-// Extra small screen / phone
-@screen-xs: 								320px;
-@screen-phone: 							@screen-xs;
-
-// Small screen / wide phone
-@screen-sm: 								480px;
-@screen-lg-phone: 						@screen-sm;
-
-// Medium screen / tablet
-@screen-md: 								600px;
-@screen-tablet: 						@screen-md;
-
-// Large screen / wide tablet
-@screen-ml: 								800px;
-@screen-lg-tablet: 					@screen-ml;
-
-// Extra Large screen / desktop
-@screen-lg: 								960px;
-@screen-desktop: 						@screen-lg;
-
-// Super Large screen / wide desktop
-@screen-xl: 								1200px;
-@screen-lg-desktop: 				@screen-xl;
+// Large screen / wide desktop
+@container-large-desktop:      ((1140px + @grid-gutter-width));
+@container-lg:                 @container-large-desktop;

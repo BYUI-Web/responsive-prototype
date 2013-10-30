@@ -10,6 +10,7 @@
 
 // Core variables and mixins
 @import "bootstrap/variables.less";
+@import "custom/variables.less"; // Custom Override
 @import "bootstrap/mixins.less";
 
 // Reset
@@ -21,6 +22,7 @@
 @import "bootstrap/type.less";
 @import "bootstrap/code.less";
 @import "bootstrap/grid.less";
+@import "custom/grid.less"; // Custom Override
 @import "bootstrap/tables.less";
 @import "bootstrap/forms.less";
 @import "bootstrap/buttons.less";
@@ -29,10 +31,13 @@
 @import "bootstrap/component-animations.less";
 // @import "glyphicons.less";
 @import "bootstrap/dropdowns.less";
+@import "custom/dropdowns.less"; // Custom Override
 @import "bootstrap/button-groups.less";
 @import "bootstrap/input-groups.less";
 @import "bootstrap/navs.less";
+@import "custom/navs.less"; // Custom Override
 @import "bootstrap/navbar.less";
+@import "custom/navbar.less"; // Custom Override
 @import "bootstrap/breadcrumbs.less";
 @import "bootstrap/pagination.less";
 @import "bootstrap/pager.less";
@@ -59,20 +64,11 @@
 @import "bootstrap/responsive-utilities.less";
 
 // No Javascript
-@import "bootstrap/no-js.less";
+@import "custom/no-js.less"; // Custom Override
 
-/*!
- * BYU Idaho Global Styles
- */
+/*! BYU Idaho Global Styles */
 
 // Import Icon Fonts
 @import "global/_icon-font.less";
-
-// Import Header
 @import "global/_header.less";
-
-// Import Local Navigation
-@import "global/_local-nav.less";
-
-// Import Footer
 @import "global/_footer.less";
