@@ -47,7 +47,7 @@
 @brand-primary:         #056cb6;
 @brand-dark: 			darken(@brand-primary, 10%); // #044f84
 @brand-success:         #129f47;
-@brand-warning:         #ffcf01;
+@brand-warning:         darken(#ffcf01, 5%);
 @brand-danger:          #d9541e;
 @brand-info:            lighten(@brand-primary, 20%);
 
@@ -95,6 +95,12 @@
 	color: @brand-danger;
 }
 
+// Typography
+// -------------------------
+
+
+@headings-font-family:    @font-family-serif;
+
 
 // Grid system
 // --------------------------------------------------
@@ -112,3 +118,14 @@
 
 @navbar-default-bg:                #fff;
 @navbar-default-border:            darken(@navbar-default-bg, 15%);
+
+// Inverted navbar
+//
+// Reset inverted navbar basics
+@navbar-inverse-color:                      @gray-lighter;
+
+// Inverted navbar links
+@navbar-inverse-link-color:                 @gray-lighter;
+
+// Inverted navbar brand label
+@navbar-inverse-brand-color:                @navbar-inverse-link-color;

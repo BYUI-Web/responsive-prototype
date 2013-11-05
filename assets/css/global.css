@@ -45,7 +45,7 @@
 }
 .warning {
   color: #fff;
-  background-color: #ffcf01;
+  background-color: #e7bb00;
 }
 .danger {
   color: #fff;
@@ -68,7 +68,7 @@
   color: #129f47;
 }
 .yellow {
-  color: #ffcf01;
+  color: #e7bb00;
 }
 .red {
   color: #d9541e;
@@ -475,7 +475,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -2072,8 +2072,8 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-warning {
   color: #ffffff;
-  background-color: #ffcf01;
-  border-color: #e7bb00;
+  background-color: #e7bb00;
+  border-color: #cda600;
 }
 .btn-warning:hover,
 .btn-warning:focus,
@@ -2081,8 +2081,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-warning.active,
 .open .dropdown-toggle.btn-warning {
   color: #ffffff;
-  background-color: #d7af00;
-  border-color: #a98900;
+  background-color: #be9a00;
+  border-color: #907500;
 }
 .btn-warning:active,
 .btn-warning.active,
@@ -2104,8 +2104,8 @@ fieldset[disabled] .btn-warning:active,
 .btn-warning.disabled.active,
 .btn-warning[disabled].active,
 fieldset[disabled] .btn-warning.active {
-  background-color: #ffcf01;
-  border-color: #e7bb00;
+  background-color: #e7bb00;
+  border-color: #cda600;
 }
 .btn-danger {
   color: #ffffff;
@@ -3486,7 +3486,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   border-color: #080808;
 }
 .navbar-inverse .navbar-brand {
-  color: #999999;
+  color: #cccccc;
 }
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
@@ -3494,10 +3494,10 @@ textarea.input-group-sm > .input-group-btn > .btn {
   background-color: transparent;
 }
 .navbar-inverse .navbar-text {
-  color: #999999;
+  color: #cccccc;
 }
 .navbar-inverse .navbar-nav > li > a {
-  color: #999999;
+  color: #cccccc;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
@@ -3541,8 +3541,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
   border-bottom-color: #ffffff;
 }
 .navbar-inverse .navbar-nav > .dropdown > a .caret {
-  border-top-color: #999999;
-  border-bottom-color: #999999;
+  border-top-color: #cccccc;
+  border-bottom-color: #cccccc;
 }
 .navbar-inverse .navbar-nav > .open > a .caret,
 .navbar-inverse .navbar-nav > .open > a:hover .caret,
@@ -3555,7 +3555,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     border-color: #080808;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
-    color: #999999;
+    color: #cccccc;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -3576,7 +3576,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-inverse .navbar-link {
-  color: #999999;
+  color: #cccccc;
 }
 .navbar-inverse .navbar-link:hover {
   color: #ffffff;
@@ -3804,11 +3804,11 @@ textarea.input-group-sm > .input-group-btn > .btn {
   background-color: #0689e8;
 }
 .label-warning {
-  background-color: #ffcf01;
+  background-color: #e7bb00;
 }
 .label-warning[href]:hover,
 .label-warning[href]:focus {
-  background-color: #cda600;
+  background-color: #b39200;
 }
 .label-danger {
   background-color: #d9541e;
@@ -4072,7 +4072,7 @@ a.thumbnail.active {
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 .progress-bar-warning {
-  background-color: #ffcf01;
+  background-color: #e7bb00;
 }
 .progress-striped .progress-bar-warning {
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
@@ -5517,7 +5517,7 @@ td.visible-print {
     border-color: #080808;
   }
   .no-js .navbar-inverse .navbar-nav .dropdown:hover .dropdown-menu > li > a {
-    color: #999999;
+    color: #cccccc;
   }
   .no-js .navbar-inverse .navbar-nav .dropdown:hover .dropdown-menu > li > a:hover,
   .no-js .navbar-inverse .navbar-nav .dropdown:hover .dropdown-menu > li > a:focus {
