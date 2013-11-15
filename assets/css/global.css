@@ -5571,6 +5571,9 @@ td.visible-print {
 .space-6 {
   margin-bottom: 3em;
 }
+img {
+  max-width: 100%;
+}
 @font-face {
   font-family: 'icomoon';
   src: url('../fonts/icomoon.eot?-8k8p81');
