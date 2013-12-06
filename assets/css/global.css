@@ -5940,6 +5940,15 @@ body {
 .site-logo:hover {
   color: #aaa;
 }
+.site-title {
+  font-size: 1.8em;
+  float: left;
+  position: relative;
+  top: .3em;
+  border-left: 1px solid #efefef;
+  padding-left: 1em;
+  margin-left: .3em;
+}
 .sign-in {
   margin-right: -20px;
 }
