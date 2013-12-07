@@ -12,9 +12,6 @@
   @media (min-width: @screen-md) {
     width: @container-md;
   }
-  @media (min-width: @screen-lg-min) {
-    width: @container-lg;
-  }
 }
 
 // mobile first defaults
@@ -70,18 +67,5 @@
   .make-grid(@grid-columns, md, pull);
   .make-grid(@grid-columns, md, push);
   .make-grid(@grid-columns, md, offset);
-}
-
-
-// Large grid
-//
-// Columns, offsets, pushes, and pulls for the large desktop device range.
-
-@media (min-width: @screen-lg-min) {
-  .make-grid-columns-float(lg);
-  .make-grid(@grid-columns, lg, width);
-  .make-grid(@grid-columns, lg, pull);
-  .make-grid(@grid-columns, lg, push);
-  .make-grid(@grid-columns, lg, offset);
 }
 
