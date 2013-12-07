@@ -2,6 +2,127 @@
 // Utility classes
 // --------------------------------------------------
 
+// Colors
+// -------------------------
+
+// Grays
+
+@grayscale1:            #222;
+@grayscale2:            #444;
+@grayscale3:            #666;
+@grayscale4:            #888;
+@grayscale5:            #aaa;
+@grayscale6:            #ccc;
+@grayscale7:            #eee;
+
+// Background Colors
+// -------------------------
+
+// Grayscale
+.black-bg {
+  background-color: #000;
+}
+.gray1-bg {
+  background-color: @grayscale1;
+}
+.gray2-bg {
+  background-color: @grayscale2;
+}
+.gray3-bg {
+  background-color: @grayscale3;
+}
+.gray4-bg {
+  background-color: @grayscale4;
+}
+.gray5-bg {
+  background-color: @grayscale5;
+}
+.gray6-bg {
+  background-color: @grayscale6;
+}
+.gray7-bg {
+  background-color: @grayscale7;
+}
+.white-bg {
+  background-color: #fff;
+}
+
+// Color
+.primary-bg {
+  background-color: @brand-primary;
+}
+.dark-bg {
+  background: @brand-dark; 
+}
+.success-bg {
+  background-color: @brand-success;
+}
+.warning-bg {
+  background-color: @brand-warning;
+}
+.danger-bg {
+  background-color: @brand-danger;
+}
+.info-bg {
+  background-color: @brand-info;
+}
+
+// Text Colors
+// -------------------------
+
+// Grayscale
+.black-txt {
+  color: #000;
+}
+.gray1-txt {
+  color: @grayscale1;
+}
+.gray2-txt {
+  color: @grayscale2;
+}
+.gray3-txt {
+  color: @grayscale3;
+}
+.gray4-txt {
+  color: @grayscale4;
+}
+.gray5-txt {
+  color: @grayscale5;
+}
+.gray6-txt {
+  color: @grayscale6;
+}
+.gray7-txt {
+  color: @grayscale7;
+}
+.white-txt {
+  color: #fff;
+}
+
+// Color
+.primary-txt {
+  color: @brand-primary;
+}
+.dark-txt {
+  color: @brand-dark;
+}
+.success-txt {
+  color: @brand-success;
+}
+.warning-txt {
+  color: @brand-warning;
+}
+.danger-txt {
+  color: @brand-danger;
+}
+.info-txt {
+  color: @brand-info;
+}
+
+// Spacing
+// --------------------
+
+// Padding
 
 .no-pad {
   padding: 0 !important;
@@ -12,9 +133,20 @@
 .no-pad-r {
   padding-right: 0 !important;
 }
+
+// Margin
+
 .no-margin {
   margin: 0 !important;
 }
+.no-margin-l {
+  padding-left: 0 !important;
+}
+.no-margin-r {
+  padding-right: 0 !important;
+}
+
+// Row Spacing
 
 .space-1 {
   margin-bottom: .5em;
