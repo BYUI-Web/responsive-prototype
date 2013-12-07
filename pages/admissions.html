@@ -6,34 +6,6 @@ layout: admissions
     .contact-info address {
         margin: 0;
     }
-    .panel-body {
-        display: block;
-    }
-    .panel-heading {
-        display: block;
-    }
-    .cell-row {
-        display: block;
-        padding: 0;
-    }
-    .stacked {
-        width: 100%;
-    }
-    @media (min-width: 480px) {
-        .stacked.col-xs-6 {
-            width: 50%;
-        }
-    }
-    @media (min-width: 768px) {
-        .cell-row {
-            padding: 20px 0;
-        }
-    }
-    @media (min-width: 970px) {
-        .stacked.col-md-12 {
-            width: 100%;
-        }
-    }
 </style>
 
 
@@ -45,44 +17,43 @@ layout: admissions
 
     
     <section class="article col-md-8 pull-left space-6">
-        <div class="row cell-row">
-            <div class="col-sm-4">
+        <div class="row">
+            <div class="col-all-12 col-xs-4 pull-left space-4">
                 <a href="#">
-                    <img alt="Learn about the 3-track system." src="http://www.byui.edu/images/Admin_Offices/Admissions/ThreeTrack_Cell_230x285.jpg" class="hidden-xs">
-                    <p class="visible-xs">Learn about the 3-track system.</p>
+                    <img alt="Learn about the 3-track system." src="http://www.byui.edu/images/Admin_Offices/Admissions/ThreeTrack_Cell_230x285.jpg" class="center-block">
                 </a>
             </div>
-            <div class="col-sm-4">
+            <div class="col-all-12 col-xs-4 pull-left space-4">
                 <a href="#">
-                    <img alt="Ready to Apply to BYU Idaho? Apply Now." src="http://www.byui.edu/images/Admin_Offices/Admissions/ApplyNow_Cell_230x285.jpg" class="hidden-xs">
-                    <p class="visible-xs">Ready to Apply to BYU Idaho? Apply Now.</p>
+                    <img alt="Ready to Apply to BYU Idaho? Apply Now." src="http://www.byui.edu/images/Admin_Offices/Admissions/ApplyNow_Cell_230x285.jpg" class="center-block">
                 </a>
             </div>
-            <div class="col-sm-4">
+            <div class="col-all-12 col-xs-4 pull-left space-4">
                 <a href="#">
-                    <img alt="Check Out Our Youtube Channel." src="http://www.byui.edu/images/Admin_Offices/Admissions/YouTubeAd_Cell_230x285.jpg" class="hidden-xs">
-                    <p class="visible-xs">Check Out Our Youtube Channel.</p>
+                    <img alt="Check Out Our Youtube Channel." src="http://www.byui.edu/images/Admin_Offices/Admissions/YouTubeAd_Cell_230x285.jpg" class="center-block">
                 </a>
             </div>
         </div>
-        <div class="row">
-            <div class="col-xs-12">
-                <a href="#" class="cell-row">
-                    <img alt="Admissions - MissionDeferment - Banner" src="http://www.byui.edu/images/Admin_Offices/Admissions/MissionDeferment_Banner_710x216.jpg" class="hidden-xs">
-                    <p class="visible-xs">Going on a Mission? Make sure you defer.</p>
-                </a>
-                <a href="#" class="cell-row">
-                    <img alt="Admissions - Deadlines - Banner" src="http://www.byui.edu/images/Admin_Offices/Admissions/Deadlines_Banner_710x216.jpg" class="hidden-xs">
-                    <p class="visible-xs">Application Deadlines</p>
-                </a>
-                <a href="#" class="cell-row">
-                    <img alt="Admissions - Visit Campus - Banner" src="http://www.byui.edu/images/Admin_Offices/Admissions/CampusTour_Banner_710x216.jpg" class="hidden-xs">
-                    <p class="visible-xs">Come visit us! Schedule a Campus Tour</p>
-                </a>
-                <a href="#" class="cell-row">
-                    <img alt="Admissions - Tuition Costs - Banner" src="http://www.byui.edu/images/Admin_Offices/Admissions/TuitionCost_Banner_710x216.jpg" class="hidden-xs">
-                    <p class="visible-xs">Tuition Costs.</p>
-                </a>
+        <div id="carousel-example" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example" data-slide-to="1"></li>
+                <li data-target="#carousel-example" data-slide-to="2"></li>
+                <li data-target="#carousel-example" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="http://www.byui.edu/images/Admin_Offices/Admissions/MissionDeferment_Banner_710x216.jpg" alt="Going on a Mission? Make sure you defer.">
+                </div>
+                <div class="item">
+                    <img src="http://www.byui.edu/images/Admin_Offices/Admissions/Deadlines_Banner_710x216.jpg" alt="Application Deadlines">
+                </div>
+                <div class="item">
+                    <img src="http://www.byui.edu/images/Admin_Offices/Admissions/CampusTour_Banner_710x216.jpg" alt="Come visit us! Schedule a Campus Tour">
+                </div>
+                <div class="item">
+                    <img src="http://www.byui.edu/images/Admin_Offices/Admissions/TuitionCost_Banner_710x216.jpg" alt="Tuition Costs">
+                </div>
             </div>
         </div>
         
@@ -90,7 +61,7 @@ layout: admissions
 
     <aside class="right-column col-xs-12 col-md-4 pull-right">
         <div class="row">
-            <div class="col-xs-6 col-md-12 stacked">
+            <div class="col-xs-6 col-md-12 pull-left">
                 <div class="panel panel-primary">
                     <a href="http://calendar.byui.edu/" class="panel-heading">Upcoming Deadlines</a>
                     <div class="panel-body hidden"></div>
@@ -114,20 +85,20 @@ layout: admissions
                 </div>
             </div>
 
-            <div class="col-xs-6 col-md-12 stacked">
+            <div class="col-all-12 col-xs-6 col-md-12 pull-left">
                 <div class="contact-info panel panel-info">
                     <div class="panel-heading"><strong>Contact for Admissions</strong></div>
                     <div class="panel-body">
                         <address>
                             <p><strong>120 Kimball Building</strong><br>
                             Rexburg, ID, 83460-1615</p>
-                            <abbr title="Phone">P:</abbr> <a href="tel:12084961300">(208) 496-1300</a>
+                            <a href="tel:12084961300">(208) 496-1300</a>
                         </address>
                     </div>
                 </div>
             </div>
 
-            <div class="col-xs-6 col-md-12 stacked">
+            <div class="col-xs-6 col-md-12 pull-left">
                 <div class="panel panel-default">
                     <div class="panel-heading"><strong>University Message</strong></div>
                     <div class="panel-body">
