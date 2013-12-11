@@ -5903,11 +5903,6 @@ body {
   margin-right: -20px;
   width: 40%;
 }
-@media (min-width: 1200px) {
-  .desktop-search {
-    width: 30%;
-  }
-}
 .department-nav {
   margin-bottom: 1em;
   z-index: 1010;
@@ -5918,7 +5913,7 @@ body {
   font-size: 75px;
   margin-top: -26px;
   margin-bottom: -26px;
-  margin-left: -20px;
+  margin-left: -15px;
 }
 .site-logo:hover {
   color: #aaa;
