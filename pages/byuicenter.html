@@ -36,7 +36,21 @@ layout: newsroom
         margin-bottom: 1em;
     }
     .byui-blue {
-        font-size: 1.4em;
+        font-size: 1.3em;
+    }
+    .buildings-map-block {
+        position: relative;
+        max-width: 300px;
+    }
+    .buildings-map-link {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+    }
+    @media (max-width: 767px) {
+        .right-column {
+            margin-top: 2em;
+        }
     }
 </style>
 
@@ -59,7 +73,12 @@ layout: newsroom
 
     <aside class="right-column col-all-12 col-sm-4 pull-right">
 
-        <div class="buildings-map-block"><a href="http://www.byui.edu/maps#BCTR" title="BYUI Maps"><img alt="satellite photo of the BYU-Idaho" class="buildings-map-thumb" src="http://www.byui.edu/Images/buildings/byui-center/byuicenter.png"></a> <a class="buildings-map-link" href="http://www.byui.edu/maps#BCTR" title="BYUI Maps"><span class="icon-location"> </span>View Map</a></div>
+        <div class="buildings-map-block">
+            <a href="http://www.byui.edu/maps#BCTR" title="BYUI Maps">
+                <img alt="satellite photo of the BYU-Idaho" class="img-thumbnail buildings-map-thumb" src="../placeholders/byui-center.jpg">
+            </a> 
+            <a class="buildings-map-link btn btn-default" href="http://www.byui.edu/maps#BCTR" title="BYUI Maps"><span class="icon icon-map-pin"> </span>View Map</a>
+        </div>
         <div class="buildings-info">
         <h2 class="byui-blue">Hours</h2>
         <p>Monday - Friday<br>
