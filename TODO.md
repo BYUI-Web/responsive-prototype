@@ -33,3 +33,8 @@ Potentially Replace:
 * Audience Pages
 
 ### Content Page ###
+
+* Responsive Video
+* Larger, responsive image for map thumbnail
+* gap between content area and aside at phone width
+* Export global styles from page prototype into global stylesheet
