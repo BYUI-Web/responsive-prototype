@@ -34,7 +34,8 @@ Potentially Replace:
 
 ### Content Page ###
 
-* Responsive Video
-* Larger, responsive image for map thumbnail
-* gap between content area and aside at phone width
+* Responsive Video (put off until later)
+* Quick Links (1-3 columns beneath content)
+* Highlighted links (beneath the left nav)
+* Institutional Message
 * Export global styles from page prototype into global stylesheet
