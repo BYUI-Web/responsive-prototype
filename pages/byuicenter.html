@@ -52,6 +52,31 @@ layout: newsroom
             margin-top: 2em;
         }
     }
+
+    .flex-video {
+      position: relative;
+      padding-top: 25px;
+      padding-bottom: 67.5%;
+      height: 0;
+      margin-bottom: 16px;
+      overflow: hidden;
+    }
+     
+    .flex-video.widescreen { padding-bottom: 57.25%; }
+    .flex-video.vimeo { padding-top: 0; }
+     
+    .flex-video iframe,
+    .flex-video object,
+    .flex-video embed {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    @media only screen and (max-device-width: 800px), only screen and (device-width: 1024px) and (device-height: 600px), only screen and (width: 1280px) and (orientation: landscape), only screen and (device-width: 800px), only screen and (max-width: 767px) {
+      .flex-video { padding-top: 0; }
+    }
 </style>
 
 <div class="page-header clearfix">
@@ -61,8 +86,8 @@ layout: newsroom
 <div class="row">
     
     <section class="article col-sm-8 pull-left">
-        <p><iframe frameborder="0" height="335" id="kaltura_player" src="http://www.kaltura.com/p/1297091/sp/129709100/embedIframeJs/uiconf_id/16234582/partner_id/1297091?iframeembed=true&amp;playerId=16687322&amp;entry_id=0_34zxruri&amp;wid=0_1opsjmvb&amp;flashvars[mediaProtocol]=rtmp&amp;flashvars[streamerType]=rtmp&amp;flashvars[streamerUrl]=rtmp://www.kaltura.com:1935&amp;flashvars[rtmpFlavors]=1&amp;" width="470"></iframe></p>
-        <p><strong>Dedicated in December 2010 after approximately three years of construction, the BYU-Idaho Center has become the university's central gathering place.</strong>  With nearly 435,000 square feet of space, this multi-purpose building is essentially two facilities in one, containing a 15,000-seat auditorium and a large, multi-use activities center. The auditorium is home to weekly <a href="http://www2.byui.edu/Devotionals/default.htm">devotionals</a>. Read more about the <a href="/buildings/byu-i-center/history">history of the BYU-Idaho Center.</a></p>
+        <div class="flex-video"><iframe frameborder="0" height="335" id="kaltura_player" src="http://www.kaltura.com/p/1297091/sp/129709100/embedIframeJs/uiconf_id/16234582/partner_id/1297091?iframeembed=true&amp;playerId=16687322&amp;entry_id=0_34zxruri&amp;wid=0_1opsjmvb&amp;flashvars[mediaProtocol]=rtmp&amp;flashvars[streamerType]=rtmp&amp;flashvars[streamerUrl]=rtmp://www.kaltura.com:1935&amp;flashvars[rtmpFlavors]=1&amp;" width="470"></iframe></p>
+        <p><strong>Dedicated in December 2010 after approximately three years of construction, the BYU-Idaho Center has become the university's central gathering place.</strong>  With nearly 435,000 square feet of space, this multi-purpose building is essentially two facilities in one, containing a 15,000-seat auditorium and a large, multi-use activities center. The auditorium is home to weekly <a href="http://www2.byui.edu/Devotionals/default.htm">devotionals</a>. Read more about the <a href="/buildings/byu-i-center/history">history of the BYU-Idaho Center.</a></div>
         <h3 class="byui-blue">Interesting Facts</h3>
         <ul>
             <li>It took 13 weeks just to deliver seats at a rate of 2 semi-trucks per day.</li>
