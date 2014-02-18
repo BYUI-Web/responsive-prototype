@@ -6099,6 +6099,19 @@ body {
     padding-top: 0;
   }
 }
+/* CONTENT PAGE */
+.quicklinks {
+  border-top: 1px solid #eeeeee;
+  margin-top: 2em;
+}
+.quicklinks-title {
+  font-size: 1.25em;
+}
+@media (max-width: 768px) {
+  .right-column {
+    margin-top: 2em;
+  }
+}
 /*! jQuery UI - v1.10.3 - 2014-01-15
 * http://jqueryui.com
 * Includes: jquery.ui.core.css, jquery.ui.autocomplete.css, jquery.ui.menu.css, jquery.ui.theme.css
