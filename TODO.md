@@ -1,6 +1,7 @@
 TO DO
 =====
 
+* Fix column width problem at smallest sizes
 * Deploy Header/Footer to Stage
 * Update Header to new Design changes
 * Fix Footer Accordion problem
@@ -32,10 +33,3 @@ Potentially Replace:
 
 * Audience Pages
 
-### Content Page ###
-
-* Responsive Video (put off until later)
-* Quick Links (1-3 columns beneath content)
-* Highlighted links (beneath the left nav)
-* Institutional Message
-* Export global styles from page prototype into global stylesheet
