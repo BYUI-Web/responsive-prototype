@@ -11,6 +11,7 @@ Front-End Dependencies:
 * Bootstrap (minus glyphicons)
 
 Repository Dependencies:
+* Jekyll (ruby, ruby gems, etc)
 * Grunt.js (Node, NPM, etc)
 
 ## Getting Started ##
