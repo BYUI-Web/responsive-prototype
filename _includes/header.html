@@ -24,17 +24,69 @@
     $('.form-control').autocomplete({source:'http://www.byuidahoradio.org/wp-content/themes/Radio%20Template/getJSON.php',minLength:2});
   });
   </script>
+  <style>
+    .site-navigation .navbar-header {
+      padding: 7px 18px;
+    }
+    .mobile-main {
+      padding: 4px 12px;
+    }
+    .navbar-header .icon-menu {
+      font-size: 20px;
+      position: relative;
+      top: 1px;
+    }
+    .mobile-dropdown-toggle {
+      color: #fff;
+      background: transparent;
+      border-radius: 20px;
+      width: 35px;
+      height: 34px;
+      margin-right: 10px;
+      text-align: left;
+      font-size: 20px;
+    }
+    .mobile-search .icon {
+      position: relative;
+      right: 6px;
+      top: -2px;
+    }
+    .mobile-login .icon {
+      position: relative;
+      right: 3.5px;
+      top: -2px;
+    }
+    .mobile-logo {
+      color: #fff;
+      font-size: 48px;
+      position: absolute;
+      left: 15px;
+      top: -7px;
+    }
+    .mobile-logo:hover {
+      text-decoration: none;
+      color: #aaa;
+    }
+  </style>
 </head>
 
 <body>
   <header role="banner" class="global-header">
     <nav role="navigation" class="site-navigation navbar navbar-inverse">
       <div class="container">
-        <div class="navbar-header hidden-sm pull-right">
-          <button type="button" class="btn btn-primary" data-toggle="collapse" data-target=".site-navbar-collapse">
+        <div class="navbar-header visible-xs pull-right">
+          <a class="mobile-logo" href="{{ site.baseurl }}/" title="BYU-Idaho">
+            <span aria-hidden="true" class="icon icon-byui-logo">
+              <span class="sr-only">BYU-Idaho</span>
+            </span>
+          </a>
+          <a href="#" class="mobile-search mobile-dropdown-toggle btn btn-default"><span aria-hidden="true" class="icon icon-magnifying-glass"></span></a>
+          <a href="#" class="mobile-login mobile-dropdown-toggle btn btn-default"><span aria-hidden="true" class="icon icon-user"></span></a>
+          <button type="button" class="btn btn-primary mobile-main" data-toggle="collapse" data-target=".site-navbar-collapse">
             <span class="sr-only">Toggle Navigation</span>
             <span aria-hidden="true" class="icon icon-menu"></span>
           </button>
+          
         </div> 
         <div class="navbar-collapse site-navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-left">
