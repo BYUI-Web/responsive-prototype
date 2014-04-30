@@ -24,50 +24,7 @@
     $('.form-control').autocomplete({source:'http://www.byuidahoradio.org/wp-content/themes/Radio%20Template/getJSON.php',minLength:2});
   });
   </script>
-  <style>
-    .site-navigation .navbar-header {
-      padding: 7px 18px;
-    }
-    .mobile-main {
-      padding: 4px 12px;
-    }
-    .navbar-header .icon-menu {
-      font-size: 20px;
-      position: relative;
-      top: 1px;
-    }
-    .mobile-dropdown-toggle {
-      color: #fff;
-      background: transparent;
-      border-radius: 20px;
-      width: 35px;
-      height: 34px;
-      margin-right: 10px;
-      text-align: left;
-      font-size: 20px;
-    }
-    .mobile-search .icon {
-      position: relative;
-      right: 6px;
-      top: -2px;
-    }
-    .mobile-login .icon {
-      position: relative;
-      right: 3.5px;
-      top: -2px;
-    }
-    .mobile-logo {
-      color: #fff;
-      font-size: 48px;
-      position: absolute;
-      left: 15px;
-      top: -7px;
-    }
-    .mobile-logo:hover {
-      text-decoration: none;
-      color: #aaa;
-    }
-  </style>
+
 </head>
 
 <body>
@@ -82,7 +39,7 @@
           </a>
           <a href="#" class="mobile-search mobile-dropdown-toggle btn btn-default"><span aria-hidden="true" class="icon icon-magnifying-glass"></span></a>
           <a href="#" class="mobile-login mobile-dropdown-toggle btn btn-default"><span aria-hidden="true" class="icon icon-user"></span></a>
-          <button type="button" class="btn btn-primary mobile-main" data-toggle="collapse" data-target=".site-navbar-collapse">
+          <button type="button" class="mobile-main mobile-dropdown-toggle btn btn-default" data-toggle="collapse" data-target=".site-navbar-collapse">
             <span class="sr-only">Toggle Navigation</span>
             <span aria-hidden="true" class="icon icon-menu"></span>
           </button>
@@ -160,10 +117,10 @@
               </ul>
             </li>
           </ul>
-          <div class="navbar-right">
+          <div class="navbar-right hidden-xs">
             <a href="https://web.byui.edu/services/login?RedirectURL=https://my.byui.edu/?cid=hli:111" class="sign-in btn btn-primary navbar-btn">Sign In</a>
           </div>
-          <form method="get" action="http://search.byui.edu/search?" _lpchecked="1"  role="search" class="navbar-form form-horizontal container visible-xs">
+          <!-- <form method="get" action="http://search.byui.edu/search?" _lpchecked="1"  role="search" class="navbar-form form-horizontal container visible-xs">
             <div class="search input-group">
               <input type="text" class="form-control" name="q" placeholder="Search" alt="Search the BYU-I website" />
               <span class="input-group-btn">
@@ -178,12 +135,12 @@
               <input type="hidden" name="proxystylesheet" value="byui_frontend"/>
               <input type="hidden" name="proxyreload" value="0"/>
             </div>
-          </form>
+          </form> -->
         </div><!--/.navbar-collapse -->
       </div><!--/.container -->
     </nav>
 
-    <div class="site-banner">
+    <div class="site-banner hidden-xs">
       <div class="container">
         <a class="site-logo navbar-brand" href="{{ site.baseurl }}/" title="BYU-Idaho">
           <span aria-hidden="true" class="icon icon-byui-logo">
@@ -191,7 +148,7 @@
           </span>
         </a>
         <div class="site-title">Site Title</div>
-        <form method="get" action="http://search.byui.edu/search?" _lpchecked="1"  role="search" class="desktop-search form-horizontal container hidden-xs hidden-sm row">
+        <form method="get" action="http://search.byui.edu/search?" _lpchecked="1"  role="search" class="desktop-search form-horizontal container hidden-xs row">
           <div class="search input-group">
             <input type="text" class="form-control" name="q" placeholder="Search" alt="Search the BYU-I website" />
             <span class="input-group-btn">
