@@ -5935,63 +5935,29 @@ body {
 }
 /* HEADER STYLES */
 .site-navigation .navbar-header {
+  width: 100%;
   padding: 7px 18px;
 }
-.mobile-main {
-  padding: 4px 12px;
+.mobile-dropdown-icon-container {
+  float: right;
 }
-.navbar-header .icon-menu {
-  font-size: 20px;
-  position: relative;
-  top: 1px;
+.mobile-nav-icon {
+  width: 36px;
+  height: 36px;
+  stroke: #fff;
+  fill: #fff;
+  margin-left: 5px;
 }
-.mobile-dropdown-toggle {
-  color: #fff;
-  background: transparent;
-  border-radius: 20px;
-  width: 35px;
-  height: 34px;
-  margin-right: 10px;
-  text-align: left;
-  font-size: 20px;
-}
-.mobile-dropdown-toggle:hover,
-.mobile-dropdown-toggle:active,
-.mobile-dropdown-toggle:focus {
-  background: #045d9d;
-  color: #fff;
-  border-color: #03406c;
-}
-.mobile-search .icon {
-  position: relative;
-  right: 6px;
-  top: -2px;
-}
-.mobile-main {
-  width: 50px;
-  border-radius: 4px;
-  margin: 0;
-}
-.mobile-main .icon {
-  position: relative;
-  top: 0px;
-  font-size: 24px;
-}
-.mobile-login .icon {
-  position: relative;
-  right: 3.5px;
-  top: -2px;
+.menu-icon {
+  width: 48px;
 }
 .mobile-logo {
-  color: #fff;
-  font-size: 48px;
-  position: absolute;
-  left: 15px;
-  top: -7px;
-}
-.mobile-logo:hover {
-  text-decoration: none;
-  color: #033a62;
+  fill: #fff;
+  width: 55px;
+  height: 32px;
+  position: relative;
+  top: 2px;
+  float: left;
 }
 .site-navigation.navbar-inverse {
   background-color: #056cb6;
