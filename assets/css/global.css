@@ -3393,7 +3393,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
   color: #ffffff;
-  background-color: transparent;
+  background-color: #111111;
 }
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
@@ -3405,7 +3405,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-inverse .navbar-nav > .disabled > a:hover,
 .navbar-inverse .navbar-nav > .disabled > a:focus {
   color: #444444;
-  background-color: transparent;
+  background-color: #111111;
 }
 .navbar-inverse .navbar-toggle {
   border-color: #333333;
@@ -3440,7 +3440,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #ffffff;
-    background-color: transparent;
+    background-color: #111111;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
@@ -3452,7 +3452,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
     color: #444444;
-    background-color: transparent;
+    background-color: #111111;
   }
 }
 .navbar-inverse .navbar-link {
@@ -5409,7 +5409,7 @@ td.visible-print {
   .no-js .navbar-inverse .navbar-nav .dropdown:hover .dropdown-menu > li > a:hover,
   .no-js .navbar-inverse .navbar-nav .dropdown:hover .dropdown-menu > li > a:focus {
     color: #ffffff;
-    background-color: transparent;
+    background-color: #111111;
   }
   .no-js .navbar-inverse .navbar-nav .dropdown:hover .dropdown-menu > .active > a,
   .no-js .navbar-inverse .navbar-nav .dropdown:hover .dropdown-menu > .active > a:hover,
@@ -5421,7 +5421,7 @@ td.visible-print {
   .no-js .navbar-inverse .navbar-nav .dropdown:hover .dropdown-menu > .disabled > a:hover,
   .no-js .navbar-inverse .navbar-nav .dropdown:hover .dropdown-menu > .disabled > a:focus {
     color: #444444;
-    background-color: transparent;
+    background-color: #111111;
   }
 }
 .no-js .navbar-fixed-top {
@@ -5974,6 +5974,19 @@ body {
 .site-navbar-collapse {
   background-color: #222222;
   border-color: #080808;
+}
+.navbar-nav > li > a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.navbar-nav .open .dropdown-menu > li > a,
+.navbar-nav .open .dropdown-menu .dropdown-header {
+  padding: 10px 24px 10px 28px;
+}
+.dropdown .caret {
+  float: right;
+  position: relative;
+  top: 7px;
 }
 .footer-audience {
   background-color: #eee;
