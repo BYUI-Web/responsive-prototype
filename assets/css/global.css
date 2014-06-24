@@ -5982,7 +5982,7 @@ body {
 }
 .navbar-nav .open .dropdown-menu > li > a,
 .navbar-nav .open .dropdown-menu .dropdown-header {
-  padding: 10px 24px 10px 28px;
+  padding: 10px 28px;
 }
 @media (max-width: 768px) {
   .dropdown .caret {
@@ -6174,6 +6174,28 @@ body {
   .right-column {
     margin-top: 2em;
   }
+}
+/* HOME PAGE */
+#home-carousel {
+  margin-bottom: 20px;
+}
+@media (max-width: 768px) {
+  
+}
+.btn-black {
+  color: #fff;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.carousel-caption {
+  padding-bottom: 0;
+}
+.panel-heading,
+.panel-body {
+  display: block;
+}
+#news .media-object {
+  margin-right: 10px;
 }
 /*! jQuery UI - v1.10.3 - 2014-01-15
 * http://jqueryui.com
