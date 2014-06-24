@@ -6204,6 +6204,13 @@ body {
   font-weight: bold;
   margin-right: 1em;
 }
+.news-thumbnail img {
+  max-width: 64px;
+  margin-right: 15px;
+}
+.news .media {
+  margin-top: 0;
+}
 /*! jQuery UI - v1.10.3 - 2014-01-15
 * http://jqueryui.com
 * Includes: jquery.ui.core.css, jquery.ui.autocomplete.css, jquery.ui.menu.css, jquery.ui.theme.css
