@@ -5984,10 +5984,12 @@ body {
 .navbar-nav .open .dropdown-menu .dropdown-header {
   padding: 10px 24px 10px 28px;
 }
-.dropdown .caret {
-  float: right;
-  position: relative;
-  top: 7px;
+@media (max-width: 768px) {
+  .dropdown .caret {
+    float: right;
+    position: relative;
+    top: 7px;
+  }
 }
 .site-search-collapse .input-group-addon:not(:first-child):not(:last-child),
 .input-group-btn:not(:first-child):not(:last-child),
