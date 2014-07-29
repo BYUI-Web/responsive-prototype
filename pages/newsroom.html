@@ -1,5 +1,6 @@
 ---
 layout: newsroom
+title: Newsroom
 ---
 
 <style>
@@ -14,6 +15,12 @@ layout: newsroom
     .page-header h1 small {
         font-size: 16px;
     }
+    .right-column {
+        padding-right: 0;
+    }
+    .contact-panel, .publications-panel, .social-panel {
+        padding-right: 0;
+    }
     .list-group-item{
         border: none;
     }
@@ -23,13 +30,7 @@ layout: newsroom
         
 </style>
 
-
-
-
-    <div class="page-header clearfix">
-      <h1>Newsroom <time class="todays-date pull-right" datetime="2013-09-26"><small>September 26, 2013</small></time></h1>
-    </div>
-    
+   
     <section class="article-list col-sm-8 pull-left">
         <div class="row">
         <ul class="media-list">
@@ -100,7 +101,7 @@ layout: newsroom
     </section>
 
     <aside class="right-column col-xs-12 col-sm-4 pull-right">
-        <div class="col-all-12 col-xs-6 col-sm-12 pull-left">
+        <div class="contact-panel col-all-12 col-xs-6 col-sm-12 pull-left">
             <div class="panel panel-info">
                 <div class="panel-heading"><strong>Contact for News Media</strong></div>
                 <div class="panel-body">
@@ -113,7 +114,7 @@ layout: newsroom
                 </div>
             </div>
         </div>
-        <div class="col-all-12 col-xs-6 col-sm-12 pull-left">
+        <div class="publications-panel col-all-12 col-xs-6 col-sm-12 pull-left">
             <div class="panel recent-publications panel-default clearfix">
                 <div class="panel-heading">Recent Publications</div>
                 <ul class="list-group media-list">
@@ -138,7 +139,7 @@ layout: newsroom
                 </ul>
             </div>
         </div>
-        <div class="col-all-12 col-xs-6 col-sm-12 pull-left">
+        <div class="social-panel col-all-12 col-xs-6 col-sm-12 pull-left">
             <div class="panel panel-default clearfix">
                 <div class="panel-heading">Stay Connected <span class="icon-user pull-right"></span></div>
                 <div class="panel-body">
