@@ -4,10 +4,10 @@ Responsive Prototype
 ## Standards and Workflow (READ THIS!) ##
 When making changes to this framework:
 
-1. Always sync the latest commits before making changes.
-2. Always commit and sync your changes daily (if not hourly).
-3. Always create a separate branch and test it before making major changes to the repository. Merge into master when stable.
-4. Never, ever, EVER make changes to the framework that take it out of sync with this repository. This master branch should always match what is on the live version of the site.
+1. *Always* sync the latest commits before making changes.
+2. *Always* commit and sync your changes daily (if not hourly).
+3. *Always* create a separate branch and test it before making major changes to the repository. Merge into master when stable.
+4. *Never, ever, EVER* make changes to the framework that take it out of sync with this repository. This master branch should always match what is on the live version of the site.
 
 ## Goal ##
 
