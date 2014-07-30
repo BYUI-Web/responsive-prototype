@@ -5,7 +5,7 @@ Responsive Prototype
 
 A live preview of the more recent versions of this prototype can be viewed at: <http://byui-web.github.io/generated-prototype>
 
-## Standards and Workflow (READ THIS!) ##
+## Standards and Workflow (DEVS READ THIS!) ##
 When making changes to this framework:
 
 1. **Always** _sync the latest commits_ before making changes.
