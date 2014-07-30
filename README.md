@@ -8,6 +8,7 @@ When making changes to this framework:
 2. **Always** _commit and sync your changes_ daily (if not hourly).
 3. **Always** _create a separate branch and test it_ before making major changes to the repository. Merge into master when stable.
 4. **Never, ever, EVER** make changes to the framework that _take it out of sync with this repository_. This master branch should always match what is on the live version of the site.
+5. Push stable versions of master to gh-pages branch. Not vital, but helpful to other stakeholders on campus who are curious about the framework and its direction.
 
 ## Goal ##
 
