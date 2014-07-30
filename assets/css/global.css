@@ -5976,6 +5976,9 @@ body {
   background-color: #222222;
   border-color: #080808;
 }
+.site-navigation .navbar-right .navbar-nav {
+  margin-right: 15px;
+}
 .navbar-nav > li > a {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -5995,6 +5998,34 @@ body {
 .input-group-btn:not(:first-child):not(:last-child),
 .input-group .form-control:not(:first-child):not(:last-child) {
   border-radius: 4px 0 0 4px;
+}
+/* Department Nav */
+.department-nav {
+  margin-bottom: 40px;
+}
+.dropdown-menu-2 {
+  padding: 0;
+}
+.dropdown-menu-2 > li {
+  list-style: none;
+}
+.dropdown-menu-2 > li > a {
+  padding: 3px 20px 3px 40px;
+  display: block;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.428571429;
+  color: #333333;
+  color: #777;
+  white-space: nowrap;
+}
+.dropdown-menu-2 > li > a:hover,
+.dropdown-menu-2 > li > a:focus {
+  text-decoration: none;
+  color: #262626;
+  color: #333;
+  background-color: #f5f5f5;
+  background-color: #eee;
 }
 .footer-audience {
   background-color: #eee;
