@@ -6287,9 +6287,8 @@ body {
 }
 @media (max-width: 768px) {
   .dropdown .caret {
-    float: right;
     position: relative;
-    top: 7px;
+    top: 0;
   }
 }
 .site-search-collapse .input-group-addon:not(:first-child):not(:last-child),
