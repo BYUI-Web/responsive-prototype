@@ -6302,12 +6302,13 @@ body {
 }
 .dropdown-menu-2 {
   padding: 0;
+  margin: -5px 0 5px;
 }
 .dropdown-menu-2 > li {
   list-style: none;
 }
 .dropdown-menu-2 > li > a {
-  padding: 3px 20px 3px 40px;
+  padding: 5px 20px 5px 40px;
   display: block;
   clear: both;
   font-weight: normal;
@@ -6323,6 +6324,14 @@ body {
   color: #333;
   background-color: #f5f5f5;
   background-color: #eee;
+}
+.navbar-nav .open .dropdown-menu > li.dropdown-homepage > a,
+.navbar-nav .open .dropdown-menu .dropdown-header .dropdown-homepage > a {
+  padding: 5px 28px;
+  font-weight: bold;
+}
+.department-nav .dropdown-menu .divider {
+  margin: 5px 0 9px;
 }
 .footer-audience {
   background-color: #eee;

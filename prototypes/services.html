@@ -1,0 +1,312 @@
+---
+layout: default
+title: Services
+---
+
+<style>
+    .services-filter {
+        margin-bottom: 24px;
+    }
+    .services-filter-type {
+        font-size:.9em;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: #999;
+        font-weight: bold;
+        padding-bottom: 9px;
+        border-bottom: 1px solid #ccc;
+    }
+    .services-results-filters .alert {
+        padding: 3px 6px;
+        font-size: .9em;
+        float: left;
+        margin-right: 6px;
+    }
+    .services-results-filters .alert .close {
+        margin-left: 6px;
+    }
+    .services-results-notice {
+        color: #5bc0de;
+        font-weight: bold;
+    }
+    .services-result {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 1em;
+        margin-bottom: 1em;
+    }
+    .services-heading {
+        margin-bottom: 9px;
+    }
+    .services-abstract {
+        margin-bottom: 9px;
+    }
+    .services-contact > div {
+        float: left;
+        margin-right: 2em;
+    }
+</style>
+
+<div class="row">
+    <div class="col-all-12, col-md-6">
+        <form role="form">
+            <div class="input-group">
+                <label for="" class="sr-only" for="servicesQuery">Search Services: </label>
+                <input type="text" class="form-control" id="servicesQuery" placeholder="Search Services">
+                <span class="input-group-btn">
+                    <button class="btn btn-success" type="button">Go!</button>
+                </span>
+            </div>
+        </form>
+    </div>
+    <div class="col-all-12, col-sm-6, col-md-3">
+        <select name="" id="" class="form-control">
+            <option value="">Sort by: Relevance</option>
+            <option value="">Sort by: Name</option>
+            <option value="">Sort by: Department</option>
+        </select>
+    </div>
+    <div class="col-all-12, col-sm-6, col-md-3">
+        <select name="" id="" class="form-control">
+            <option value="">Order by: A-Z</option>
+            <option value="">Order by: Z-A</option>
+        </select>
+    </div>
+</div>
+<hr>
+<div class="row">
+    <div class="col-all-12 col-sm-4 col-md-3">
+        <div class="panel panel-default">
+            <div class="panel-heading">Filter Results</div>
+            <div class="panel-body">
+                <div class="services-filter">
+                    <div class="services-filter-type">Department</div>
+                    <div class="checkbox">
+                        <label for="">
+                            <input type="checkbox">
+                            Department of Art
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label for="">
+                            <input type="checkbox">
+                            College of Performing and Visual Arts
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label for="">
+                            <input type="checkbox">
+                            Spori Art Gallery
+                        </label>
+                    </div> 
+                </div>
+                <div class="services-filter">
+                    <div class="services-filter-type">Tags</div>
+                    <div class="checkbox">
+                        <label for="">
+                            <input type="checkbox">
+                            art
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label for="">
+                            <input type="checkbox">
+                            design
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label for="">
+                            <input type="checkbox">
+                            theater
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label for="">
+                            <input type="checkbox">
+                            dance
+                        </label>
+                    </div> <div class="checkbox">
+                        <label for="">
+                            <input type="checkbox">
+                            music
+                        </label>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-all-12 col-sm-8 col-md-9">
+        <div class="row col-all-12">
+            <div class="services-results-filters">
+                <div class="alert alert-success" role="alert">
+                    <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    art
+                </div>
+                <div class="alert alert-success" role="alert">
+                    <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    design
+                </div>
+            </div>
+        </div>
+        <div class="services-results-notice">
+            Results for: "Art"
+        </div>
+        <div class="media">
+            <div class="media-body services-result">
+                <h4 class="media-heading services-heading"><a href="#">Department of Art</a></h4>
+                <p class="services-abstract">The BYU-Idaho Department of Art provides an aesthetic, conceptual, and technical foundation in the visual arts for students who possess a wide range of interests, experiences, and abilities. </p>
+                <div class="row">
+                    <div class="col-all-12 services-contact">                    
+                        <div class="">
+                            <span class="icon-office"></span> <a href="#">Spori 317</a>
+                        </div>
+                        <div class="">
+                            <span class="icon-phone"></span> <a href="#">(208) 496-4901</a>
+                        </div>
+                        <div class="">
+                            <span class="icon-mail"></span> <a href="#">whitworthk@byui.edu</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="media-body services-result">
+                <h4 class="media-heading services-heading"><a href="#">Department of Art</a></h4>
+                <p class="services-abstract">The BYU-Idaho Department of Art provides an aesthetic, conceptual, and technical foundation in the visual arts for students who possess a wide range of interests, experiences, and abilities. </p>
+                <div class="row">
+                    <div class="col-all-12 services-contact">                    
+                        <div class="">
+                            <span class="icon-office"></span> <a href="#">Spori 317</a>
+                        </div>
+                        <div class="">
+                            <span class="icon-phone"></span> <a href="#">(208) 496-4901</a>
+                        </div>
+                        <div class="">
+                            <span class="icon-mail"></span> <a href="#">whitworthk@byui.edu</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="media-body services-result">
+                <h4 class="media-heading services-heading"><a href="#">Department of Art</a></h4>
+                <p class="services-abstract">The BYU-Idaho Department of Art provides an aesthetic, conceptual, and technical foundation in the visual arts for students who possess a wide range of interests, experiences, and abilities. </p>
+                <div class="row">
+                    <div class="col-all-12 services-contact">                    
+                        <div class="">
+                            <span class="icon-office"></span> <a href="#">Spori 317</a>
+                        </div>
+                        <div class="">
+                            <span class="icon-phone"></span> <a href="#">(208) 496-4901</a>
+                        </div>
+                        <div class="">
+                            <span class="icon-mail"></span> <a href="#">whitworthk@byui.edu</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="media-body services-result">
+                <h4 class="media-heading services-heading"><a href="#">Department of Art</a></h4>
+                <p class="services-abstract">The BYU-Idaho Department of Art provides an aesthetic, conceptual, and technical foundation in the visual arts for students who possess a wide range of interests, experiences, and abilities. </p>
+                <div class="row">
+                    <div class="col-all-12 services-contact">                    
+                        <div class="">
+                            <span class="icon-office"></span> <a href="#">Spori 317</a>
+                        </div>
+                        <div class="">
+                            <span class="icon-phone"></span> <a href="#">(208) 496-4901</a>
+                        </div>
+                        <div class="">
+                            <span class="icon-mail"></span> <a href="#">whitworthk@byui.edu</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="media-body services-result">
+                <h4 class="media-heading services-heading"><a href="#">Department of Art</a></h4>
+                <p class="services-abstract">The BYU-Idaho Department of Art provides an aesthetic, conceptual, and technical foundation in the visual arts for students who possess a wide range of interests, experiences, and abilities. </p>
+                <div class="row">
+                    <div class="col-all-12 services-contact">                    
+                        <div class="">
+                            <span class="icon-office"></span> <a href="#">Spori 317</a>
+                        </div>
+                        <div class="">
+                            <span class="icon-phone"></span> <a href="#">(208) 496-4901</a>
+                        </div>
+                        <div class="">
+                            <span class="icon-mail"></span> <a href="#">whitworthk@byui.edu</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="media-body services-result">
+                <h4 class="media-heading services-heading"><a href="#">Department of Art</a></h4>
+                <p class="services-abstract">The BYU-Idaho Department of Art provides an aesthetic, conceptual, and technical foundation in the visual arts for students who possess a wide range of interests, experiences, and abilities. </p>
+                <div class="row">
+                    <div class="col-all-12 services-contact">                    
+                        <div class="">
+                            <span class="icon-office"></span> <a href="#">Spori 317</a>
+                        </div>
+                        <div class="">
+                            <span class="icon-phone"></span> <a href="#">(208) 496-4901</a>
+                        </div>
+                        <div class="">
+                            <span class="icon-mail"></span> <a href="#">whitworthk@byui.edu</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="media-body services-result">
+                <h4 class="media-heading services-heading"><a href="#">Department of Art</a></h4>
+                <p class="services-abstract">The BYU-Idaho Department of Art provides an aesthetic, conceptual, and technical foundation in the visual arts for students who possess a wide range of interests, experiences, and abilities. </p>
+                <div class="row">
+                    <div class="col-all-12 services-contact">                    
+                        <div class="">
+                            <span class="icon-office"></span> <a href="#">Spori 317</a>
+                        </div>
+                        <div class="">
+                            <span class="icon-phone"></span> <a href="#">(208) 496-4901</a>
+                        </div>
+                        <div class="">
+                            <span class="icon-mail"></span> <a href="#">whitworthk@byui.edu</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="media-body services-result">
+                <h4 class="media-heading services-heading"><a href="#">Department of Art</a></h4>
+                <p class="services-abstract">The BYU-Idaho Department of Art provides an aesthetic, conceptual, and technical foundation in the visual arts for students who possess a wide range of interests, experiences, and abilities. </p>
+                <div class="row">
+                    <div class="col-all-12 services-contact">                    
+                        <div class="">
+                            <span class="icon-office"></span> <a href="#">Spori 317</a>
+                        </div>
+                        <div class="">
+                            <span class="icon-phone"></span> <a href="#">(208) 496-4901</a>
+                        </div>
+                        <div class="">
+                            <span class="icon-mail"></span> <a href="#">whitworthk@byui.edu</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="services-results-pagination pull-right">
+            <ul class="pagination">
+              <li><a href="#">&laquo;</a></li>
+              <li><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li><a href="#">5</a></li>
+              <li><a href="#">&raquo;</a></li>
+            </ul>
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
