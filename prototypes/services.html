@@ -3,6 +3,12 @@ layout: default
 title: Services
 ---
 
+<script src="{{ site.baseurl }}/assets/js/angular.min.js"></script>
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/services.css">
+<div class="application-wrapper" ng-app="myapp">
+    
+
+<!-- Basic Search Header -->
 <div class="row">
     <div class="col-all-12, col-md-6">
         <form role="form">
@@ -28,8 +34,11 @@ title: Services
             <option value="">Order by: Z-A</option>
         </select>
     </div>
-</div>
+</div> <!-- End Row -->
+
 <hr>
+
+<!-- Search Filter Sidebar -->
 <div class="row">
     <div class="col-all-12 col-sm-4 col-md-3">
         <div class="panel panel-default">
@@ -90,9 +99,12 @@ title: Services
                 </div>
             </div>
         </div>
-    </div>
+    </div> <!-- End Column -->
+
+    <!-- Main Content Area -->
     <div class="col-all-12 col-sm-8 col-md-9">
         <div class="row col-all-12">
+            <!-- Result Filter Buttons -->
             <div class="services-results-filters">
                 <div class="alert alert-success" role="alert">
                     <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -104,6 +116,8 @@ title: Services
                 </div>
             </div>
         </div>
+        
+        <!-- Search Results -->
         <div class="services-results-notice">
             Results for: "Art"
         </div>
@@ -245,6 +259,8 @@ title: Services
                 </div>
             </div>
         </div>
+
+        <!-- Pagination -->
         <div class="services-results-pagination pull-right">
             <ul class="pagination">
               <li><a href="#">&laquo;</a></li>
@@ -257,11 +273,10 @@ title: Services
             </ul>
             
         </div>
-    </div>
-</div>
+    </div> <!-- End Column -->
+</div> <!-- End Row -->
 
-
-
+</div> <!-- End Application Wrapper -->
 
 
 
