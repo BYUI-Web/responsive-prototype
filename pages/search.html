@@ -1,104 +1,31 @@
 ---
 layout: default
+title: Search
 ---
-<style>
-    .search-results {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-    }
-    .result-heading {
-        font-size: 1.25em;
-        margin-bottom: 0;
-        font-weight: normal;
-        text-decoration: underline;
-        font-family: "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
-    }
-    .result-url {
-        font-size: .9em;
-        color: #777;
-    }
-    .result-heading .result-filetype {
-        font-size: .75em;
-        color: #222;
-        text-decoration: none !important;
-    }
-</style>
-
 <section class="search-container col-sm-8 pull-left">
-    
-    <h1>Search Results</h1>
+    <div class="results-notice" ng-controller="SearchTerm">
+        <p>Results for: "Art"</p>
+    </div>
 
-    <p><strong>1330</strong> results for <strong>Cell</strong>. (0.06s)</p>
+   <div class="media">
+        <div class="media-body search-result">
+            <h4 class="media-heading result-heading"><a href="#">Department of Art</a></h4>
+            <p class="result-abstract">The BYU-Idaho Department of Art provides an aesthetic, conceptual, and technical foundation in the visual arts for students who possess a wide range of interests, experiences, and abilities. </p>
+            <div class="result-url"><a href="#">www.byui.edu/art/</a></div>
+        </div>
+    </div>
 
-    <ul class="search-results">
-        <li class="result">
-            <h2 class="result-heading"><a href="#"><strong>Cell</strong> Phone Plan</a></h2>
-            <a href="#" class="result-url">http://www2.byui.edu/CellPhone/</a>
-            <p class="result-abstract"><strong>Cell</strong> Phone Plan is a preferred match hand picked by BYU-Idaho.</p>
-        </li>
-        <li class="result">
-            <h2 class="result-heading"><a href="#"><strong>Cell</strong></a></h2>
-            <a href="#" class="result-url">www.byui.edu/web-training/web-builder-docs/components/cell</a>
-            <p class="result-abstract"><strong>...</strong> The <strong>Cell</strong> Component is used to insert content into a page type in a <strong>cell</strong> like manner (Left to Right / Top to Bottom). The width of <strong>cells</strong> are adjusted to <strong>...</strong><br></p>
-        </li>
-        <li class="result">
-            <h2 class="result-heading"><a href="#"><strong>Cell</strong> Phone Addiction</a></h2>
-            <a href="#" class="result-url">www.byui.edu/.../study-skills/study-skills-videos/is-your-cell-phone-an-addiction</a>
-            <p class="result-body"><strong>...</strong> Home &gt; Academic Support Centers &gt; Study Skills &gt; Study Skills Videos &gt; Is Your <strong>Cell</strong> Phone an Addiction? <strong>...</strong> <strong>Cell</strong> Phone Addiction. <strong>...</strong></p>
-        </li>
-        <li class="result">
-            <h2 class="result-heading"><a href="#">EXTERNAL QUANTUM EFFICENECY OFA CADMIUM <strong>...</strong></a></h2>
-            <span class="result-filetype">[PDF]</span>
-            <a href="#" class="result-url">www.byui.edu/Documents/physics/Theses/Ferguson_Amy2010.pdf</a>
-            <p class="result-body"><strong>...</strong> hundred years. The most common solar <strong>cells</strong> today are silicon solar <strong>cells</strong>. This is because a solar <strong>cell</strong> is essentially a semiconductor <strong>...</strong></p>
-        </li>
-        <li class="result">
-            <h2 class="result-heading"><a href="#">Chem. 106 Course Topics (before 2005)</a></h2>
-            <a href="#" class="result-url">www.byui.edu/chemistry/course-descriptions/chem-106-course-topics-(2000-2005)</a>
-            <p class="result-body"><strong>...</strong> 21-21 The Relationship of E <strong>cell</strong> ° to ΔG° and K. Primary Voltaic <strong>Cells</strong>.
-    21-23 The Lead Storage Battery. 21-24 The Nickel-Cadmium (Nicad) <strong>Cell</strong>. <strong>...</strong> </p>
-        </li>
-        <li class="result">
-            <h2 class="result-heading"><a href="#">General Botany | Introduction</a></h2>
-            <a href="#" class="result-url">emp.byui.edu/wellerg/The%20Cell%20Lab/Eukaryotic%20Cells/The%20Eukaryotic%20Cell%2008%20Cell.html</a>
-            <p class="result-body"><strong>...</strong> Some <strong>cells</strong> develop a secondary <strong>cell</strong> wall (Se). The secondary <strong>cell</strong>
-    wall is thicker than the primary <strong>cell</strong> wall and is deposited <strong>...</strong></p>
-        </li>
-        <li class="result">
-            <h2 class="result-heading"><a href="#">LESSON 6 CARDIOVASCULAR AND LYMPHATIC SYSTEMS</a></h2>
-            <span class="result-filetype">[DOC]</span>
-            <a href="#" class="result-url">emp.byui.edu/pearsonf/LESSON%206%20CARDIOVASCULAR%20AND%20LYMPHATIC%20SYSTEMS.doc</a>
-            <p class="result-body"><strong>...</strong> Another type of T <strong>cell</strong>, suppressor <strong>cells</strong>, regulates the amount of antibody produced by inhibiting the activity of the B <strong>cell</strong> lymphocytes. <strong>...</strong></p>
-        </li>
-        <li class="result">
-            <h2 class="result-heading"><a href="#">General Botany | Introduction</a></h2>
-            <a href="#" class="result-url">emp.byui.edu/wellerg/The%20Cell%20Lab/Prokaryotic%20Cells/The%20Prokaryotic%20Cell.html</a>
-            <p class="result-body"><strong>...</strong> The small blue granules are bacteria, which have prokaryotic <strong>cells</strong>. Eukaryotic
-    <strong>cells</strong> are much larger than a bacterial or prokaryotic <strong>cell</strong>. <strong>...</strong></p>
-        </li>
-        <li class="result">
-            <h2 class="result-heading"><a href="#">General Botany | Introduction</a></h2>
-            <a href="#" class="result-url">emp.byui.edu/wellerg/Cell%20Division/Instructions/Cell%20Division%20Instructions%2005.html</a>
-            <p class="result-body"><strong>...</strong> the <strong>cell</strong> plate reaches all the way across the cytoplasm <strong>cell</strong> division will be complete. This is the end of Meiosis II. A total of four <strong>cells</strong> have been <strong>...</strong></p>
-        </li>
-        <li class="result">
-            <h2 class="result-heading"><a href="#">Chapter 3 – Bacterial Morphology and <strong>Cell</strong> Wall Structure and <strong>...</strong></a></h2>
-            <a href="#" class="result-url">emp.byui.edu/WRAYD/411/rev/3.htm</a>
-            <p class="result-body">Chapter 3 – Bacterial Morphology and <strong>Cell</strong> Wall Structure and Synthesis. <strong>...</strong><br> 4. Describe
-    the structure of a typical Gram + <strong>cell</strong>. <strong>...</strong></p>
-        </li>
-    </ul>
-
-    <ul class="pagination">
-        <li class="disabled"><a href="#">Prev</a></li>
-        <li class="active"><a href="#">1</a></li>
-        <li><a href="#">2</a></li>
-        <li><a href="#">3</a></li>
-        <li><a href="#">4</a></li>
-        <li><a href="#">5</a></li>
-        <li><a href="#">Next</a></li>
-    </ul>
+    <div class="results-pagination pull-right">
+        <ul class="pagination">
+          <li><a href="#">&laquo;</a></li>
+          <li class="active"><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">4</a></li>
+          <li><a href="#">5</a></li>
+          <li><a href="#">&raquo;</a></li>
+        </ul>
+    </div>
 </section>
 
 <aside class="col-xs-12 col-sm-4 pull-right">

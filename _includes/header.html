@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html class="no-js" ng-app>
 <head>
 	<meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,24 +15,9 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="{{ site.baseurl }}/assets/js/jquery-1.10.2.min.js"><\/script>')</script>
 
-  <!-- jQuery UI -->
-  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
-  
-  <!-- Search Bar Auto-Complete -->
-  <script type="text/javascript">
-  $(document).ready(function($) {
-    $('.form-control').autocomplete({source:'http://www.byuidahoradio.org/wp-content/themes/Radio%20Template/getJSON.php',minLength:2});
-  });
-  </script>
-  <style type="text/css">
-    .site-navigation .navbar-nav { margin-top: 0; margin-bottom: 0; }
-    .site-navigation .dropdown-menu { padding-top: 0; padding-bottom: 0; }
-    /*.dropdown { border-top: 1px solid #333; }*/
-  </style>
-
-
   <!-- Some Page-Specific Loads -->
   <script src="{{ site.baseurl }}/assets/js/angular.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/angular-route.min.js"></script>
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/services.css">
 </head>
 
