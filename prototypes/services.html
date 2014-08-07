@@ -3,9 +3,10 @@ layout: default
 title: Services
 ---
 
-<script src="{{ site.baseurl }}/assets/js/angular.min.js"></script>
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/services.css">
-<div class="application-wrapper" ng-app="myapp">
+
+
+<!-- Application Wrapper, gives Angular scope to this part of the DOM -->
+<div class="application-wrapper">
     
 
 <!-- Basic Search Header -->
@@ -116,10 +117,10 @@ title: Services
                 </div>
             </div>
         </div>
-        
+
         <!-- Search Results -->
-        <div class="services-results-notice">
-            Results for: "Art"
+        <div class="services-results-notice" ng-controller="HelloController">
+            <p>Results for: "{{helloTo.title}}"</p>
         </div>
         <div class="media">
             <div class="media-body services-result">
@@ -275,6 +276,17 @@ title: Services
         </div>
     </div> <!-- End Column -->
 </div> <!-- End Row -->
+
+
+
+<script>
+    angular.module("myapp", [])
+    .controller("HelloController", function($scope) {
+    $scope.helloTo = {};
+    $scope.helloTo.title = "World, AngularJS";
+    });
+    </script>
+
 
 </div> <!-- End Application Wrapper -->
 

@@ -6225,6 +6225,10 @@ body {
   padding-left: 1em;
   margin-left: .3em;
 }
+.site-title a {
+  color: #fff;
+  text-decoration: none;
+}
 .sign-in {
   margin-right: -20px;
 }

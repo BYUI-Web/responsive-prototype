@@ -30,9 +30,13 @@
     /*.dropdown { border-top: 1px solid #333; }*/
   </style>
 
+
+  <!-- Some Page-Specific Loads -->
+  <script src="{{ site.baseurl }}/assets/js/angular.min.js"></script>
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/services.css">
 </head>
 
-<body>
+<body ng-app="myapp">
   <header role="banner" class="global-header">
     <nav role="navigation" class="site-navigation navbar navbar-inverse">
       <div class="container">
@@ -235,7 +239,9 @@
             <span class="sr-only">BYU-Idaho</span>
           </span>
         </a>
-        <div class="site-title">{{ page.title }}</div>
+        <div class="site-title">
+          <a href="#">{{ page.title }}</a>
+        </div>
         <form method="get" action="http://search.byui.edu/search?" _lpchecked="1"  role="search" class="desktop-search form-horizontal container hidden-xs row">
           <div class="search input-group">
             <input type="text" class="form-control" name="q" placeholder="Search" alt="Search the BYU-I website" />
