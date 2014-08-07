@@ -14,8 +14,8 @@ title: Services
     <div class="col-all-12, col-md-6">
         <form role="form">
             <div class="input-group">
-                <label for="" class="sr-only" for="servicesQuery">Search Services: </label>
-                <input type="text" class="form-control" id="servicesQuery" placeholder="Search Services">
+                <label for="" class="sr-only" for="servicesQuery">Search for Services: </label>
+                <input type="text" class="form-control" id="servicesQuery" placeholder="Search for Services">
                 <span class="input-group-btn">
                     <button class="btn btn-success" type="button">Go!</button>
                 </span>
@@ -41,72 +41,11 @@ title: Services
 
 <!-- Search Filter Sidebar -->
 <div class="row">
-    <div class="col-all-12 col-sm-4 col-md-3">
-        <div class="panel panel-default">
-            <div class="panel-heading">Filter Results</div>
-            <div class="panel-body">
-                <div class="services-filter">
-                    <div class="services-filter-type">Department</div>
-                    <div class="checkbox">
-                        <label for="">
-                            <input type="checkbox">
-                            Department of Art
-                        </label>
-                    </div>
-                    <div class="checkbox">
-                        <label for="">
-                            <input type="checkbox">
-                            College of Performing and Visual Arts
-                        </label>
-                    </div>
-                    <div class="checkbox">
-                        <label for="">
-                            <input type="checkbox">
-                            Spori Art Gallery
-                        </label>
-                    </div> 
-                </div>
-                <div class="services-filter">
-                    <div class="services-filter-type">Tags</div>
-                    <div class="checkbox">
-                        <label for="">
-                            <input type="checkbox">
-                            art
-                        </label>
-                    </div>
-                    <div class="checkbox">
-                        <label for="">
-                            <input type="checkbox">
-                            design
-                        </label>
-                    </div>
-                    <div class="checkbox">
-                        <label for="">
-                            <input type="checkbox">
-                            theater
-                        </label>
-                    </div>
-                    <div class="checkbox">
-                        <label for="">
-                            <input type="checkbox">
-                            dance
-                        </label>
-                    </div> <div class="checkbox">
-                        <label for="">
-                            <input type="checkbox">
-                            music
-                        </label>
-                    </div> 
-                </div>
-            </div>
-        </div>
-    </div> <!-- End Column -->
-
     <!-- Main Content Area -->
-    <div class="col-all-12 col-sm-8 col-md-9">
+    <section class="col-all-12 col-sm-8 col-md-9 pull-right">
         <div class="row col-all-12">
             <!-- Result Filter Buttons -->
-            <div class="services-results-filters">
+            <div class="search-results-filters">
                 <div class="alert alert-success" role="alert">
                     <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
                     art
@@ -155,7 +94,67 @@ title: Services
               <li><a href="#">&raquo;</a></li>
             </ul>
         </div>
-    </div> <!-- End Column -->
+    </section> <!-- End Column -->
+    <aside class="col-all-12 col-sm-4 col-md-3 pull-left">
+        <div class="panel panel-default">
+            <div class="panel-heading">Filters</div>
+            <div class="panel-body">
+                <div class="search-filter">
+                    <div class="search-filter-type">Department</div>
+                    <div class="checkbox">
+                        <label for="">
+                            <input type="checkbox">
+                            Department of Art
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label for="">
+                            <input type="checkbox">
+                            College of Performing and Visual Arts
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label for="">
+                            <input type="checkbox">
+                            Spori Art Gallery
+                        </label>
+                    </div> 
+                </div>
+                <div class="search-filter">
+                    <div class="search-filter-type">Tags</div>
+                    <div class="checkbox">
+                        <label for="">
+                            <input type="checkbox">
+                            art
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label for="">
+                            <input type="checkbox">
+                            design
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label for="">
+                            <input type="checkbox">
+                            theater
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label for="">
+                            <input type="checkbox">
+                            dance
+                        </label>
+                    </div> <div class="checkbox">
+                        <label for="">
+                            <input type="checkbox">
+                            music
+                        </label>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </aside> <!-- End Column -->
 </div> <!-- End Row -->
 
 

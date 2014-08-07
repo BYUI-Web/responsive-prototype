@@ -349,7 +349,7 @@ h6,
 .h6 {
   font-family: "Merriweather", "Palatino Linotype", "Book Antiqua", Palatino, serif;
   font-weight: 500;
-  line-height: 1.1;
+  line-height: 1.4;
   color: inherit;
 }
 h1 small,
@@ -645,7 +645,7 @@ h6,
 .h6 {
   font-family: "Merriweather", "Palatino Linotype", "Book Antiqua", Palatino, serif;
   font-weight: 500;
-  line-height: 1.1;
+  line-height: 1.4;
   color: inherit;
 }
 h1 small,
@@ -3764,7 +3764,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 .breadcrumb {
   padding: 0 0 0 3px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   list-style: none;
   background-color: #ffffff;
   border-radius: 4px;
@@ -6202,7 +6202,6 @@ body {
   width: 40%;
 }
 .department-nav {
-  margin-bottom: 1em;
   z-index: 1010;
 }
 .site-logo {
@@ -6302,7 +6301,7 @@ body {
 }
 /* Department Nav */
 .department-nav {
-  margin-bottom: 40px;
+  margin-bottom: 24px;
 }
 .dropdown-menu-2 {
   padding: 0;
@@ -6552,10 +6551,10 @@ body {
 .news .media {
   margin-top: 0;
 }
-.services-filter {
+.search-filter {
   margin-bottom: 24px;
 }
-.services-filter-type {
+.search-filter-type {
   font-size: .9em;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -6564,13 +6563,13 @@ body {
   padding-bottom: 9px;
   border-bottom: 1px solid #ccc;
 }
-.services-results-filters .alert {
+.search-results-filters .alert {
   padding: 3px 6px;
   font-size: .9em;
   float: left;
   margin-right: 6px;
 }
-.services-results-filters .alert .close {
+.search-results-filters .alert .close {
   margin-left: 6px;
 }
 .results-notice {
