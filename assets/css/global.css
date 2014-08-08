@@ -6035,8 +6035,23 @@ body {
   position: relative;
   left: -1px;
 }
+@media (min-width: 768px) {
+  .dropdown .dropdown-link {
+    float: left !important;
+  }
+}
 .dropdown-toggle.dropdown-button {
   padding-left: 0;
+}
+@media (min-width: 768px) {
+  .dropdown-toggle.dropdown-button {
+    float: right !important;
+  }
+}
+@media (max-width: 767px) {
+  .dropdown-toggle.dropdown-button {
+    display: none;
+  }
 }
 .dropdown-toggle.dropdown-button:hover .badge,
 .dropdown-toggle.dropdown-button:focus .badge {

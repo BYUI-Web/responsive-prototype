@@ -103,8 +103,19 @@
     position: relative;
     left: -1px;
 }
+.dropdown .dropdown-link{
+  @media (min-width: (@screen-sm-min)) {
+      .pull-left();
+    }
+}
 .dropdown-toggle.dropdown-button {
     padding-left: 0;
+    @media (min-width: @screen-sm-min) {
+      .pull-right();
+    }
+    @media (max-width: (@screen-sm - 1)) {
+      display: none;
+    }
 }
 .dropdown-toggle.dropdown-button:hover .badge,
 .dropdown-toggle.dropdown-button:focus .badge {
