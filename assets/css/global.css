@@ -6314,10 +6314,13 @@ body {
 .result-heading {
   margin-bottom: 9px;
 }
-.result-abstract {
+.result-abstract,
+.result-sponsor,
+.result-aliases {
   margin-bottom: 5px;
 }
-.result-sponsor {
+.result-sponsor,
+.result-aliases {
   color: #999999;
 }
 .result-contact > div {
