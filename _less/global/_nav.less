@@ -38,7 +38,9 @@
     border-color: #080808;
   }
   .open ul.dropdown-menu {
-    background-color: #080808;
+    @media (max-width: (@screen-sm-min - 1)) {
+      background-color: #080808;
+    }
   }
 }
 .site-navbar-collapse, .site-search-collapse {
@@ -112,8 +114,7 @@
 .dropdown-toggle.dropdown-button {
     padding-left: 0;
       .pull-right();
-    @media (min-width: @screen-sm-min) {
-    }
+    
 }
 .dropdown-toggle.dropdown-button:hover .badge,
 .dropdown-toggle.dropdown-button:focus .badge {

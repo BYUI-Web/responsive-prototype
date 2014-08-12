@@ -5979,8 +5979,10 @@ body {
     border-color: #080808;
   }
 }
-.site-navigation.navbar-inverse .open ul.dropdown-menu {
-  background-color: #080808;
+@media (max-width: 767px) {
+  .site-navigation.navbar-inverse .open ul.dropdown-menu {
+    background-color: #080808;
+  }
 }
 .site-navbar-collapse,
 .site-search-collapse {
@@ -6044,9 +6046,6 @@ body {
 .dropdown-toggle.dropdown-button {
   padding-left: 0;
   float: right !important;
-}
-@media (min-width: 768px) {
-  
 }
 .dropdown-toggle.dropdown-button:hover .badge,
 .dropdown-toggle.dropdown-button:focus .badge {
