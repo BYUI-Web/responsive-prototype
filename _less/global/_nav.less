@@ -37,6 +37,9 @@
     background-color: #222222;
     border-color: #080808;
   }
+  .open ul.dropdown-menu {
+    background-color: #080808;
+  }
 }
 .site-navbar-collapse, .site-search-collapse {
   background-color: #222222;
@@ -104,17 +107,12 @@
     left: -1px;
 }
 .dropdown .dropdown-link{
-  @media (min-width: (@screen-sm-min)) {
       .pull-left();
-    }
 }
 .dropdown-toggle.dropdown-button {
     padding-left: 0;
-    @media (min-width: @screen-sm-min) {
       .pull-right();
-    }
-    @media (max-width: (@screen-sm - 1)) {
-      display: none;
+    @media (min-width: @screen-sm-min) {
     }
 }
 .dropdown-toggle.dropdown-button:hover .badge,
@@ -128,7 +126,9 @@
 .department-nav .dropdown-menu .divider {
   margin: 5px 0 9px;
 }
-
+.department-nav .navbar-nav .open ul.dropdown-menu {
+  background-color: @gray-lighter;
+}
 
 
 

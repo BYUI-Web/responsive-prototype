@@ -5920,7 +5920,7 @@ body {
   margin-left: -15px;
 }
 .site-logo:hover {
-  color: #aaa;
+  color: #fff;
 }
 .site-title {
   font-size: 1.8em;
@@ -5979,6 +5979,9 @@ body {
     border-color: #080808;
   }
 }
+.site-navigation.navbar-inverse .open ul.dropdown-menu {
+  background-color: #080808;
+}
 .site-navbar-collapse,
 .site-search-collapse {
   background-color: #222222;
@@ -6035,23 +6038,15 @@ body {
   position: relative;
   left: -1px;
 }
-@media (min-width: 768px) {
-  .dropdown .dropdown-link {
-    float: left !important;
-  }
+.dropdown .dropdown-link {
+  float: left !important;
 }
 .dropdown-toggle.dropdown-button {
   padding-left: 0;
+  float: right !important;
 }
 @media (min-width: 768px) {
-  .dropdown-toggle.dropdown-button {
-    float: right !important;
-  }
-}
-@media (max-width: 767px) {
-  .dropdown-toggle.dropdown-button {
-    display: none;
-  }
+  
 }
 .dropdown-toggle.dropdown-button:hover .badge,
 .dropdown-toggle.dropdown-button:focus .badge {
@@ -6063,6 +6058,9 @@ body {
 }
 .department-nav .dropdown-menu .divider {
   margin: 5px 0 9px;
+}
+.department-nav .navbar-nav .open ul.dropdown-menu {
+  background-color: #eeeeee;
 }
 .footer-audience {
   background-color: #eee;
