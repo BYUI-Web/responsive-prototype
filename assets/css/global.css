@@ -6279,6 +6279,11 @@ body {
 .news .media {
   margin-top: 0;
 }
+@media (max-width: 480px) {
+  .search-input-container {
+    margin: 10px 0;
+  }
+}
 .search-filter {
   margin-bottom: 24px;
 }
@@ -6314,6 +6319,9 @@ body {
 }
 .result-abstract {
   margin-bottom: 5px;
+}
+.result-sponsor {
+  color: #999999;
 }
 .result-contact > div {
   float: left;
