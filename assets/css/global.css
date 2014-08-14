@@ -6261,7 +6261,11 @@ body {
   margin-bottom: 20px;
 }
 @media (max-width: 768px) {
-  
+  #home-carousel {
+    margin-top: -20px;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
 }
 .btn-black {
   color: #fff;
@@ -6289,8 +6293,16 @@ body {
   max-width: 64px;
   margin-right: 15px;
 }
-.news .media {
+.homepage-news .media {
   margin-top: 0;
+}
+.gallery-thumbnail img {
+  border-radius: 0 0 4px 4px;
+}
+.homepage-heading {
+  text-transform: uppercase;
+  font-size: .8675em;
+  letter-spacing: .04em;
 }
 @media (max-width: 480px) {
   .search-input-container {
