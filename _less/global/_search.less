@@ -50,3 +50,12 @@
     font-size: .95em;
     color: #aaa;
 }
+.result-tags {
+    margin-right: .3em;
+    &:after {
+        content: ",";
+    }
+    &:last-child:after {
+        content: "";
+    }
+}
