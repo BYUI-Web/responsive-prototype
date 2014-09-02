@@ -1,63 +1,92 @@
-module.exports = function(grunt) {
+/* global module */
+module.exports = function (grunt) {
+    "use strict";
 
-  grunt.initConfig({
+    require("load-grunt-tasks")(grunt);
+    var taskList = ["less", "autoprefixer", "cssmin", "jekyll"],
+        watchList = taskList.concat([]),
+        banner = "/* DO NO EDIT THIS FILE.  This file is built from a source file.  Edit that file instead. */\n";
 
-    pkg: grunt.file.readJSON('package.json'),
+    watchList.push("connect");
+    watchList.push("watch");
 
-    connect: {
-      server: {
-        options: {
-          port: 4100,
-          base: '../',
-          livereload: true
-        }
-      }
-    },
 
-    jekyll: {
-      build: {}
-    },
+    grunt.initConfig({
 
-    less: {
-      development: {
-        options: {
-          paths: ["assets/css"]
+        pkg: grunt.file.readJSON("package.json"),
+        
+
+        connect: {
+            server: {
+                options: {
+                    port: 4100,
+                    base: "build",
+                    livereload: true
+                }
+            }
         },
-        files: {
-          "assets/css/global.css": "_less/global.less"
-        }
-      },
-      production: {
-        options: {
-          paths: ["assets/css"],
-          compress: true
+
+        jekyll: {
+            build: {}
         },
-        files: {
-          "assets/css/global.min.css": "_less/global.less"
+
+        less: {
+            development: {
+                options: {
+                    paths: ["assets/css"]
+                },
+                files: [
+                    {
+                        expand: true,
+                        flatten: true,
+                        src: ["_less/*.less", "_less/pages/*.less"],
+                        dest: "assets/css",
+                        ext: ".css"
+                    }
+                ]
+            }
+        },
+
+        autoprefixer: {
+            options: {
+                browsers: ["last 2 versions", "ie 8", "ie 9"]
+            },
+            src: "assets/css/**/*.css"
+        },
+
+        cssmin: {
+            minify: {
+                options: {
+                    banner: banner  
+                },
+                files: [
+                    {
+                        expand: true,
+                        ext: ".min.css",
+                        src: "assets/css/**/*.css",
+                        dest: ""
+                    }
+                ]
+            }
+        },
+
+        watch: {
+            less: {
+                files: ["_less/**/*.less"],
+                tasks: ["less", "autoprefixer", "cssmin"]
+            },
+
+            jekyll: {
+                files: ["assets/**/*", "**/*.html"],
+                tasks: ["jekyll"],
+                options: {
+                    livereload: true
+                }
+            }
+
         }
-      }
-    },
+    });
 
-    watch: {
-      less: {
-        files: ["_less/**/*.less"],
-        tasks: ['less']
-      },
-
-      jekyll: {
-        files: ['assets/**/*', '**/*.html'],
-        tasks: ['jekyll'],
-        options: { livereload: true }
-      }
-
-    },
-  });
-
-  grunt.loadNpmTasks('grunt-contrib-connect');
-  grunt.loadNpmTasks('grunt-contrib-less');
-  grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-jekyll');
-
-  grunt.registerTask('default', ['less', 'jekyll', 'connect', 'watch']);
-
+    grunt.registerTask("default", taskList);
+    grunt.registerTask("dev", watchList);
 };

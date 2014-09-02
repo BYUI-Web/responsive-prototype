@@ -11,6 +11,9 @@
     "grunt-contrib-less": "~0.7.0",
     "grunt-contrib-watch": "~0.4.3",
     "grunt-jekyll": "~0.3.9",
-    "matchdep": "~0.1.2"
+    "matchdep": "~0.1.2",
+    "load-grunt-tasks": "~0.6.0",
+    "grunt-autoprefixer": "~1.0.1",
+    "grunt-contrib-cssmin": "~0.10.0"
   }
 }

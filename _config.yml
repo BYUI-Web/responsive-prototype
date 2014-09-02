@@ -1,8 +1,8 @@
 name: BYU-Idaho Front-End Framework
 markdown: redcarpet
 pygments: true
-baseurl: '/generated-prototype'
-destination: '../generated-prototype'
+baseurl: ''
+destination: 'build'
 exclude: [
 	'_less', 
 	'_less/', 
