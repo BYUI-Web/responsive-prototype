@@ -1,33 +1,33 @@
-.article-list .media {
+.article .article-list .media {
   padding-bottom: 20px;
   margin-bottom: 20px;
 }
-.page-header h1 small {
+.article .page-header h1 small {
   font-size: 16px;
 }
-.recent-news .media-heading {
+.article .recent-news .media-heading {
   font-size: 12px;
 }
-.article {
+.article .article {
   /*margin-left: 20px;*/
 
 }
-.article-figure {
+.article .article-figure {
   border: 1px solid #ccc;
   padding: .5em;
 }
-.article-figure img {
+.article .article-figure img {
   display: block;
   margin: 0 auto .5em;
 }
-.article-figure p {
+.article .article-figure p {
   color: #777;
 }
-.figure-left {
+.article .figure-left {
   margin-right: 1em;
   margin-bottom: 1em;
 }
-.figure-right {
+.article .figure-right {
   margin-left: 1em;
   margin-bottom: 1em;
 }
