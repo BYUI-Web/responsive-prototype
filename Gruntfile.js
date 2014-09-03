@@ -14,7 +14,7 @@ module.exports = function (grunt) {
     grunt.initConfig({
 
         pkg: grunt.file.readJSON("package.json"),
-        
+
 
         connect: {
             server: {
@@ -31,7 +31,7 @@ module.exports = function (grunt) {
         },
 
         less: {
-            development: {
+            pages: {
                 options: {
                     paths: ["assets/css"]
                 },
@@ -39,11 +39,19 @@ module.exports = function (grunt) {
                     {
                         expand: true,
                         flatten: true,
-                        src: ["_less/*.less", "_less/pages/*.less"],
+                        src: ["pages/**/*.less"],
                         dest: "assets/css",
                         ext: ".css"
                     }
                 ]
+            },
+            global: {
+                options: {
+                  paths: ["assets/css"]
+                },
+                files: {
+                  "assets/css/global.css": ["_less/global.less", "_includes/**/*.less"]
+                }
             }
         },
 
@@ -57,7 +65,7 @@ module.exports = function (grunt) {
         cssmin: {
             minify: {
                 options: {
-                    banner: banner  
+                    banner: banner
                 },
                 files: [
                     {
