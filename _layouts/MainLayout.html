@@ -1,0 +1,13 @@
+---
+layout: Layout
+---
+
+{% include header.html %}
+
+   <main id="@Html.Raw(classStr)" role="main" class="site-content container">
+    <!-- pause Main layout-->
+    {{ content }}
+    <!-- re-begin Main layout-->
+   </main>
+
+{% include footer.html %}

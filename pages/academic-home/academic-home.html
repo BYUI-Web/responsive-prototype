@@ -1,17 +1,26 @@
 ---
-layout: dance
+layout: MainLayout
 ---
 
-<section class="academic-home">
+<main id="page-content academic-home" class="col-lg-10 col-lg-offset-1 col-xl-8 col-xl-offset-2 row">
+  {% include test/test.html %}
+  {% include breadcrumb.html %}
+
+  {% include nav.html %}
 
   {% include carousel.html %}
 
-
-  <div class="page-header clearfix">
-    <h1>Department of Dance</h1>
-  </div>
+  {% include title.html %}
+  <!--main page content-->
   <div class="row">
     <section class="article col-sm-8 pull-left">
+      <h2>Story Title</h2>
+      <hr />{% include dept_news_article.html %}
+      <h2>Story Title</h2>
+      <hr />{% include dept_news_article.html %}
+      <h2>Story Title</h2>
+      <hr />{% include dept_news_article.html %}
+
       <h2>Welcome to BYU Idaho Dance!</h2>
       <p>The BYU Idaho Department of Theatre and Dance offers a Bachelor of Arts degree in Dance. This degree is designed to prepare students to find successful career opportunities as a dance professional. During their studies students will acquire the
         knowledge and experience necessary to become a highly qualified and sound dance educator. The Department of Theatre and Dance also offers a minor in dance.</p>
@@ -25,8 +34,6 @@ layout: dance
       <h3><em>News Flash!</em></h3>
       <p>If you are having trouble registering for a class (for example: New freshmen trying to get into DA 240R or DA 290R) you can email the instructor and ask him or her to authorize you to add the class!</p>
       <p>Email addresses are available on our "Faculty" tab to the right.</p>
-
-
     </section>
 
     <aside class="right-column col-xs-12 col-sm-4 pull-right">
@@ -53,5 +60,7 @@ layout: dance
 
 
     </aside>
-</section>
+  </div>
+  @{ //render the quick links Html.RenderPartial("../Shared/PageLayout/ThreeColumnQuickLinks"); }
+</main>
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/dance.css.min" />

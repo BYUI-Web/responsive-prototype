@@ -1,9 +1,48 @@
 // GLOBAL STYLES PARTIAL
 /* HEADER STYLES */
-.site-navigation .navbar-header {
-  width: 100%;
-  padding: 7px 18px;
+.site-navigation {
+
+  .navbar-header {
+    width: 100%;
+    padding: 7px 18px;
+  }
+
+  .navbar-right {
+    .navbar-nav {
+      margin-right: 15px;
+      @media (max-width: @screen-sm-min) {
+        margin-right: -15px;
+      }
+    }
+  }
+
+  .navbar-nav {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .dropdown-menu {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  &.navbar-inverse {
+    background-color: #056cb6;
+    border-color: #045d9d;
+    border-left: none;
+    border-right: none;
+    @media (min-width: @screen-sm-min) {
+      background-color: #222222;
+      border-color: #080808;
+    }
+    .open ul.dropdown-menu {
+      @media (max-width: (@screen-sm-min - 1)) {
+        background-color: #080808;
+      }
+    }
+  }
 }
+
 .mobile-dropdown-icon-container {
   float: right;
 }
@@ -28,31 +67,11 @@
 }
 .mobile-logo:hover {
 }
-.site-navigation.navbar-inverse {
-  background-color: #056cb6;
-  border-color: #045d9d;
-  border-left: none;
-  border-right: none;
-  @media (min-width: @screen-sm-min) {
-    background-color: #222222;
-    border-color: #080808;
-  }
-  .open ul.dropdown-menu {
-    @media (max-width: (@screen-sm-min - 1)) {
-      background-color: #080808;
-    }
-  }
-}
 .site-navbar-collapse, .site-search-collapse {
   background-color: #222222;
   border-color: #080808;
 }
-.site-navigation .navbar-right .navbar-nav {
-  margin-right: 15px;
-  @media (max-width: @screen-sm-min) {
-    margin-right: -15px;
-  }
-}
+
 .navbar-nav > li > a {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -104,7 +123,7 @@
 
 .dropdown-menu-2 > li > a:hover,
 .dropdown-menu-2 > li > a:focus {
-  
+
 }
 
 .badge .caret {
@@ -117,7 +136,7 @@
 .dropdown-toggle.dropdown-button {
     padding-left: 0;
       .pull-right();
-    
+
 }
 .dropdown-toggle.dropdown-button:hover .badge,
 .dropdown-toggle.dropdown-button:focus .badge {
@@ -133,7 +152,3 @@
 .department-nav .navbar-nav .open ul.dropdown-menu {
   background-color: @gray-lighter;
 }
-
-
-
-
