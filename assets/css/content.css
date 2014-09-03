@@ -1,12 +1,12 @@
-.building .buildings-map-block {
+.content .buildings-map-block {
   max-width: 300px;
   position: relative;
 }
-.building .buildings-map-link {
+.content .buildings-map-link {
   bottom: 10px;
   position: absolute;
   right: 10px;
 }
-.building .byui-blue {
+.content .byui-blue {
   font-size: 1.3em;
 }
