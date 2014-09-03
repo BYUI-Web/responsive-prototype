@@ -3,220 +3,231 @@ layout: angular
 title: Services
 ---
 
-<!-- Application Wrapper, gives Angular scope to this part of the DOM -->
-<div class="application-wrapper">
-    
+<section class="services">
+  <!-- Application Wrapper, gives Angular scope to this part of the DOM -->
+  <div class="application-wrapper">
 
-<!-- Basic Search Header -->
-<div class="row">
-    <div class="col-all-12, col-xs-8">
+
+    <!-- Basic Search Header -->
+    <div class="row">
+      <div class="col-all-12, col-xs-8">
         <div class="search-input-container">
-        <form role="form">
+          <form role="form">
             <div class="input-group">
-                <label for="" class="sr-only" for="servicesQuery">Search for Services: </label>
-                <input type="text" class="form-control" id="servicesQuery" placeholder="Search for Services">
-                <span class="input-group-btn">
+              <label for="" class="sr-only" for="servicesQuery">Search for Services:</label>
+              <input type="text" class="form-control" id="servicesQuery" placeholder="Search for Services">
+              <span class="input-group-btn">
                     <button class="btn btn-success" type="button">Go!</button>
                 </span>
             </div>
-        </form>
+          </form>
         </div>
 
-    </div>
-    <div class="col-all-12, col-xs-4">
+      </div>
+      <div class="col-all-12, col-xs-4">
         <div class="search-input-container">
-        <select name="" id="" class="form-control">
+          <select name="" id="" class="form-control">
             <option value="">Sort by: Relevance</option>
             <option value="">Sort by: Name</option>
             <option value="">Sort by: Department</option>
-        </select>
+          </select>
         </div>
 
-    </div>
-   <!--  <div class="col-all-12, col-xs-6, col-md-3">
+      </div>
+      <!--  <div class="col-all-12, col-xs-6, col-md-3">
         <select name="" id="" class="form-control">
             <option value="">Order by: A-Z</option>
             <option value="">Order by: Z-A</option>
         </select>
     </div> -->
-</div> <!-- End Row -->
+    </div>
+    <!-- End Row -->
 
-<hr>
+    <hr>
 
-<!-- Search Filter Sidebar -->
-<div class="row">
-    <!-- Main Content Area -->
-    <section class="col-all-12 col-xs-8 pull-right">
+    <!-- Search Filter Sidebar -->
+    <div class="row">
+      <!-- Main Content Area -->
+      <section class="col-all-12 col-xs-8 pull-right">
         <div class="row col-all-12">
-            <!-- Result Filter Buttons -->
-            <div class="search-results-filters">
-                <div class="alert alert-success" role="alert">
-                    <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                    art
-                </div>
-                <div class="alert alert-success" role="alert">
-                    <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                    design
-                </div>
+          <!-- Result Filter Buttons -->
+          <div class="search-results-filters">
+            <div class="alert alert-success" role="alert">
+              <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+              </button>
+              art
             </div>
+            <div class="alert alert-success" role="alert">
+              <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+              </button>
+              design
+            </div>
+          </div>
         </div>
 
         <!-- Search Results -->
         <div class="results-notice" ng-controller="SearchTerm">
-            <p>Results for: "Art"</p>
+          <p>Results for: "Art"</p>
         </div>
 
         <div class="media">
-            <div class="media-body search-result">
-                <h4 class="media-heading result-heading"><a href="#">Department of Art</a></h4>
-                <p class="result-abstract">The BYU-Idaho Department of Art provides an aesthetic, conceptual, and technical foundation in the visual arts for students who possess a wide range of interests, experiences, and abilities. </p>
-                <div class="row">
-                    <div class="col-all-12 result-contact">                    
-                        <div class="">
-                            <span class="icon-office"></span> <a href="#">Spori 317</a>
-                        </div>
-                        <div class="">
-                            <span class="icon-phone"></span> <a href="#">(208) 496-4901</a>
-                        </div>
-                        <div class="">
-                            <span class="icon-mail"></span> <a href="#">whitworthk@byui.edu</a>
-                        </div>
-                    </div>
+          <div class="media-body search-result">
+            <h4 class="media-heading result-heading"><a href="#">Department of Art</a></h4>
+            <p class="result-abstract">The BYU-Idaho Department of Art provides an aesthetic, conceptual, and technical foundation in the visual arts for students who possess a wide range of interests, experiences, and abilities.</p>
+            <div class="row">
+              <div class="col-all-12 result-contact">
+                <div class="">
+                  <span class="icon-office"></span>  <a href="#">Spori 317</a>
                 </div>
+                <div class="">
+                  <span class="icon-phone"></span>  <a href="#">(208) 496-4901</a>
+                </div>
+                <div class="">
+                  <span class="icon-mail"></span>  <a href="#">whitworthk@byui.edu</a>
+                </div>
+              </div>
             </div>
-        </div><!-- ./media result -->
+          </div>
+        </div>
+        <!-- ./media result -->
 
         <div class="media">
-            <div class="media-body search-result">
-                <h4 class="media-heading result-heading"><a href="#">College of Performing Arts</a></h4>
-                <p class="result-abstract">The College of Performing and Visual Arts provide an important means of communication where thoughts, creativity, and expression can be directed to ennoble, uplift, inspire... </p>
-                <p class="result-sponsor">Sponsor: <a href="#">College of Performing Arts</a></p>
-                <p class="result-aliases">Tags: <a href="#" class="result-tags">art</a><a href="#" class="result-tags">dance</a><a href="#" class="result-tags">music</a><a href="#" class="result-tags">theater</a></p>
-                <div class="row">
-                    <div class="col-all-12 result-contact">                    
-                        <div class="">
-                            <span class="icon-office"></span> <a href="#">Spori 316</a>
-                        </div>
-                        <div class="">
-                            <span class="icon-phone"></span> <a href="#">(208) 496-4901</a>
-                        </div>
-                        <div class="">
-                            <span class="icon-mail"></span> <a href="#">whitworthk@byui.edu</a>
-                        </div>
-                    </div>
+          <div class="media-body search-result">
+            <h4 class="media-heading result-heading"><a href="#">College of Performing Arts</a></h4>
+            <p class="result-abstract">The College of Performing and Visual Arts provide an important means of communication where thoughts, creativity, and expression can be directed to ennoble, uplift, inspire...</p>
+            <p class="result-sponsor">Sponsor: <a href="#">College of Performing Arts</a>
+            </p>
+            <p class="result-aliases">Tags: <a href="#" class="result-tags">art</a><a href="#" class="result-tags">dance</a><a href="#" class="result-tags">music</a><a href="#" class="result-tags">theater</a>
+            </p>
+            <div class="row">
+              <div class="col-all-12 result-contact">
+                <div class="">
+                  <span class="icon-office"></span>  <a href="#">Spori 316</a>
                 </div>
+                <div class="">
+                  <span class="icon-phone"></span>  <a href="#">(208) 496-4901</a>
+                </div>
+                <div class="">
+                  <span class="icon-mail"></span>  <a href="#">whitworthk@byui.edu</a>
+                </div>
+              </div>
             </div>
-        </div><!-- ./media result -->
+          </div>
+        </div>
+        <!-- ./media result -->
 
         <div class="media">
-            <div class="media-body search-result">
-                <h4 class="media-heading result-heading"><a href="#">Spori Art Gallery</a></h4>
-                <p class="result-abstract">Jacob Spori Art Gallery will show works of current BYU-Idaho Visual Arts students, selected by the art department faculty. </p>
-                <p class="result-sponsor">Sponsor: <a href="#">Department of Art</a></p>
-                <p class="result-aliases">Tags: <a href="#" class="result-tags">art</a><a href="#" class="result-tags">gallery</a><a href="#" class="result-tags">spori</a></p>
-                <div class="row">
-                    <div class="col-all-12 result-contact">                    
-                        <div class="">
-                            <span class="icon-office"></span> <a href="#">Spori 220</a>
-                        </div>
-                        <div class="">
-                            <span class="icon-phone"></span> <a href="#">(208) 496-4913</a>
-                        </div>
-                    </div>
+          <div class="media-body search-result">
+            <h4 class="media-heading result-heading"><a href="#">Spori Art Gallery</a></h4>
+            <p class="result-abstract">Jacob Spori Art Gallery will show works of current BYU-Idaho Visual Arts students, selected by the art department faculty.</p>
+            <p class="result-sponsor">Sponsor: <a href="#">Department of Art</a>
+            </p>
+            <p class="result-aliases">Tags: <a href="#" class="result-tags">art</a><a href="#" class="result-tags">gallery</a><a href="#" class="result-tags">spori</a>
+            </p>
+            <div class="row">
+              <div class="col-all-12 result-contact">
+                <div class="">
+                  <span class="icon-office"></span>  <a href="#">Spori 220</a>
                 </div>
+                <div class="">
+                  <span class="icon-phone"></span>  <a href="#">(208) 496-4913</a>
+                </div>
+              </div>
             </div>
-        </div><!-- ./media result -->
+          </div>
+        </div>
+        <!-- ./media result -->
 
         <!-- Pagination -->
         <div class="results-pagination pull-right">
-            <ul class="pagination">
-              <li><a href="#">&laquo;</a></li>
-              <li class="active"><a href="#">1</a></li>
-              <li><a href="#">2</a></li>
-              <li><a href="#">3</a></li>
-              <li><a href="#">4</a></li>
-              <li><a href="#">5</a></li>
-              <li><a href="#">&raquo;</a></li>
-            </ul>
+          <ul class="pagination">
+            <li><a href="#">&laquo;</a>
+            </li>
+            <li class="active"><a href="#">1</a>
+            </li>
+            <li><a href="#">2</a>
+            </li>
+            <li><a href="#">3</a>
+            </li>
+            <li><a href="#">4</a>
+            </li>
+            <li><a href="#">5</a>
+            </li>
+            <li><a href="#">&raquo;</a>
+            </li>
+          </ul>
         </div>
-    </section> <!-- ./Column -->
-    <aside class="col-all-12 col-xs-4 pull-left">
+      </section>
+      <!-- ./Column -->
+      <aside class="col-all-12 col-xs-4 pull-left">
         <div class="panel panel-default">
-            <div class="panel-heading">Filters</div>
-            <div class="panel-body row">
-                <div class="search-filter col-all-6 col-xs-12">
-                    <div class="search-filter-type">Department</div>
-                    <div class="checkbox">
-                        <label for="">
-                            <input type="checkbox">
-                            Department of Art
-                        </label>
-                    </div>
-                    <div class="checkbox">
-                        <label for="">
-                            <input type="checkbox">
-                            College of Performing and Visual Arts
-                        </label>
-                    </div>
-                    <div class="checkbox">
-                        <label for="">
-                            <input type="checkbox">
-                            Spori Art Gallery
-                        </label>
-                    </div> 
-                </div>
-                <div class="search-filter col-all-6 col-xs-12">
-                    <div class="search-filter-type">Tags</div>
-                    <div class="checkbox">
-                        <label for="">
-                            <input type="checkbox">
-                            art
-                        </label>
-                    </div>
-                    <div class="checkbox">
-                        <label for="">
-                            <input type="checkbox">
-                            design
-                        </label>
-                    </div>
-                    <div class="checkbox">
-                        <label for="">
-                            <input type="checkbox">
-                            theater
-                        </label>
-                    </div>
-                    <div class="checkbox">
-                        <label for="">
-                            <input type="checkbox">
-                            dance
-                        </label>
-                    </div> <div class="checkbox">
-                        <label for="">
-                            <input type="checkbox">
-                            music
-                        </label>
-                    </div> 
-                </div>
+          <div class="panel-heading">Filters</div>
+          <div class="panel-body row">
+            <div class="search-filter col-all-6 col-xs-12">
+              <div class="search-filter-type">Department</div>
+              <div class="checkbox">
+                <label for="">
+                  <input type="checkbox">Department of Art
+                </label>
+              </div>
+              <div class="checkbox">
+                <label for="">
+                  <input type="checkbox">College of Performing and Visual Arts
+                </label>
+              </div>
+              <div class="checkbox">
+                <label for="">
+                  <input type="checkbox">Spori Art Gallery
+                </label>
+              </div>
             </div>
+            <div class="search-filter col-all-6 col-xs-12">
+              <div class="search-filter-type">Tags</div>
+              <div class="checkbox">
+                <label for="">
+                  <input type="checkbox">art
+                </label>
+              </div>
+              <div class="checkbox">
+                <label for="">
+                  <input type="checkbox">design
+                </label>
+              </div>
+              <div class="checkbox">
+                <label for="">
+                  <input type="checkbox">theater
+                </label>
+              </div>
+              <div class="checkbox">
+                <label for="">
+                  <input type="checkbox">dance
+                </label>
+              </div>
+              <div class="checkbox">
+                <label for="">
+                  <input type="checkbox">music
+                </label>
+              </div>
+            </div>
+          </div>
         </div>
-    </aside> <!-- ./Column -->
-</div> <!-- ./Row -->
+      </aside>
+      <!-- ./Column -->
+    </div>
+    <!-- ./Row -->
 
 
 
-<script>
-    function SearchTerm($scope) {
+    <script>
+      function SearchTerm($scope) {
         $scope.search = {
-            'term' : 'stuff'
+          'term': 'stuff'
         }
-    }
+      }
     </script>
 
 
-</div> <!-- End Application Wrapper -->
+  </div>
+  <!-- End Application Wrapper -->
+</section>
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/pages/services.min.css" />
-
-
-
-
-

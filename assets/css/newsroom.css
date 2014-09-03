@@ -1,22 +1,22 @@
-.media-heading {
+.newsroom .media-heading {
   font-size: 18px;
 }
-.article-list .media {
+.newsroom .article-list .media {
   padding-bottom: 20px;
   margin-bottom: 20px;
   border-bottom: 1px solid #ccc;
 }
-.page-header h1 small {
+.newsroom .page-header h1 small {
   font-size: 16px;
 }
-.right-column {
+.newsroom .right-column {
   padding-right: 0;
 }
-.contact-panel,
-.publications-panel,
-.social-panel {
+.newsroom .contact-panel,
+.newsroom .publications-panel,
+.newsroom .social-panel {
   padding-right: 0;
 }
-.list-group-item {
+.newsroom .list-group-item {
   border: none;
 }
