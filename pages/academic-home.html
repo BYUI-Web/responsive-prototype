@@ -3,40 +3,9 @@ layout: dance
 ---
 
 <section class="academic-home">
-  <div id="carousel-example" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
-      <li data-target="#carousel-example" data-slide-to="1"></li>
-      <li data-target="#carousel-example" data-slide-to="2"></li>
-      <li data-target="#carousel-example" data-slide-to="3"></li>
-      <li data-target="#carousel-example" data-slide-to="4"></li>
-      <li data-target="#carousel-example" data-slide-to="5"></li>
-      <li data-target="#carousel-example" data-slide-to="6"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="item active">
-        <img src="http://www.byui.edu/images/Colleges_and_Departments/Performing and Visual Arts/FA 100/PicsforBanner/081114DanceAlliance_28.jpg" alt="" title="">
-      </div>
-      <div class="item">
-        <img src="http://www.byui.edu/images/Colleges_and_Departments/Performing and Visual Arts/FA 100/PicsforBanner/100312Extravadance_047.jpg" alt="" title="">
-      </div>
-      <div class="item">
-        <img src="http://www.byui.edu/images/dance/Fossey 2.jpg" alt="" title="">
-      </div>
-      <div class="item">
-        <img src="http://www.byui.edu/images/dance/tap banner(0).jpg" alt="" title="">
-      </div>
-      <div class="item">
-        <img src="http://www.byui.edu/images/dance/CollegiateDancers_2.jpg" alt="" title="">
-      </div>
-      <div class="item">
-        <img src="http://www.byui.edu/images/dance/World Banner.jpg" alt="World Dance Hindu " title="">
-      </div>
-      <div class="item">
-        <img src="http://www.byui.edu/images/theatre-dance/121116_Extravadance_063.jpg" alt="irish dancers " title="">
-      </div>
-    </div>
-  </div>
+
+  {% include carousel.html %}
+
 
   <div class="page-header clearfix">
     <h1>Department of Dance</h1>
@@ -74,29 +43,10 @@ layout: dance
           </div>
         </div>
 
-        <div class="col-all-12 col-xs-6 col-sm-12 pull-left">
-          <div class="contact-info panel panel-info">
-            <div class="panel-heading"><strong>Dance Office</strong>  <span class="icon-address-book pull-right"></div>
-                    <div class="panel-body">
-                        <address>
-                            <p><strong>214 Manwaring Center</strong><br>
-                            Rexburg, ID, 83460-1615</p>
-                            <a href="tel:12084961300">(208) 496-4850</a><br>
-                            <a href="mailto:whitworthk@byui.edu">whitworthk@byui.edu</a>
-                        </address>
-                    </div>
-                </div>
-            </div>
+        {% include contact-info.html %}
 
-            <div class="col-xs-6 col-sm-12 pull-left">
-                <div class="panel panel-default">
-                    <div class="panel-heading"><strong>University Message</strong></div>
-                    <div class="panel-body">
-                        <a href="#">Devotional Speaker - Kelly C. Eyring, Tuesday November 19</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+        {% include university-message.html %}
+      </div>
 
 
     </aside>
