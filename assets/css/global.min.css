@@ -1220,15 +1220,15 @@ th.hidden-lg,td.hidden-lg{display:table-cell !important}
 @media print{.visible-print{display:block !important}table.visible-print{display:table} tr.visible-print{display:table-row !important} th.visible-print,td.visible-print{display:table-cell !important} .hidden-print,tr.hidden-print,th.hidden-print,td.hidden-print{display:none !important}}.eventsTable{width:100%}.eventsTable td{border-bottom:solid 7px #c1c2c4;padding:15px;transition:background-color .25s;background-color:#fff !important;cursor:pointer}.eventsTable td a{color:#666666 !important}
 .eventsTable td:hover{background-color:#f2f2f2 !important}
 .eventsTable h3{margin:0px 0px 5px 55px;font-weight:bold;font-size:125%;z-index:1}
-.eventsTable .circle,.eventsTable .dCircle{display:block;float:left;margin:0px 0px 10px;width:45px;height:45px;background-color:#c2c3c5;color:#fff;font-size:32px;border-radius:100%;text-align:center}
+.eventsTable .circle,.eventsTable .dCircle{display:block;float:left;margin:0px 0px 10px;width:45px;height:45px;background-color:#c2c3c5;color:#fff;font-size:32px;border-radius:50%;text-align:center}
 .eventsTable .expanded,.eventsTable .dExpanded{margin-top:-6px;font-size:100%}
 .eventsTable .collapsed{margin-top:-3px}
 .eventsTable .sign,.eventsTable .dSign{clear:both;margin-left:-1px;display:inline-block}
-.eventsTable #eventDescription p{font-family:Georgia !important;line-height:18px !important;margin:10px 0px 0px 55px !important;color:#666666 !important;width:70%}
-.eventsTable #eventDescription span{margin:0px 0px 0px 0px !important;font-family:Georgia !important;line-height:18px !important;color:#666666 !important}
-.eventsTable #eventDescription img{display:none}
-.eventsTable #collapsed{font-family:Georgia !important;line-height:18px !important;margin:10px 0px 0px 55px !important;display:none;color:#666666 !important;overflow:hidden;position:relative;clear:both}
-.eventsTable #collapsed span,.eventsTable p{margin:0px 0px 0px 0px !important;font-family:Georgia !important;line-height:18px !important}
+.eventsTable .eventDescription p{font-family:Georgia !important;line-height:18px !important;margin:10px 0px 0px 55px !important;color:#666666 !important;width:70%}
+.eventsTable .eventDescription span{margin:0px 0px 0px 0px !important;font-family:Georgia !important;line-height:18px !important;color:#666666 !important}
+.eventsTable .eventDescription img{display:none}
+.eventsTable .collapsed-text{font-family:Georgia !important;line-height:18px !important;margin:10px 0px 0px 55px !important;display:none;color:#666666 !important;overflow:hidden;position:relative;clear:both}
+.eventsTable .collapsed-text span,.eventsTable p{margin:0px 0px 0px 0px !important;font-family:Georgia !important;line-height:18px !important}
 .eventsTable #kaltura_player{margin-top:10px !important}
 .eventsTable .eventThumb{display:block !important;float:right;width:125px;height:125px;margin:auto 0px 15px 15px}
 
