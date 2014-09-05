@@ -1143,24 +1143,24 @@ th.hidden-lg,td.hidden-lg{display:table-cell !important}
 .contactContainer .dot{background-color:#c2c3c5;border-radius:100%;width:18px;height:18px;float:right}
 .contactContainer .contact{border-bottom:5px solid #c3c4c6;margin:10px 0px 0px;padding:0px 0px 20px}
 
-.hide{display:none}
-#activities-gallery{clear:both;margin-top:15px}#activities-gallery>img{box-shadow:6px 6px 0 rgba(187,189,192,0.9);margin-bottom:10px}
-.gallery-thumbnails{padding-left:15px;display:none}.gallery-thumbnails:hover .arrow{opacity:1}
-.gallery-thumbnails>img{width:150px;transition:border-bottom .25s;border-bottom:solid 5px white}
-.gallery-thumbnails>img:hover{border-bottom:solid 3px rgba(187,189,192,0.9);cursor:pointer}
-#mainTile{padding:0px;margin-bottom:8px;background:#f0f1f2}#mainTile>*>*{display:block;margin:auto}
-.smallTile{cursor:pointer;height:97px;float:left;margin-right:8px;margin-bottom:5px;z-index:1;border-bottom:solid 5px rgba(187,189,192,0.9)}.smallTile *{width:145px;height:97px;-webkit-transition:border-bottom .25s;transition:border-bottom .25s;border-bottom:solid 5px #c0c1c5}
-.smallTile:hover *{border-bottom:solid 5px #8d8e93}
-.selected *{border-bottom:solid 5px #8d8e93}
-.blank-tile{border-bottom:solid 5px white}
-.arrow{opacity:.5;cursor:pointer;margin-top:-74px;-webkit-transition:opacity .25s;transition:opacity .25s;height:30px}
-#leftArrow{float:left;padding-left:8px}
-#rightArrow{float:right;padding-right:15px}
-.videoDiv{width:145px;height:97px}
-.mobile-arrow{padding:10px}
-#left-mobile-arrow{float:left}
-#right-mobile-arrow{float:right;-ms-transform:rotate(180deg);-webkit-transform:rotate(180deg);transform:rotate(180deg)}
-@media only screen and (min-width:768px){.vidIcon{margin:15px 0px 0px 40px;width:75px !important;height:70px !important;border:none !important} #mainTile,#mainTile *{height:320px;width:520px} .gallery-thumbnails{display:block} .smallTile,.smallTile *{width:155px;height:100px} .mobile-arrow{display:none}}@media only screen and (min-width:992px){.vidIcon{margin:20px 0px 0px 45px} .gallery-thumbnails{display:block} .smallTile,.smallTile *{width:168px;height:113px} .mobile-arrow{display:none}}
+.activities-gallery{clear:both;margin-top:15px}.activities-gallery>img{box-shadow:6px 6px 0 rgba(187,189,192,0.9);margin-bottom:10px}
+.activities-gallery .hide{display:none}
+.activities-gallery .gallery-thumbnails{padding-left:15px;display:none}.activities-gallery .gallery-thumbnails:hover .arrow{opacity:1}
+.activities-gallery .gallery-thumbnails>img{width:150px;transition:border-bottom .25s;border-bottom:solid 5px white}
+.activities-gallery .gallery-thumbnails>img:hover{border-bottom:solid 3px rgba(187,189,192,0.9);cursor:pointer}
+.activities-gallery #mainTile{padding:0px;margin-bottom:8px;background:#f0f1f2}.activities-gallery #mainTile>*>*{display:block;margin:auto}
+.activities-gallery .smallTile{cursor:pointer;height:97px;float:left;margin-right:8px;margin-bottom:5px;z-index:1;border-bottom:solid 5px rgba(187,189,192,0.9)}.activities-gallery .smallTile *{width:145px;height:97px;-webkit-transition:border-bottom .25s;transition:border-bottom .25s;border-bottom:solid 5px #c0c1c5}
+.activities-gallery .smallTile:hover *{border-bottom:solid 5px #8d8e93}
+.activities-gallery .selected *{border-bottom:solid 5px #8d8e93}
+.activities-gallery .blank-tile{border-bottom:solid 5px white}
+.activities-gallery .arrow{opacity:.5;cursor:pointer;margin-top:-74px;-webkit-transition:opacity .25s;transition:opacity .25s;height:30px}
+.activities-gallery #leftArrow{float:left;padding-left:8px}
+.activities-gallery #rightArrow{float:right;padding-right:15px}
+.activities-gallery .videoDiv{width:145px;height:97px}
+.activities-gallery .mobile-arrow{padding:10px}
+.activities-gallery #left-mobile-arrow{float:left}
+.activities-gallery #right-mobile-arrow{float:right;-ms-transform:rotate(180deg);-webkit-transform:rotate(180deg);transform:rotate(180deg)}
+@media only screen and (min-width:768px){.activities-gallery .vidIcon{margin:15px 0px 0px 40px;width:75px !important;height:70px !important;border:none !important} .activities-gallery #mainTile,.activities-gallery #mainTile *{height:320px;width:520px} .activities-gallery .gallery-thumbnails{display:block} .activities-gallery .smallTile,.activities-gallery .smallTile *{width:155px;height:100px} .activities-gallery .mobile-arrow{display:none}}@media only screen and (min-width:992px){.activities-gallery .vidIcon{margin:20px 0px 0px 45px} .activities-gallery .gallery-thumbnails{display:block} .activities-gallery .smallTile,.activities-gallery .smallTile *{width:168px;height:113px} .activities-gallery .mobile-arrow{display:none}}
 
 
 .clearfix:before,.clearfix:after{content:" ";display:table}
@@ -1223,7 +1223,7 @@ th.hidden-lg,td.hidden-lg{display:table-cell !important}
 .gallery-container .gallery-arrow{display:none}
 .gallery-container .mobile-arrow{width:50px;height:50px;cursor:pointer}
 .gallery-container #left-mobile-arrow{float:left}
-.gallery-container #right-mobile-arrow{float:right;-ms-transform:rotate(180deg);-webkit-transform:rotate(180deg);transform:rotate(180deg)}
+.gallery-container #right-mobile-arrow{float:right}
 .gallery-container #gallery-caption{background-color:black;opacity:.7;color:white;padding:5px;float:left;margin-top:-30px;width:100%}
 @media only screen and (min-width:768px){.gallery-container #kaltura_player{height:100%;width:100%} .gallery-container #mobile-arrow-container{display:none} .gallery-container #main-tile,.gallery-container #main-tile *{height:260px} .gallery-container #thumbnail-container{display:block;margin-top:4px;float:left} .gallery-container .small-tile,.gallery-container .small-tile *{width:126px;height:84px} .gallery-container .small-tile{opacity:.85;float:left;margin-top:4px;margin-right:4px;background-size:126px 84px;cursor:pointer;transition:opacity .25s} .gallery-container .small-tile:hover{opacity:1} .gallery-container .vidIcon{width:60px !important;height:60px !important;margin:12px 0px 0px 32px}}@media only screen and (min-width:992px){.gallery-container #main-tile,.gallery-container #main-tile *{height:400px} .gallery-container .small-tile,.gallery-container .small-tile *{width:145px;height:97px} .gallery-container .small-tile{background-size:145px 97px;cursor:pointer} .gallery-container .vidIcon{width:60px !important;height:60px !important;margin:20px 0px 0px 40px} .gallery-container .gallery-arrow{display:inline;background-color:black;width:31px;margin-top:-97px;padding:32px 0px 34px 0px;opacity:.7;cursor:pointer;-moz-user-select:none;-khtml-user-select:none;-webkit-user-select:none;-o-user-select:none;transition:opacity .25s} .gallery-container .gallery-arrow:hover{opacity:.8} .gallery-container #left-arrow{float:left} .gallery-container #right-arrow{float:right}}
 
