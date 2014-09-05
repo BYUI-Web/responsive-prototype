@@ -7407,6 +7407,140 @@ td.visible-print {
   padding: 0px 0px 20px;
 }
 
+.hide {
+  display: none;
+}
+#activities-gallery {
+  clear: both;
+  margin-top: 15px;
+}
+#activities-gallery > img {
+  box-shadow: 6px 6px 0px rgba(187, 189, 192, 0.9);
+  margin-bottom: 10px;
+}
+.gallery-thumbnails {
+  padding-left: 15px;
+  display: none;
+}
+.gallery-thumbnails:hover .arrow {
+  opacity: 1;
+}
+.gallery-thumbnails > img {
+  width: 150px;
+  transition: border-bottom 0.25s;
+  border-bottom: solid 5px white;
+}
+.gallery-thumbnails > img:hover {
+  border-bottom: solid 3px rgba(187, 189, 192, 0.9);
+  cursor: pointer;
+}
+#mainTile {
+  padding: 0px;
+  margin-bottom: 8px;
+  background: #f0f1f2;
+}
+#mainTile > * > * {
+  display: block;
+  margin: auto;
+}
+.smallTile {
+  cursor: pointer;
+  height: 97px;
+  float: left;
+  margin-right: 8px;
+  margin-bottom: 5px;
+  z-index: 1;
+  border-bottom: solid 5px rgba(187, 189, 192, 0.9);
+}
+.smallTile * {
+  width: 145px;
+  height: 97px;
+  -webkit-transition: border-bottom 0.25s;
+  transition: border-bottom 0.25s;
+  border-bottom: solid 5px #c0c1c5;
+}
+.smallTile:hover * {
+  border-bottom: solid 5px #8d8e93;
+}
+.selected * {
+  border-bottom: solid 5px #8d8e93;
+}
+.blank-tile {
+  border-bottom: solid 5px white;
+}
+.arrow {
+  opacity: .5;
+  cursor: pointer;
+  margin-top: -74px;
+  -webkit-transition: opacity .25s;
+  transition: opacity .25s;
+  height: 30px;
+}
+#leftArrow {
+  float: left;
+  padding-left: 8px;
+}
+#rightArrow {
+  float: right;
+  padding-right: 15px;
+}
+.videoDiv {
+  width: 145px;
+  height: 97px;
+}
+.mobile-arrow {
+  padding: 10px;
+}
+#left-mobile-arrow {
+  float: left;
+}
+#right-mobile-arrow {
+  float: right;
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+@media only screen and (min-width: 768px) {
+  .vidIcon {
+    margin: 15px 0px 0px 40px;
+    width: 75px !important;
+    height: 70px !important;
+    border: none !important;
+  }
+  #mainTile,
+  #mainTile * {
+    height: 320px;
+    width: 520px;
+  }
+  .gallery-thumbnails {
+    display: block;
+  }
+  .smallTile,
+  .smallTile * {
+    width: 155px;
+    height: 100px;
+  }
+  .mobile-arrow {
+    display: none;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .vidIcon {
+    margin: 20px 0px 0px 45px;
+  }
+  .gallery-thumbnails {
+    display: block;
+  }
+  .smallTile,
+  .smallTile * {
+    width: 168px;
+    height: 113px;
+  }
+  .mobile-arrow {
+    display: none;
+  }
+}
+
 .clearfix:before,
 .clearfix:after {
   content: " ";
