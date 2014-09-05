@@ -80,7 +80,7 @@ module.exports = function (grunt) {
 
         watch: {
             less: {
-                files: ["_less/**/*.less"],
+                files: ["_less/**/*.less", "pages/**/*.less", "_includes/**/*.less"],
                 tasks: ["less", "autoprefixer", "cssmin"]
             },
 
