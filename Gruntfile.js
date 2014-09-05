@@ -3,12 +3,13 @@ module.exports = function (grunt) {
     "use strict";
 
     require("load-grunt-tasks")(grunt);
-    var taskList = ["less", "autoprefixer", "cssmin", "jekyll"],
+    var taskList = ["less:pages", "less:global", "autoprefixer", "jekyll"],
         watchList = taskList.concat([]),
         banner = "/* DO NO EDIT THIS FILE.  This file is built from a source file.  Edit that file instead. */\n";
 
     watchList.push("connect");
-    watchList.push("watch");
+    watchList.push("watch:less");
+    watchList.push("watch:jekyll");
 
 
     grunt.initConfig({
@@ -33,7 +34,10 @@ module.exports = function (grunt) {
         less: {
             pages: {
                 options: {
-                    paths: ["assets/css"]
+                    paths: ["assets/css"],
+                    compress: true,
+                    banner: banner,
+                    report: "min"
                 },
                 files: [
                     {
@@ -41,16 +45,18 @@ module.exports = function (grunt) {
                         flatten: true,
                         src: ["pages/**/*.less"],
                         dest: "assets/css",
-                        ext: ".css"
+                        ext: ".min.css"
                     }
                 ]
             },
             global: {
                 options: {
-                  paths: ["assets/css"]
+                    paths: ["assets/css"],
+                    compress: true,
+                    banner: banner
                 },
                 files: {
-                  "assets/css/global.css": ["_less/global.less", "_includes/**/*.less"]
+                    "assets/css/global.min.css": ["_less/global.less", "_includes/**/*.less"]
                 }
             }
         },
@@ -60,22 +66,6 @@ module.exports = function (grunt) {
                 browsers: ["last 2 versions", "ie 8", "ie 9"]
             },
             src: "assets/css/**/*.css"
-        },
-
-        cssmin: {
-            minify: {
-                options: {
-                    banner: banner
-                },
-                files: [
-                    {
-                        expand: true,
-                        ext: ".min.css",
-                        src: "assets/css/**/*.css",
-                        dest: ""
-                    }
-                ]
-            }
         },
 
         watch: {
