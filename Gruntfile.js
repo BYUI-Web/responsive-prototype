@@ -3,7 +3,7 @@ module.exports = function (grunt) {
     "use strict";
 
     require("load-grunt-tasks")(grunt);
-    var taskList = ["less", "autoprefixer", "cssmin", "jekyll"],
+    var taskList = ["less", "autoprefixer", "cssmin", "jekyll", "uglify"],
         watchList = taskList.concat([]),
         banner = "/* DO NO EDIT THIS FILE.  This file is built from a source file.  Edit that file instead. */\n";
 
@@ -78,7 +78,24 @@ module.exports = function (grunt) {
             }
         },
 
+        uglify: {
+            js: {
+                options: {
+                    compress: true
+                },
+
+                files: {
+                    "assets/js/main.min.js" : ["pages/**/*.js", "_includes/**/*.js"]
+                }
+            }
+        },
+        
         watch: {
+            js: {
+                files: ["pages/**/*.js", "_includes/**/*.js"],
+                tasks: ["uglify"]
+            },
+            
             less: {
                 files: ["_less/**/*.less", "pages/**/*.less", "_includes/**/*.less"],
                 tasks: ["less", "autoprefixer", "cssmin"]
