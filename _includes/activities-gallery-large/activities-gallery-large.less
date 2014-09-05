@@ -1,0 +1,135 @@
+// Core variables and mixins
+@import "../../_less/bootstrap/variables.less";
+@import "../../_less/custom/variables.less"; // Custom Override
+@import "../../_less/bootstrap/mixins.less";
+@import "../../_less/custom/mixins.less"; // Custom Override
+// Utility classes
+@import "../../_less/bootstrap/utilities.less";
+@import "../../_less/bootstrap/responsive-utilities.less";
+
+ .gallery-container {
+    #main-tile {
+        background: #c2c3c6;
+        text-align: center;
+        overflow: hidden;
+        
+        * {
+            margin: auto;
+        }
+    }
+    #thumbnail-container {
+        display: none;
+    }
+    #mobile-arrow-container {
+        background: #c3c3c5;
+        margin: 10px 0px 0px 0px;
+    }
+    .gallery-arrow {
+        display: none;
+    }
+    .mobile-arrow {
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+    }
+    #left-mobile-arrow {
+        float: left;
+    }
+    #right-mobile-arrow {
+        float: right;
+        -ms-transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+    #gallery-caption {
+        background-color: black;
+        opacity: .7;
+        color: white;
+        padding: 5px;
+        float: left;
+        margin-top: -30px;
+        width: 100%;
+    }
+    @media only screen and (min-width:768px) {
+        #kaltura_player {
+            height: 100%;
+            width: 100%;
+        }
+        #mobile-arrow-container {
+            display: none;
+        }
+        #main-tile,
+        #main-tile * {
+            height: 260px;
+        }
+        #thumbnail-container {
+            display: block;
+            margin-top: 4px;
+            float: left;
+        }
+        .small-tile,
+        .small-tile * {
+            width: 126px;
+            height: 84px;
+        }
+        .small-tile {
+            opacity: .85;
+            float: left;
+            margin-top: 4px;
+            margin-right: 4px;
+            background-size: 126px 84px;
+            cursor: pointer;
+            transition: opacity .25s;
+        }
+        .small-tile:hover {
+            opacity: 1;
+        }
+        .vidIcon {
+            width: 60px !important;
+            height: 60px !important;
+            margin: 12px 0px 0px 32px;
+        }
+    }
+    @media only screen and (min-width:992px) {
+        #main-tile, #main-tile * {
+            height: 400px;
+        }
+        .small-tile,
+        .small-tile * {
+            width: 145px;
+            height: 97px;
+        }
+        .small-tile {
+            background-size: 145px 97px;
+            cursor: pointer
+        }
+        .vidIcon {
+            width: 60px !important;
+            height: 60px !important;
+            margin: 20px 0px 0px 40px;
+        }
+        .gallery-arrow {
+            display: inline;
+            background-color: black;
+            width: 31px;
+            margin-top: -97px;
+            padding: 32px 0px 34px 0px;
+            opacity: .7;
+            cursor: pointer;
+            -moz-user-select: none;
+            -khtml-user-select: none;
+            -webkit-user-select: none;
+            -o-user-select: none;
+            transition: opacity .25s;
+        }
+        .gallery-arrow:hover {
+            opacity: .8;
+        }
+        #left-arrow {
+            float: left;
+        }
+        #right-arrow {
+            float: right;
+        }
+    }
+}
