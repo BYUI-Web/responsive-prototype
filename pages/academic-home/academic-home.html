@@ -3,23 +3,25 @@ layout: MainLayout
 ---
 
 <main id="page-content academic-home" class="col-lg-10 col-lg-offset-1 col-xl-8 col-xl-offset-2 row">
-  {% include test/test.html %}
-  {% include breadcrumb.html %}
+  {% include breadcrumb/breadcrumb.html %}
 
-  {% include nav.html %}
+  {% include nav/nav.html %}
 
-  {% include carousel.html %}
+  {% include carousel/carousel.html %}
 
-  {% include title.html %}
+  {% include title/title.html %}
   <!--main page content-->
   <div class="row">
     <section class="article col-sm-8 pull-left">
       <h2>Story Title</h2>
-      <hr />{% include dept_news_article.html %}
+      <hr />
+      {% include dept_news_article/dept_news_article.html %}
       <h2>Story Title</h2>
-      <hr />{% include dept_news_article.html %}
+      <hr />
+      {% include dept_news_article/dept_news_article.html %}
       <h2>Story Title</h2>
-      <hr />{% include dept_news_article.html %}
+      <hr />
+      {% include dept_news_article/dept_news_article.html %}
 
       <h2>Welcome to BYU Idaho Dance!</h2>
       <p>The BYU Idaho Department of Theatre and Dance offers a Bachelor of Arts degree in Dance. This degree is designed to prepare students to find successful career opportunities as a dance professional. During their studies students will acquire the
@@ -50,11 +52,11 @@ layout: MainLayout
           </div>
         </div>
         <div class="col-all-12 col-xs-6 col-sm-12 pull-left">
-          {% include contact-info.html %}
+          {% include contact-info/contact-info.html %}
         </div>
 
         <div class="col-xs-6 col-sm-12 pull-left">
-          {% include university-message.html %}
+          {% include university-message/university-message.html %}
         </div>
       </div>
 
