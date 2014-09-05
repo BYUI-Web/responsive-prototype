@@ -3,7 +3,7 @@ module.exports = function (grunt) {
     "use strict";
 
     require("load-grunt-tasks")(grunt);
-    var taskList = ["less", "autoprefixer", "cssmin", "jekyll"],
+    var taskList = ["less", "autoprefixer", "jekyll", "uglify"],
         watchList = taskList.concat([]),
         banner = "/* DO NO EDIT THIS FILE.  This file is built from a source file.  Edit that file instead. */\n";
 
@@ -33,7 +33,8 @@ module.exports = function (grunt) {
         less: {
             pages: {
                 options: {
-                    paths: ["assets/css"]
+                    paths: ["assets/css"],
+                    compress: true
                 },
                 files: [
                     {
@@ -41,16 +42,17 @@ module.exports = function (grunt) {
                         flatten: true,
                         src: ["pages/**/*.less"],
                         dest: "assets/css",
-                        ext: ".css"
+                        ext: ".min.css"
                     }
                 ]
             },
             global: {
                 options: {
-                  paths: ["assets/css"]
+                  paths: ["assets/css"],
+                  compress: true
                 },
                 files: {
-                  "assets/css/global.css": ["_less/global.less", "_includes/**/*.less"]
+                  "assets/css/global.min.css": ["_less/global.less", "_includes/**/*.less"]
                 }
             }
         },
@@ -62,23 +64,26 @@ module.exports = function (grunt) {
             src: "assets/css/**/*.css"
         },
 
-        cssmin: {
-            minify: {
+        
+
+        uglify: {
+            js: {
                 options: {
-                    banner: banner
+                    compress: true
                 },
-                files: [
-                    {
-                        expand: true,
-                        ext: ".min.css",
-                        src: "assets/css/**/*.css",
-                        dest: ""
-                    }
-                ]
+
+                files: {
+                    "assets/js/main.min.js" : ["pages/**/*.js", "_includes/**/*.js"]
+                }
             }
         },
-
+        
         watch: {
+            js: {
+                files: ["pages/**/*.js", "_includes/**/*.js"],
+                tasks: ["uglify"]
+            },
+            
             less: {
                 files: ["_less/**/*.less", "pages/**/*.less", "_includes/**/*.less"],
                 tasks: ["less", "autoprefixer", "cssmin"]
