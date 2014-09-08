@@ -7,7 +7,7 @@ module.exports = function (grunt) {
         watchList = taskList.concat([]),
         banner = "/* DO NO EDIT THIS FILE.  This file is built from a source file.  Edit that file instead. */\n";
 
-    watchList.push("connect");
+    watchList.push("connect:server");
     watchList.push("watch");
 
 
@@ -22,6 +22,13 @@ module.exports = function (grunt) {
                     port: 4100,
                     base: "build",
                     livereload: true
+                }
+            },
+            serve: {
+                options: {
+                    port: 4100,
+                    base: "build",
+                    keepalive: true
                 }
             }
         },
@@ -96,10 +103,10 @@ module.exports = function (grunt) {
                     livereload: true
                 }
             }
-
         }
     });
 
     grunt.registerTask("default", taskList);
     grunt.registerTask("dev", watchList);
+    grunt.registerTask("serve", ["connect:serve"]);
 };
