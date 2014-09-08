@@ -90,7 +90,7 @@ module.exports = function (grunt) {
             },
 
             jekyll: {
-                files: ["assets/**/*", "_includes/**/*.html", "_pages/**/*.html"],
+                files: ["assets/**/*", "_includes/**/*.html", "pages/**/*.html"],
                 tasks: ["jekyll"],
                 options: {
                     livereload: true
