@@ -86,7 +86,7 @@ module.exports = function (grunt) {
             
             less: {
                 files: ["_less/**/*.less", "pages/**/*.less", "_includes/**/*.less"],
-                tasks: ["less", "autoprefixer", "cssmin"]
+                tasks: ["less", "autoprefixer"]
             },
 
             jekyll: {
