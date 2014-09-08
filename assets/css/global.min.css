@@ -1526,6 +1526,8 @@ th.hidden-lg,td.hidden-lg{display:table-cell !important}
 .site-title{font-size:1.8em;float:left;position:relative;top:.3em;border-left:1px solid #efefef;padding-left:1em;margin-left:.3em}.site-title a{color:#fff;text-decoration:none}
 .sign-in{margin-right:-20px}
 
+.news-thumbnail img{max-width:64px;margin-right:15px !important}
+
 
 .clearfix:before,.clearfix:after{content:" ";display:table}
 .clearfix:after{clear:both}
