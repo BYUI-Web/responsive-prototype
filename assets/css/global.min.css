@@ -1307,6 +1307,21 @@ nav#social-media>a{display:inline;float:left;margin-left:6px}
 .icon-social:hover{opacity:0.5}
 @media screen and (max-width:460px){#social-media{margin:-65px 0 0 0}}
 
+#inner-nav{display:none}
+nav#inner-nav>a{font-family:sans-serif;display:inline;float:left;color:white;background-color:#7F7F7F;border-bottom:solid 12px #C2C3C6;margin:8px 7px 8px 0px;padding:0px 20px;font-size:20px;cursor:pointer;transition:color .09s,background-color .09s,border-bottom .09s;-webkit-transition:color .09s,background-color .09s,border-bottom .09s}
+nav#inner-nav>a:hover{color:#3D3D3D;background-color:#C2C3C6;border-bottom:solid 12px #DADADA}
+#rNavContainer{font-family:sans-serif;margin:0px 0px 8px 0px}
+#rNavContainer a{color:white;text-decoration:none;font-size:35px}
+#rNavContainer h2,#rNavHome{background:#f6b817}
+#rNavContainer h2{color:white;font-family:sans-serif;font-size:65px;padding:15px 0px 0px 20px;margin:0px;line-height:55px;font-weight:bold}
+#rNavDivider{margin:0px 0px 0px 40px;background:#fad47d;height:8px}
+#rNavHome{margin:0px 0px 0px 19px;padding:0px 0px 0px 45px;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+#rNavTriangle{width:0px;height:0px;border-left:20px solid transparent;border-right:0px solid transparent;border-top:13px solid#b88d21;float:left;margin:0px 0px 0px 20px}
+#rNavLinks{margin:0px 0px 0px 40px;background:#f6b817}
+#rNavLinks a{display:block;margin-bottom:1px;background:#fad47d;padding:0px 0px 0px 25px}
+#menuIcon{float:right;margin:10px 10px 0px 0px;display:none;width:40px}
+@media only screen and (min-width:992px){#rNavContainer{display:none} #inner-nav{display:inline} #rNavTriangle{display:none !important}}@media only screen and (min-width:768px){#rNavContainer>h2,#rNavDivider,#rNavTriangle{display:none !important} #rNavHome{margin:0px;padding:0px 0px 0px 10px} #rNavHome a{font-size:27px} #menuIcon{width:23px} #rNavLinks{margin:0px 0px 0px 0px} #rNavLinks a{font-size:22px}}
+
 
 .clearfix:before,.clearfix:after{content:" ";display:table}
 .clearfix:after{clear:both}
