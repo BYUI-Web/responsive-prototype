@@ -1322,6 +1322,9 @@ nav#inner-nav>a:hover{color:#3D3D3D;background-color:#C2C3C6;border-bottom:solid
 #menuIcon{float:right;margin:10px 10px 0px 0px;display:none;width:40px}
 @media only screen and (min-width:992px){#rNavContainer{display:none} #inner-nav{display:inline} #rNavTriangle{display:none !important}}@media only screen and (min-width:768px){#rNavContainer>h2,#rNavDivider,#rNavTriangle{display:none !important} #rNavHome{margin:0px;padding:0px 0px 0px 10px} #rNavHome a{font-size:27px} #menuIcon{width:23px} #rNavLinks{margin:0px 0px 0px 0px} #rNavLinks a{font-size:22px}}
 
+.activities-quote{background-color:#c2c3c6;color:#6d6d6d;padding:15px;margin:10px 0px 0px 0px;text-align:center}.activities-quote div{display:inline-block}
+@media only screen and (min-width:768px){.activities-quote{display:none}}
+
 
 .clearfix:before,.clearfix:after{content:" ";display:table}
 .clearfix:after{clear:both}
