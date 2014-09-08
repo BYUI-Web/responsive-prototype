@@ -4,15 +4,11 @@ layout: Layout
 
 {% include header/header.html %}
 
-<section class="site-content container">
-
-   <main role="main" class="site-content container">
-    <!-- pause Main layout-->
-    {{ content }}
-    <!-- re-begin Main layout-->
-   </main>
-
- </section>
+<main role="main" class="site-content container">
+<!-- pause Main layout-->
+{{ content }}
+<!-- re-begin Main layout-->
+</main>
 
 {% include footer/footer.html %}
 <script src="{{ site.baseurl }} /assets/js/main.min.js"></script>
