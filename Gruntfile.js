@@ -86,11 +86,11 @@ module.exports = function (grunt) {
             
             less: {
                 files: ["_less/**/*.less", "pages/**/*.less", "_includes/**/*.less"],
-                tasks: ["less", "autoprefixer", "cssmin"]
+                tasks: ["less", "autoprefixer"]
             },
 
             jekyll: {
-                files: ["assets/**/*", "**/*.html"],
+                files: ["assets/**/*", "_includes/**/*.html", "pages/**/*.html"],
                 tasks: ["jekyll"],
                 options: {
                     livereload: true
