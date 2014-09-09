@@ -5,9 +5,34 @@ title: Search BYU-I
 
 <section class="search">
   <div class="row">
+    <div class="search-row clearfix">
+      <div class="col-all-12, col-xs-8">
+        <div class="search-input-container">
+          <form role="form">
+            <div class="input-group">
+              <label for="" class="sr-only" for="servicesQuery">Search BYU-Idaho</label>
+              <input type="text" class="form-control" id="servicesQuery" placeholder="Search BYU-Idaho">
+              <span class="input-group-btn">
+                    <button class="btn btn-success" type="button">Go!</button>
+                </span>
+            </div>
+          </form>
+        </div>
 
+      </div>
+      <div class="col-all-12, col-xs-4">
+        <div class="search-input-container">
+          <select name="" id="" class="form-control">
+            <option value="">Sort by: Relevance</option>
+            <option value="">Sort by: Name</option>
+            <option value="">Sort by: Department</option>
+          </select>
+        </div>
+      </div>
+    </div>
 
     <section class="search-container col-all-12 col-sm-8 col-md-9 pull-right">
+
       <div class="results-notice" ng-controller="SearchTerm">
         <p>Results for: "Art"</p>
       </div>
