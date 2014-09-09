@@ -1,0 +1,48 @@
+--- 
+layout: MainLayout 
+title: Admissions 
+--- 
+
+{% include breadcrumb/breadcrumb.html %} 
+{% include nav/nav.html %}
+
+<section class="admin-home">
+
+    {% include title/title.html %}
+
+    <div class="row">
+
+        <section class="article col-sm-8 pull-left">
+            <div class="row">
+                {% include cells/cells.html %}
+                {% include cells/cells.html %}
+                {% include cells/cells.html %}
+            </div>
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima eaque fugit corporis excepturi dolore nemo officia? Obcaecati, odit dolorem ab sit, architecto excepturi beatae vitae placeat tenetur blanditiis soluta harum.</p>
+            
+            
+
+            {% include rotating-ads/rotating-ads.html %}
+            
+            {% include three-column-quick-links/three-column-quick-links.html %}
+
+        </section>
+
+        <aside class="right-column col-xs-12 col-sm-4 pull-right">
+            <div class="row">
+                <div class="col-xs-6 col-sm-12 pull-left">
+                    {% include highlighted-links/highlighted-links.html %}
+                </div>
+
+                <div class="col-all-12 col-xs-6 col-sm-12 pull-left">
+                    {% include institutional-message/institutional-message.html %}
+                </div>
+                <div class="col-xs-6 col-sm-12 pull-left">
+                    {% include dept-events/dept-events.html %}
+                </div>
+            </div>
+        </aside>
+    </div>
+</section>
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/admin-home.min.css" />
