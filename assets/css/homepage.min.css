@@ -59,6 +59,7 @@ th.hidden-lg,td.hidden-lg{display:table-cell !important}
 .homepage .carousel-caption{background:rgba(0,0,0,0.45);padding-left:20px;padding-right:20px;padding-top:0}
 .homepage .event-date{color:#000;font-size:0.8em;font-weight:bold;margin-right:1em;text-transform:uppercase}
 .homepage .gallery-thumbnail img{border-radius:0 0 4px 4px}
+.homepage .homepage-events.list-group,.homepage .homepage-news.list-group{padding-right:0}
 @media (max-width:768px) and (min-width:480px){.homepage .homepage-events{padding-left:15px;padding-right:0}}
 .homepage .homepage-events .list-group-item{overflow:hidden;padding:6.75px 15px;text-overflow:ellipsis;white-space:nowrap;width:100%}
 .homepage .homepage-heading{font-size:0.8675em;letter-spacing:0.04em;text-transform:uppercase}
