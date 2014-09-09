@@ -1,0 +1,43 @@
+// Core variables and mixins
+@import "../../_less/bootstrap/variables.less";
+@import "../../_less/custom/variables.less"; // Custom Override
+@import "../../_less/bootstrap/mixins.less";
+@import "../../_less/custom/mixins.less"; // Custom Override
+// Utility classes
+@import "../../_less/bootstrap/utilities.less";
+@import "../../_less/bootstrap/responsive-utilities.less";
+
+.fb-wall-box {
+    padding: 15px;
+    &:not(:last-child) {
+        border-bottom: solid 1px #dddddd;
+    }
+}
+.fb-wall-picture {
+    padding: 4px;
+    line-height: 1.428571429;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+.fb-wall-avatar,
+.fb-wall-likes {
+    display: none;
+}
+.fb-wall-message-from {
+    font-weight: bold;
+    color: black;
+    display: block;
+}
+.fb-wall-name {
+    display: block;
+    color: #aaa;
+}
+.fb-wall-icon {
+    margin-right: 5px;
+}
