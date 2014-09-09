@@ -573,6 +573,9 @@ td.visible-print {
 .homepage .homepage-news .media {
   margin-top: 0;
 }
+.homepage .homepage-news .media .media-heading {
+  font-size: 15px;
+}
 .homepage .news-thumbnail .media-heading {
   height: 60px;
 }
