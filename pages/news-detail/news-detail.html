@@ -1,0 +1,39 @@
+--- 
+layout: MainLayout 
+---
+{% include nav/nav.html %}
+
+<section class="news-detail">
+   
+    {% include title/title.html %}
+
+    <div class="row">
+        <section class="article col-sm-8 pull-left">
+            <div class="col-all-12 col-xs-4 no-pad">
+                <figure class="article-figure figure-left">
+                    <img src="http://www.placecage.com/200/300" alt="@alt">
+                    <figcaption>Bacon ipsum dolor sit amet andouille ground round beef.</figcaption>
+                </figure>
+            </div>
+            <p>
+                <em>Jan 10</em>
+                <br />
+                <em>Writer: John Smith</em>
+            </p>
+            <div>
+                <p>Bacon ipsum dolor sit amet salami leberkas beef, kevin shoulder pig landjaeger tongue pork belly hamburger swine rump drumstick venison. Bacon bresaola ribeye ham hock leberkas capicola. Strip steak pork loin ham hock pork belly. Flank t-bone biltong meatloaf short ribs drumstick prosciutto sausage pork belly brisket cow beef pork loin. Ham hock pork fatback, venison spare ribs boudin bacon beef meatball. Corned beef doner meatball, jowl shankle pork belly turducken beef ribs bresaola rump shoulder porchetta. Turkey shoulder brisket biltong. Jerky sirloin biltong fatback. Sausage turducken rump, fatback pork loin bacon meatloaf capicola strip steak pork chop. Shankle landjaeger pork belly pork loin pancetta. Jerky drumstick pancetta pork loin tenderloin.</p>
+                <p>Tri-tip sausage corned beef ground round filet mignon tenderloin. Fatback chicken drumstick meatball meatloaf turkey hamburger tail jowl shankle. Landjaeger short ribs fatback shoulder salami kevin pork chop boudin tongue. Ribeye boudin rump pork belly tri-tip swine, beef short ribs beef ribs landjaeger strip steak drumstick shankle frankfurter filet mignon. Meatball rump shoulder, pork belly pig bacon chuck cow prosciutto pancetta fatback sirloin bresaola beef ground round. T-bone pig rump, pancetta drumstick tail porchetta frankfurter tongue shankle meatball ham turducken bacon jowl.</p>
+                <p>Ball tip tongue pork chop pastrami sirloin bacon. Ribeye beef ribs jerky pastrami drumstick tongue swine rump. Meatloaf salami ribeye, strip steak pastrami pig pork pork belly beef. Cow shankle pancetta, porchetta prosciutto swine bacon venison rump flank. Turkey hamburger flank tail ham hock leberkas pork belly doner. Andouille pig spare ribs turducken, sirloin ham hock swine corned beef beef ribs meatloaf pastrami. Prosciutto meatloaf ball tip chuck t-bone turducken. Flank salami landjaeger brisket andouille, shoulder kevin chuck short loin meatball jerky boudin ham hock. Kevin pig pork belly shankle jerky short loin t-bone pancetta, pork cow venison ham hock pastrami capicola. Brisket doner ham hock, prosciutto tri-tip jerky shankle boudin short loin bacon meatball beef.</p>
+            </div>
+        </section>
+        <aside class="right-column col-xs-12 col-sm-4 pull-right">
+            <div class="contact-panel col-all-12 col-xs-6 col-sm-12 pull-left">
+                {% include highlighted-links/highlighted-links.html %}
+            </div>
+            <div class="publications-panel col-all-12 col-xs-6 col-sm-12 pull-left">
+                {% include responsive-news-navigation/responsive-news-navigation.html %}
+            </div>
+        </aside>
+    </div>
+</section>
+<link href="{{ site.baseurl }}/assets/css/news-detail.min.css" rel="stylesheet" />
