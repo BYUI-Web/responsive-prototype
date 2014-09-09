@@ -53,7 +53,7 @@ th.hidden-lg,td.hidden-lg{display:table-cell !important}
 @media (min-width:992px) and (max-width:1199px){.hidden-lg.hidden-md,tr.hidden-lg.hidden-md,th.hidden-lg.hidden-md,td.hidden-lg.hidden-md{display:none !important}}
 @media (min-width:1200px){.hidden-lg,tr.hidden-lg,th.hidden-lg,td.hidden-lg{display:none !important}}
 .visible-print,tr.visible-print,th.visible-print,td.visible-print{display:none !important}
-@media print{.visible-print{display:block !important}table.visible-print{display:table} tr.visible-print{display:table-row !important} th.visible-print,td.visible-print{display:table-cell !important} .hidden-print,tr.hidden-print,th.hidden-print,td.hidden-print{display:none !important}}.homepage #home-carousel{margin-bottom:20px;margin-top:20px}@media (max-width:768px){.homepage #home-carousel{margin-left:-15px;margin-right:-15px;margin-top:0}}
+@media print{.visible-print{display:block !important}table.visible-print{display:table} tr.visible-print{display:table-row !important} th.visible-print,td.visible-print{display:table-cell !important} .hidden-print,tr.hidden-print,th.hidden-print,td.hidden-print{display:none !important}}.homepage #home-carousel{margin-bottom:20px;margin-top:0}@media (max-width:768px){.homepage #home-carousel{margin-left:-15px;margin-right:-15px;margin-top:-20px}}
 .homepage #news .media-object{margin-right:10px}
 .homepage .btn-black{background-color:rgba(0,0,0,0.6);color:#fff}
 .homepage .carousel-caption{background:rgba(0,0,0,0.45);padding-left:20px;padding-right:20px;padding-top:0}
