@@ -2,10 +2,11 @@
 layout: MainLayout
 ---
 
+{% include breadcrumb/breadcrumb.html %}
+{% include nav/nav.html %}
+
 <section class="content">
-  <div class="page-header clearfix">
-    <h1>BYU-Idaho Center</h1>
-  </div>
+    {% include title/title.html %}
 
   <div class="row">
 
@@ -24,74 +25,27 @@ layout: MainLayout
         <li>There is 17,000 yards of carpet for just auditorium room.</li>
         <li>The two auditorium screens measure 34 x 19 feet, and there are 98 toilets in the building.</li>
       </ul>
-      <div class="quicklinks row">
-        <!-- Quicklinks Component -->
-        <div class="col-xs-4 pull-left">
-          <h2 class="quicklinks-title">Other Buildings</h2>
-          <ul>
-            <li><a href="#">Austin - Sciences</a>
-            </li>
-            <li><a href="#">Rigby - Faculty Offices</a>
-            </li>
-            <li><a href="#">Kimball - Administration</a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-xs-4 pull-left">
-          <h2 class="quicklinks-title">Buildings</h2>
-          <ul>
-            <li><a href="#">Austin - Sciences</a>
-            </li>
-            <li><a href="#">Rigby - Faculty Offices</a>
-            </li>
-            <li><a href="#">Kimball - Administration</a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-xs-4 pull-left">
-          <h2 class="quicklinks-title">More Buildings</h2>
-          <ul>
-            <li><a href="#">Austin - Sciences</a>
-            </li>
-            <li><a href="#">Rigby - Faculty Offices</a>
-            </li>
-            <li><a href="#">Kimball - Administration</a>
-            </li>
-          </ul>∫
-        </div>
-      </div>
-      <!-- Quicklinks Component End -->
+            
     </section>
 
     <aside class="right-column col-all-12 col-sm-4 pull-right">
-
-      <div class="buildings-map-block">
-        <a href="http://www.byui.edu/maps#BCTR" title="BYUI Maps">
-          <img alt="satellite photo of the BYU-Idaho" class="img-thumbnail buildings-map-thumb" src="{{ site.baseurl }}/assets/placeholders/byui-center.jpg">
-        </a>
-        <a class="buildings-map-link btn btn-default" href="http://www.byui.edu/maps#BCTR" title="BYUI Maps"><span class="icon icon-map-pin"> </span>View Map</a>
-      </div>
-      <div class="buildings-info">
-        <h2 class="byui-blue">Hours</h2>
-        <p>Monday - Friday
-          <br>6:00 AM - 11:30 P.M.</p>
-        <h2 class="byui-blue">Services</h2>
-        <ul>
-          <li><a href="http://www.byui.edu/scheduling-office/?cid=fli:144">Scheduling Office</a>
-          </li>
-          <li><a href="http://www.byui.edu/activities/resources/exercise-facilities-and-play-fields/byu-idaho-center">10 Sports Courts</a>
-          </li>
-          <li><a href="http://www.byui.edu/activities/resources/exercise-facilities-and-play-fields/byu-idaho-center">Indoor Track</a>
-          </li>
-          <li><a href="http://www.byui.edu/activities/resources/exercise-facilities-and-play-fields/byu-idaho-center">Equipment Rental</a>
-          </li>
-        </ul>
-      </div>
+    
+        {% include highlighted-links/highlighted-links.html %}
+        
+        <div class="column-component thumbnail">
+            {% include text-component/text-component.html %}
+        </div>
+        <div class="column-component thumbnail">
+            {% include text-component/text-component-with-image.html %}
+        </div>
+        
+        {% include institutional-message/institutional-message.html %}
 
       <!-- Universal sidebar content (such as contact info or university message) will be inserted here after the author's (optional) custom sidebar content -->
 
     </aside>
 
   </div>
+    {% include three-column-quick-links/three-column-quick-links.html %}
 </section>
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/byuicenter.min.css" />
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/content.min.css" />

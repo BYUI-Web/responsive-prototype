@@ -58,3 +58,4 @@ th.hidden-lg,td.hidden-lg{display:table-cell !important}
 @media (max-width:768px){.content .right-column{margin-top:2em}}.content .buildings-map-block{max-width:300px;position:relative}
 .content .buildings-map-link{bottom:10px;position:absolute;right:10px}
 .content .byui-blue{font-size:1.3em}
+.content .column-component{margin-top:15px}
