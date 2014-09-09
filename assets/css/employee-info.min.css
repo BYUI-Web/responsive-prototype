@@ -53,17 +53,7 @@ th.hidden-lg,td.hidden-lg{display:table-cell !important}
 @media (min-width:992px) and (max-width:1199px){.hidden-lg.hidden-md,tr.hidden-lg.hidden-md,th.hidden-lg.hidden-md,td.hidden-lg.hidden-md{display:none !important}}
 @media (min-width:1200px){.hidden-lg,tr.hidden-lg,th.hidden-lg,td.hidden-lg{display:none !important}}
 .visible-print,tr.visible-print,th.visible-print,td.visible-print{display:none !important}
-@media print{.visible-print{display:block !important}table.visible-print{display:table} tr.visible-print{display:table-row !important} th.visible-print,td.visible-print{display:table-cell !important} .hidden-print,tr.hidden-print,th.hidden-print,td.hidden-print{display:none !important}}.homepage #home-carousel{margin-bottom:20px;margin-top:20px}@media (max-width:768px){.homepage #home-carousel{margin-left:-15px;margin-right:-15px;margin-top:0}}
-.homepage #news .media-object{margin-right:10px}
-.homepage .btn-black{background-color:rgba(0,0,0,0.6);color:#fff}
-.homepage .carousel-caption{background:rgba(0,0,0,0.45);padding-left:20px;padding-right:20px;padding-top:0}
-.homepage .event-date{color:#000;font-size:0.8em;font-weight:bold;margin-right:1em;text-transform:uppercase}
-.homepage .gallery-thumbnail img{border-radius:0 0 4px 4px}
-.homepage .homepage-events.list-group,.homepage .homepage-news.list-group{padding-right:0}
-@media (max-width:768px) and (min-width:480px){.homepage .homepage-events{padding-left:15px;padding-right:0}}
-.homepage .homepage-events .list-group-item{overflow:hidden;padding:6.75px 15px;text-overflow:ellipsis;white-space:nowrap;width:100%}
-.homepage .homepage-heading{font-size:0.8675em;letter-spacing:0.04em;text-transform:uppercase}
-.homepage .homepage-news .media{margin-top:0}
-.homepage .news-thumbnail .media-heading{height:60px}
-.homepage .news-thumbnail img{margin-right:15px;max-width:64px}
-.homepage .panel-heading,.homepage .panel-body{display:block}
+@media print{.visible-print{display:block !important}table.visible-print{display:table} tr.visible-print{display:table-row !important} th.visible-print,td.visible-print{display:table-cell !important} .hidden-print,tr.hidden-print,th.hidden-print,td.hidden-print{display:none !important}}.employee .contact-info{list-style:none;margin:0;padding:1em 0 0}.employee .contact-info li{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;width:100%}
+.employee .employee{padding:0.5em}
+.employee .employee-qualifications h2{font-size:1.4em}
+.employee .page-header h1 small{font-size:16px}
