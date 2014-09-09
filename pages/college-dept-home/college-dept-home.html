@@ -2,40 +2,47 @@
 layout: MainLayout 
 ---
 
-<main id="page-content" class="col-lg-10 col-lg-offset-1 col-xl-8 col-xl-offset-2 row">
 
-    {% include nav/nav.html %} {%include top-images/top-images.html%} {% include title/title.html %}
+{% include nav/nav.html %}
+<section class="college-dept-home">
 
-    <!--main page content-->
-    <div class="row">
-        <section class="article col-sm-8 pull-left">
-            <p>
-                Bacon ipsum dolor sit amet andouille brisket chuck, ham turkey tongue tri-tip pork loin. Andouille ball tip pork loin pork chop rump, meatball beef brisket tail swine porchetta corned beef hamburger strip steak. Pork biltong meatloaf, chicken filet mignon turkey tenderloin bresaola pork belly shankle short loin leberkas turducken salami pig. Fatback chicken jowl tenderloin prosciutto pork short ribs kielbasa. Kielbasa doner chicken, meatloaf andouille ham hock kevin pork chop shankle shoulder pig turducken. Doner shankle tenderloin, hamburger pork chop turkey jowl corned beef. Frankfurter cow salami brisket drumstick pork loin t-bone tail pork chop ribeye ham chicken ball tip short loin fatback.
-            </p>
-            <p>
-                Bacon ipsum dolor sit amet andouille brisket chuck, ham turkey tongue tri-tip pork loin. Andouille ball tip pork loin pork chop rump, meatball beef brisket tail swine porchetta corned beef hamburger strip steak. Pork biltong meatloaf, chicken filet mignon turkey tenderloin bresaola pork belly shankle short loin leberkas turducken salami pig. Fatback chicken jowl tenderloin prosciutto pork short ribs kielbasa. Kielbasa doner chicken, meatloaf andouille ham hock kevin pork chop shankle shoulder pig turducken. Doner shankle tenderloin, hamburger pork chop turkey jowl corned beef. Frankfurter cow salami brisket drumstick pork loin t-bone tail pork chop ribeye ham chicken ball tip short loin fatback.
-            </p>
+{%include top-images/top-images.html%}
+{% include title/title.html %}
+
+<!--main page content-->
+<div class="row">
+    <section class="article col-sm-8 pull-left">
+        <p>
+            Bacon ipsum dolor sit amet andouille brisket chuck, ham turkey tongue tri-tip pork loin. Andouille ball tip pork loin pork chop rump, meatball beef brisket tail swine porchetta corned beef hamburger strip steak. Pork biltong meatloaf, chicken filet mignon turkey tenderloin bresaola pork belly shankle short loin leberkas turducken salami pig. Fatback chicken jowl tenderloin prosciutto pork short ribs kielbasa. Kielbasa doner chicken, meatloaf andouille ham hock kevin pork chop shankle shoulder pig turducken. Doner shankle tenderloin, hamburger pork chop turkey jowl corned beef. Frankfurter cow salami brisket drumstick pork loin t-bone tail pork chop ribeye ham chicken ball tip short loin fatback.
+        </p>
+        <p>
+            Bacon ipsum dolor sit amet andouille brisket chuck, ham turkey tongue tri-tip pork loin. Andouille ball tip pork loin pork chop rump, meatball beef brisket tail swine porchetta corned beef hamburger strip steak. Pork biltong meatloaf, chicken filet mignon turkey tenderloin bresaola pork belly shankle short loin leberkas turducken salami pig. Fatback chicken jowl tenderloin prosciutto pork short ribs kielbasa. Kielbasa doner chicken, meatloaf andouille ham hock kevin pork chop shankle shoulder pig turducken. Doner shankle tenderloin, hamburger pork chop turkey jowl corned beef. Frankfurter cow salami brisket drumstick pork loin t-bone tail pork chop ribeye ham chicken ball tip short loin fatback.
+        </p>
 
 
-            <h2>News Title</h2>
-            <hr />{% include dept_news_article/dept_news_article.html %}
+        <h2>News Title</h2>
+        <hr />
+        {% include dept_news_article/dept_news_article.html %}
 
-        </section>
+    </section>
 
-        <!--side content-->
-        <aside class="right-column col-xs-12 col-sm-4 pull-right">
-            <div class="row">
-                <!--important dates-->
-                <div class="col-all-12 col-xs-6 col-sm-12 pull-left">
-                    {% include dept-events/dept-events.html %}
-                </div>
-
-                <!--university message-->
-                <div class="col-all-12 col-xs-6 col-sm-12 pull-left">
-                    {% include institutional-message/institutional-message.html %}
-                </div>
+    <!--side content-->
+    <aside class="right-column col-xs-12 col-sm-4 pull-right">
+        <div class="row">
+            <!--important dates-->
+            <div class="col-all-12 col-xs-6 col-sm-12 pull-left">
+                {% include dept-events/dept-events.html %}
             </div>
-        </aside>
-    </div>
-    {% include three-column-quick-links/three-column-quick-links.html %}
-</main>
+
+            <!--university message-->
+            <div class="col-all-12 col-xs-6 col-sm-12 pull-left">
+                {% include institutional-message/institutional-message.html %}
+            </div>
+            
+            <!-- Add facebook integration -->
+        </div>
+    </aside>
+</div>
+{% include three-column-quick-links/three-column-quick-links.html %}
+</section>
+<link href="{{ site.baseurl }}/assets/css/college-dept-home.min.css" rel="stylesheet" />
