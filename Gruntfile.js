@@ -26,6 +26,15 @@ module.exports = function(grunt) {
         files: {
           "assets/css/global.css": "_less/global.less"
         }
+      },
+      production: {
+        options: {
+          paths: ["assets/css"],
+          compress: true
+        },
+        files: {
+          "assets/css/global.min.css": "_less/global.less"
+        }
       }
     },
 
