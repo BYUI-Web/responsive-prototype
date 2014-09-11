@@ -4,43 +4,41 @@ layout: MainLayout
 
 
 {% include nav/nav.html %}
+{% include breadcrumb/breadcrumb.html %} 
+
 <section class="college-dept-home">
 
-{%include top-images/top-images.html%}
+
 {% include title/title.html %}
+{% include top-carousel/top-carousel.html %}
 
 <!--main page content-->
 <div class="row">
     <section class="article col-sm-8 pull-left">
         <p>
-            Bacon ipsum dolor sit amet andouille brisket chuck, ham turkey tongue tri-tip pork loin. Andouille ball tip pork loin pork chop rump, meatball beef brisket tail swine porchetta corned beef hamburger strip steak. Pork biltong meatloaf, chicken filet mignon turkey tenderloin bresaola pork belly shankle short loin leberkas turducken salami pig. Fatback chicken jowl tenderloin prosciutto pork short ribs kielbasa. Kielbasa doner chicken, meatloaf andouille ham hock kevin pork chop shankle shoulder pig turducken. Doner shankle tenderloin, hamburger pork chop turkey jowl corned beef. Frankfurter cow salami brisket drumstick pork loin t-bone tail pork chop ribeye ham chicken ball tip short loin fatback.
+            Comply pathway intellect eternal truths snow kimball austin unselfish service interdisciplinary application. Curfew immorality no caffeine specific aspects anxiously engaged learning home to. Repentance wholesome review a science skinny jeans community sabbath commitment. Principles smith required true courses refining specific aspects. Help desk education thomas monson worldly family proclamation skinny jeans austin. Learning comply quiz clean revelation at snow community general conference specific aspects. 
         </p>
         <p>
-            Bacon ipsum dolor sit amet andouille brisket chuck, ham turkey tongue tri-tip pork loin. Andouille ball tip pork loin pork chop rump, meatball beef brisket tail swine porchetta corned beef hamburger strip steak. Pork biltong meatloaf, chicken filet mignon turkey tenderloin bresaola pork belly shankle short loin leberkas turducken salami pig. Fatback chicken jowl tenderloin prosciutto pork short ribs kielbasa. Kielbasa doner chicken, meatloaf andouille ham hock kevin pork chop shankle shoulder pig turducken. Doner shankle tenderloin, hamburger pork chop turkey jowl corned beef. Frankfurter cow salami brisket drumstick pork loin t-bone tail pork chop ribeye ham chicken ball tip short loin fatback.
+            Discussion strong families true beardless manwaring no shorts on campus intellect covenants wholesome, scriptures. With commitment, at studious, worldly homework reflection, immorality. True immorality testimony, just essay financial aid revelation intellect at. Courses internalize learn learning model review books, byu-idaho experience. Faith foundations covenants syllabus sabbath assignments discussion refining, in. At on with with another wonderful day strong families interdisciplinary. 
         </p>
 
-
-        <h2>News Title</h2>
-        <hr />
-        {% include dept_news_article/dept_news_article.html %}
+        <section class="article-list">
+            <h2>Department News</h2>
+            <hr />
+            <ul class="media-list">
+                {% include responsive-news-article-brief/responsive-news-article-brief.html %}
+                {% include responsive-news-article-brief/responsive-news-article-brief.html %}
+                {% include responsive-news-article-brief/responsive-news-article-brief.html %}
+            </ul>
+        </section>
 
     </section>
 
     <!--side content-->
     <aside class="right-column col-xs-12 col-sm-4 pull-right">
-        <div class="row">
-            <!--important dates-->
-            <div class="col-all-12 col-xs-6 col-sm-12 pull-left">
-                {% include dept-events/dept-events.html %}
-            </div>
-
-            <!--university message-->
-            <div class="col-all-12 col-xs-6 col-sm-12 pull-left">
-                {% include institutional-message/institutional-message.html %}
-            </div>
-            
-            <!-- Add facebook integration -->
-        </div>
+        {% include contact-info/contact-info.html %}
+        {% include events/events.html %}
+        {% include institutional-message/institutional-message.html %}
     </aside>
 </div>
 {% include three-column-quick-links/three-column-quick-links.html %}
