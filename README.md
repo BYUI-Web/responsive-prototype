@@ -8,7 +8,7 @@ A list of remaining things to do before this is ready to go live:
 
 ## Live Preview ##
 
-A live preview of the more recent versions of this prototype can be viewed at: <http://byui-web.github.io/responsive-prototype>
+A live preview of the more recent versions of this prototype can be viewed at: <http://byui-web.github.io/generated-prototype>
 
 ## Standards and Workflow (DEVS READ THIS!) ##
 When making changes to this framework:
