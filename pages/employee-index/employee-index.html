@@ -1,0 +1,61 @@
+--- 
+layout: MainLayout 
+--- 
+
+{% include breadcrumb/breadcrumb.html %} 
+{% include nav/nav.html %} 
+{% include title/title.html %}
+
+<section class="article-list col-sm-8">
+    <ul class="media-list">
+        <li class="media">
+            <a href="#" class="col-all-3 no-pad">
+                <img src="http://www.placecage.com/200/310" alt="@fullName" class="thumbnail media-object img-responsive" />
+            </a>
+            <div class="media-body col-all-9 no-pad-r">
+                <h2 class="media-heading"><a href="@url">Nicolas Cage</a>: Actor</h2>
+                <p><strong>Office:</strong> 1801 Century Park West</p>
+                <p><strong>Email:</strong> nictheman@nic.com</p>
+                <p><strong>Phone:</strong> (310) 552-3388</p>
+                <a class="btn btn-primary pull-right btn-xs" href="@scheduleURL">SCHEDULE</a>
+            </div>
+        </li>
+        <li class="media">
+            <a href="#" class="col-all-3 no-pad">
+                <img src="http://www.placecage.com/200/310" alt="@fullName" class="thumbnail media-object img-responsive" />
+            </a>
+            <div class="media-body col-all-9 no-pad-r">
+                <h2 class="media-heading"><a href="@url">Nicolas Cage</a>: Actor</h2>
+                <p><strong>Office:</strong> 1801 Century Park West</p>
+                <p><strong>Email:</strong> nictheman@nic.com</p>
+                <p><strong>Phone:</strong> (310) 552-3388</p>
+                <a class="btn btn-primary pull-right btn-xs" href="@scheduleURL">SCHEDULE</a>
+            </div>
+        </li>
+        <li class="media">
+            <a href="#" class="col-all-3 no-pad">
+                <img src="http://www.lorempixel.com/200/310/cats" alt="@fullName" class="thumbnail media-object img-responsive" />
+            </a>
+            <div class="media-body col-all-9 no-pad-r">
+                <h2 class="media-heading"><a href="@url">Nicolas Cage</a>: Actor</h2>
+                <p><strong>Office:</strong> 1801 Century Park West</p>
+                <p><strong>Email:</strong> nictheman@nic.com</p>
+                <p><strong>Phone:</strong> (310) 552-3388</p>
+                <a class="btn btn-primary pull-right btn-xs" href="@scheduleURL">SCHEDULE</a>
+            </div>
+        </li>
+    </ul>
+</section>
+<aside class="right-column col-xs-12 col-sm-4 pull-right">
+    <div class="row">
+        <div class="col-all-12 col-xs-6 col-sm-12 pull-left">
+            {% include highlighted-links/highlighted-links.html %}
+        </div>
+
+        <div class="col-all-12 col-xs-6 col-sm-12 pull-left">
+            {% include institutional-message/institutional-message.html %}
+        </div>
+    </div>
+</aside>
+
+<link href="{{ site.baseurl }}/assets/css/employee-index.min.css" rel="stylesheet" />
