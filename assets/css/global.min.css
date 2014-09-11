@@ -7687,6 +7687,12 @@ nav#inner-nav > a:hover {
   color: #999999;
 }
 
+.cells h2 {
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 6px;
+}
+
 #left-banner #left-banner-title {
   padding: 15px 0px 0px 15px;
   margin: 0px 20px 0px 20px;
@@ -7744,6 +7750,35 @@ nav#inner-nav > a:hover {
   margin-left: -189px;
   font-size: 35px;
   font-weight: bold;
+}
+
+.contact-info address,
+.contact-info p {
+  margin: 0;
+}
+
+.events .list-group-item {
+  overflow: hidden;
+  padding: 6.75px 15px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+.events-heading {
+  font-size: 0.8675em;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.events-heading span {
+  position: relative;
+  top: 2px;
+}
+.event-date {
+  color: #000;
+  font-size: 0.8em;
+  font-weight: bold;
+  margin-right: 1em;
+  text-transform: uppercase;
 }
 
 .fb-wall-box {
@@ -8048,8 +8083,19 @@ nav#inner-nav > a:hover {
   margin-right: 15px !important;
 }
 
+.institutional-message .panel-heading {
+  font-size: 0.8675em;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #555;
+  background-color: #fff;
+}
+.institutional-message .panel-heading span {
+  position: relative;
+  top: 2px;
+}
 .institutional-message .panel-body {
-  padding: 3px;
+  padding: 0;
   text-align: center;
 }
 
@@ -8571,7 +8617,7 @@ td.visible-print {
 }
 .department-nav {
   z-index: 1010;
-  margin-bottom: 24px;
+  margin-bottom: 15px;
 }
 .department-nav .dropdown-menu .divider {
   margin: 5px 0 9px;
@@ -8691,13 +8737,20 @@ h2.eventDateHeader {
   height: 30px;
 }
 
+.article-list {
+  margin-bottom: 40px;
+}
 .article-list .media-heading {
   font-size: 18px;
 }
 .article-list .media {
-  padding-bottom: 20px;
   margin-bottom: 20px;
+  padding-bottom: 20px;
   border-bottom: 1px solid #ccc;
+}
+
+.quick-links {
+  margin-top: 40px;
 }
 
 .page-header {
@@ -8706,10 +8759,14 @@ h2.eventDateHeader {
   border-bottom: 1px solid #eeeeee;
 }
 .page-header h1 {
-  margin: 0;
+  margin: 10px 0;
 }
 .page-header .subtitle {
   font-style: normal;
   font-size: 13px;
   margin-bottom: 0.5em;
+}
+
+#carousel-top {
+  margin-bottom: 40px;
 }

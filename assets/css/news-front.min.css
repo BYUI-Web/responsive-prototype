@@ -4,11 +4,6 @@
 .news-front .article-list {
   padding-right: 30px;
 }
-.news-front .article-list .media {
-  padding-bottom: 20px;
-  margin-bottom: 20px;
-  border-bottom: 1px solid #ccc;
-}
 .news-front .page-header h1 small {
   font-size: 16px;
 }

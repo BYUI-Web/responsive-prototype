@@ -3,8 +3,8 @@ layout: MainLayout
 title: Admissions 
 --- 
 
-{% include breadcrumb/breadcrumb.html %} 
 {% include nav/nav.html %}
+{% include breadcrumb/breadcrumb.html %} 
 
 <section class="admin-home">
 
@@ -13,7 +13,7 @@ title: Admissions
     <div class="row">
 
         <section class="article col-sm-8 pull-left">
-            <div class="row">
+            <div class="row cells">
                 {% include cells/cells.html %}
                 {% include cells/cells.html %}
                 {% include cells/cells.html %}
@@ -29,19 +29,11 @@ title: Admissions
 
         </section>
 
-        <aside class="right-column col-xs-12 col-sm-4 pull-right">
-            <div class="row">
-                <div class="col-xs-6 col-sm-12 pull-left">
-                    {% include highlighted-links/highlighted-links.html %}
-                </div>
-
-                <div class="col-all-12 col-xs-6 col-sm-12 pull-left">
-                    {% include institutional-message/institutional-message.html %}
-                </div>
-                <div class="col-xs-6 col-sm-12 pull-left">
-                    {% include dept-events/dept-events.html %}
-                </div>
-            </div>
+        <aside class="right-column col-all-12 col-xs-6 col-sm-4 pull-right">
+            {% include contact-info/contact-info.html %}
+            {% include highlighted-links/highlighted-links.html %}
+            {% include events/events.html %}
+            {% include institutional-message/institutional-message.html %}
         </aside>
     </div>
 </section>
