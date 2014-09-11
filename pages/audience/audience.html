@@ -1,6 +1,6 @@
 --- 
 layout: MainLayout 
-title: Admissions 
+title: Student 
 --- 
 
 {% include breadcrumb/breadcrumb.html %} 
@@ -13,7 +13,7 @@ title: Admissions
     <div class="row">
 
         <section class="article col-sm-8 pull-left">
-            <div class="row cells">
+            <div class="row">
                 {% include cells/cells.html %}
                 {% include cells/cells.html %}
                 {% include cells/cells.html %}
@@ -30,11 +30,19 @@ title: Admissions
         </section>
 
         <aside class="right-column col-xs-12 col-sm-4 pull-right">
-            {% include contact-info/contact-info.html %}
-            {% include highlighted-links/highlighted-links.html %}
-            {% include events/events.html %}
-            {% include institutional-message/institutional-message.html %}
+            <div class="row">
+                <div class="col-xs-6 col-sm-12 pull-left">
+                    {% include highlighted-links/highlighted-links.html %}
+                </div>
+
+                <div class="col-all-12 col-xs-6 col-sm-12 pull-left">
+                    {% include institutional-message/institutional-message.html %}
+                </div>
+                <div class="col-xs-6 col-sm-12 pull-left">
+                    {% include dept-events/dept-events.html %}
+                </div>
+            </div>
         </aside>
     </div>
 </section>
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/admin-home.min.css" />
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/audience.min.css" />
