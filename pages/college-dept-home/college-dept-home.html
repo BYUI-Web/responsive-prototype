@@ -4,10 +4,13 @@ layout: MainLayout
 
 
 {% include nav/nav.html %}
+{% include breadcrumb/breadcrumb.html %} 
+
 <section class="college-dept-home">
 
-{%include top-images/top-images.html%}
+
 {% include title/title.html %}
+{% include top-carousel/top-carousel.html %}
 
 <!--main page content-->
 <div class="row">
@@ -33,19 +36,9 @@ layout: MainLayout
 
     <!--side content-->
     <aside class="right-column col-xs-12 col-sm-4 pull-right">
-        <div class="row">
-            <!--important dates-->
-            <div class="col-all-12 col-xs-6 col-sm-12 pull-left">
-                {% include events/events.html %}
-            </div>
-
-            <!--university message-->
-            <div class="col-all-12 col-xs-6 col-sm-12 pull-left">
-                {% include institutional-message/institutional-message.html %}
-            </div>
-            
-            <!-- Add facebook integration -->
-        </div>
+        {% include contact-info/contact-info.html %}
+        {% include events/events.html %}
+        {% include institutional-message/institutional-message.html %}
     </aside>
 </div>
 {% include three-column-quick-links/three-column-quick-links.html %}

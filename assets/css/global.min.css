@@ -9816,6 +9816,11 @@ td.visible-print {
   font-weight: bold;
 }
 
+.contact-info address,
+.contact-info p {
+  margin: 0;
+}
+
 .events .list-group-item {
   overflow: hidden;
   padding: 6.75px 15px;
@@ -12756,7 +12761,7 @@ td.visible-print {
 }
 .department-nav {
   z-index: 1010;
-  margin-bottom: 24px;
+  margin-bottom: 15px;
 }
 .department-nav .dropdown-menu .divider {
   margin: 5px 0 9px;
@@ -13400,6 +13405,7 @@ td.visible-print {
 }
 .article-list .media {
   margin-bottom: 20px;
+  padding-bottom: 20px;
   border-bottom: 1px solid #ccc;
 }
 
@@ -13929,10 +13935,14 @@ td.visible-print {
   border-bottom: 1px solid #eeeeee;
 }
 .page-header h1 {
-  margin: 0;
+  margin: 10px 0;
 }
 .page-header .subtitle {
   font-style: normal;
   font-size: 13px;
   margin-bottom: 0.5em;
+}
+
+#carousel-top {
+  margin-bottom: 40px;
 }
