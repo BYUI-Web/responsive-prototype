@@ -1,45 +1,136 @@
 --- 
 layout: MainLayout 
-title: Student 
+title: Welcome Bill Murray! 
 --- 
-
-{% include nav/nav.html %}
-{% include breadcrumb/breadcrumb.html %} 
 
 <section class="admin-home">
 
-    {% include title/title.html %}
+    <div class="row">
+        <div class="col-all-12 mybyui-nav">
+            <div class="mybyui-btn-row row">
+                <div class="col-all-12 col-xs-6 mybyui-btn">
+                    <a href="#" class="btn btn-success btn-lg btn-block"><span class="icon-mail">&nbsp;</span>Email</a>                    
+                </div>
+                <div class="col-all-12 col-xs-6 mybyui-btn">
+                    <a href="#" class="btn btn-primary btn-lg btn-block"><span class="icon-keyboard">&nbsp;</span>I-Learn</a>                    
+                </div>                               
+            </div>
+            <div class="mybyui-btn-row row">
+                <div class="col-all-12 col-xs-6 col-sm-2 mybyui-btn">
+                    <a href="#" class="btn btn-default btn-lg btn-block">Student</a>                    
+                </div>      
+                <div class="col-all-12 col-xs-6 col-sm-2 mybyui-btn">
+                    <a href="#" class="btn btn-default btn-lg btn-block">Classes</a>                    
+                </div>
+                <div class="col-all-12 col-xs-6 col-sm-2 mybyui-btn">
+                    <a href="#" class="btn btn-default btn-lg btn-block">Finances</a>                    
+                </div>     
+                <div class="col-all-12 col-xs-6 col-sm-2 mybyui-btn">
+                    <a href="#" class="btn btn-default btn-lg btn-block">Services</a>                    
+                </div>
+                <div class="col-all-12 col-xs-6 col-sm-2 mybyui-btn">
+                    <a href="#" class="btn btn-default btn-lg btn-block">Profile</a>                    
+                </div>  
+                <div class="col-all-12 col-xs-6 col-sm-2 mybyui-btn">
+                    <a href="#" class="btn btn-default btn-lg btn-block">My Pages</a>                    
+                </div>                              
+            </div>
+        </div>
+
+    </div>
 
     <div class="row">
 
-        <section class="article col-sm-8 pull-left">
+        <section class="article col-all-12 col-sm-4 pull-left">
             <div class="row">
-                {% include cells/cells.html %}
-                {% include cells/cells.html %}
-                {% include cells/cells.html %}
-            </div>
-            
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima eaque fugit corporis excepturi dolore nemo officia? Obcaecati, odit dolorem ab sit, architecto excepturi beatae vitae placeat tenetur blanditiis soluta harum.</p>
-            
-            
+                <div class="col-all-12 col-xs-6 col-sm-12">
+                    <div class="audience-links list-group">
+                        <a href="http://calendar.byui.edu/" class="list-group-item audience-heading">Pathway Students</a>
+                        <a href="#" class="list-group-item">Registration</a>
+                        <a href="#" class="list-group-item">Academic Deadlines</a>
+                        <a href="#" class="list-group-item">Pathway Locations</a>
+                        <a href="#" class="list-group-item">Online Tutoring</a>
+                    </div>
 
-            {% include rotating-ads/rotating-ads.html %}
-            
-            {% include three-column-quick-links/three-column-quick-links.html %}
+                    <div class="audience-links list-group">
+                        <a href="http://calendar.byui.edu/" class="list-group-item audience-heading">Online Degree Students</a>
+                        <a href="#" class="list-group-item">My Account</a>
+                        <a href="#" class="list-group-item">Financial Aid</a>
+                    </div>  
+                </div>
+                <div class="col-all-12 col-xs-6 col-sm-12">
+                    <div class="audience-links list-group">
+                        <a href="http://calendar.byui.edu/" class="list-group-item audience-heading">Academic Resources</a>
+                        <a href="#" class="list-group-item">IT Help Desk</a>
+                        <a href="#" class="list-group-item">Academic Deadlines</a>
+                        <a href="#" class="list-group-item">Advising &amp; Careers</a>
+                        <button type="button" class="btn btn-default btn-xs audience-links-btn">more</button>
+                    </div>
+
+                    <div class="audience-links list-group">
+                        <a href="http://calendar.byui.edu/" class="list-group-item audience-heading">Pathway Students</a>
+                        <a href="#" class="list-group-item">Registration</a>
+                        <a href="#" class="list-group-item">Academic Deadlines</a>
+                        <a href="#" class="list-group-item">Pathway Locations</a>
+                        <a href="#" class="list-group-item">Online Tutoring</a>
+                    </div>
+                </div>
+            </div>
+
+
+
 
         </section>
 
-        <aside class="right-column col-xs-12 col-sm-4 pull-right">
+        <aside class="right-column col-xs-12 col-sm-8 pull-right">
             <div class="row">
-                <div class="col-xs-6 col-sm-12 pull-left">
-                    {% include highlighted-links/highlighted-links.html %}
-                </div>
-
-                <div class="col-all-12 col-xs-6 col-sm-12 pull-left">
+                <div class="col-all-12 col-xs-6">
                     {% include institutional-message/institutional-message.html %}
+                    <div class="audience-news list-group">
+                        <a href="http://www.byui.edu/newsroom" class="list-group-item events-heading panel-heading">Newsroom</a>
+                        <a href="#" class="list-group-item media">
+                          <div class="news-thumbnail">
+                            <img class="pull-left media-object" alt="BYU-Idaho releases enrollment figures for Fall Semester 2013 " src="http://www.byui.edu/images/Internal_Use/newsroom/Fall13Enrollment(thumb).jpg">
+                          </div>
+
+                          <div class="media-body">
+                            <p class="media-heading">BYU-Idaho releases enrollment figures for Fall Semester 2013</p>
+                          </div>
+                        </a>
+                        <a href="#" class="list-group-item media">
+                          <div class="news-thumbnail">
+                            <img class="pull-left media-object" alt="BYU-Idaho releases enrollment figures for Fall Semester 2013 " src="http://www.byui.edu/images/Internal_Use/newsroom/Fall13Enrollment(thumb).jpg">
+                          </div>
+
+                          <div class="media-body">
+                            <p class="media-heading">BYU-Idaho releases enrollment figures for Fall Semester 2013</p>
+                          </div>
+                        </a>
+                        <a href="#" class="list-group-item media">
+                          <div class="news-thumbnail">
+                            <img class="pull-left media-object" alt="BYU-Idaho releases enrollment figures for Fall Semester 2013 " src="http://www.byui.edu/images/Internal_Use/newsroom/Fall13Enrollment(thumb).jpg">
+                          </div>
+
+                          <div class="media-body">
+                            <p class="media-heading">BYU-Idaho releases enrollment figures for Fall Semester 2013</p>
+                          </div>
+                        </a>
+                    </div>
                 </div>
-                <div class="col-xs-6 col-sm-12 pull-left">
-                    {% include dept-events/dept-events.html %}
+                <div class="col-all-12 col-xs-6">
+                    {% include institutional-message/institutional-message.html %}
+
+                    <div class="events homepage-events list-group">
+                        <a class="list-group-item events-heading" href="http://calendar.byui.edu/">Upcoming Events</a>
+                        <a class="list-group-item" href="#"><span class="event-date">SEP 14</span> Chicken Restaurant in the Manwaring Center</a>
+                        <a class="list-group-item" href="#"><span class="event-date">SEP 14</span> Chicken Restaurant in the Manwaring Center</a>
+                        <a class="list-group-item" href="#"><span class="event-date">SEP 14</span> Chicken Restaurant in the Manwaring Center</a>
+                        <a class="list-group-item" href="#"><span class="event-date">SEP 14</span> Chicken Restaurant in the Manwaring Center</a>
+                        <a class="list-group-item" href="#"><span class="event-date">SEP 14</span> Chicken Restaurant in the Manwaring Center</a>
+                        <a class="list-group-item" href="#"><span class="event-date">SEP 14</span> Chicken Restaurant in the Manwaring Center</a>
+                        <a class="list-group-item" href="#"><span class="event-date">SEP 14</span> Chicken Restaurant in the Manwaring Center</a>
+                        <a class="list-group-item" href="#"><span class="event-date">SEP 14</span> Chicken Restaurant in the Manwaring Center</a>
+                    </div>
                 </div>
             </div>
         </aside>
