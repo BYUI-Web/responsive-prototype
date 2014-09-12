@@ -1,4 +1,7 @@
-/* global module */
+/* global module require */
+
+var ngrok = require("ngrok");
+
 module.exports = function (grunt) {
     "use strict";
 
@@ -115,10 +118,46 @@ module.exports = function (grunt) {
                     livereload: true
                 }
             }
+        },
+
+        pagespeed: {
+            options: {
+                nokey: true,
+                locale: "en",
+                threshold: 80
+            },
+            desktop: {
+                options: {
+                    strategy: "desktop"
+                }
+            },
+            mobile: {
+                options: {
+                    strategy: "mobile"
+                }
+            }
         }
     });
 
     grunt.registerTask("default", taskList);
     grunt.registerTask("dev", watchList);
     grunt.registerTask("serve", ["jekyll", "connect:serve"]);
+
+    grunt.registerTask("test", "Run pagespeed with ngrok", function () {
+        var done = this.async(),
+            port = 9292;
+        
+        process.chdir("build");
+
+        ngrok.connect(port, function (err, url) {
+            if (err !== null) {
+                grunt.fail.fatal(err);
+                return done();
+            }
+            console.log(url);
+            grunt.config.set("pagespeed.options.url", url);
+            grunt.task.run("pagespeed");
+            done();
+        });
+    });
 };
