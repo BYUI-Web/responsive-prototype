@@ -69,7 +69,7 @@ module.exports = function (grunt) {
             options: {
                 browsers: ["last 2 versions", "ie 8", "ie 9"]
             },
-            src: "assets/css/**/*.css"
+            src: "assets/css/**/*.min.css"
         },
 
         cssmin: {
@@ -81,7 +81,7 @@ module.exports = function (grunt) {
                     {
                         expand: true,
                         cwd: "assets/css/",
-                        src: "**/*.css.gz",
+                        src: "**/*.min.css",
                         dest: "assets/css/"
                     }
                ]
@@ -97,30 +97,6 @@ module.exports = function (grunt) {
                 files: {
                     "assets/js/main.min.js": ["pages/**/*.js", "_includes/**/*.js"]
                 }
-            }
-        },
-
-        compress: {
-            main: {
-                options: {
-                    mode: "gzip"
-                },
-                files: [
-                    {   
-                        expand: true,
-                        flatten: true,
-                        src: "assets/css/**/*.css",
-                        dest: "assets/css",
-                        ext: "gz.css"
-                    },
-                    {
-                        expand: true,
-                        flatten: true,
-                        src: "assets/js/**/*.js",
-                        dest: "assets/js",
-                        ext: "gz.js"
-                    }
-                ]
             }
         },
 
