@@ -1,0 +1,29 @@
+@import "../../_less/bootstrap/variables.less";
+@import "../../_less/custom/variables.less"; // Custom Override
+@import "../../_less/bootstrap/mixins.less";
+@import "../../_less/custom/mixins.less"; // Custom Override
+
+
+.events .list-group-item {
+    overflow     : hidden;
+    padding      : 6.75px 15px;
+    text-overflow: ellipsis;
+    white-space  : nowrap;
+    width        : 100%;
+}
+.events-heading {
+    font-size     : 0.8675em;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    span {
+    	position: relative;
+    	top: 2px;
+    }
+}
+.event-date {
+	color         : #000;
+	font-size     : 0.8em;
+	font-weight   : bold;
+	margin-right  : 1em;
+	text-transform: uppercase;
+}
