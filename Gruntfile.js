@@ -81,7 +81,7 @@ module.exports = function (grunt) {
                     {
                         expand: true,
                         cwd: "assets/css/",
-                        src: "**/*.css",
+                        src: "**/*.css.gz",
                         dest: "assets/css/"
                     }
                ]
@@ -97,6 +97,30 @@ module.exports = function (grunt) {
                 files: {
                     "assets/js/main.min.js": ["pages/**/*.js", "_includes/**/*.js"]
                 }
+            }
+        },
+
+        compress: {
+            main: {
+                options: {
+                    mode: "gzip"
+                },
+                files: [
+                    {   
+                        expand: true,
+                        flatten: true,
+                        src: "assets/css/**/*.css",
+                        dest: "assets/css",
+                        ext: "gz.css"
+                    },
+                    {
+                        expand: true,
+                        flatten: true,
+                        src: "assets/js/**/*.js",
+                        dest: "assets/js",
+                        ext: "gz.js"
+                    }
+                ]
             }
         },
 
@@ -145,9 +169,9 @@ module.exports = function (grunt) {
 
     grunt.registerTask("test", "Run pagespeed with ngrok", function () {
         var done = this.async(),
-            port = 9292;
-        
-        process.chdir("build");
+            port = 4100;
+
+        grunt.task.run("connect:server");
 
         ngrok.connect(port, function (err, url) {
             if (err !== null) {
