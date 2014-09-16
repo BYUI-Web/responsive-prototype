@@ -6,14 +6,9 @@ module.exports = function (grunt) {
     "use strict";
 
     require("load-grunt-tasks")(grunt);
-    var taskList = ["less:pages", "less:global", "autoprefixer", "jekyll", "uglify"],
-        watchList = taskList.concat([]),
+    var taskList = ["less:pages", "less:global", "autoprefixer", "jekyll", "uglify", "cssmin", "replace", "compress"],
+        watchList = ["less:pages", "less:global", "autoprefixer", "jekyll", "connect:server", "watch"],
         banner = "/* DO NO EDIT THIS FILE.  This file is built from a source file.  Edit that file instead. */";
-
-    taskList.push("cssmin");
-    watchList.push("connect:server");
-    watchList.push("watch");
-
 
     grunt.initConfig({
 
@@ -74,9 +69,6 @@ module.exports = function (grunt) {
 
         cssmin: {
             build: {
-                options: {
-                    banner: banner
-                },
                 files: [
                     {
                         expand: true,
@@ -98,6 +90,56 @@ module.exports = function (grunt) {
                     "assets/js/main.min.js": ["pages/**/*.js", "_includes/**/*.js"]
                 }
             }
+        },
+        
+        replace: {
+            dist: {
+                options: {
+                    patterns: [
+                        {
+                            match: /\.min\.css/g,
+                            replacement: ".css.gz"
+                        },
+                        {
+                            match: /[!jquery]\.min\.js/g,
+                            replacement: ".js.gz"
+                        }
+                    ]
+                },
+                files: [
+                    {
+                        expand: true,
+                        cwd: "build",
+                        src: "**/*.html",
+                        dest: "build"
+                    }
+                ]
+            }
+        },
+        
+        compress: {
+            dist: {
+                options: {
+                    mode: "gzip"
+                },
+                files: [
+                    {
+                        expand: true,
+                        cwd: "build",
+                        src: "assets/css/**/*.css",
+                        dest: "build",
+                        ext: ".css.gz"
+                    },
+                    {
+                        expand: true,
+                        cwd: "build",
+                        src: "assets/js/**/*.js",
+                        dest: "build",
+                        ext: ".js.gz"
+                    }
+                ]
+                
+            }  
         },
 
         watch: {
@@ -142,18 +184,20 @@ module.exports = function (grunt) {
     grunt.registerTask("default", taskList);
     grunt.registerTask("dev", watchList);
     grunt.registerTask("serve", ["jekyll", "connect:serve"]);
+    grunt.registerTask("test", ["connect:server", "pagespeed-test"]);
 
-    grunt.registerTask("test", "Run pagespeed with ngrok", function () {
+    grunt.registerTask("pagespeed-test", "Run pagespeed with ngrok", function () {
         var done = this.async(),
-            port = 4100;
-
-        grunt.task.run("connect:server");
+            port = 4100,
+            page = grunt.option("page") || "homepage";
 
         ngrok.connect(port, function (err, url) {
             if (err !== null) {
                 grunt.fail.fatal(err);
                 return done();
             }
+            
+            url = url + "/pages/" + page + "/" + page + ".html";
             console.log(url);
             grunt.config.set("pagespeed.options.url", url);
             grunt.task.run("pagespeed");
