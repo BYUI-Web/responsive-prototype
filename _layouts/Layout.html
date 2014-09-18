@@ -2,36 +2,39 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Brigham Young University - Idaho</title>
-  <meta name="description" content="Brigham Young University - Idaho">
-  <meta name="author" content="Brigham Young University - Idaho">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/assets/images/favicon.ico" />
+    
+    <meta http-equiv="content-type" content="text/html" charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="description" content="Brigham Young University - Idaho">
+    <meta name="keywords" content="These are some key words yo!" />
+    <meta name="robots" content="no-follow" />
+    
+    <title>Brigham Young University - Idaho</title>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    d<base href="/">
+    
+    <meta name="author" content="Brigham Young University - Idaho">
 
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/global.min.css">
 
-  <script src="{{ site.baseurl }}/assets/js/modernizr.js"></script>
-  <script src="{{ site.baseurl }}/assets/js/jquery-1.10.2.min.js"></script>
-  <script>
-    window.jQuery || document.write('<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"><\/script>')
-  </script>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/global.min.css">
 
-  <script>
-    // Default states for element toggle:
-    var page_title = 'off';
-    var local_nav = 'on';
-    var right_column = 'on';
-    var quick_links = 'on';
-  </script>
+    <script src="{{ site.baseurl }}/assets/js/modernizr.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="{{ site.baseurl }}/assets/js/jquery-1.10.2.min.js"><\/script>')
+    </script>
+    
+    <!-- Temporary placeholder for google analytics code -->
 
-  {% include socialMedia/socialMedia.html %}
+    {% include socialMedia/socialMedia.html %}
 
 </head>
 
 <body>
-  {{ content }}
+    {{ content }}
 </body>
 
 </html>
