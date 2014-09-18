@@ -1,0 +1,24 @@
+// Core variables and mixins
+@import "../../_less/bootstrap/variables.less";
+@import "../../_less/custom/variables.less"; // Custom Override
+@import "../../_less/bootstrap/mixins.less";
+@import "../../_less/custom/mixins.less"; // Custom Override
+
+.breadcrumb {
+  padding: 0 0 0 3px;
+  margin-bottom: 15px;
+  list-style: none;
+  background-color: @body-bg;
+  border-radius: @border-radius-base;
+  > li {
+    display: inline-block;
+    + li:before {
+      content: "@{breadcrumb-separator}\00a0"; // Unicode space added since inline-block means non-collapsing white-space
+      padding: 0 5px;
+      color: @breadcrumb-color;
+    }
+  }
+  > .active {
+    color: @breadcrumb-active-color;
+  }
+}

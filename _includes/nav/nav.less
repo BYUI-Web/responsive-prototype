@@ -1,0 +1,69 @@
+// Core variables and mixins
+@import "../../_less/bootstrap/variables.less";
+@import "../../_less/custom/variables.less"; // Custom Override
+@import "../../_less/bootstrap/mixins.less";
+@import "../../_less/custom/mixins.less"; // Custom Override
+// Utility classes
+@import "../../_less/bootstrap/utilities.less";
+@import "../../_less/bootstrap/responsive-utilities.less";
+ .department-nav {
+    z-index: 1010;
+    margin-bottom: 15px;
+     
+    .dropdown-menu {
+        .divider {
+            margin: 5px 0 9px;
+        }
+    }
+    .navbar-nav {
+        .open {
+            ul.dropdown-menu {
+                background-color: @gray-lighter;
+            }
+        }
+    }
+     
+    .dropdown-menu-2 {
+        padding: 0;
+        margin-bottom: 5px;
+        & > li {
+            list-style: none;
+            & > a {
+                padding: 3px 20px 3px 40px;
+                display: block;
+                clear: both;
+                font-weight: normal;
+                line-height: @line-height-base;
+                color: @navbar-default-link-color;
+                white-space: nowrap; // prevent links from randomly breaking onto new lines
+                &:hover, &:focus {
+                    text-decoration: none;
+                    color: @dropdown-link-hover-color;
+                    background-color: @dropdown-link-hover-bg;
+                }
+            }
+        }
+    }
+    .badge {
+        .caret {
+            position: relative;
+            left: -1px;
+        }
+    }
+    .dropdown .dropdown-link {
+        float: left;
+    }
+    .dropdown-toggle.dropdown-button {
+        padding-left: 0;
+        float: right;
+
+        &:hover .badge,
+        &:focus .badge {
+            background-color: #555;
+        }
+    }
+    .navbar-nav .open .dropdown-menu > li.dropdown-homepage > a,
+    .navbar-nav .open .dropdown-menu .dropdown-header .dropdown-homepage > a {
+        font-weight: bold;
+    }
+}

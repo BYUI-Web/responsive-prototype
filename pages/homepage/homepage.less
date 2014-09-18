@@ -1,0 +1,68 @@
+// Core variables and mixins
+@import "../../_less/bootstrap/variables.less";
+@import "../../_less/custom/variables.less"; // Custom Override
+@import "../../_less/bootstrap/mixins.less";
+@import "../../_less/custom/mixins.less"; // Custom Override
+
+.homepage {
+  #home-carousel {
+    margin-bottom: 20px;
+    margin-top: 0;
+    @media (max-width: @screen-sm-min) {
+      margin-left : -15px;
+      margin-right: -15px;
+      margin-top  : -20px;
+    }
+
+  }
+  #news .media-object {
+    margin-right: 10px;
+  }
+  .btn-black {
+    background-color: rgba(0, 0, 0, 0.6);
+    color           : #fff;
+  }
+  .carousel-caption {
+    // padding-bottom: 0;
+    background   : rgba(0,0,0, 0.45);
+    padding-left : 20px;
+    padding-right: 20px;
+    padding-top  : 0;
+  }
+    .gallery-thumbnail img {
+    border-radius: 0 0 4px 4px;
+  }
+  .homepage-events.list-group, .homepage-news.list-group {
+    padding-right: 0;
+  }
+  .homepage-events {
+    @media (max-width: @screen-sm-min) and (min-width: @screen-xs-min) {
+      padding-left : 15px;
+      padding-right: 0;
+    }
+  }
+  .homepage-news {
+    .media {
+      margin-top: 0;
+      .media-heading {
+        font-size: 15.4px;      
+      }
+    }
+    .list-group-item {
+      padding: 10px 15px 9px;
+    }
+  } 
+  .news-thumbnail {
+    .media-heading {
+      height: 60px;
+    }
+  }
+  .news-thumbnail img {
+    margin-right: 15px;
+    max-width   : 64px;
+  }
+  .panel-heading,
+  .panel-body {
+    display: block;
+  }
+}

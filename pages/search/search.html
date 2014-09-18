@@ -1,0 +1,117 @@
+---
+layout: MainLayout
+title: Search BYU-I
+---
+
+<section class="search">
+  <div class="row">
+    <div class="search-row clearfix">
+      <div class="col-all-12, col-xs-8">
+        <div class="search-input-container">
+          <form role="form">
+            <div class="input-group">
+              <label for="" class="sr-only" for="servicesQuery">Search BYU-Idaho</label>
+              <input type="text" class="form-control" id="servicesQuery" placeholder="Search BYU-Idaho">
+              <span class="input-group-btn">
+                    <button class="btn btn-success" type="button">Go!</button>
+                </span>
+            </div>
+          </form>
+        </div>
+
+      </div>
+      <div class="col-all-12, col-xs-4">
+        <div class="search-input-container">
+          <select name="" id="" class="form-control">
+            <option value="">Sort by: Relevance</option>
+            <option value="">Sort by: Name</option>
+            <option value="">Sort by: Department</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <section class="search-container col-all-12 col-sm-8 col-md-9 pull-right">
+
+      <div class="results-notice" ng-controller="SearchTerm">
+        <p>Results for: "Art"</p>
+      </div>
+
+      <div class="media">
+        <div class="media-body search-result">
+          <h4 class="media-heading result-heading"><a href="#">Department of Art</a></h4>
+          <p class="result-abstract">The BYU-Idaho Department of Art provides an aesthetic, conceptual, and technical foundation in the visual arts for students who possess a wide range of interests, experiences, and abilities.</p>
+          <div class="result-url"><a href="#">www.byui.edu/art/</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="results-pagination pull-right">
+        <ul class="pagination">
+          <li><a href="#">&laquo;</a>
+          </li>
+          <li class="active"><a href="#">1</a>
+          </li>
+          <li><a href="#">2</a>
+          </li>
+          <li><a href="#">3</a>
+          </li>
+          <li><a href="#">4</a>
+          </li>
+          <li><a href="#">5</a>
+          </li>
+          <li><a href="#">&raquo;</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+
+    <aside class="search-sidebar col-all-12 col-sm-4 col-md-3 pull-left">
+      <div class="panel panel-default">
+        <div class="panel-heading">Refine Search</div>
+        <div class="panel-body">
+          <div class="search-filter">
+            <div class="search-filter-type">Find Pages with...</div>
+            <div class="checkbox">
+              <label for="">
+                <input type="checkbox">all of these words
+              </label>
+            </div>
+            <div class="checkbox">
+              <label for="">
+                <input type="checkbox">this exact word or phrase
+              </label>
+            </div>
+            <div class="checkbox">
+              <label for="">
+                <input type="checkbox">any of these words
+              </label>
+            </div>
+          </div>
+          <div class="search-filter">
+            <div class="search-filter-type">Sort By...</div>
+            <div class="radio">
+              <label for="">
+                <input type="radio">Relevance
+              </label>
+            </div>
+            <div class="radio">
+              <label for="">
+                <input type="radio">Date
+              </label>
+            </div>
+          </div>
+          <div class="advanced-search">
+            <a href="#">Advanced Search</a>
+          </div>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+
+  <aside class="col-xs-12 col-sm-4 pull-right">
+  </aside>
+</section>
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/search.min.css" />

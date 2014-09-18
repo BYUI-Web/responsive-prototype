@@ -1,0 +1,14 @@
+---
+layout: Layout
+---
+
+{% include header/header.html %}
+
+<main role="main" class="site-content container">
+<!-- pause Main layout-->
+    {{ content }}
+<!-- re-begin Main layout-->
+</main>
+
+{% include footer/footer.html %}
+<script src="{{ site.baseurl }}/assets/js/main.min.js"></script>
