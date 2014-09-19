@@ -7781,39 +7781,11 @@ nav#inner-nav > a:hover {
   text-transform: uppercase;
 }
 
-.fb-wall-box {
-  padding: 15px;
+.facebook-integration {
+  height: 350px;
 }
-.fb-wall-box:not(:last-child) {
-  border-bottom: solid 1px #dddddd;
-}
-.fb-wall-picture {
-  padding: 4px;
-  line-height: 1.428571429;
-  background-color: #ffffff;
-  border: 1px solid #dddddd;
-  border-radius: 4px;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-  display: inline-block;
-  max-width: 100%;
-  height: auto;
-}
-.fb-wall-avatar,
-.fb-wall-likes {
-  display: none;
-}
-.fb-wall-message-from {
-  font-weight: bold;
-  color: black;
-  display: block;
-}
-.fb-wall-name {
-  display: block;
-  color: #aaa;
-}
-.fb-wall-icon {
-  margin-right: 5px;
+.facebook-integration iframe {
+  width: 100%;
 }
 
 .global-footer .audience-nav {
