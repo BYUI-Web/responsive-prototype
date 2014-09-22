@@ -115,6 +115,14 @@ module.exports = function (grunt) {
                     livereload: true
                 }
             }
+        },
+
+        buildGhPages: {
+            prod: {
+                options: {
+                    dist: "build"                    
+                }
+            }
         }
     });
 
