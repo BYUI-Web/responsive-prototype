@@ -1,7 +1,7 @@
 name: BYU-Idaho Front-End Framework
 markdown: redcarpet
 highlighter: pygments
-baseurl: ''
+baseurl: '/responsive-prototype'
 destination: 'build'
 exclude: [
 	'_less', 
