@@ -125,7 +125,8 @@ module.exports = function (grunt) {
         buildGhPages: {
             prod: {
                 options: {
-                    dist: "build"                    
+                    dist: "build",
+                    pull: false
                 }
             }
         }
