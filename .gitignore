@@ -7,3 +7,5 @@ _site/*
 build
 
 src
+
+.DS_Store
