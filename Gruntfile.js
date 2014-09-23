@@ -121,13 +121,12 @@ module.exports = function (grunt) {
                 }
             }
         },
-
-        buildGhPages: {
+        git_deploy: {
             prod: {
                 options: {
-                    dist: "build",
-                    pull: false
-                }
+                    url: "https://github.com/BYUI-Web/responsive-prototype.git"
+                },
+                src: "build"
             }
         }
     });
@@ -135,5 +134,5 @@ module.exports = function (grunt) {
     grunt.registerTask("default", taskList);
     grunt.registerTask("dev", watchList);
     grunt.registerTask("serve", ["jekyll:build", "connect:serve"]);
-    grunt.registerTask("gh-pages", ["jekyll:prod", "buildGhPages"]);
+    grunt.registerTask("ghpages", ["jekyll:prod", "git_deploy"]);
 };
