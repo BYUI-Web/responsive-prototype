@@ -1,0 +1,41 @@
+---
+layout: MainLayout
+---
+
+{% include breadcrumb/breadcrumb.html %}
+{% include nav/nav.html %}
+
+<section class="news-index">
+   
+    {% include title/title.html %}
+
+     <!-- Content Area -->
+    <section class="article-list col-sm-8 pull-left">
+        <div class="row">
+            <ul class="media-list">
+                {% include responsive-news-article-brief/responsive-news-article-brief.html %}
+                {% include responsive-news-article-brief/responsive-news-article-brief.html %}
+                {% include responsive-news-article-brief/responsive-news-article-brief.html %}
+                {% include responsive-news-article-brief/responsive-news-article-brief.html %}
+            </ul>
+            <ul class="pagination pull-right">
+                <li class="disabled"><a href="#">&laquo;</a>
+                </li>
+                <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class=""><a href="#">2</a>
+                </li>
+                <li class=""><a href="#">3</a>
+                </li>
+                <li><a href="#">&raquo;</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <aside class="right-column col-xs-12 col-sm-4 pull-right">
+        {% include highlighted-links/highlighted-links.html %}
+        {% include responsive-publication/responsive-publication.html %}
+    </aside>
+</section>
+<link href="{{ site.baseurl }}/assets/css/news-index.min.css" rel="stylesheet" />
