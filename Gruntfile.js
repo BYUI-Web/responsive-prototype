@@ -3,7 +3,7 @@ module.exports = function (grunt) {
     "use strict";
 
     require("load-grunt-tasks")(grunt);
-    var taskList = ["less:pages", "less:global", "autoprefixer", "jekyll", "uglify"],
+    var taskList = ["less:pages", "less:global", "autoprefixer", "jekyll:build", "uglify"],
         watchList = taskList.concat([]),
         banner = "/* DO NO EDIT THIS FILE.  This file is built from a source file.  Edit that file instead. */";
 
@@ -34,7 +34,12 @@ module.exports = function (grunt) {
         },
 
         jekyll: {
-            build: {}
+            build: {},
+            prod: {
+                options: {
+                    config: "_config.gh-pages.yml"
+                }
+            }
         },
 
         less: {
@@ -110,15 +115,24 @@ module.exports = function (grunt) {
 
             jekyll: {
                 files: ["assets/**/*", "_includes/**/*.html", "_layouts/**/*.html", "pages/**/*.html", "index.html"],
-                tasks: ["jekyll"],
+                tasks: ["jekyll:build"],
                 options: {
                     livereload: true
                 }
+            }
+        },
+        git_deploy: {
+            prod: {
+                options: {
+                    url: "https://github.com/BYUI-Web/responsive-prototype.git"
+                },
+                src: "build"
             }
         }
     });
 
     grunt.registerTask("default", taskList);
     grunt.registerTask("dev", watchList);
-    grunt.registerTask("serve", ["jekyll", "connect:serve"]);
+    grunt.registerTask("serve", ["jekyll:build", "connect:serve"]);
+    grunt.registerTask("ghpages", ["jekyll:prod", "git_deploy"]);
 };
