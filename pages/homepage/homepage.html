@@ -3,78 +3,28 @@ layout: MainLayout
 ---
 
 <section class="homepage">
-  <div id="home-carousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#home-carousel" data-slide-to="0" class="active"></li>
-      <li data-target="#home-carousel" data-slide-to="1"></li>
-      <li data-target="#home-carousel" data-slide-to="2"></li>
-      <li data-target="#home-carousel" data-slide-to="3"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-      <div class="item active">
-        <img alt="Students talk outside in the Fall weather" src="http://www.byui.edu/images/homepage-main/131016_FallBannerShot_017.jpg" class="home_image">
-      </div>
-      <div class="item">
-        <img alt="A girl works on homework in one of the greenhouses." src="http://www.byui.edu/images/homepage-main/131030_HarvestChoirFest_048-9-2.jpg" class="home_image">
-      </div>
-      <div class="item">
-        <img alt="A student studies in the morning light outside in the gardens." src="http://www.byui.edu/images/homepage-main/131009_FallPhoto_029.jpg" class="home_image">
-      </div>
-      <div class="item">
-        <img alt="Students walk outside between classes" src="http://www.byui.edu/images/homepage-main/130508_Religion_039.jpg" class="home_image">
-      </div>
-    </div>
-
-    <!-- Controls -->
-    <a class="left carousel-control" href="#home-carousel" data-slide="prev">
-      <span class="icon-prev"></span>
-    </a>
-    <a class="right carousel-control" href="#home-carousel" data-slide="next">
-      <span class="icon-next"></span>
-    </a>
-  </div>
-
+    {% include home-image-rotator/home-image-rotator.html %}
+    
   <div class="row">
-    <div class="col-all-12 col-xs-6 col-sm-4">
-      <div class="homepage-gallery list-group">
-        <a href="photo-galleries" class="list-group-item homepage-heading panel-heading">Photo Galleries</a>
-        <a class="gallery-thumbnail" href="photo-galleries">
-          <img src="{{ site.baseurl }}/assets/placeholders/galleries.png" alt="University Galleries">
-        </a>
-      </div>
+    
+    <div class="col-xs-12 col-sm-6 pull-right">
+        {% include home-events/home-events.html %}
+    </div>
+    
+    <div class="col-xs-12 col-sm-6">
+        {% include home-news/home-news.html %}
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 col-sm-6">
+        <div class="row no-margin">
+            {% include home-videos/home-videos.html %}
+            {% include home-photo/home-photo.html %}
+        </div>
     </div>
 
-    <div class="col-all-12 col-xs-6 col-sm-4">
-      <div class="homepage-message list-group">
-        <a href="photo-galleries" class="list-group-item homepage-heading panel-heading">University Message</a>
-        <a class="gallery-thumbnail" href="photo-galleries">
-          <img src="http://www.byui.edu/images/university-communications/University%20Messaging/Institutional%20Messages/honorit-summer.jpg" alt="University Galleries">
-        </a>
-      </div>
-    </div>
-
-    <div class="col-all-12 col-sm-4">
-      <div class="homepage-news list-group col-all-12 col-xs-6 col-sm-12">
-        <a href="http://www.byui.edu/newsroom" class="list-group-item events-heading panel-heading">Newsroom</a>
-        <a href="#" class="list-group-item media">
-          <div class="news-thumbnail">
-            <img class="pull-left media-object" alt="BYU-Idaho releases enrollment figures for Fall Semester 2013 " src="http://www.byui.edu/images/Internal_Use/newsroom/Fall13Enrollment(thumb).jpg">
-          </div>
-
-          <div class="media-body">
-            <p class="media-heading">BYU-Idaho releases enrollment figures for Fall Semester 2013</p>
-          </div>
-        </a>
-      </div>
-      <div class="events homepage-events list-group col-all-12 col-xs-6 col-sm-12">
-        <a class="list-group-item events-heading" href="http://calendar.byui.edu/">Upcoming Events</a>
-        <a class="list-group-item" href="http://calendar.byui.edu/EventDetails.aspx?data=hHr80o3M7J5ghTrWsuJn5ddfSAnUpqHaI8DYqD5%2b9YQ4pq64tXL1R5Mt3V%2bsSSNS"><span class="event-date">JUL 14</span> Ping Pong Tournament </a>
-        <a class="list-group-item" href="http://calendar.byui.edu/EventDetails.aspx?data=hHr80o3M7J7cpiq0kpEJTTf4X1CVFaljpQZvgGoTLKJvPbpc5sCtWZ%2bDUYv2YvAa"><span class="event-date">JUL 14</span> Theatre Production -  This Castle Needs a Good Scouring </a>
-        <a class="list-group-item" href="http://calendar.byui.edu/EventDetails.aspx?data=hHr80o3M7J6Bt73hGEbDex7Yggn5qb5XFAM%2fTVkt1KV0H4ZA2MDcJuMWc6s0KC3i"><span class="event-date">JUL 14</span> Center Stage--Borealis Wind Quintet Concert </a>
-      </div>
+    <div class="col-xs-12 col-sm-6">
+        {% include home-institutional-message/home-institutional-message.html %}
     </div>
   </div>
 </section>

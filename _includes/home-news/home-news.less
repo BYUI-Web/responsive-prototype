@@ -1,0 +1,15 @@
+@screen-sm: 768px;
+
+.homepage-news {
+    .news-thumbnail.news-thumbnail img {
+        margin-right: 0;
+        @media (min-width: @screen-sm) {
+            max-width: 100%;
+        }
+    }
+    .news-thumbnail {
+        @media (min-width: @screen-sm) {
+            width: 35%;
+        }
+    }
+}

@@ -1,0 +1,54 @@
+// Core variables and mixins
+@import "../../_less/bootstrap/variables.less";
+@import "../../_less/custom/variables.less"; // Custom Override
+@import "../../_less/bootstrap/mixins.less";
+@import "../../_less/custom/mixins.less"; // Custom Override
+
+#home-carousel {
+    .carousel-control,
+    .carousel-inner {
+        padding: 0;    
+    }
+    
+    .carousel-control {
+        width: 8.333333%;
+        background: #333;
+        opacity: .9;
+    }
+    
+    .icon-angle-right,
+    .icon-angle-left {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 1.5em;
+    }
+    
+    .carousel-caption {
+        position: relative;
+        top: auto;
+        left: auto;
+        bottom: auto;
+        right: auto;
+        padding: .5em 1em;
+        background: rgba(94,94,94,1);
+        
+        p {
+            margin: 0;
+        }
+    }
+    
+    .carousel-inner {
+        width: 83.33333333%;
+    }
+    
+    margin-bottom: 20px;
+    margin-top: 0;
+    @media (max-width: @screen-sm-min) {
+      margin-left : -15px;
+      margin-right: -15px;
+      margin-top  : -20px;
+    }
+
+}
