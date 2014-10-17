@@ -6198,6 +6198,10 @@ img {
     padding-top: 0;
   }
 }
+html,
+body {
+  overflow-x: hidden;
+}
 /*! jQuery UI - v1.10.3 - 2014-01-15
 * http://jqueryui.com
 * Includes: jquery.ui.core.css, jquery.ui.autocomplete.css, jquery.ui.menu.css, jquery.ui.theme.css
@@ -8107,6 +8111,8 @@ nav#inner-nav > a:hover {
 }
 
 #home-carousel {
+  margin-left: 0;
+  margin-right: 0;
   margin-bottom: 20px;
   margin-top: 0;
 }
@@ -8118,6 +8124,12 @@ nav#inner-nav > a:hover {
   width: 8.333333%;
   background: #333;
   opacity: .9;
+  z-index: 10;
+}
+@media (min-width: 768px) {
+  #home-carousel .carousel-control {
+    width: 5%;
+  }
 }
 #home-carousel .icon-angle-right,
 #home-carousel .icon-angle-left {
@@ -8135,12 +8147,65 @@ nav#inner-nav > a:hover {
   right: auto;
   padding: .5em 1em;
   background: #5e5e5e;
+  font-shadow: none;
+  font-size: .9em;
 }
 #home-carousel .carousel-caption p {
   margin: 0;
 }
+@media (min-width: 768px) {
+  #home-carousel .carousel-caption {
+    text-align: left;
+    width: 40%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    padding: 1.5em;
+    font-weight: bold;
+  }
+}
+@media (min-width: 992px) {
+  #home-carousel .carousel-caption {
+    width: 25%;
+    padding: 2em 1.5em;
+    font-size: 1em;
+  }
+}
+#home-carousel .carousel-sub-caption {
+  font-weight: normal;
+  font-size: .8em;
+  margin-top: .8em;
+}
+#home-carousel .carousel-sub-caption span {
+  margin-top: 2em;
+  font-size: .9em;
+  font-style: italic;
+  display: block;
+}
+@media (min-width: 768px) {
+  #home-carousel img {
+    width: 60%;
+    float: right;
+  }
+}
+@media (min-width: 992px) {
+  #home-carousel img {
+    width: 75%;
+  }
+}
 #home-carousel .carousel-inner {
   width: 83.33333333%;
+  margin-left: 8.3333333%;
+}
+@media (min-width: 768px) {
+  #home-carousel .carousel-inner {
+    width: 90%;
+    margin-left: 5%;
+    overflow: visible;
+  }
+}
+#home-carousel .carousel-inner .item-wrapper {
+  overflow: hidden;
 }
 @media (max-width: 768px) {
   #home-carousel {
@@ -8148,6 +8213,26 @@ nav#inner-nav > a:hover {
     margin-right: -15px;
     margin-top: -20px;
   }
+}
+#home-carousel .active {
+  opacity: 0;
+}
+#home-carousel .previous-slide {
+  position: absolute;
+  right: 100%;
+  top: 0;
+  display: block;
+  z-index: 10;
+  opacity: .6;
+}
+#home-carousel .next-slide {
+  position: absolute;
+  left: 100%;
+  top: 0;
+  display: block;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: .6;
 }
 
 .homepage-news .news-thumbnail.news-thumbnail img {
@@ -8164,13 +8249,43 @@ nav#inner-nav > a:hover {
   }
 }
 
-.homepage-photo img {
+@media (min-width: 768px) {
+  .homepage-photo .photo-thumbnail.photo-thumbnail {
+    width: 25%;
+  }
+}
+.homepage-photo .photo-thumbnail.photo-thumbnail img {
   margin-right: 15px;
 }
+@media (min-width: 768px) {
+  .homepage-photo .photo-thumbnail.photo-thumbnail img {
+    max-width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .homepage-photo .list-group-item.list-group-item:last-child {
+    padding: 1.5em 1.5em 2em 1em;
+  }
+}
 
-.homepage-videos .video-thumbnail {
+.homepage-videos .video-thumbnail.video-thumbnail {
   position: relative;
   float: left;
+}
+@media (min-width: 768px) {
+  .homepage-videos .video-thumbnail.video-thumbnail {
+    width: 25%;
+  }
+}
+@media (min-width: 768px) {
+  .homepage-videos .video-thumbnail.video-thumbnail img {
+    max-width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .homepage-videos .list-group-item.list-group-item:last-child {
+    padding: 1em 1em 1.5em;
+  }
 }
 .homepage-videos .icon-play {
   position: absolute;

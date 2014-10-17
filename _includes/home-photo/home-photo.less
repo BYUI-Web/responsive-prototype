@@ -1,5 +1,25 @@
-.homepage-photo {
-    img {
-        margin-right: 15px;
+// Core variables and mixins
+@import "../../_less/bootstrap/variables.less";
+@import "../../_less/custom/variables.less"; // Custom Override
+@import "../../_less/bootstrap/mixins.less";
+@import "../../_less/custom/mixins.less"; // Custom Override
+ .homepage-photo {
+    .photo-thumbnail.photo-thumbnail {
+        @media (min-width: @screen-sm) {
+            width: 25%;
+        }
+        img {
+            margin-right: 15px;
+            @media (min-width: @screen-sm) {
+                max-width: 100%;
+            }
+        }
+    }
+    .list-group-item.list-group-item {
+        @media (min-width: @screen-sm) {
+            &:last-child {
+                padding: 1.5em 1.5em 2em 1em;
+            }
+        }
     }
 }

@@ -13,14 +13,14 @@
 .homepage .list-group-item:last-child {
   border-bottom: none;
 }
-.homepage .homepage-news .media-heading,
-.homepage .homepage-videos .media-heading,
-.homepage .homepage-photo .media-heading {
+.homepage .homepage-news .media-body,
+.homepage .homepage-videos .media-body,
+.homepage .homepage-photo .media-body {
   font-weight: bold;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  width: calc(100% - 112px);
+  width: calc(65% - 35px);
 }
 .homepage .homepage-news [class$="thumbnail"],
 .homepage .homepage-videos [class$="thumbnail"],
