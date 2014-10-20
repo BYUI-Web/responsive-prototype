@@ -8214,7 +8214,7 @@ nav#inner-nav > a:hover {
     margin-top: -20px;
   }
 }
-#home-carousel .active {
+#home-carousel .item {
   opacity: 0;
 }
 #home-carousel .previous-slide {
@@ -8253,9 +8253,6 @@ nav#inner-nav > a:hover {
   .homepage-photo .photo-thumbnail.photo-thumbnail {
     width: 25%;
   }
-}
-.homepage-photo .photo-thumbnail.photo-thumbnail img {
-  margin-right: 15px;
 }
 @media (min-width: 768px) {
   .homepage-photo .photo-thumbnail.photo-thumbnail img {

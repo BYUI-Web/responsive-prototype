@@ -29,13 +29,19 @@
     .homepage-news,
     .homepage-videos,
     .homepage-photo {
-        .media-body {
-            font-weight: bold;
+        .media-content {
             position:absolute;
             top: 50%;
             transform: translateY(-50%);
             width: calc(~"65% - 35px");
+            font-size: .85em;
+            
+            .media-heading {
+                font-size: 1.2em;
+                font-weight: bold;
+            }
         }
+
         [class$="thumbnail"] {
             margin-right: 15px;
             position: relative;
@@ -67,6 +73,14 @@
 
     .list-group {
         margin-bottom: 0;
+        
+        .panel-sub-heading {
+            text-transform: uppercase;
+            color: @gray-light;
+            float: right;
+            font-size: .7em;
+            padding-top: .3em;
+        }
     }
   #news .media-object {
     margin-right: 10px;

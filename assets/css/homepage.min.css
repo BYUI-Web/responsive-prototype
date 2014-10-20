@@ -13,14 +13,20 @@
 .homepage .list-group-item:last-child {
   border-bottom: none;
 }
-.homepage .homepage-news .media-body,
-.homepage .homepage-videos .media-body,
-.homepage .homepage-photo .media-body {
-  font-weight: bold;
+.homepage .homepage-news .media-content,
+.homepage .homepage-videos .media-content,
+.homepage .homepage-photo .media-content {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   width: calc(65% - 35px);
+  font-size: .85em;
+}
+.homepage .homepage-news .media-content .media-heading,
+.homepage .homepage-videos .media-content .media-heading,
+.homepage .homepage-photo .media-content .media-heading {
+  font-size: 1.2em;
+  font-weight: bold;
 }
 .homepage .homepage-news [class$="thumbnail"],
 .homepage .homepage-videos [class$="thumbnail"],
@@ -61,6 +67,13 @@
 }
 .homepage .list-group {
   margin-bottom: 0;
+}
+.homepage .list-group .panel-sub-heading {
+  text-transform: uppercase;
+  color: #999999;
+  float: right;
+  font-size: .7em;
+  padding-top: .3em;
 }
 .homepage #news .media-object {
   margin-right: 10px;

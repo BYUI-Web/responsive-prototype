@@ -5,9 +5,7 @@
 
         $(homeCarousel).on("slide.bs.carousel", function (e) {
             var next;
-            
-            console.log(e.direction);
-            
+                        
             if (e.direction === "right") {
                 next = $(this).find(".active").prev();
                 next = (next.length) ? next : $(this).find(".item:last-child");
