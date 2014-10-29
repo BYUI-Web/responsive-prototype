@@ -8,9 +8,9 @@ layout: MainLayout
 
 <section class="college-dept-home">
 
+{% include top-carousel/top-carousel.html %}
 
 {% include title/title.html %}
-{% include top-carousel/top-carousel.html %}
 
 <!--main page content-->
 <div class="row">
@@ -26,9 +26,9 @@ layout: MainLayout
             <h2>Department News</h2>
             <hr />
             <ul class="media-list">
-                {% include responsive-news-article-brief/responsive-news-article-brief.html %}
-                {% include responsive-news-article-brief/responsive-news-article-brief.html %}
-                {% include responsive-news-article-brief/responsive-news-article-brief.html %}
+                {% include dept-news-article/dept-news-article.html %}
+                {% include dept-news-article/dept-news-article.html %}
+                {% include dept-news-article/dept-news-article.html %}
             </ul>
         </section>
 
@@ -36,9 +36,17 @@ layout: MainLayout
 
     <!--side content-->
     <aside class="right-column col-xs-12 col-sm-4 pull-right">
-        {% include contact-info/contact-info.html %}
-        {% include events/events.html %}
-        {% include institutional-message/institutional-message.html %}
+        <div class="row">
+            <div class="col-all-12 col-xs-6 col-sm-12 pull-left">
+                {% include events/events.html %}
+            </div>
+            <div class="col-all-12 col-xs-6 col-sm-12 pull-left">
+                {% include institutional-message/institutional-message.html %}
+            </div>
+            <div class="col-xs-6 col-sm-12 pull-left">
+                {% include facebook-integration/facebook-integration.html %}
+            </div>
+        </div>
     </aside>
 </div>
 {% include three-column-quick-links/three-column-quick-links.html %}
