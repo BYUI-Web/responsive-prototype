@@ -7915,13 +7915,13 @@ nav#inner-nav > a:hover {
   margin: 0;
   padding: 0;
 }
-.global-footer .footer-social li {
-  min-height: 2em;
-}
-@media (min-wdith: 992px) {
-  .global-footer .footerAccordian .collapse {
+@media (min-width: 480px) {
+  .global-footer .footer-links ul {
     height: auto !important;
   }
+}
+.global-footer .footer-social li {
+  min-height: 2em;
 }
 
 /* HEADER STYLES */
