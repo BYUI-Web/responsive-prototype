@@ -104,7 +104,10 @@ module.exports = function (grunt) {
             },
             jsDev: {
                 options: {
-                    compress: false
+                    compress: false,
+                    mangle: false,
+                    beautify: true,
+                    preserveComments: true
                 },
 
                 files: {
