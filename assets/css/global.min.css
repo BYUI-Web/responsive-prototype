@@ -7929,6 +7929,9 @@ nav#inner-nav > a:hover {
   width: 100%;
   padding: 7px 18px;
 }
+.site-navigation .navbar-header a {
+  display: inline-block;
+}
 .site-navigation .navbar-right .navbar-nav {
   margin-right: 15px;
 }
@@ -7965,13 +7968,27 @@ nav#inner-nav > a:hover {
 }
 .mobile-dropdown-icon-container {
   float: right;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 0 18px;
+}
+.mobile-dropdown-icon-container a {
+  display: block;
+  float: left;
+  padding: 7px 5px;
+}
+.mobile-dropdown-icon-container a:hover {
+  text-decoration: none;
+}
+.mobile-dropdown-icon-container a[class=''] {
+  background-color: #025491;
 }
 .mobile-nav-icon {
   width: 36px;
   height: 36px;
   stroke: #fff;
   fill: #fff;
-  margin-left: 5px;
 }
 .menu-icon {
   width: 48px;

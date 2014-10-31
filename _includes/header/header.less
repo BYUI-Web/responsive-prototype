@@ -5,6 +5,7 @@
 @import "../../_less/custom/mixins.less"; // Custom Override
 
 // GLOBAL STYLES PARTIAL
+@mobile-nav-active: #025491;
 
 /* HEADER STYLES */
 
@@ -12,10 +13,16 @@
     margin: 0;
     border-radius: 0;
     z-index: 1020;
+    
     .navbar-header {
         width: 100%;
         padding: 7px 18px;
+        
+        a {
+            display: inline-block;
+        }
     }
+    
     .navbar-right {
         .navbar-nav {
             margin-right: 15px;
@@ -51,15 +58,30 @@
 }
 .mobile-dropdown-icon-container {
     float: right;
+    
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0 18px;
+    
+    a {
+        display: block;
+        float: left;
+        padding: 7px 5px;
+        &:hover {
+            text-decoration: none;
+        }
+        &[class=''] {
+            background-color: @mobile-nav-active;
+        }
+    }
+    
 }
 .mobile-nav-icon {
     width: 36px;
     height: 36px;
     stroke: #fff;
     fill: #fff;
-    margin-left: 5px;
-    // margin-bottom: -4px;
-
 }
 .menu-icon {
     width: 48px;
