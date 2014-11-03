@@ -1,0 +1,16 @@
+.badge--circle {
+    width: 1.5em;
+    height: 1.5em;
+    display: inline-block;
+    border-radius: 50%;
+    position: relative;
+    padding: 3px;
+    
+    &.badge--circle > *:first-child {
+        position: absolute;
+        top: 56%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+    }
+}

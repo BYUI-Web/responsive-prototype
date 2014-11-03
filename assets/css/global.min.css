@@ -4025,6 +4025,21 @@ a.list-group-item.active > .badge,
 .nav-pills > li > a > .badge {
   margin-left: 3px;
 }
+.badge--circle {
+  width: 1.5em;
+  height: 1.5em;
+  display: inline-block;
+  border-radius: 50%;
+  position: relative;
+  padding: 3px;
+}
+.badge--circle.badge--circle > *:first-child {
+  position: absolute;
+  top: 56%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+}
 .jumbotron {
   padding: 30px;
   margin-bottom: 30px;
@@ -8128,16 +8143,13 @@ nav#inner-nav > a:hover {
   color: #262626;
   background-color: #f5f5f5;
 }
-.department-nav .badge .caret {
-  position: relative;
-  left: -1px;
-}
 .department-nav .dropdown .dropdown-link {
   float: left;
 }
 .department-nav .dropdown-toggle.dropdown-button {
   padding-left: 0;
   float: right;
+  max-height: 50px;
 }
 .department-nav .dropdown-toggle.dropdown-button:hover .badge,
 .department-nav .dropdown-toggle.dropdown-button:focus .badge {
@@ -8150,6 +8162,11 @@ nav#inner-nav > a:hover {
 .department-nav__more {
   display: none;
   color: #777777;
+}
+@media (max-width: 768px) {
+  .department-nav__more {
+    display: none !important;
+  }
 }
 .department-nav__more:hover {
   color: #333333;

@@ -50,18 +50,13 @@
             }
         }
     }
-    .badge {
-        .caret {
-            position: relative;
-            left: -1px;
-        }
-    }
     .dropdown .dropdown-link {
         float: left;
     }
     .dropdown-toggle.dropdown-button {
         padding-left: 0;
         float: right;
+        max-height: 50px;
         &:hover .badge, &:focus .badge {
             background-color: #555;
         }
@@ -74,6 +69,10 @@
      &__more {
          display: none;
          color: @more-color;
+         
+         @media (max-width: @screen-sm) {
+             display: none !important;
+         }
          
          &:hover {
              color: @more-color--hover;
