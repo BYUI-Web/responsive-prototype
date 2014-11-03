@@ -8155,7 +8155,7 @@ nav#inner-nav > a:hover {
   color: #333333;
 }
 .department-nav--more-lines {
-  max-height: 50px;
+  height: 50px;
 }
 .department-nav--more-lines .navbar-collapse {
   padding-right: 65px;
@@ -8169,6 +8169,11 @@ nav#inner-nav > a:hover {
 }
 .department-nav--more-lines .next-line {
   display: none;
+}
+@media (max-width: 768px) {
+  .department-nav {
+    height: auto !important;
+  }
 }
 
 .event {
