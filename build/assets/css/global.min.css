@@ -8162,6 +8162,7 @@ nav#inner-nav > a:hover {
 .department-nav__more {
   display: none;
   color: #777777;
+  border-radius: 0 4px 4px 0;
 }
 @media (max-width: 768px) {
   .department-nav__more {
