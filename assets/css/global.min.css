@@ -8148,10 +8148,26 @@ nav#inner-nav > a:hover {
   font-weight: bold;
 }
 .department-nav__more {
+  display: none;
+  color: #777777;
+}
+.department-nav__more:hover {
+  color: #333333;
+}
+.department-nav--more-lines {
+  max-height: 50px;
+}
+.department-nav--more-lines .navbar-collapse {
+  padding-right: 65px;
+}
+.department-nav--more-lines .department-nav__more {
   position: absolute;
   right: 15px;
   top: 0;
   padding: 15px 0;
+  display: block;
+}
+.department-nav--more-lines .next-line {
   display: none;
 }
 

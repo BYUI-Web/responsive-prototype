@@ -5,13 +5,15 @@
 @import "../../_less/custom/mixins.less"; // Custom Override
 
 @nav-border-color: #666666;
+@more-color: #777777;
+@more-color--hover: #333333;
 
  .department-nav {
     z-index: 1010;
     margin-bottom: 15px;
     border-color: @nav-border-color;
-     
-    .dropdown-menu {
+
+.dropdown-menu {
         .divider {
             margin: 5px 0 9px;
         }
@@ -23,7 +25,6 @@
             }
         }
     }
-     
     .dropdown-menu-2 {
         padding: 0;
         margin-bottom: 5px;
@@ -35,12 +36,16 @@
                 clear: both;
                 font-weight: normal;
                 line-height: @line-height-base;
+
                 color: @navbar-default-link-color;
+
                 white-space: nowrap; // prevent links from randomly breaking onto new lines
                 &:hover, &:focus {
                     text-decoration: none;
                     color: @dropdown-link-hover-color;
+
                     background-color: @dropdown-link-hover-bg;
+
                 }
             }
         }
@@ -57,9 +62,7 @@
     .dropdown-toggle.dropdown-button {
         padding-left: 0;
         float: right;
-
-        &:hover .badge,
-        &:focus .badge {
+        &:hover .badge, &:focus .badge {
             background-color: #555;
         }
     }
@@ -67,12 +70,32 @@
     .navbar-nav .open .dropdown-menu .dropdown-header .dropdown-homepage > a {
         font-weight: bold;
     }
-    
+     
      &__more {
-        position: absolute;
-         right: 15px;
-         top: 0;
-         padding: 15px 0;
          display: none;
+         color: @more-color;
+         
+         &:hover {
+             color: @more-color--hover;
+         }
      }
+     
+    &--more-lines {
+        max-height: 50px;
+        
+        .navbar-collapse {
+            padding-right: 65px;
+        }
+        
+        .department-nav__more {
+            position: absolute;
+            right: 15px;
+            top: 0;
+            padding: 15px 0;
+            display: block;
+        }
+        .next-line {
+            display: none;
+        }
+    }
 }
