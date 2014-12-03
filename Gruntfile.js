@@ -6,8 +6,8 @@ module.exports = function (grunt) {
     "use strict";
 
     require("load-grunt-tasks")(grunt);
-    var taskList = ["less:pages", "less:global", "autoprefixer", "jekyll", "uglify", "cssmin", "replace", "compress"],
-        watchList = ["less:pages", "less:global", "autoprefixer", "jekyll", "connect:server", "watch"],
+    var taskList = ["less:pages", "less:global", "autoprefixer", "jekyll:build", "uglify", "cssmin", "replace", "compress"],
+        watchList = ["less:pages", "less:global", "autoprefixer", "jekyll:build", "connect:server", "watch"],
         banner = "/* DO NO EDIT THIS FILE.  This file is built from a source file.  Edit that file instead. */";
 
     grunt.initConfig({
@@ -32,7 +32,12 @@ module.exports = function (grunt) {
         },
 
         jekyll: {
-            build: {}
+            build: {},
+            prod: {
+                options: {
+                    config: "_config.gh-pages.yml"
+                }
+            }
         },
 
         less: {
@@ -155,13 +160,12 @@ module.exports = function (grunt) {
 
             jekyll: {
                 files: ["assets/**/*", "_includes/**/*.html", "_layouts/**/*.html", "pages/**/*.html", "index.html"],
-                tasks: ["jekyll"],
+                tasks: ["jekyll:build"],
                 options: {
                     livereload: true
                 }
             }
         },
-
         pagespeed: {
             options: {
                 nokey: true,
@@ -178,12 +182,19 @@ module.exports = function (grunt) {
                     strategy: "mobile"
                 }
             }
+        },
+        git_deploy: {
+            prod: {
+                options: {
+                    url: "https://github.com/BYUI-Web/responsive-prototype.git"
+                },
+                src: "build"
+            }
         }
     });
 
     grunt.registerTask("default", taskList);
     grunt.registerTask("dev", watchList);
-    grunt.registerTask("serve", ["jekyll", "connect:serve"]);
     grunt.registerTask("test", ["connect:server", "pagespeed-test"]);
 
     grunt.registerTask("pagespeed-test", "Run pagespeed with ngrok", function () {
@@ -204,4 +215,6 @@ module.exports = function (grunt) {
             done();
         });
     });
+    grunt.registerTask("serve", ["jekyll:build", "connect:serve"]);
+    grunt.registerTask("ghpages", ["jekyll:prod", "git_deploy"]);
 };

@@ -1,8 +1,24 @@
 ---
 layout: Layout
+showEmergency: false
 ---
 
+{% if page.showEmergency == true %}
+    
+{% include emergency-global/emergency-global.html %}
+    
+{% endif %}
+
 {% include header/header.html %}
+
+{% if page.showEmergency == true %}
+
+   {% if page.pageName == "home" %}
+    
+   {% include emergency-home/emergency-home.html %}
+    
+   {% endif %}
+{% endif %}
 
 <main role="main" class="site-content container">
 <!-- pause Main layout-->
@@ -11,3 +27,5 @@ layout: Layout
 </main>
 
 {% include footer/footer.html %}
+<script src="{{ site.baseurl }}/assets/js/bootstrap.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/main.min.js"></script>

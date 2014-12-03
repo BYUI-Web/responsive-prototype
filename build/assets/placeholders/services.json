@@ -1,0 +1,52 @@
+// NOT ACTUAL CONTACTS
+// These are assembled for test purposes only.
+// Please check with departments for contacts.
+[
+	{
+		"service":"Department of Agriculture and Life Sciences", 		// Service Name, Capitalized
+		"sponsor":"Department of Agriculture and Life Sciences",		// Sponsor, the department who owns the service, Capitalized
+		"shortName":"agriculture-life-sciences",						// For Markup, spinal-case, use URL for reference
+		"url":"http://www.byui.edu/agriculture-life-sciences",			// Main Web Page for Service
+		"contactName":"Tracy Clark",									// Main Contact Name (can be "Office"), Capitalized
+		"office":"Clark 117D",											// Physical Location, (Builing ###)
+		"contact":"2084964557, barnhillk@byui.edu",						// Contacts, comma separated ("phone#noSeparators","email@mail.edu")
+		"mapUrl":"http://www.byui.edu/maps#CLK",						// Url for Mobile Maps App
+		"aliases":"life, agriculture, food, fiber, plants, animals"		// Aliases for Search Accuracy
+	},
+
+	// Art Services
+	{
+		"service":"Department of Art",
+		"sponsor":"Department of Art",
+		"shortName":"art-dep",
+		"url":"http://www.byui.edu/art/",
+		"contactName":"Kathy Whitworth",
+		"office":"Spori 316",
+		"contact":"2084964901, whitworthk@byui.edu",
+		"mapUrl":"http://www.byui.edu/maps#SPO",
+		"aliases":"art, design, art department, art program",
+		"abstract":"The BYU-Idaho Department of Art provides an aesthetic, conceptual, and technical foundation in the visual arts for students who possess a wide range of interests, experiences, and abilities. "
+	},
+	{
+		"service":"College of Performing and Visual Arts",
+		"sponsor":"College of Performing and Visual Arts",
+		"shortName":"performing-visual-arts",
+		"url":"http://www.byui.edu/performing-visual-arts",
+		"contactName":"Kathy Whitworth",
+		"office":"Spori 316",
+		"contact":"2084964901, whitworthk@byui.edu",
+		"mapUrl":"http://www.byui.edu/maps#SPO",
+		"aliases":"art, dance, music, spori, theater"
+	},
+	{
+		"service":"Spori Art Gallery",
+		"sponsor":"Department of Art",
+		"shortName":"spo-gal",
+		"url":"http://www.byui.edu/spori-gallery/",
+		"contactName":"Gerald Griffin",
+		"office":"Spori 220",
+		"contact":"2084964913, griffing@byui.edu",
+		"mapUrl":"http://www.byui.edu/maps#SPO",
+		"aliases":"art, gallery, spori"
+	}, 
+]

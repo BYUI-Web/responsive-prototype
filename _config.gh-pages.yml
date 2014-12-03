@@ -1,0 +1,16 @@
+name: BYU-Idaho Front-End Framework
+markdown: redcarpet
+highlighter: pygments
+baseurl: '/responsive-prototype'
+destination: 'build'
+exclude: [
+	'_less', 
+	'_less/', 
+	'_less/*', 
+	'node_modules', 
+	'node_modules/', 
+	'node_modules/*',
+	'package.json',
+	'Gruntfile.js',
+	'to-do.md'
+]
