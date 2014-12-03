@@ -6,7 +6,7 @@ module.exports = function (grunt) {
     "use strict";
 
     require("load-grunt-tasks")(grunt);
-    var taskList = ["less:pages", "less:global", "autoprefixer", "jekyll:build", "uglify", "cssmin", "replace"],
+    var taskList = ["less:pages", "less:global", "autoprefixer", "jekyll:build", "uglify", "cssmin"],
         watchList = ["less:pages", "less:global", "autoprefixer", "jekyll:build", "connect:server", "watch"],
         banner = "/* DO NO EDIT THIS FILE.  This file is built from a source file.  Edit that file instead. */";
 
@@ -94,31 +94,6 @@ module.exports = function (grunt) {
                 files: {
                     "assets/js/main.min.js": ["pages/**/*.js", "_includes/**/*.js"]
                 }
-            }
-        },
-        
-        replace: {
-            dist: {
-                options: {
-                    patterns: [
-                        {
-                            match: /\.min\.css/g,
-                            replacement: ".css.gz"
-                        },
-                        {
-                            match: /[!jquery]\.min\.js/g,
-                            replacement: ".js.gz"
-                        }
-                    ]
-                },
-                files: [
-                    {
-                        expand: true,
-                        cwd: "build",
-                        src: "**/*.html",
-                        dest: "build"
-                    }
-                ]
             }
         },
 
