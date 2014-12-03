@@ -8,7 +8,7 @@ A list of remaining things to do before this is ready to go live:
 
 ## Live Preview ##
 
-A live preview of the more recent versions of this prototype can be viewed at: <http://byui-web.github.io/generated-prototype>
+A live preview of the more recent versions of this prototype can be viewed at: <http://byui-web.github.io/responsive-prototype>
 
 ## Standards and Workflow (DEVS READ THIS!) ##
 When making changes to this framework:
@@ -47,3 +47,6 @@ $ grunt
 ```
 
 This task will run LESS to compile and concatenate less files, run jekyll to generate the site in a sibling folder, and run a local server. After running grunt, you can preview the site in your browser at: <http://localhost:4100/generated-prototype/>
+
+## A/B Testing ##
+To see an example of how to mock up a variant of a component see the `_includes/highlighted-links` directory
