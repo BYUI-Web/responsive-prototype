@@ -119,7 +119,7 @@ module.exports = function (grunt) {
         watch: {
             js: {
                 files: ["pages/**/*.js", "_includes/**/*.js"],
-                tasks: ["uglify"]
+                tasks: ["uglify:jsDev"]
             },
 
             less: {

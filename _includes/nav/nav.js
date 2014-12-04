@@ -31,7 +31,7 @@
     }
 
     function hasMoreThanOneLine() {
-        var navItems = nav.querySelectorAll(".navbar-collapse li"),
+        var navItems = nav.querySelectorAll(".navbar-collapse > ul > li"),
             numItems = navItems.length,
             moreThanOneLine = false;
 
