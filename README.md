@@ -73,6 +73,10 @@ This task should be used when developing. It will do everything that `grunt` doe
 #### `grunt ghpages` ####
 This task will deploy your code to the gh-pages branch on github.  It will overwrite whatever files are in there already and thus if someone else has pushed their code to gh-pages it will remove their code.
 
+#### `grunt test` ####
+This task will perform a pagespeed test on your local copy of a page type.  It is very handy to find ways to improve the performance of your page.
+This task has an option you can set to tell it what page you would like to test. If you run this command with the `-page` option and supply a page name: `content` it will run the test against that page. If you don't provide a page it will just run the test against the home page.  This task requires that you have an internet connection in order to allow the Google Page Speed Insights tool to make requests to your local server for analysis.
+
 ## A/B Testing ##
 
 To see an example of how to mock up a variant of a component see the `_includes/highlighted-links` directory
