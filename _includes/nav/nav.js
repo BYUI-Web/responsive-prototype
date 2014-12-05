@@ -39,7 +39,7 @@
 
         if (!$(".department-nav .navbar-toggle:visible").length) {
             for (var i = 0; i < numItems; i++) {
-                moreThanOneLine = moreThanOneLine || navItems[i].offsetTop > 0;
+                moreThanOneLine = moreThanOneLine || navItems[i].offsetTop > 1;
                 if (moreThanOneLine) {
                     $(navItems[i]).addClass("next-line");
                 }
