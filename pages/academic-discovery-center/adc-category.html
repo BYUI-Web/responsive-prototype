@@ -1,0 +1,54 @@
+---
+layout: MainLayout
+---
+
+
+{% include nav/nav.html %}
+{% include breadcrumb/breadcrumb.html %}
+
+<section class="college-dept-home">
+
+  {% include top-carousel/top-carousel.html %}
+
+  {% include title/title.html %}
+
+  <!--main page content-->
+  <div class="row">
+    <section class="article col-sm-8 pull-left">
+      <p>
+        Comply pathway intellect eternal truths snow kimball austin unselfish service interdisciplinary application. Curfew immorality no caffeine specific aspects anxiously engaged learning home to. Repentance wholesome review a science skinny jeans community sabbath commitment. Principles smith required true courses refining specific aspects. Help desk education thomas monson worldly family proclamation skinny jeans austin. Learning comply quiz clean revelation at snow community general conference specific aspects.
+      </p>
+      <p>
+        Discussion strong families true beardless manwaring no shorts on campus intellect covenants wholesome, scriptures. With commitment, at studious, worldly homework reflection, immorality. True immorality testimony, just essay financial aid revelation intellect at. Courses internalize learn learning model review books, byu-idaho experience. Faith foundations covenants syllabus sabbath assignments discussion refining, in. At on with with another wonderful day strong families interdisciplinary.
+      </p>
+
+      <section class="article-list">
+        <h2>Department News</h2>
+        <hr />
+        <ul class="media-list">
+          {% include dept-news-article/dept-news-article.html %}
+          {% include dept-news-article/dept-news-article.html %}
+          {% include dept-news-article/dept-news-article.html %}
+        </ul>
+      </section>
+
+    </section>
+
+    <!--side content-->
+    <aside class="right-column col-xs-12 col-sm-4 pull-right">
+      <div class="row">
+        <div class="col-all-12 col-xs-6 col-sm-12 pull-left">
+          {% include events/events.html %}
+        </div>
+        <div class="col-all-12 col-xs-6 col-sm-12 pull-left">
+          {% include institutional-message/institutional-message.html %}
+        </div>
+        <div class="col-xs-6 col-sm-12 pull-left">
+          {% include facebook-integration/facebook-integration.html %}
+        </div>
+      </div>
+    </aside>
+  </div>
+  {% include three-column-quick-links/three-column-quick-links.html %}
+</section>
+<link href="{{ site.baseurl }}/assets/css/college-dept-home.min.css" rel="stylesheet" />
