@@ -2,36 +2,35 @@
 layout: MainLayout
 ---
 
+<div class="white-nav" >
+  {% include breadcrumb/breadcrumb.html %}
+  {% include nav/nav.html %}
+</div>
 
-{% include nav/nav.html %}
-{% include breadcrumb/breadcrumb.html %}
+<section class="adc adc-category">
 
-<section class="college-dept-home">
-
-  {% include top-carousel/top-carousel.html %}
-
-  {% include title/title.html %}
 
   <!--main page content-->
   <div class="row">
-    <section class="article col-sm-8 pull-left">
-      <p>
-        Comply pathway intellect eternal truths snow kimball austin unselfish service interdisciplinary application. Curfew immorality no caffeine specific aspects anxiously engaged learning home to. Repentance wholesome review a science skinny jeans community sabbath commitment. Principles smith required true courses refining specific aspects. Help desk education thomas monson worldly family proclamation skinny jeans austin. Learning comply quiz clean revelation at snow community general conference specific aspects.
-      </p>
-      <p>
-        Discussion strong families true beardless manwaring no shorts on campus intellect covenants wholesome, scriptures. With commitment, at studious, worldly homework reflection, immorality. True immorality testimony, just essay financial aid revelation intellect at. Courses internalize learn learning model review books, byu-idaho experience. Faith foundations covenants syllabus sabbath assignments discussion refining, in. At on with with another wonderful day strong families interdisciplinary.
-      </p>
+    <section class="col-sm-8 pull-left">
+      <p>Cras tincidunt risus, at pellentesque urna laoreet efficitur. Vestibulum elit est, feugiat in ipsum ut, tristique hendrerit libero. Nulla faucibus iaculis neque, non tempor leo auctor nec. Suspendisse at magna vitae orci pretium tristique. Etiam nec suscipit diam. Praesent tempus pulvinar tortor id scele. Phasellus egeis eros. Fusce tempor tincidunt.</p>
 
-      <section class="article-list">
-        <h2>Department News</h2>
-        <hr />
-        <ul class="media-list">
-          {% include dept-news-article/dept-news-article.html %}
-          {% include dept-news-article/dept-news-article.html %}
-          {% include dept-news-article/dept-news-article.html %}
-        </ul>
-      </section>
+      <h1>Career Preparation</h1>
+      <ul>
+        <li><a href="#">Resumes</a></li>
+        <li><a href="#">Professional Letters</a></li>
+        <li><a href="#">Interview Skills</a></li>
+        <li><a href="#">Workshops</a></li>
+        <li><a href="#">Resources</a></li>
+      </ul>
 
+      <h1>Job Search</h1>
+      <ul>
+        <li><a href="#">Career Navigator</a></li>
+        <li><a href="#">Help Wanted Postings</a></li>
+        <li><a href="#">Job Search Tips</a></li>
+        <li><a href="#">Job Search Tools</a></li>
+      </ul>
     </section>
 
     <!--side content-->
@@ -43,12 +42,9 @@ layout: MainLayout
         <div class="col-all-12 col-xs-6 col-sm-12 pull-left">
           {% include institutional-message/institutional-message.html %}
         </div>
-        <div class="col-xs-6 col-sm-12 pull-left">
-          {% include facebook-integration/facebook-integration.html %}
-        </div>
       </div>
     </aside>
   </div>
-  {% include three-column-quick-links/three-column-quick-links.html %}
 </section>
-<link href="{{ site.baseurl }}/assets/css/college-dept-home.min.css" rel="stylesheet" />
+<link href="{{ site.baseurl }}/assets/css/adc-category.min.css" rel="stylesheet" />
+<script src="http://localhost:35729/livereload.js?snipver=1" charset="utf-8"></script>
