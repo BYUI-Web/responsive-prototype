@@ -62,6 +62,77 @@ body {
   padding-left: 15px;
   border: none;
 }
+.white-nav {
+  background: white;
+  position: relative;
+  padding: 20px 0 2px;
+  margin-bottom: 55px;
+  margin-left: -15px;
+}
+.white-nav:before,
+.white-nav:after {
+  content: "";
+  background: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 50vw;
+}
+.white-nav:before {
+  left: 100%;
+}
+.white-nav:after {
+  right: 100%;
+}
+.site-content {
+  padding-top: 0;
+}
+.department-nav {
+  border-radius: 0;
+  margin-top: 40px;
+}
+.department-nav .navbar-collapse {
+  padding-left: 0;
+  padding-right: 0;
+}
+.department-nav .navbar-collapse .byui-guide {
+  background: #55c2ef;
+  font-size: 16px;
+  color: white;
+  display: inline-block;
+  float: right;
+  padding: 15px 26px;
+  cursor: pointer;
+}
+.department-nav .navbar-collapse .byui-guide:after {
+  margin-left: 10px;
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 6px 0 6px 6px;
+  border-color: transparent transparent transparent white;
+}
+.department-nav .navbar-collapse .byui-guide:hover {
+  background: #056cb6;
+}
+.department-nav .navbar-collapse .navbar-nav li a {
+  padding: 15px 8px 15px 12px;
+}
+.department-nav .navbar-collapse .navbar-nav li a .badge {
+  background: none !important;
+  color: #666;
+  padding: 0;
+  margin-left: -8px;
+}
+.department-nav .navbar-collapse .navbar-nav li a .badge:hover {
+  background: none;
+}
+.department-nav .navbar-collapse .navbar-nav li a .badge .caret {
+  top: -1px;
+  left: -5px;
+}
 .adc-article .article {
   padding: 10px 80px 35px 40px;
   background: white;
