@@ -8819,15 +8819,26 @@ h2.eventDateHeader {
   transform: translateY(-50%);
 }
 .quick-guide {
+  -webkit-transition: right 0.25s cubic-bezier(0.875, 0, 0.33, 1) 0;
+  -moz-transition: right 0.25s cubic-bezier(0.875, 0, 0.33, 1) 0;
+  -o-transition: right 0.25s cubic-bezier(0.875, 0, 0.33, 1) 0;
+  transition: right 0.25s cubic-bezier(0.875, 0, 0.33, 1) 0;
+  right: -320px;
+  top: 0;
   position: fixed;
   background: #484848;
   width: 320px;
-  top: 0;
-  right: 0;
   height: 100%;
   z-index: 10000;
   color: #AAA;
   overflow: scroll;
+}
+.quick-guide.open {
+  right: 0;
+  -webkit-transition: right 0.45s cubic-bezier(0.875, 0, 0.33, 1) 0;
+  -moz-transition: right 0.45s cubic-bezier(0.875, 0, 0.33, 1) 0;
+  -o-transition: right 0.45s cubic-bezier(0.875, 0, 0.33, 1) 0;
+  transition: right 0.45s cubic-bezier(0.875, 0, 0.33, 1) 0;
 }
 .quick-guide h1 {
   text-transform: uppercase;
@@ -8847,15 +8858,27 @@ h2.eventDateHeader {
   font-weight: bold;
   padding: 10px 20px;
 }
+.quick-guide .menu-box {
+  border-top: solid 1px #545454;
+}
 .quick-guide .menu-box .title {
   padding: 10px 110px 13px 35px;
   color: #AAA;
   font-size: 16px;
+  cursor: pointer;
+}
+.quick-guide .menu-box .title:hover {
+  background: #333;
+  color: white;
 }
 .quick-guide .menu-box .items {
   overflow: hidden;
   background: #545454;
   max-height: 0;
+  -webkit-transition: all 0.5s cubic-bezier(0.875, 0, 0.33, 1) 0;
+  -moz-transition: all 0.5s cubic-bezier(0.875, 0, 0.33, 1) 0;
+  -o-transition: all 0.5s cubic-bezier(0.875, 0, 0.33, 1) 0;
+  transition: all 0.5s cubic-bezier(0.875, 0, 0.33, 1) 0;
 }
 .quick-guide .menu-box .items .item {
   padding: 6px 0;
@@ -8884,8 +8907,11 @@ h2.eventDateHeader {
   background: #FFCD59;
   color: black;
 }
+.quick-guide .menu-box.open .title:hover {
+  background: #f5b546;
+}
 .quick-guide .menu-box.open .items {
-  max-height: 2000px;
+  max-height: 600px;
   padding: 14px 0;
 }
 .quick-guide .full-guide {
