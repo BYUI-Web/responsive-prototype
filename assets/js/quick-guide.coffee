@@ -14,3 +14,5 @@ onMenuBoxClick = (e) =>
 
 $('.menu-box .title').on "click", onMenuBoxClick
 $('#byui-guide-show-btn').on "click", showQuickGuide
+$('#quick-guide .close-btn').on "click", hideQuickGuide
+console.log $('#quick-guide .close-btn')

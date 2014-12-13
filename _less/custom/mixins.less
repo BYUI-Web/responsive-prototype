@@ -38,3 +38,20 @@
   -o-transition:      @property @duration @timing @delay;
   transition:         @property @duration @timing @delay;
 }
+
+
+.sprite(@id; @isHover:false)  { background:url('/assets/images/sprite.svg') no-repeat 0px 0px;
+  & when  (@id="circle-plus") {
+      width:33px; height:33px; background-position:-1px -1px;
+      & when (@isHover) { background-position:-1px -34px;
+    }
+  }
+  & when  (@id="circle-minus") {
+    width:33px; height:33px; background-position:-34px -1px;
+      & when (@isHover) { background-position:-34px -34px;}
+  }
+  & when  (@id="close-btn") {
+    width:13px; height:12px; background-position:-71px -40px;
+      & when (@isHover) { background-position:-71px -53px;}
+  }
+}

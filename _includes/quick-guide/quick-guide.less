@@ -7,13 +7,19 @@
 @light-blue :#55C2EF;
 @quick-quide-width: 320px;
 .quick-guide          { .trans(right, 0.25s); right:-@quick-quide-width; top:0; position:fixed; background:#484848; width:@quick-quide-width; height:100%; z-index: 10000; color:#AAA; overflow: scroll;
+  .close-btn          { .sprite("close-btn"); position:absolute; top:10px; right:10px; cursor:pointer; display:block;
+    &:hover           { .sprite("close-btn", true); }
+  }
   &.open              { right:0; .trans(right, 0.45s);}
   h1                  { text-transform:uppercase; background:#545454; margin:0; font-size:14px; color:black; font-family:@font-family-sans-serif; font-weight:bold; padding:20px;
     &.top             { text-transform:none; background:@light-blue; color:white; font-size:11px; font-weight:bold; padding:10px 20px }
   }
   .menu-box           { border-top:solid 1px #545454;
-    .title            { padding:10px 110px 13px 35px; color:#AAA; font-size: 16px; cursor:pointer;
-      &:hover         { background:#333; color:white; }
+    .title            { padding:10px 110px 13px 35px; color:#AAA; font-size: 16px; cursor:pointer; position:relative;
+      &:after         { .sprite("circle-plus"); content:""; display:block; position: absolute; top: 50%; right: 11px; margin-top: -16px; }
+      &:hover         { background:#333; color:white;
+        &:after       { .sprite("circle-plus", true); }
+      }
     }
     .items            { overflow:hidden; background: #545454; max-height:0; .trans;
       .item           { padding:6px 0;
@@ -25,7 +31,10 @@
     }
     &.open            {
       .title          { background:#FFCD59; color:black;
-        &:hover       { background:#f5b546; }
+        &:after       { .sprite("circle-minus"); }
+        &:hover       { background:#f5b546;
+          &:after     { .sprite("circle-minus", true); }
+        }
       }
       .items          { max-height:600px; padding:14px 0; }
     }
