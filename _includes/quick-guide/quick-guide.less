@@ -1,0 +1,47 @@
+// Core variables and mixins
+@import "../../_less/bootstrap/variables.less";
+@import "../../_less/custom/variables.less"; // Custom Override
+@import "../../_less/bootstrap/mixins.less";
+@import "../../_less/custom/mixins.less"; // Custom Override
+
+@light-blue :#55C2EF;
+@quick-quide-width: 320px;
+.quick-guide          { .trans(right, 0.25s); right:-@quick-quide-width; top:0; position:fixed; background:#484848; width:@quick-quide-width; height:100%; z-index: 10000; color:#AAA; overflow: scroll;
+  .close-btn          { .sprite("close-btn"); position:absolute; top:10px; right:10px; cursor:pointer; display:block;
+    &:hover           { .sprite("close-btn", true); }
+  }
+  &.open              { right:0; .trans(right, 0.45s);}
+  h1                  { text-transform:uppercase; background:#545454; margin:0; font-size:14px; color:black; font-family:@font-family-sans-serif; font-weight:bold; padding:20px;
+    &.top             { text-transform:none; background:@light-blue; color:white; font-size:11px; font-weight:bold; padding:10px 20px }
+  }
+  .menu-box           { border-top:solid 1px #545454;
+    .title            { padding:10px 110px 13px 35px; color:#AAA; font-size: 16px; cursor:pointer; position:relative;
+      &:after         { .sprite("circle-plus"); content:""; display:block; position: absolute; top: 50%; right: 11px; margin-top: -16px; }
+      &:hover         { background:#333; color:white;
+        &:after       { .sprite("circle-plus", true); }
+      }
+    }
+    .items            { overflow:hidden; background: #545454; max-height:0; .trans;
+      .item           { padding:6px 0;
+        .descript     { display:inline-block; width: 220px; padding: 0 16px; font-size: 14px; }
+        button        { padding: 5px 9px; font-weight: bold; background:#242424; color:#616161; display:inline-block; border:none; text-transform:uppercase; font-size:10px;
+          &:hover     { background:@light-blue; color:white; }
+        }
+      }
+    }
+    &.open            {
+      .title          { background:#FFCD59; color:black;
+        &:after       { .sprite("circle-minus"); }
+        &:hover       { background:#f5b546;
+          &:after     { .sprite("circle-minus", true); }
+        }
+      }
+      .items          { max-height:600px; padding:14px 0; }
+    }
+  }
+  .full-guide         { background:@brand-primary; display:block; padding:16px 0;
+    a                 { display:block; color:white; border:solid 2px white; padding:10px; border-radius:20px; font-size:10px; text-transform:uppercase; font-weight:bold; margin:0 auto; width:120px; text-align:center;
+      &:hover         { background:white; color:@brand-primary; text-decoration:none; }
+    }
+  }
+}
