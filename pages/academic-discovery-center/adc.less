@@ -30,16 +30,8 @@ body                     { background:#EBEBEB; -webkit-font-smoothing: antialias
   }
 }
 
-// Hack to allow full width white background behind the top nav items. If design
-// approved for production much better to change the page architecture to have a full
-// width white background row
-.white-nav             { background:white; position:relative; padding:20px 0 2px; margin-bottom:55px; margin-left: -15px;
-  &:before, &:after    { content:""; background: white; position: absolute; top: 0; bottom: 0; width: 50vw;}
-  &:before             { left:100%; }
-  &:after              { right:100%; }
-}
+.white-nav             { background:white; padding:20px 0 2px; margin-bottom:55px; margin-left: -15px; margin-right: -15px;}
 .site-content          { padding-top:0; }
-// End HACK
 
 // NAV
 .department-nav        { border-radius:0; margin-top:40px;

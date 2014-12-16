@@ -7083,6 +7083,28 @@ img {
   filter: alpha(opacity=30);
   border-radius: 8px;
 }
+@media (min-width: 768px) {
+  .container.full-width {
+    width: 100%;
+  }
+  .container.full-width .sub-container {
+    width: 750px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (min-width: 992px) {
+  .container.full-width {
+    width: 100%;
+  }
+  .container.full-width .sub-container {
+    width: 970px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
 
 .contactContainer {
   width: 100%;

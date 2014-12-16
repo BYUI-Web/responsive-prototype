@@ -65,25 +65,10 @@ body {
 }
 .white-nav {
   background: white;
-  position: relative;
   padding: 20px 0 2px;
   margin-bottom: 55px;
   margin-left: -15px;
-}
-.white-nav:before,
-.white-nav:after {
-  content: "";
-  background: white;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 50vw;
-}
-.white-nav:before {
-  left: 100%;
-}
-.white-nav:after {
-  right: 100%;
+  margin-right: -15px;
 }
 .site-content {
   padding-top: 0;

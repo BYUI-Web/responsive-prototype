@@ -4,9 +4,9 @@ showEmergency: false
 ---
 
 {% if page.showEmergency == true %}
-    
+
 {% include emergency-global/emergency-global.html %}
-    
+
 {% endif %}
 
 {% include header/header.html %}
@@ -14,13 +14,13 @@ showEmergency: false
 {% if page.showEmergency == true %}
 
    {% if page.pageName == "home" %}
-    
+
    {% include emergency-home/emergency-home.html %}
-    
+
    {% endif %}
 {% endif %}
 
-<main role="main" class="site-content container">
+<main role="main" class="site-content container {{ page.mainClass }}">
 <!-- pause Main layout-->
     {{ content }}
 <!-- re-begin Main layout-->
