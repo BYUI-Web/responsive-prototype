@@ -1,0 +1,39 @@
+// Core variables and mixins
+@import "../../_less/bootstrap/variables.less";
+@import "../../_less/custom/variables.less"; // Custom Override
+@import "../../_less/bootstrap/mixins.less";
+@import "../../_less/custom/mixins.less"; // Custom Override
+
+@step-box-width:750px;
+@light-blue: #55C2EF;
+
+.parallax          {
+  h1,h2,h3,h4      { font-family:@font-family-sans-serif; }
+  .step            { background:url(http://www.fillmurray.com/g/1000/706) no-repeat center 100%; background-size:100% auto; padding-top: 150px; font-family:@font-family-sans-serif;
+    .step-box      { width:@step-box-width; margin:0 auto; min-height:210px; color:white; padding:26px 0 0 60px;
+      &.navy       { background:fade(#0A6CB5, 90%); }
+      &.green      { background:fade(#62BC4B, 90%); }
+      &.orange     { background:fade(#F58300, 90%); }
+      &.red        { background:fade(#E42226, 90%); }
+      &.light-blue { background:fade(#55C2EF, 90%); }
+      &.purple     { background:fade(#A5216F, 90%); }
+      h1           { font-weight:bold; }
+      h3           { font-size:18px; border-bottom:dotted 1px white; padding-bottom: 10px;}
+    }
+  }
+
+  .step-details    { font-family:@font-family-sans-serif; background:white; margin:-20px 0 -10px; z-index:1000; position:relative;
+                     -webkit-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.25);
+                     -moz-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.25);
+                     box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.25);
+
+     // Note, I need to add in some media queries that handle the page scaling here
+    .content       { width:@step-box-width; margin:0 auto; text-align:center; padding:20px 0 100px;
+      h3           { color:@light-blue; font-size:17px; }
+      ul           { list-style-type: none; padding:0; margin:0; color:#ADADAD; font-size:13px; margin-top: 38px;
+        li         { padding:3px 0; }
+        &:before   { content:"LEARN MORE"; font-size:10px; display:block; font-weight:bold; margin-bottom:9px; }
+      }
+    }
+  }
+}
