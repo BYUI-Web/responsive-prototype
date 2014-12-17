@@ -32,13 +32,18 @@
   .col(1); // kickstart it
 }
 
-.trans(@property:all; @duration:0.5s; @timing:cubic-bezier(0.875, 0.000, 0.330, 1.000); @delay:0){
-  -webkit-transition: @property @duration @timing @delay;
-  -moz-transition:    @property @duration @timing @delay;
-  -o-transition:      @property @duration @timing @delay;
-  transition:         @property @duration @timing @delay;
+.trans(@property:all; @duration:0.5s; @timing:cubic-bezier(0.875, 0, 0.330, 1); @delay:0; @additionalItems:""){
+  -webkit-transition: @property @duration @timing @delay, @additionalItems;
+  -moz-transition:    @property @duration @timing @delay, @additionalItems;
+  -o-transition:      @property @duration @timing @delay, @additionalItems;
+  transition:         @property @duration @timing @delay, @additionalItems;
 }
 
+.drop-shadow(@xoffset:0; @yoffset:2px; @blur-radius:8px; @spread-radius:1px; @color:rgba(0,0,0,0.25);){
+  -webkit-box-shadow: @xoffset @yoffset @blur-radius @spread-radius @color;
+  -moz-box-shadow:    @xoffset @yoffset @blur-radius @spread-radius @color;
+  box-shadow:         @xoffset @yoffset @blur-radius @spread-radius @color;
+}
 
 .sprite(@id; @isHover:false)  { background:url('/assets/images/sprite.svg') no-repeat 0px 0px;
   & when  (@id="circle-plus") {

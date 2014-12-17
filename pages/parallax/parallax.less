@@ -8,8 +8,9 @@
 @light-blue: #55C2EF;
 
 .parallax            {
+  *                  { .trans; }
   h1,h2,h3,h4        { font-family:@font-family-sans-serif; }
-  .step              { background:url(http://www.fillmurray.com/g/1000/706) no-repeat center 100%; background-size:100% auto; padding-top: 150px; font-family:@font-family-sans-serif;
+  .step              { background:url(http://www.fillmurray.com/g/1000/706) no-repeat center 100%; background-size:100% auto; padding-top: 150px; font-family:@font-family-sans-serif; .trans(all, 0.5s, cubic-bezier(0.875, 0.000, 0.330, 1), 0, background-position 1ms);
     .step-box        { width:@step-box-width; margin:0 auto; min-height:210px; color:white; padding:23px 0 90px 60px;
       &.navy         { background:fade(#0A6CB5, 90%); }
       &.green        { background:fade(#62BC4B, 90%); }
@@ -23,12 +24,7 @@
     }
   }
 
-  .step-details      { font-family:@font-family-sans-serif; background:white; margin:-20px 0 -10px; z-index:1000; position:relative;
-                       -webkit-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.25);
-                       -moz-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.25);
-                       box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.25);
-
-     // Note, I need to add in some media queries that handle the page scaling here
+  .step-details      { .drop-shadow(0, 2px); font-family:@font-family-sans-serif; background:white; margin:-20px 0 -10px; z-index:1000; position:relative;
     .content         { width:960px; margin:0 auto; text-align:center; padding:20px 0 100px;
       .sub-item      { border-right:dotted 1px #c4c4c4;
         &:last-child { border-right:none; }
@@ -40,6 +36,8 @@
       }
     }
   }
+
+  // Media Queries
   @media(max-width: @screen-xs-max)   {
     .step                             { padding-top: 0;
       .step-box                       { width:100%; padding:11px 57px 49px 60px; }

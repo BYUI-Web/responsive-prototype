@@ -8745,10 +8745,10 @@ h2.eventDateHeader {
 }
 
 .quick-guide {
-  -webkit-transition: right 0.25s cubic-bezier(0.875, 0, 0.33, 1) 0;
-  -moz-transition: right 0.25s cubic-bezier(0.875, 0, 0.33, 1) 0;
-  -o-transition: right 0.25s cubic-bezier(0.875, 0, 0.33, 1) 0;
-  transition: right 0.25s cubic-bezier(0.875, 0, 0.33, 1) 0;
+  -webkit-transition: right 0.25s cubic-bezier(0.875, 0, 0.33, 1) 0, "";
+  -moz-transition: right 0.25s cubic-bezier(0.875, 0, 0.33, 1) 0, "";
+  -o-transition: right 0.25s cubic-bezier(0.875, 0, 0.33, 1) 0, "";
+  transition: right 0.25s cubic-bezier(0.875, 0, 0.33, 1) 0, "";
   right: -320px;
   top: 0;
   position: fixed;
@@ -8779,10 +8779,10 @@ h2.eventDateHeader {
 }
 .quick-guide.open {
   right: 0;
-  -webkit-transition: right 0.45s cubic-bezier(0.875, 0, 0.33, 1) 0;
-  -moz-transition: right 0.45s cubic-bezier(0.875, 0, 0.33, 1) 0;
-  -o-transition: right 0.45s cubic-bezier(0.875, 0, 0.33, 1) 0;
-  transition: right 0.45s cubic-bezier(0.875, 0, 0.33, 1) 0;
+  -webkit-transition: right 0.45s cubic-bezier(0.875, 0, 0.33, 1) 0, "";
+  -moz-transition: right 0.45s cubic-bezier(0.875, 0, 0.33, 1) 0, "";
+  -o-transition: right 0.45s cubic-bezier(0.875, 0, 0.33, 1) 0, "";
+  transition: right 0.45s cubic-bezier(0.875, 0, 0.33, 1) 0, "";
 }
 .quick-guide h1 {
   text-transform: uppercase;
@@ -8839,10 +8839,10 @@ h2.eventDateHeader {
   overflow: hidden;
   background: #545454;
   max-height: 0;
-  -webkit-transition: all 0.5s cubic-bezier(0.875, 0, 0.33, 1) 0;
-  -moz-transition: all 0.5s cubic-bezier(0.875, 0, 0.33, 1) 0;
-  -o-transition: all 0.5s cubic-bezier(0.875, 0, 0.33, 1) 0;
-  transition: all 0.5s cubic-bezier(0.875, 0, 0.33, 1) 0;
+  -webkit-transition: all 0.5s cubic-bezier(0.875, 0, 0.33, 1) 0, "";
+  -moz-transition: all 0.5s cubic-bezier(0.875, 0, 0.33, 1) 0, "";
+  -o-transition: all 0.5s cubic-bezier(0.875, 0, 0.33, 1) 0, "";
+  transition: all 0.5s cubic-bezier(0.875, 0, 0.33, 1) 0, "";
 }
 .quick-guide .menu-box .items .item {
   padding: 6px 0;
