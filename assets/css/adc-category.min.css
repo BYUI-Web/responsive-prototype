@@ -1,3 +1,57 @@
+.svg-icon.assessment {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: 0 0;
+}
+.svg-icon.careers {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -88.3px 0;
+}
+.svg-icon.workshop {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -176.6px 0;
+}
+.svg-icon.majors {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -264.9px 0;
+}
+.svg-icon.plans {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -353.2px 0;
+}
+.svg-icon.courses {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -441.5px 0;
+}
+.svg-icon.register {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -529.8px 0;
+}
+.svg-icon.career {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -618.1px 0;
+}
+.svg-icon.tutor {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -706.4px 0;
+}
 .header {
   border-radius: 0;
   font-size: 10px;

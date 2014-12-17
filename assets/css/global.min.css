@@ -327,6 +327,60 @@
  *
  * Designed and built with all the love in the world by @mdo and @fat.
  */
+.svg-icon.assessment {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: 0 0;
+}
+.svg-icon.careers {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -88.3px 0;
+}
+.svg-icon.workshop {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -176.6px 0;
+}
+.svg-icon.majors {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -264.9px 0;
+}
+.svg-icon.plans {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -353.2px 0;
+}
+.svg-icon.courses {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -441.5px 0;
+}
+.svg-icon.register {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -529.8px 0;
+}
+.svg-icon.career {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -618.1px 0;
+}
+.svg-icon.tutor {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -706.4px 0;
+}
 /*! normalize.css v2.1.3 | MIT License | git.io/normalize */
 article,
 aside,
@@ -7115,6 +7169,60 @@ img {
   }
 }
 
+.svg-icon.assessment {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: 0 0;
+}
+.svg-icon.careers {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -88.3px 0;
+}
+.svg-icon.workshop {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -176.6px 0;
+}
+.svg-icon.majors {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -264.9px 0;
+}
+.svg-icon.plans {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -353.2px 0;
+}
+.svg-icon.courses {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -441.5px 0;
+}
+.svg-icon.register {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -529.8px 0;
+}
+.svg-icon.career {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -618.1px 0;
+}
+.svg-icon.tutor {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -706.4px 0;
+}
 .contactContainer {
   width: 100%;
   font-family: Arial;
@@ -7295,6 +7403,60 @@ img {
   }
 }
 
+.svg-icon.assessment {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: 0 0;
+}
+.svg-icon.careers {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -88.3px 0;
+}
+.svg-icon.workshop {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -176.6px 0;
+}
+.svg-icon.majors {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -264.9px 0;
+}
+.svg-icon.plans {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -353.2px 0;
+}
+.svg-icon.courses {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -441.5px 0;
+}
+.svg-icon.register {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -529.8px 0;
+}
+.svg-icon.career {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -618.1px 0;
+}
+.svg-icon.tutor {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -706.4px 0;
+}
 .eventsTable {
   width: 100%;
 }
@@ -7387,6 +7549,60 @@ img {
   margin: auto 0px 15px 15px;
 }
 
+.svg-icon.assessment {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: 0 0;
+}
+.svg-icon.careers {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -88.3px 0;
+}
+.svg-icon.workshop {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -176.6px 0;
+}
+.svg-icon.majors {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -264.9px 0;
+}
+.svg-icon.plans {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -353.2px 0;
+}
+.svg-icon.courses {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -441.5px 0;
+}
+.svg-icon.register {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -529.8px 0;
+}
+.svg-icon.career {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -618.1px 0;
+}
+.svg-icon.tutor {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -706.4px 0;
+}
 .gallery-container #main-tile {
   background: #c2c3c6;
   text-align: center;
@@ -7699,6 +7915,60 @@ nav#inner-nav > a:hover {
   }
 }
 
+.svg-icon.assessment {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: 0 0;
+}
+.svg-icon.careers {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -88.3px 0;
+}
+.svg-icon.workshop {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -176.6px 0;
+}
+.svg-icon.majors {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -264.9px 0;
+}
+.svg-icon.plans {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -353.2px 0;
+}
+.svg-icon.courses {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -441.5px 0;
+}
+.svg-icon.register {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -529.8px 0;
+}
+.svg-icon.career {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -618.1px 0;
+}
+.svg-icon.tutor {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -706.4px 0;
+}
 .breadcrumb {
   padding: 0 0 0 3px;
   margin-bottom: 15px;
@@ -7718,6 +7988,60 @@ nav#inner-nav > a:hover {
   color: #999999;
 }
 
+.svg-icon.assessment {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: 0 0;
+}
+.svg-icon.careers {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -88.3px 0;
+}
+.svg-icon.workshop {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -176.6px 0;
+}
+.svg-icon.majors {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -264.9px 0;
+}
+.svg-icon.plans {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -353.2px 0;
+}
+.svg-icon.courses {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -441.5px 0;
+}
+.svg-icon.register {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -529.8px 0;
+}
+.svg-icon.career {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -618.1px 0;
+}
+.svg-icon.tutor {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -706.4px 0;
+}
 .cells h2 {
   font-size: 18px;
   margin-top: 15px;
@@ -7783,11 +8107,119 @@ nav#inner-nav > a:hover {
   font-weight: bold;
 }
 
+.svg-icon.assessment {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: 0 0;
+}
+.svg-icon.careers {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -88.3px 0;
+}
+.svg-icon.workshop {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -176.6px 0;
+}
+.svg-icon.majors {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -264.9px 0;
+}
+.svg-icon.plans {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -353.2px 0;
+}
+.svg-icon.courses {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -441.5px 0;
+}
+.svg-icon.register {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -529.8px 0;
+}
+.svg-icon.career {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -618.1px 0;
+}
+.svg-icon.tutor {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -706.4px 0;
+}
 .contact-info address,
 .contact-info p {
   margin: 0;
 }
 
+.svg-icon.assessment {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: 0 0;
+}
+.svg-icon.careers {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -88.3px 0;
+}
+.svg-icon.workshop {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -176.6px 0;
+}
+.svg-icon.majors {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -264.9px 0;
+}
+.svg-icon.plans {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -353.2px 0;
+}
+.svg-icon.courses {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -441.5px 0;
+}
+.svg-icon.register {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -529.8px 0;
+}
+.svg-icon.career {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -618.1px 0;
+}
+.svg-icon.tutor {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -706.4px 0;
+}
 .events .list-group-item {
   overflow: hidden;
   padding: 6.75px 15px;
@@ -7812,6 +8244,60 @@ nav#inner-nav > a:hover {
   text-transform: uppercase;
 }
 
+.svg-icon.assessment {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: 0 0;
+}
+.svg-icon.careers {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -88.3px 0;
+}
+.svg-icon.workshop {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -176.6px 0;
+}
+.svg-icon.majors {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -264.9px 0;
+}
+.svg-icon.plans {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -353.2px 0;
+}
+.svg-icon.courses {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -441.5px 0;
+}
+.svg-icon.register {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -529.8px 0;
+}
+.svg-icon.career {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -618.1px 0;
+}
+.svg-icon.tutor {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -706.4px 0;
+}
 .facebook-integration {
   height: 350px;
 }
@@ -7819,6 +8305,60 @@ nav#inner-nav > a:hover {
   width: 100%;
 }
 
+.svg-icon.assessment {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: 0 0;
+}
+.svg-icon.careers {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -88.3px 0;
+}
+.svg-icon.workshop {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -176.6px 0;
+}
+.svg-icon.majors {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -264.9px 0;
+}
+.svg-icon.plans {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -353.2px 0;
+}
+.svg-icon.courses {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -441.5px 0;
+}
+.svg-icon.register {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -529.8px 0;
+}
+.svg-icon.career {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -618.1px 0;
+}
+.svg-icon.tutor {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -706.4px 0;
+}
 .global-footer .audience-nav {
   text-align: center;
 }
@@ -7950,6 +8490,60 @@ nav#inner-nav > a:hover {
   min-height: 2em;
 }
 
+.svg-icon.assessment {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: 0 0;
+}
+.svg-icon.careers {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -88.3px 0;
+}
+.svg-icon.workshop {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -176.6px 0;
+}
+.svg-icon.majors {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -264.9px 0;
+}
+.svg-icon.plans {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -353.2px 0;
+}
+.svg-icon.courses {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -441.5px 0;
+}
+.svg-icon.register {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -529.8px 0;
+}
+.svg-icon.career {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -618.1px 0;
+}
+.svg-icon.tutor {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -706.4px 0;
+}
 /* HEADER STYLES */
 .site-navigation {
   margin: 0;
@@ -8081,6 +8675,60 @@ nav#inner-nav > a:hover {
   padding-top: 20px;
 }
 
+.svg-icon.assessment {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: 0 0;
+}
+.svg-icon.careers {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -88.3px 0;
+}
+.svg-icon.workshop {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -176.6px 0;
+}
+.svg-icon.majors {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -264.9px 0;
+}
+.svg-icon.plans {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -353.2px 0;
+}
+.svg-icon.courses {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -441.5px 0;
+}
+.svg-icon.register {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -529.8px 0;
+}
+.svg-icon.career {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -618.1px 0;
+}
+.svg-icon.tutor {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -706.4px 0;
+}
 .highlighted-links-variant {
   border-color: #056cb6;
 }
@@ -8090,6 +8738,60 @@ nav#inner-nav > a:hover {
   margin-right: 15px !important;
 }
 
+.svg-icon.assessment {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: 0 0;
+}
+.svg-icon.careers {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -88.3px 0;
+}
+.svg-icon.workshop {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -176.6px 0;
+}
+.svg-icon.majors {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -264.9px 0;
+}
+.svg-icon.plans {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -353.2px 0;
+}
+.svg-icon.courses {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -441.5px 0;
+}
+.svg-icon.register {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -529.8px 0;
+}
+.svg-icon.career {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -618.1px 0;
+}
+.svg-icon.tutor {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -706.4px 0;
+}
 .institutional-message .panel-heading {
   font-size: 0.8675em;
   letter-spacing: 0.04em;
@@ -8106,6 +8808,60 @@ nav#inner-nav > a:hover {
   text-align: center;
 }
 
+.svg-icon.assessment {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: 0 0;
+}
+.svg-icon.careers {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -88.3px 0;
+}
+.svg-icon.workshop {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -176.6px 0;
+}
+.svg-icon.majors {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -264.9px 0;
+}
+.svg-icon.plans {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -353.2px 0;
+}
+.svg-icon.courses {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -441.5px 0;
+}
+.svg-icon.register {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -529.8px 0;
+}
+.svg-icon.career {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -618.1px 0;
+}
+.svg-icon.tutor {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -706.4px 0;
+}
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -8744,11 +9500,65 @@ h2.eventDateHeader {
   height: 30px;
 }
 
+.svg-icon.assessment {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: 0 0;
+}
+.svg-icon.careers {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -88.3px 0;
+}
+.svg-icon.workshop {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -176.6px 0;
+}
+.svg-icon.majors {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -264.9px 0;
+}
+.svg-icon.plans {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -353.2px 0;
+}
+.svg-icon.courses {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -441.5px 0;
+}
+.svg-icon.register {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -529.8px 0;
+}
+.svg-icon.career {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -618.1px 0;
+}
+.svg-icon.tutor {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -706.4px 0;
+}
 .quick-guide {
-  -webkit-transition: right 0.25s cubic-bezier(0.875, 0, 0.33, 1) 0, "";
-  -moz-transition: right 0.25s cubic-bezier(0.875, 0, 0.33, 1) 0, "";
-  -o-transition: right 0.25s cubic-bezier(0.875, 0, 0.33, 1) 0, "";
-  transition: right 0.25s cubic-bezier(0.875, 0, 0.33, 1) 0, "";
+  -webkit-transition: right 0.25s cubic-bezier(0.875, 0, 0.33, 1) 0, content;
+  -moz-transition: right 0.25s cubic-bezier(0.875, 0, 0.33, 1) 0, content;
+  -o-transition: right 0.25s cubic-bezier(0.875, 0, 0.33, 1) 0, content;
+  transition: right 0.25s cubic-bezier(0.875, 0, 0.33, 1) 0, content;
   right: -320px;
   top: 0;
   position: fixed;
@@ -8779,10 +9589,10 @@ h2.eventDateHeader {
 }
 .quick-guide.open {
   right: 0;
-  -webkit-transition: right 0.45s cubic-bezier(0.875, 0, 0.33, 1) 0, "";
-  -moz-transition: right 0.45s cubic-bezier(0.875, 0, 0.33, 1) 0, "";
-  -o-transition: right 0.45s cubic-bezier(0.875, 0, 0.33, 1) 0, "";
-  transition: right 0.45s cubic-bezier(0.875, 0, 0.33, 1) 0, "";
+  -webkit-transition: right 0.45s cubic-bezier(0.875, 0, 0.33, 1) 0, content;
+  -moz-transition: right 0.45s cubic-bezier(0.875, 0, 0.33, 1) 0, content;
+  -o-transition: right 0.45s cubic-bezier(0.875, 0, 0.33, 1) 0, content;
+  transition: right 0.45s cubic-bezier(0.875, 0, 0.33, 1) 0, content;
 }
 .quick-guide h1 {
   text-transform: uppercase;
@@ -8839,10 +9649,10 @@ h2.eventDateHeader {
   overflow: hidden;
   background: #545454;
   max-height: 0;
-  -webkit-transition: all 0.5s cubic-bezier(0.875, 0, 0.33, 1) 0, "";
-  -moz-transition: all 0.5s cubic-bezier(0.875, 0, 0.33, 1) 0, "";
-  -o-transition: all 0.5s cubic-bezier(0.875, 0, 0.33, 1) 0, "";
-  transition: all 0.5s cubic-bezier(0.875, 0, 0.33, 1) 0, "";
+  -webkit-transition: all 0.5s cubic-bezier(0.875, 0, 0.33, 1) 0, content;
+  -moz-transition: all 0.5s cubic-bezier(0.875, 0, 0.33, 1) 0, content;
+  -o-transition: all 0.5s cubic-bezier(0.875, 0, 0.33, 1) 0, content;
+  transition: all 0.5s cubic-bezier(0.875, 0, 0.33, 1) 0, content;
 }
 .quick-guide .menu-box .items .item {
   padding: 6px 0;
@@ -8915,6 +9725,60 @@ h2.eventDateHeader {
   text-decoration: none;
 }
 
+.svg-icon.assessment {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: 0 0;
+}
+.svg-icon.careers {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -88.3px 0;
+}
+.svg-icon.workshop {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -176.6px 0;
+}
+.svg-icon.majors {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -264.9px 0;
+}
+.svg-icon.plans {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -353.2px 0;
+}
+.svg-icon.courses {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -441.5px 0;
+}
+.svg-icon.register {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -529.8px 0;
+}
+.svg-icon.career {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -618.1px 0;
+}
+.svg-icon.tutor {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -706.4px 0;
+}
 .article-list {
   margin-bottom: 40px;
 }
@@ -8927,10 +9791,118 @@ h2.eventDateHeader {
   border-bottom: 1px solid #ccc;
 }
 
+.svg-icon.assessment {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: 0 0;
+}
+.svg-icon.careers {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -88.3px 0;
+}
+.svg-icon.workshop {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -176.6px 0;
+}
+.svg-icon.majors {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -264.9px 0;
+}
+.svg-icon.plans {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -353.2px 0;
+}
+.svg-icon.courses {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -441.5px 0;
+}
+.svg-icon.register {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -529.8px 0;
+}
+.svg-icon.career {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -618.1px 0;
+}
+.svg-icon.tutor {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -706.4px 0;
+}
 .quick-links {
   margin-top: 40px;
 }
 
+.svg-icon.assessment {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: 0 0;
+}
+.svg-icon.careers {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -88.3px 0;
+}
+.svg-icon.workshop {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -176.6px 0;
+}
+.svg-icon.majors {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -264.9px 0;
+}
+.svg-icon.plans {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -353.2px 0;
+}
+.svg-icon.courses {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -441.5px 0;
+}
+.svg-icon.register {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -529.8px 0;
+}
+.svg-icon.career {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -618.1px 0;
+}
+.svg-icon.tutor {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -706.4px 0;
+}
 .page-header {
   margin: 30px 0 30px;
   padding-bottom: 0;
@@ -8945,6 +9917,60 @@ h2.eventDateHeader {
   margin-bottom: 0.5em;
 }
 
+.svg-icon.assessment {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: 0 0;
+}
+.svg-icon.careers {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -88.3px 0;
+}
+.svg-icon.workshop {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -176.6px 0;
+}
+.svg-icon.majors {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -264.9px 0;
+}
+.svg-icon.plans {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -353.2px 0;
+}
+.svg-icon.courses {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -441.5px 0;
+}
+.svg-icon.register {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -529.8px 0;
+}
+.svg-icon.career {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -618.1px 0;
+}
+.svg-icon.tutor {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -706.4px 0;
+}
 #carousel-top {
   margin-bottom: 40px;
 }

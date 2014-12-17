@@ -1,8 +1,62 @@
+.svg-icon.assessment {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: 0 0;
+}
+.svg-icon.careers {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -88.3px 0;
+}
+.svg-icon.workshop {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -176.6px 0;
+}
+.svg-icon.majors {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -264.9px 0;
+}
+.svg-icon.plans {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -353.2px 0;
+}
+.svg-icon.courses {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -441.5px 0;
+}
+.svg-icon.register {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -529.8px 0;
+}
+.svg-icon.career {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -618.1px 0;
+}
+.svg-icon.tutor {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -706.4px 0;
+}
 .parallax * {
-  -webkit-transition: all 0.5s cubic-bezier(0.875, 0, 0.33, 1) 0, "";
-  -moz-transition: all 0.5s cubic-bezier(0.875, 0, 0.33, 1) 0, "";
-  -o-transition: all 0.5s cubic-bezier(0.875, 0, 0.33, 1) 0, "";
-  transition: all 0.5s cubic-bezier(0.875, 0, 0.33, 1) 0, "";
+  -webkit-transition: all 0.5s cubic-bezier(0.875, 0, 0.33, 1) 0, content;
+  -moz-transition: all 0.5s cubic-bezier(0.875, 0, 0.33, 1) 0, content;
+  -o-transition: all 0.5s cubic-bezier(0.875, 0, 0.33, 1) 0, content;
+  transition: all 0.5s cubic-bezier(0.875, 0, 0.33, 1) 0, content;
 }
 .parallax h1,
 .parallax h2,
@@ -76,12 +130,16 @@
 .parallax .step-details .content .sub-item {
   border-right: dotted 1px #c4c4c4;
 }
+.parallax .step-details .content .sub-item .svg-icon {
+  margin: 0 auto;
+}
 .parallax .step-details .content .sub-item:last-child {
   border-right: none;
 }
 .parallax .step-details .content h3 {
   color: #55c2ef;
   font-size: 17px;
+  margin-top: 3px;
 }
 .parallax .step-details .content ul {
   list-style-type: none;

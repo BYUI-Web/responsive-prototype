@@ -32,7 +32,7 @@
   .col(1); // kickstart it
 }
 
-.trans(@property:all; @duration:0.5s; @timing:cubic-bezier(0.875, 0, 0.330, 1); @delay:0; @additionalItems:""){
+.trans(@property:all; @duration:0.5s; @timing:cubic-bezier(0.875, 0, 0.330, 1); @delay:0; @additionalItems:content){
   -webkit-transition: @property @duration @timing @delay, @additionalItems;
   -moz-transition:    @property @duration @timing @delay, @additionalItems;
   -o-transition:      @property @duration @timing @delay, @additionalItems;
@@ -66,4 +66,47 @@
     width:13px; height:12px; background-position:-71px -40px;
       & when (@isHover) { background-position:-71px -53px;}
   }
+}
+
+@sprite-icon-width:88.3px;
+.sprite-icon(@id; @isHover:false)  { width:@sprite-icon-width; height:@sprite-icon-width; background:url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  & when  (@id="assessment") { background-position:0 0;
+    & when (@isHover)        { background-position:-71px -53px;}
+  }
+  & when  (@id="careers")    { background-position:@sprite-icon-width*-1 0;
+    & when (@isHover)        { background-position:@sprite-icon-width*-1 -100px; }
+  }
+  & when  (@id="workshop")   { background-position:@sprite-icon-width*-2 0;
+    & when (@isHover)        { background-position:@sprite-icon-width*-2 -100px; }
+  }
+  & when  (@id="majors")     { background-position:@sprite-icon-width*-3 0;
+    & when (@isHover)        { background-position:@sprite-icon-width*-3 -100px; }
+  }
+  & when  (@id="plans")      { background-position:@sprite-icon-width*-4 0;
+    & when (@isHover)        { background-position:@sprite-icon-width*-4 -100px; }
+  }
+  & when  (@id="courses")    { background-position:@sprite-icon-width*-5 0;
+    & when (@isHover)        { background-position:@sprite-icon-width*-5 -100px; }
+  }
+  & when  (@id="register")   { background-position:@sprite-icon-width*-6 0;
+    & when (@isHover)        { background-position:@sprite-icon-width*-6 -100px; }
+  }
+  & when  (@id="career")     { background-position:@sprite-icon-width*-7 0;
+    & when (@isHover)        { background-position:@sprite-icon-width*-7 -100px; }
+  }
+  & when  (@id="tutor")      { background-position:@sprite-icon-width*-8 0;
+    & when (@isHover)        { background-position:@sprite-icon-width*-9 -100px; }
+  }
+}
+
+.svg-icon      {
+  &.assessment { .sprite-icon("assessment") }
+  &.careers    { .sprite-icon("careers") }
+  &.workshop   { .sprite-icon("workshop") }
+  &.majors     { .sprite-icon("majors") }
+  &.plans      { .sprite-icon("plans") }
+  &.courses    { .sprite-icon("courses") }
+  &.register   { .sprite-icon("register") }
+  &.career     { .sprite-icon("career") }
+  &.tutor      { .sprite-icon("tutor") }
 }
