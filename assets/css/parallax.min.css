@@ -1,0 +1,83 @@
+.parallax h1,
+.parallax h2,
+.parallax h3,
+.parallax h4 {
+  font-family: "BYUI Open Sans", "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Verdana, sans-serif;
+}
+.parallax .step {
+  background: url(http://www.fillmurray.com/g/1000/706) no-repeat center 100%;
+  background-size: 100% auto;
+  padding-top: 150px;
+  font-family: "BYUI Open Sans", "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Verdana, sans-serif;
+}
+.parallax .step .step-box {
+  width: 750px;
+  margin: 0 auto;
+  min-height: 210px;
+  color: white;
+  padding: 26px 0 0 60px;
+}
+.parallax .step .step-box.navy {
+  background: rgba(10, 108, 181, 0.9);
+}
+.parallax .step .step-box.green {
+  background: rgba(98, 188, 75, 0.9);
+}
+.parallax .step .step-box.orange {
+  background: rgba(245, 131, 0, 0.9);
+}
+.parallax .step .step-box.red {
+  background: rgba(228, 34, 38, 0.9);
+}
+.parallax .step .step-box.light-blue {
+  background: rgba(85, 194, 239, 0.9);
+}
+.parallax .step .step-box.purple {
+  background: rgba(165, 33, 111, 0.9);
+}
+.parallax .step .step-box h1 {
+  font-weight: bold;
+}
+.parallax .step .step-box h3 {
+  font-size: 18px;
+  border-bottom: dotted 1px white;
+  padding-bottom: 10px;
+}
+.parallax .step-details {
+  font-family: "BYUI Open Sans", "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Verdana, sans-serif;
+  background: white;
+  margin: -20px 0 -10px;
+  z-index: 1000;
+  position: relative;
+  -webkit-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.25);
+}
+.parallax .step-details .content {
+  width: 750px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0 100px;
+}
+.parallax .step-details .content h3 {
+  color: #55c2ef;
+  font-size: 17px;
+}
+.parallax .step-details .content ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  color: #ADADAD;
+  font-size: 13px;
+  margin-top: 38px;
+}
+.parallax .step-details .content ul li {
+  padding: 3px 0;
+}
+.parallax .step-details .content ul:before {
+  content: "LEARN MORE";
+  font-size: 10px;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 9px;
+}
