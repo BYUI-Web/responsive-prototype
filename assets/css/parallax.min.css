@@ -15,7 +15,7 @@
   margin: 0 auto;
   min-height: 210px;
   color: white;
-  padding: 26px 0 0 60px;
+  padding: 23px 0 90px 60px;
 }
 .parallax .step .step-box.navy {
   background: rgba(10, 108, 181, 0.9);
@@ -43,6 +43,10 @@
   border-bottom: dotted 1px white;
   padding-bottom: 10px;
 }
+.parallax .step .step-box p {
+  margin: 34px 0 0 0;
+  max-width: 495px;
+}
 .parallax .step-details {
   font-family: "BYUI Open Sans", "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Verdana, sans-serif;
   background: white;
@@ -54,10 +58,16 @@
   box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.25);
 }
 .parallax .step-details .content {
-  width: 750px;
+  width: 960px;
   margin: 0 auto;
   text-align: center;
   padding: 20px 0 100px;
+}
+.parallax .step-details .content .sub-item {
+  border-right: dotted 1px #c4c4c4;
+}
+.parallax .step-details .content .sub-item:last-child {
+  border-right: none;
 }
 .parallax .step-details .content h3 {
   color: #55c2ef;
@@ -80,4 +90,44 @@
   display: block;
   font-weight: bold;
   margin-bottom: 9px;
+}
+@media (max-width: 767px) {
+  .parallax .step {
+    padding-top: 0;
+  }
+  .parallax .step .step-box {
+    width: 100%;
+    padding: 11px 57px 49px 60px;
+  }
+  .parallax .step-details {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+  .parallax .step-details .content {
+    width: 100%;
+  }
+  .parallax .step-details .content ul {
+    margin-top: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .parallax .step {
+    padding-top: 80px;
+  }
+  .parallax .step .step-box {
+    width: 768px;
+    padding: 11px 57px 49px 60px;
+  }
+  .parallax .step-details .content {
+    width: 100%;
+  }
+  .parallax .step-details .content ul {
+    margin-top: 20px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .parallax .step-details .content {
+    width: 780px;
+  }
 }
