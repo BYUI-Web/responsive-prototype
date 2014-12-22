@@ -31,12 +31,19 @@
   .step-details      { .drop-shadow(0, 2px); font-family:@font-family-sans-serif; background:white; margin:-20px 0 -10px; z-index:1000; position:relative;
     .content         { width:960px; margin:0 auto; text-align:center; padding:20px 0 100px;
       .sub-item      { border-right:dotted 1px #c4c4c4;
-        .svg-icon    { margin:0 auto; }
+        .svg-icon    { margin:0 auto; .trans(none);
+          &:before   { display:block; content:""; margin:0 auto; }
+          &:hover    { text-decoration:none;
+            h3       { color:#0080B5;  }
+          }
+          h3         { color:@light-blue; font-size:17px; margin-top: 3px; text-decoration:none; }
+        }
         &:last-child { border-right:none; }
       }
-      h3             { color:@light-blue; font-size:17px; margin-top: 3px; }
-      ul             { list-style-type: none; padding:0; margin:0; color:#ADADAD; font-size:13px; margin-top: 38px;
-        li           { padding:3px 0; }
+      ul             { list-style-type: none; padding:0; margin:0; font-size:13px; margin-top: 38px;
+        li           { padding:3px 0;
+          a          { color:#ADADAD; }
+        }
         &:before     { content:"LEARN MORE"; font-size:10px; display:block; font-weight:bold; margin-bottom:9px; }
       }
     }

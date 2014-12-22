@@ -327,59 +327,122 @@
  *
  * Designed and built with all the love in the world by @mdo and @fat.
  */
-.svg-icon.assessment {
+.svg-icon.assessment:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: 0 0;
 }
-.svg-icon.careers {
+.svg-icon.assessment:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: 0 0;
+  background-position: -71px -53px;
+}
+.svg-icon.careers:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -88.3px 0;
 }
-.svg-icon.workshop {
+.svg-icon.careers:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -88.3px 0;
+  background-position: -88.3px -87px;
+}
+.svg-icon.workshop:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -176.6px 0;
 }
-.svg-icon.majors {
+.svg-icon.workshop:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -176.6px 0;
+  background-position: -176.6px -87px;
+}
+.svg-icon.majors:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -264.9px 0;
 }
-.svg-icon.plans {
+.svg-icon.majors:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -264.9px 0;
+  background-position: -264.9px -87px;
+}
+.svg-icon.plans:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -353.2px 0;
 }
-.svg-icon.courses {
+.svg-icon.plans:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -353.2px 0;
+  background-position: -353.2px -87px;
+}
+.svg-icon.courses:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -441.5px 0;
 }
-.svg-icon.register {
+.svg-icon.courses:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -441.5px 0;
+  background-position: -441.5px -87px;
+}
+.svg-icon.register:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -529.8px 0;
 }
-.svg-icon.career {
+.svg-icon.register:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -529.8px 0;
+  background-position: -529.8px -87px;
+}
+.svg-icon.career:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -618.1px 0;
 }
-.svg-icon.tutor {
+.svg-icon.career:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -618.1px 0;
+  background-position: -618.1px -87px;
+}
+.svg-icon.tutor:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -706.4px 0;
+}
+.svg-icon.tutor:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -706.4px 0;
+  background-position: -794.7px -87px;
 }
 /*! normalize.css v2.1.3 | MIT License | git.io/normalize */
 article,
@@ -7169,59 +7232,122 @@ img {
   }
 }
 
-.svg-icon.assessment {
+.svg-icon.assessment:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: 0 0;
 }
-.svg-icon.careers {
+.svg-icon.assessment:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: 0 0;
+  background-position: -71px -53px;
+}
+.svg-icon.careers:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -88.3px 0;
 }
-.svg-icon.workshop {
+.svg-icon.careers:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -88.3px 0;
+  background-position: -88.3px -87px;
+}
+.svg-icon.workshop:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -176.6px 0;
 }
-.svg-icon.majors {
+.svg-icon.workshop:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -176.6px 0;
+  background-position: -176.6px -87px;
+}
+.svg-icon.majors:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -264.9px 0;
 }
-.svg-icon.plans {
+.svg-icon.majors:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -264.9px 0;
+  background-position: -264.9px -87px;
+}
+.svg-icon.plans:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -353.2px 0;
 }
-.svg-icon.courses {
+.svg-icon.plans:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -353.2px 0;
+  background-position: -353.2px -87px;
+}
+.svg-icon.courses:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -441.5px 0;
 }
-.svg-icon.register {
+.svg-icon.courses:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -441.5px 0;
+  background-position: -441.5px -87px;
+}
+.svg-icon.register:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -529.8px 0;
 }
-.svg-icon.career {
+.svg-icon.register:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -529.8px 0;
+  background-position: -529.8px -87px;
+}
+.svg-icon.career:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -618.1px 0;
 }
-.svg-icon.tutor {
+.svg-icon.career:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -618.1px 0;
+  background-position: -618.1px -87px;
+}
+.svg-icon.tutor:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -706.4px 0;
+}
+.svg-icon.tutor:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -706.4px 0;
+  background-position: -794.7px -87px;
 }
 .contactContainer {
   width: 100%;
@@ -7403,59 +7529,122 @@ img {
   }
 }
 
-.svg-icon.assessment {
+.svg-icon.assessment:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: 0 0;
 }
-.svg-icon.careers {
+.svg-icon.assessment:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: 0 0;
+  background-position: -71px -53px;
+}
+.svg-icon.careers:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -88.3px 0;
 }
-.svg-icon.workshop {
+.svg-icon.careers:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -88.3px 0;
+  background-position: -88.3px -87px;
+}
+.svg-icon.workshop:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -176.6px 0;
 }
-.svg-icon.majors {
+.svg-icon.workshop:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -176.6px 0;
+  background-position: -176.6px -87px;
+}
+.svg-icon.majors:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -264.9px 0;
 }
-.svg-icon.plans {
+.svg-icon.majors:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -264.9px 0;
+  background-position: -264.9px -87px;
+}
+.svg-icon.plans:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -353.2px 0;
 }
-.svg-icon.courses {
+.svg-icon.plans:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -353.2px 0;
+  background-position: -353.2px -87px;
+}
+.svg-icon.courses:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -441.5px 0;
 }
-.svg-icon.register {
+.svg-icon.courses:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -441.5px 0;
+  background-position: -441.5px -87px;
+}
+.svg-icon.register:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -529.8px 0;
 }
-.svg-icon.career {
+.svg-icon.register:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -529.8px 0;
+  background-position: -529.8px -87px;
+}
+.svg-icon.career:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -618.1px 0;
 }
-.svg-icon.tutor {
+.svg-icon.career:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -618.1px 0;
+  background-position: -618.1px -87px;
+}
+.svg-icon.tutor:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -706.4px 0;
+}
+.svg-icon.tutor:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -706.4px 0;
+  background-position: -794.7px -87px;
 }
 .eventsTable {
   width: 100%;
@@ -7549,59 +7738,122 @@ img {
   margin: auto 0px 15px 15px;
 }
 
-.svg-icon.assessment {
+.svg-icon.assessment:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: 0 0;
 }
-.svg-icon.careers {
+.svg-icon.assessment:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: 0 0;
+  background-position: -71px -53px;
+}
+.svg-icon.careers:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -88.3px 0;
 }
-.svg-icon.workshop {
+.svg-icon.careers:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -88.3px 0;
+  background-position: -88.3px -87px;
+}
+.svg-icon.workshop:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -176.6px 0;
 }
-.svg-icon.majors {
+.svg-icon.workshop:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -176.6px 0;
+  background-position: -176.6px -87px;
+}
+.svg-icon.majors:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -264.9px 0;
 }
-.svg-icon.plans {
+.svg-icon.majors:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -264.9px 0;
+  background-position: -264.9px -87px;
+}
+.svg-icon.plans:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -353.2px 0;
 }
-.svg-icon.courses {
+.svg-icon.plans:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -353.2px 0;
+  background-position: -353.2px -87px;
+}
+.svg-icon.courses:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -441.5px 0;
 }
-.svg-icon.register {
+.svg-icon.courses:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -441.5px 0;
+  background-position: -441.5px -87px;
+}
+.svg-icon.register:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -529.8px 0;
 }
-.svg-icon.career {
+.svg-icon.register:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -529.8px 0;
+  background-position: -529.8px -87px;
+}
+.svg-icon.career:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -618.1px 0;
 }
-.svg-icon.tutor {
+.svg-icon.career:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -618.1px 0;
+  background-position: -618.1px -87px;
+}
+.svg-icon.tutor:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -706.4px 0;
+}
+.svg-icon.tutor:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -706.4px 0;
+  background-position: -794.7px -87px;
 }
 .gallery-container #main-tile {
   background: #c2c3c6;
@@ -7915,59 +8167,122 @@ nav#inner-nav > a:hover {
   }
 }
 
-.svg-icon.assessment {
+.svg-icon.assessment:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: 0 0;
 }
-.svg-icon.careers {
+.svg-icon.assessment:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: 0 0;
+  background-position: -71px -53px;
+}
+.svg-icon.careers:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -88.3px 0;
 }
-.svg-icon.workshop {
+.svg-icon.careers:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -88.3px 0;
+  background-position: -88.3px -87px;
+}
+.svg-icon.workshop:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -176.6px 0;
 }
-.svg-icon.majors {
+.svg-icon.workshop:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -176.6px 0;
+  background-position: -176.6px -87px;
+}
+.svg-icon.majors:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -264.9px 0;
 }
-.svg-icon.plans {
+.svg-icon.majors:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -264.9px 0;
+  background-position: -264.9px -87px;
+}
+.svg-icon.plans:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -353.2px 0;
 }
-.svg-icon.courses {
+.svg-icon.plans:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -353.2px 0;
+  background-position: -353.2px -87px;
+}
+.svg-icon.courses:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -441.5px 0;
 }
-.svg-icon.register {
+.svg-icon.courses:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -441.5px 0;
+  background-position: -441.5px -87px;
+}
+.svg-icon.register:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -529.8px 0;
 }
-.svg-icon.career {
+.svg-icon.register:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -529.8px 0;
+  background-position: -529.8px -87px;
+}
+.svg-icon.career:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -618.1px 0;
 }
-.svg-icon.tutor {
+.svg-icon.career:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -618.1px 0;
+  background-position: -618.1px -87px;
+}
+.svg-icon.tutor:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -706.4px 0;
+}
+.svg-icon.tutor:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -706.4px 0;
+  background-position: -794.7px -87px;
 }
 .breadcrumb {
   padding: 0 0 0 3px;
@@ -7988,59 +8303,122 @@ nav#inner-nav > a:hover {
   color: #999999;
 }
 
-.svg-icon.assessment {
+.svg-icon.assessment:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: 0 0;
 }
-.svg-icon.careers {
+.svg-icon.assessment:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: 0 0;
+  background-position: -71px -53px;
+}
+.svg-icon.careers:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -88.3px 0;
 }
-.svg-icon.workshop {
+.svg-icon.careers:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -88.3px 0;
+  background-position: -88.3px -87px;
+}
+.svg-icon.workshop:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -176.6px 0;
 }
-.svg-icon.majors {
+.svg-icon.workshop:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -176.6px 0;
+  background-position: -176.6px -87px;
+}
+.svg-icon.majors:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -264.9px 0;
 }
-.svg-icon.plans {
+.svg-icon.majors:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -264.9px 0;
+  background-position: -264.9px -87px;
+}
+.svg-icon.plans:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -353.2px 0;
 }
-.svg-icon.courses {
+.svg-icon.plans:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -353.2px 0;
+  background-position: -353.2px -87px;
+}
+.svg-icon.courses:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -441.5px 0;
 }
-.svg-icon.register {
+.svg-icon.courses:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -441.5px 0;
+  background-position: -441.5px -87px;
+}
+.svg-icon.register:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -529.8px 0;
 }
-.svg-icon.career {
+.svg-icon.register:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -529.8px 0;
+  background-position: -529.8px -87px;
+}
+.svg-icon.career:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -618.1px 0;
 }
-.svg-icon.tutor {
+.svg-icon.career:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -618.1px 0;
+  background-position: -618.1px -87px;
+}
+.svg-icon.tutor:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -706.4px 0;
+}
+.svg-icon.tutor:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -706.4px 0;
+  background-position: -794.7px -87px;
 }
 .cells h2 {
   font-size: 18px;
@@ -8107,118 +8485,244 @@ nav#inner-nav > a:hover {
   font-weight: bold;
 }
 
-.svg-icon.assessment {
+.svg-icon.assessment:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: 0 0;
 }
-.svg-icon.careers {
+.svg-icon.assessment:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: 0 0;
+  background-position: -71px -53px;
+}
+.svg-icon.careers:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -88.3px 0;
 }
-.svg-icon.workshop {
+.svg-icon.careers:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -88.3px 0;
+  background-position: -88.3px -87px;
+}
+.svg-icon.workshop:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -176.6px 0;
 }
-.svg-icon.majors {
+.svg-icon.workshop:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -176.6px 0;
+  background-position: -176.6px -87px;
+}
+.svg-icon.majors:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -264.9px 0;
 }
-.svg-icon.plans {
+.svg-icon.majors:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -264.9px 0;
+  background-position: -264.9px -87px;
+}
+.svg-icon.plans:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -353.2px 0;
 }
-.svg-icon.courses {
+.svg-icon.plans:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -353.2px 0;
+  background-position: -353.2px -87px;
+}
+.svg-icon.courses:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -441.5px 0;
 }
-.svg-icon.register {
+.svg-icon.courses:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -441.5px 0;
+  background-position: -441.5px -87px;
+}
+.svg-icon.register:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -529.8px 0;
 }
-.svg-icon.career {
+.svg-icon.register:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -529.8px 0;
+  background-position: -529.8px -87px;
+}
+.svg-icon.career:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -618.1px 0;
 }
-.svg-icon.tutor {
+.svg-icon.career:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -618.1px 0;
+  background-position: -618.1px -87px;
+}
+.svg-icon.tutor:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -706.4px 0;
+}
+.svg-icon.tutor:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -706.4px 0;
+  background-position: -794.7px -87px;
 }
 .contact-info address,
 .contact-info p {
   margin: 0;
 }
 
-.svg-icon.assessment {
+.svg-icon.assessment:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: 0 0;
 }
-.svg-icon.careers {
+.svg-icon.assessment:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: 0 0;
+  background-position: -71px -53px;
+}
+.svg-icon.careers:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -88.3px 0;
 }
-.svg-icon.workshop {
+.svg-icon.careers:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -88.3px 0;
+  background-position: -88.3px -87px;
+}
+.svg-icon.workshop:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -176.6px 0;
 }
-.svg-icon.majors {
+.svg-icon.workshop:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -176.6px 0;
+  background-position: -176.6px -87px;
+}
+.svg-icon.majors:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -264.9px 0;
 }
-.svg-icon.plans {
+.svg-icon.majors:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -264.9px 0;
+  background-position: -264.9px -87px;
+}
+.svg-icon.plans:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -353.2px 0;
 }
-.svg-icon.courses {
+.svg-icon.plans:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -353.2px 0;
+  background-position: -353.2px -87px;
+}
+.svg-icon.courses:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -441.5px 0;
 }
-.svg-icon.register {
+.svg-icon.courses:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -441.5px 0;
+  background-position: -441.5px -87px;
+}
+.svg-icon.register:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -529.8px 0;
 }
-.svg-icon.career {
+.svg-icon.register:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -529.8px 0;
+  background-position: -529.8px -87px;
+}
+.svg-icon.career:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -618.1px 0;
 }
-.svg-icon.tutor {
+.svg-icon.career:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -618.1px 0;
+  background-position: -618.1px -87px;
+}
+.svg-icon.tutor:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -706.4px 0;
+}
+.svg-icon.tutor:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -706.4px 0;
+  background-position: -794.7px -87px;
 }
 .events .list-group-item {
   overflow: hidden;
@@ -8244,59 +8748,122 @@ nav#inner-nav > a:hover {
   text-transform: uppercase;
 }
 
-.svg-icon.assessment {
+.svg-icon.assessment:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: 0 0;
 }
-.svg-icon.careers {
+.svg-icon.assessment:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: 0 0;
+  background-position: -71px -53px;
+}
+.svg-icon.careers:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -88.3px 0;
 }
-.svg-icon.workshop {
+.svg-icon.careers:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -88.3px 0;
+  background-position: -88.3px -87px;
+}
+.svg-icon.workshop:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -176.6px 0;
 }
-.svg-icon.majors {
+.svg-icon.workshop:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -176.6px 0;
+  background-position: -176.6px -87px;
+}
+.svg-icon.majors:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -264.9px 0;
 }
-.svg-icon.plans {
+.svg-icon.majors:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -264.9px 0;
+  background-position: -264.9px -87px;
+}
+.svg-icon.plans:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -353.2px 0;
 }
-.svg-icon.courses {
+.svg-icon.plans:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -353.2px 0;
+  background-position: -353.2px -87px;
+}
+.svg-icon.courses:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -441.5px 0;
 }
-.svg-icon.register {
+.svg-icon.courses:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -441.5px 0;
+  background-position: -441.5px -87px;
+}
+.svg-icon.register:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -529.8px 0;
 }
-.svg-icon.career {
+.svg-icon.register:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -529.8px 0;
+  background-position: -529.8px -87px;
+}
+.svg-icon.career:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -618.1px 0;
 }
-.svg-icon.tutor {
+.svg-icon.career:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -618.1px 0;
+  background-position: -618.1px -87px;
+}
+.svg-icon.tutor:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -706.4px 0;
+}
+.svg-icon.tutor:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -706.4px 0;
+  background-position: -794.7px -87px;
 }
 .facebook-integration {
   height: 350px;
@@ -8305,59 +8872,122 @@ nav#inner-nav > a:hover {
   width: 100%;
 }
 
-.svg-icon.assessment {
+.svg-icon.assessment:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: 0 0;
 }
-.svg-icon.careers {
+.svg-icon.assessment:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: 0 0;
+  background-position: -71px -53px;
+}
+.svg-icon.careers:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -88.3px 0;
 }
-.svg-icon.workshop {
+.svg-icon.careers:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -88.3px 0;
+  background-position: -88.3px -87px;
+}
+.svg-icon.workshop:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -176.6px 0;
 }
-.svg-icon.majors {
+.svg-icon.workshop:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -176.6px 0;
+  background-position: -176.6px -87px;
+}
+.svg-icon.majors:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -264.9px 0;
 }
-.svg-icon.plans {
+.svg-icon.majors:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -264.9px 0;
+  background-position: -264.9px -87px;
+}
+.svg-icon.plans:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -353.2px 0;
 }
-.svg-icon.courses {
+.svg-icon.plans:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -353.2px 0;
+  background-position: -353.2px -87px;
+}
+.svg-icon.courses:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -441.5px 0;
 }
-.svg-icon.register {
+.svg-icon.courses:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -441.5px 0;
+  background-position: -441.5px -87px;
+}
+.svg-icon.register:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -529.8px 0;
 }
-.svg-icon.career {
+.svg-icon.register:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -529.8px 0;
+  background-position: -529.8px -87px;
+}
+.svg-icon.career:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -618.1px 0;
 }
-.svg-icon.tutor {
+.svg-icon.career:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -618.1px 0;
+  background-position: -618.1px -87px;
+}
+.svg-icon.tutor:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -706.4px 0;
+}
+.svg-icon.tutor:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -706.4px 0;
+  background-position: -794.7px -87px;
 }
 .global-footer .audience-nav {
   text-align: center;
@@ -8490,59 +9120,122 @@ nav#inner-nav > a:hover {
   min-height: 2em;
 }
 
-.svg-icon.assessment {
+.svg-icon.assessment:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: 0 0;
 }
-.svg-icon.careers {
+.svg-icon.assessment:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: 0 0;
+  background-position: -71px -53px;
+}
+.svg-icon.careers:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -88.3px 0;
 }
-.svg-icon.workshop {
+.svg-icon.careers:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -88.3px 0;
+  background-position: -88.3px -87px;
+}
+.svg-icon.workshop:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -176.6px 0;
 }
-.svg-icon.majors {
+.svg-icon.workshop:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -176.6px 0;
+  background-position: -176.6px -87px;
+}
+.svg-icon.majors:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -264.9px 0;
 }
-.svg-icon.plans {
+.svg-icon.majors:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -264.9px 0;
+  background-position: -264.9px -87px;
+}
+.svg-icon.plans:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -353.2px 0;
 }
-.svg-icon.courses {
+.svg-icon.plans:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -353.2px 0;
+  background-position: -353.2px -87px;
+}
+.svg-icon.courses:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -441.5px 0;
 }
-.svg-icon.register {
+.svg-icon.courses:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -441.5px 0;
+  background-position: -441.5px -87px;
+}
+.svg-icon.register:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -529.8px 0;
 }
-.svg-icon.career {
+.svg-icon.register:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -529.8px 0;
+  background-position: -529.8px -87px;
+}
+.svg-icon.career:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -618.1px 0;
 }
-.svg-icon.tutor {
+.svg-icon.career:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -618.1px 0;
+  background-position: -618.1px -87px;
+}
+.svg-icon.tutor:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -706.4px 0;
+}
+.svg-icon.tutor:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -706.4px 0;
+  background-position: -794.7px -87px;
 }
 /* HEADER STYLES */
 .site-navigation {
@@ -8675,59 +9368,122 @@ nav#inner-nav > a:hover {
   padding-top: 20px;
 }
 
-.svg-icon.assessment {
+.svg-icon.assessment:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: 0 0;
 }
-.svg-icon.careers {
+.svg-icon.assessment:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: 0 0;
+  background-position: -71px -53px;
+}
+.svg-icon.careers:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -88.3px 0;
 }
-.svg-icon.workshop {
+.svg-icon.careers:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -88.3px 0;
+  background-position: -88.3px -87px;
+}
+.svg-icon.workshop:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -176.6px 0;
 }
-.svg-icon.majors {
+.svg-icon.workshop:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -176.6px 0;
+  background-position: -176.6px -87px;
+}
+.svg-icon.majors:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -264.9px 0;
 }
-.svg-icon.plans {
+.svg-icon.majors:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -264.9px 0;
+  background-position: -264.9px -87px;
+}
+.svg-icon.plans:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -353.2px 0;
 }
-.svg-icon.courses {
+.svg-icon.plans:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -353.2px 0;
+  background-position: -353.2px -87px;
+}
+.svg-icon.courses:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -441.5px 0;
 }
-.svg-icon.register {
+.svg-icon.courses:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -441.5px 0;
+  background-position: -441.5px -87px;
+}
+.svg-icon.register:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -529.8px 0;
 }
-.svg-icon.career {
+.svg-icon.register:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -529.8px 0;
+  background-position: -529.8px -87px;
+}
+.svg-icon.career:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -618.1px 0;
 }
-.svg-icon.tutor {
+.svg-icon.career:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -618.1px 0;
+  background-position: -618.1px -87px;
+}
+.svg-icon.tutor:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -706.4px 0;
+}
+.svg-icon.tutor:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -706.4px 0;
+  background-position: -794.7px -87px;
 }
 .highlighted-links-variant {
   border-color: #056cb6;
@@ -8738,59 +9494,122 @@ nav#inner-nav > a:hover {
   margin-right: 15px !important;
 }
 
-.svg-icon.assessment {
+.svg-icon.assessment:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: 0 0;
 }
-.svg-icon.careers {
+.svg-icon.assessment:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: 0 0;
+  background-position: -71px -53px;
+}
+.svg-icon.careers:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -88.3px 0;
 }
-.svg-icon.workshop {
+.svg-icon.careers:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -88.3px 0;
+  background-position: -88.3px -87px;
+}
+.svg-icon.workshop:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -176.6px 0;
 }
-.svg-icon.majors {
+.svg-icon.workshop:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -176.6px 0;
+  background-position: -176.6px -87px;
+}
+.svg-icon.majors:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -264.9px 0;
 }
-.svg-icon.plans {
+.svg-icon.majors:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -264.9px 0;
+  background-position: -264.9px -87px;
+}
+.svg-icon.plans:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -353.2px 0;
 }
-.svg-icon.courses {
+.svg-icon.plans:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -353.2px 0;
+  background-position: -353.2px -87px;
+}
+.svg-icon.courses:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -441.5px 0;
 }
-.svg-icon.register {
+.svg-icon.courses:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -441.5px 0;
+  background-position: -441.5px -87px;
+}
+.svg-icon.register:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -529.8px 0;
 }
-.svg-icon.career {
+.svg-icon.register:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -529.8px 0;
+  background-position: -529.8px -87px;
+}
+.svg-icon.career:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -618.1px 0;
 }
-.svg-icon.tutor {
+.svg-icon.career:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -618.1px 0;
+  background-position: -618.1px -87px;
+}
+.svg-icon.tutor:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -706.4px 0;
+}
+.svg-icon.tutor:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -706.4px 0;
+  background-position: -794.7px -87px;
 }
 .institutional-message .panel-heading {
   font-size: 0.8675em;
@@ -8808,59 +9627,122 @@ nav#inner-nav > a:hover {
   text-align: center;
 }
 
-.svg-icon.assessment {
+.svg-icon.assessment:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: 0 0;
 }
-.svg-icon.careers {
+.svg-icon.assessment:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: 0 0;
+  background-position: -71px -53px;
+}
+.svg-icon.careers:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -88.3px 0;
 }
-.svg-icon.workshop {
+.svg-icon.careers:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -88.3px 0;
+  background-position: -88.3px -87px;
+}
+.svg-icon.workshop:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -176.6px 0;
 }
-.svg-icon.majors {
+.svg-icon.workshop:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -176.6px 0;
+  background-position: -176.6px -87px;
+}
+.svg-icon.majors:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -264.9px 0;
 }
-.svg-icon.plans {
+.svg-icon.majors:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -264.9px 0;
+  background-position: -264.9px -87px;
+}
+.svg-icon.plans:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -353.2px 0;
 }
-.svg-icon.courses {
+.svg-icon.plans:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -353.2px 0;
+  background-position: -353.2px -87px;
+}
+.svg-icon.courses:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -441.5px 0;
 }
-.svg-icon.register {
+.svg-icon.courses:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -441.5px 0;
+  background-position: -441.5px -87px;
+}
+.svg-icon.register:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -529.8px 0;
 }
-.svg-icon.career {
+.svg-icon.register:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -529.8px 0;
+  background-position: -529.8px -87px;
+}
+.svg-icon.career:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -618.1px 0;
 }
-.svg-icon.tutor {
+.svg-icon.career:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -618.1px 0;
+  background-position: -618.1px -87px;
+}
+.svg-icon.tutor:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -706.4px 0;
+}
+.svg-icon.tutor:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -706.4px 0;
+  background-position: -794.7px -87px;
 }
 .clearfix:before,
 .clearfix:after {
@@ -9500,59 +10382,122 @@ h2.eventDateHeader {
   height: 30px;
 }
 
-.svg-icon.assessment {
+.svg-icon.assessment:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: 0 0;
 }
-.svg-icon.careers {
+.svg-icon.assessment:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: 0 0;
+  background-position: -71px -53px;
+}
+.svg-icon.careers:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -88.3px 0;
 }
-.svg-icon.workshop {
+.svg-icon.careers:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -88.3px 0;
+  background-position: -88.3px -87px;
+}
+.svg-icon.workshop:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -176.6px 0;
 }
-.svg-icon.majors {
+.svg-icon.workshop:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -176.6px 0;
+  background-position: -176.6px -87px;
+}
+.svg-icon.majors:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -264.9px 0;
 }
-.svg-icon.plans {
+.svg-icon.majors:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -264.9px 0;
+  background-position: -264.9px -87px;
+}
+.svg-icon.plans:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -353.2px 0;
 }
-.svg-icon.courses {
+.svg-icon.plans:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -353.2px 0;
+  background-position: -353.2px -87px;
+}
+.svg-icon.courses:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -441.5px 0;
 }
-.svg-icon.register {
+.svg-icon.courses:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -441.5px 0;
+  background-position: -441.5px -87px;
+}
+.svg-icon.register:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -529.8px 0;
 }
-.svg-icon.career {
+.svg-icon.register:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -529.8px 0;
+  background-position: -529.8px -87px;
+}
+.svg-icon.career:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -618.1px 0;
 }
-.svg-icon.tutor {
+.svg-icon.career:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -618.1px 0;
+  background-position: -618.1px -87px;
+}
+.svg-icon.tutor:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -706.4px 0;
+}
+.svg-icon.tutor:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -706.4px 0;
+  background-position: -794.7px -87px;
 }
 .quick-guide {
   -webkit-transition: right 0.25s cubic-bezier(0.875, 0, 0.33, 1) 0, content;
@@ -9725,59 +10670,122 @@ h2.eventDateHeader {
   text-decoration: none;
 }
 
-.svg-icon.assessment {
+.svg-icon.assessment:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: 0 0;
 }
-.svg-icon.careers {
+.svg-icon.assessment:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: 0 0;
+  background-position: -71px -53px;
+}
+.svg-icon.careers:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -88.3px 0;
 }
-.svg-icon.workshop {
+.svg-icon.careers:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -88.3px 0;
+  background-position: -88.3px -87px;
+}
+.svg-icon.workshop:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -176.6px 0;
 }
-.svg-icon.majors {
+.svg-icon.workshop:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -176.6px 0;
+  background-position: -176.6px -87px;
+}
+.svg-icon.majors:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -264.9px 0;
 }
-.svg-icon.plans {
+.svg-icon.majors:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -264.9px 0;
+  background-position: -264.9px -87px;
+}
+.svg-icon.plans:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -353.2px 0;
 }
-.svg-icon.courses {
+.svg-icon.plans:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -353.2px 0;
+  background-position: -353.2px -87px;
+}
+.svg-icon.courses:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -441.5px 0;
 }
-.svg-icon.register {
+.svg-icon.courses:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -441.5px 0;
+  background-position: -441.5px -87px;
+}
+.svg-icon.register:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -529.8px 0;
 }
-.svg-icon.career {
+.svg-icon.register:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -529.8px 0;
+  background-position: -529.8px -87px;
+}
+.svg-icon.career:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -618.1px 0;
 }
-.svg-icon.tutor {
+.svg-icon.career:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -618.1px 0;
+  background-position: -618.1px -87px;
+}
+.svg-icon.tutor:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -706.4px 0;
+}
+.svg-icon.tutor:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -706.4px 0;
+  background-position: -794.7px -87px;
 }
 .article-list {
   margin-bottom: 40px;
@@ -9791,117 +10799,243 @@ h2.eventDateHeader {
   border-bottom: 1px solid #ccc;
 }
 
-.svg-icon.assessment {
+.svg-icon.assessment:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: 0 0;
 }
-.svg-icon.careers {
+.svg-icon.assessment:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: 0 0;
+  background-position: -71px -53px;
+}
+.svg-icon.careers:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -88.3px 0;
 }
-.svg-icon.workshop {
+.svg-icon.careers:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -88.3px 0;
+  background-position: -88.3px -87px;
+}
+.svg-icon.workshop:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -176.6px 0;
 }
-.svg-icon.majors {
+.svg-icon.workshop:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -176.6px 0;
+  background-position: -176.6px -87px;
+}
+.svg-icon.majors:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -264.9px 0;
 }
-.svg-icon.plans {
+.svg-icon.majors:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -264.9px 0;
+  background-position: -264.9px -87px;
+}
+.svg-icon.plans:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -353.2px 0;
 }
-.svg-icon.courses {
+.svg-icon.plans:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -353.2px 0;
+  background-position: -353.2px -87px;
+}
+.svg-icon.courses:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -441.5px 0;
 }
-.svg-icon.register {
+.svg-icon.courses:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -441.5px 0;
+  background-position: -441.5px -87px;
+}
+.svg-icon.register:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -529.8px 0;
 }
-.svg-icon.career {
+.svg-icon.register:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -529.8px 0;
+  background-position: -529.8px -87px;
+}
+.svg-icon.career:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -618.1px 0;
 }
-.svg-icon.tutor {
+.svg-icon.career:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -618.1px 0;
+  background-position: -618.1px -87px;
+}
+.svg-icon.tutor:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -706.4px 0;
+}
+.svg-icon.tutor:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -706.4px 0;
+  background-position: -794.7px -87px;
 }
 .quick-links {
   margin-top: 40px;
 }
 
-.svg-icon.assessment {
+.svg-icon.assessment:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: 0 0;
 }
-.svg-icon.careers {
+.svg-icon.assessment:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: 0 0;
+  background-position: -71px -53px;
+}
+.svg-icon.careers:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -88.3px 0;
 }
-.svg-icon.workshop {
+.svg-icon.careers:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -88.3px 0;
+  background-position: -88.3px -87px;
+}
+.svg-icon.workshop:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -176.6px 0;
 }
-.svg-icon.majors {
+.svg-icon.workshop:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -176.6px 0;
+  background-position: -176.6px -87px;
+}
+.svg-icon.majors:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -264.9px 0;
 }
-.svg-icon.plans {
+.svg-icon.majors:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -264.9px 0;
+  background-position: -264.9px -87px;
+}
+.svg-icon.plans:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -353.2px 0;
 }
-.svg-icon.courses {
+.svg-icon.plans:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -353.2px 0;
+  background-position: -353.2px -87px;
+}
+.svg-icon.courses:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -441.5px 0;
 }
-.svg-icon.register {
+.svg-icon.courses:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -441.5px 0;
+  background-position: -441.5px -87px;
+}
+.svg-icon.register:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -529.8px 0;
 }
-.svg-icon.career {
+.svg-icon.register:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -529.8px 0;
+  background-position: -529.8px -87px;
+}
+.svg-icon.career:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -618.1px 0;
 }
-.svg-icon.tutor {
+.svg-icon.career:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -618.1px 0;
+  background-position: -618.1px -87px;
+}
+.svg-icon.tutor:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -706.4px 0;
+}
+.svg-icon.tutor:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -706.4px 0;
+  background-position: -794.7px -87px;
 }
 .page-header {
   margin: 30px 0 30px;
@@ -9917,59 +11051,122 @@ h2.eventDateHeader {
   margin-bottom: 0.5em;
 }
 
-.svg-icon.assessment {
+.svg-icon.assessment:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: 0 0;
 }
-.svg-icon.careers {
+.svg-icon.assessment:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: 0 0;
+  background-position: -71px -53px;
+}
+.svg-icon.careers:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -88.3px 0;
 }
-.svg-icon.workshop {
+.svg-icon.careers:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -88.3px 0;
+  background-position: -88.3px -87px;
+}
+.svg-icon.workshop:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -176.6px 0;
 }
-.svg-icon.majors {
+.svg-icon.workshop:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -176.6px 0;
+  background-position: -176.6px -87px;
+}
+.svg-icon.majors:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -264.9px 0;
 }
-.svg-icon.plans {
+.svg-icon.majors:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -264.9px 0;
+  background-position: -264.9px -87px;
+}
+.svg-icon.plans:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -353.2px 0;
 }
-.svg-icon.courses {
+.svg-icon.plans:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -353.2px 0;
+  background-position: -353.2px -87px;
+}
+.svg-icon.courses:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -441.5px 0;
 }
-.svg-icon.register {
+.svg-icon.courses:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -441.5px 0;
+  background-position: -441.5px -87px;
+}
+.svg-icon.register:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -529.8px 0;
 }
-.svg-icon.career {
+.svg-icon.register:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -529.8px 0;
+  background-position: -529.8px -87px;
+}
+.svg-icon.career:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -618.1px 0;
 }
-.svg-icon.tutor {
+.svg-icon.career:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -618.1px 0;
+  background-position: -618.1px -87px;
+}
+.svg-icon.tutor:before {
   width: 88.3px;
   height: 88.3px;
   background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   background-position: -706.4px 0;
+}
+.svg-icon.tutor:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -706.4px 0;
+  background-position: -794.7px -87px;
 }
 #carousel-top {
   margin-bottom: 40px;
