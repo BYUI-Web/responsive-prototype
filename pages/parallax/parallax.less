@@ -10,7 +10,11 @@
 .parallax            {
   *                  { .trans; }
   h1,h2,h3,h4        { font-family:@font-family-sans-serif; }
-  .step              { background:url(http://www.fillmurray.com/g/1000/706) no-repeat center 100%; background-size:100% auto; padding-top: 150px; font-family:@font-family-sans-serif; .trans(all, 0.5s, cubic-bezier(0.875, 0.000, 0.330, 1), 0, background-position 1ms);
+  .step              { background:url(http://www.fillmurray.com/g/1000/800) no-repeat center 100%; background-size:100% auto; padding-top: 150px; font-family:@font-family-sans-serif; .trans(all, 0.5s, cubic-bezier(0.875, 0.000, 0.330, 1), 0, background-position 1ms);
+    .headline        { max-width:565px; margin:0 auto; color:black; text-align:center; margin-bottom:130px;
+      h1             { font-weight:bold; }
+      p              { font-size:16px; }
+    }
     .step-box        { width:@step-box-width; margin:0 auto; min-height:210px; color:white; padding:23px 0 90px 60px;
       &.navy         { background:fade(#0A6CB5, 90%); }
       &.green        { background:fade(#62BC4B, 90%); }
@@ -40,24 +44,36 @@
 
   // Media Queries
   @media(max-width: @screen-xs-max)   {
-    .step                             { padding-top: 0;
-      .step-box                       { width:100%; padding:11px 57px 49px 60px; }
+    .step                             { padding-top: 0; background-image:none !important;
+      .headline                       { margin-bottom:0; padding: 0px 30px 8px;
+        h1                            { font-size: 25px; }
+        p                             { font-size: 13px; }
+      }
+      .step-box                       { width:100%; padding:11px 57px 49px 60px;
+        h1                            { font-size: 26px; margin: 0; line-height: 1.3; }
+        p                             { margin:13px 0 0 0; }
+      }
     }
     .step-details                     {
       -webkit-box-shadow: none;
       -moz-box-shadow: none;
       box-shadow: none;
       .content                        { width: 100%;
-        .sub-item                     { }
+        .sub-item                     { margin-bottom: 18px;
+          .svg-icon                   { .scale(0.7); }
+        }
+        h3                            { margin-top: -12px; }
         ul                            { margin-top:0;
-          li                          {  }
+          li                          { padding: 2px 0; }
         }
       }
     }
   }
   @media(min-width: @screen-sm-min) and (max-width: @screen-sm-max)     {
     .step                             { padding-top: 80px;
-      .step-box                       { width:@screen-sm-min; padding:11px 57px 49px 60px; }
+      .headline                       { margin-bottom:0; }
+      .step-box                       { width:@screen-sm-min; padding:11px 57px 49px 60px;
+      }
     }
     .step-details                     {
       .content                        { width:100%;

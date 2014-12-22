@@ -65,7 +65,7 @@
   font-family: "BYUI Open Sans", "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Verdana, sans-serif;
 }
 .parallax .step {
-  background: url(http://www.fillmurray.com/g/1000/706) no-repeat center 100%;
+  background: url(http://www.fillmurray.com/g/1000/800) no-repeat center 100%;
   background-size: 100% auto;
   padding-top: 150px;
   font-family: "BYUI Open Sans", "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Verdana, sans-serif;
@@ -73,6 +73,19 @@
   -moz-transition: all 0.5s cubic-bezier(0.875, 0, 0.33, 1) 0, background-position 1ms;
   -o-transition: all 0.5s cubic-bezier(0.875, 0, 0.33, 1) 0, background-position 1ms;
   transition: all 0.5s cubic-bezier(0.875, 0, 0.33, 1) 0, background-position 1ms;
+}
+.parallax .step .headline {
+  max-width: 565px;
+  margin: 0 auto;
+  color: black;
+  text-align: center;
+  margin-bottom: 130px;
+}
+.parallax .step .headline h1 {
+  font-weight: bold;
+}
+.parallax .step .headline p {
+  font-size: 16px;
 }
 .parallax .step .step-box {
   width: 750px;
@@ -162,10 +175,29 @@
 @media (max-width: 767px) {
   .parallax .step {
     padding-top: 0;
+    background-image: none !important;
+  }
+  .parallax .step .headline {
+    margin-bottom: 0;
+    padding: 0px 30px 8px;
+  }
+  .parallax .step .headline h1 {
+    font-size: 25px;
+  }
+  .parallax .step .headline p {
+    font-size: 13px;
   }
   .parallax .step .step-box {
     width: 100%;
     padding: 11px 57px 49px 60px;
+  }
+  .parallax .step .step-box h1 {
+    font-size: 26px;
+    margin: 0;
+    line-height: 1.3;
+  }
+  .parallax .step .step-box p {
+    margin: 13px 0 0 0;
   }
   .parallax .step-details {
     -webkit-box-shadow: none;
@@ -175,13 +207,31 @@
   .parallax .step-details .content {
     width: 100%;
   }
+  .parallax .step-details .content .sub-item {
+    margin-bottom: 18px;
+  }
+  .parallax .step-details .content .sub-item .svg-icon {
+    -ms-transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+    -o-transform: scale(0.7);
+    transform: scale(0.7);
+  }
+  .parallax .step-details .content h3 {
+    margin-top: -12px;
+  }
   .parallax .step-details .content ul {
     margin-top: 0;
+  }
+  .parallax .step-details .content ul li {
+    padding: 2px 0;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .parallax .step {
     padding-top: 80px;
+  }
+  .parallax .step .headline {
+    margin-bottom: 0;
   }
   .parallax .step .step-box {
     width: 768px;

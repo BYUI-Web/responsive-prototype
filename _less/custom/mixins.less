@@ -39,6 +39,11 @@
   transition:         @property @duration @timing @delay, @additionalItems;
 }
 
+.scale(@scale:1){
+  -webkit-transform: scale(@scale);
+  -o-transform:      scale(@scale);
+  transform:         scale(@scale); 
+}
 .drop-shadow(@xoffset:0; @yoffset:2px; @blur-radius:8px; @spread-radius:1px; @color:rgba(0,0,0,0.25);){
   -webkit-box-shadow: @xoffset @yoffset @blur-radius @spread-radius @color;
   -moz-box-shadow:    @xoffset @yoffset @blur-radius @spread-radius @color;
