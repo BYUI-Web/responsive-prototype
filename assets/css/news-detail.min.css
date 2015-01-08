@@ -1,2 +1,146 @@
-/* DO NO EDIT THIS FILE.  This file is built from a source file.  Edit that file instead. */
-.article-list .media{padding-bottom:20px;margin-bottom:20px}.page-header h1 small{font-size:16px}.recent-news .media-heading{font-size:12px}.article-figure{border:1px solid #ccc;padding:.5em}.article-figure img{display:block;margin:0 auto .5em}.article-figure figcaption{color:#777}.figure-left{margin-right:1em;margin-bottom:1em}.figure-right{margin-left:1em;margin-bottom:1em}
+.svg-icon.assessment:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: 0 0;
+}
+.svg-icon.assessment:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: 0 0;
+  background-position: -71px -53px;
+}
+.svg-icon.careers:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -88.3px 0;
+}
+.svg-icon.careers:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -88.3px 0;
+  background-position: -88.3px -87px;
+}
+.svg-icon.workshop:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -176.6px 0;
+}
+.svg-icon.workshop:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -176.6px 0;
+  background-position: -176.6px -87px;
+}
+.svg-icon.majors:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -264.9px 0;
+}
+.svg-icon.majors:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -264.9px 0;
+  background-position: -264.9px -87px;
+}
+.svg-icon.plans:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -353.2px 0;
+}
+.svg-icon.plans:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -353.2px 0;
+  background-position: -353.2px -87px;
+}
+.svg-icon.courses:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -441.5px 0;
+}
+.svg-icon.courses:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -441.5px 0;
+  background-position: -441.5px -87px;
+}
+.svg-icon.register:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -529.8px 0;
+}
+.svg-icon.register:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -529.8px 0;
+  background-position: -529.8px -87px;
+}
+.svg-icon.career:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -618.1px 0;
+}
+.svg-icon.career:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -618.1px 0;
+  background-position: -618.1px -87px;
+}
+.svg-icon.tutor:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -706.4px 0;
+}
+.svg-icon.tutor:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -706.4px 0;
+  background-position: -794.7px -87px;
+}
+.article-list .media {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.page-header h1 small {
+  font-size: 16px;
+}
+.recent-news .media-heading {
+  font-size: 12px;
+}
+.article-figure {
+  border: 1px solid #ccc;
+  padding: .5em;
+}
+.article-figure img {
+  display: block;
+  margin: 0 auto .5em;
+}
+.article-figure figcaption {
+  color: #777;
+}
+.figure-left {
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+.figure-right {
+  margin-left: 1em;
+  margin-bottom: 1em;
+}

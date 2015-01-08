@@ -1,0 +1,53 @@
+---
+layout: FullWidthLayout
+---
+
+<div class="white-nav" >
+  <div class="sub-container">
+    {% include breadcrumb/breadcrumb.html %}
+    {% include nav/nav.html %}
+  </div>
+</div>
+
+<div class="sub-container">
+  <section class="adc adc-category">
+
+
+    <!--main page content-->
+    <div class="row">
+      <section class="col-sm-8 pull-left">
+        <p>Cras tincidunt risus, at pellentesque urna laoreet efficitur. Vestibulum elit est, feugiat in ipsum ut, tristique hendrerit libero. Nulla faucibus iaculis neque, non tempor leo auctor nec. Suspendisse at magna vitae orci pretium tristique. Etiam nec suscipit diam. Praesent tempus pulvinar tortor id scele. Phasellus egeis eros. Fusce tempor tincidunt.</p>
+
+        <h1>Career Preparation</h1>
+        <ul>
+          <li><a href="#">Resumes</a></li>
+          <li><a href="#">Professional Letters</a></li>
+          <li><a href="#">Interview Skills</a></li>
+          <li><a href="#">Workshops</a></li>
+          <li><a href="#">Resources</a></li>
+        </ul>
+
+        <h1>Job Search</h1>
+        <ul>
+          <li><a href="#">Career Navigator</a></li>
+          <li><a href="#">Help Wanted Postings</a></li>
+          <li><a href="#">Job Search Tips</a></li>
+          <li><a href="#">Job Search Tools</a></li>
+        </ul>
+      </section>
+
+      <!--side content-->
+      <aside class="right-column col-xs-12 col-sm-4 pull-right">
+        <div class="row">
+          <div class="col-all-12 col-xs-6 col-sm-12 pull-left">
+            {% include events/events.html %}
+          </div>
+          <div class="col-all-12 col-xs-6 col-sm-12 pull-left">
+            {% include institutional-message/institutional-message.html %}
+          </div>
+        </div>
+      </aside>
+    </div>
+  </section>
+  <link href="{{ site.baseurl }}/assets/css/adc-category.min.css" rel="stylesheet" />
+</div>

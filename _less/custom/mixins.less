@@ -31,3 +31,87 @@
   }
   .col(1); // kickstart it
 }
+
+.trans(@property:all; @duration:0.5s; @timing:cubic-bezier(0.875, 0, 0.330, 1); @delay:0; @additionalItems:content){
+  -webkit-transition: @property @duration @timing @delay, @additionalItems;
+  -moz-transition:    @property @duration @timing @delay, @additionalItems;
+  -o-transition:      @property @duration @timing @delay, @additionalItems;
+  transition:         @property @duration @timing @delay, @additionalItems;
+}
+
+.scale(@scale:1){
+  -webkit-transform: scale(@scale);
+  -o-transform:      scale(@scale);
+  transform:         scale(@scale);
+}
+.drop-shadow(@xoffset:0; @yoffset:2px; @blur-radius:8px; @spread-radius:1px; @color:rgba(0,0,0,0.25);){
+  -webkit-box-shadow: @xoffset @yoffset @blur-radius @spread-radius @color;
+  -moz-box-shadow:    @xoffset @yoffset @blur-radius @spread-radius @color;
+  box-shadow:         @xoffset @yoffset @blur-radius @spread-radius @color;
+}
+
+.sprite(@id; @isHover:false)  { background:url('/assets/images/sprite.svg') no-repeat 0px 0px;
+  & when  (@id="circle-plus") {
+    width:33px; height:33px; background-position:-1px -1px;
+      & when (@isHover) { background-position:-1px -34px; }
+  }
+  & when  (@id="circle-minus") {
+    width:33px; height:33px; background-position:-34px -1px;
+      & when (@isHover) { background-position:-34px -34px;}
+  }
+  & when  (@id="circle-plus-small") {
+    width:19px; height:19px; background-position:-68px -2px;
+      & when (@isHover) { background-position:-68px -21px; }
+  }
+  & when  (@id="circle-minus-small") {
+    width:19px; height:19px; background-position:-87px -2px;
+      & when (@isHover) { background-position:-87px -21px; }
+  }
+  & when  (@id="close-btn") {
+    width:13px; height:12px; background-position:-71px -40px;
+      & when (@isHover) { background-position:-71px -53px;}
+  }
+}
+
+@sprite-icon-width:88.3px;
+.sprite-icon(@id; @isHover:false)  { width:@sprite-icon-width; height:@sprite-icon-width; background:url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  & when  (@id="assessment") { background-position:0 0;
+    & when (@isHover)        { background-position:-71px -53px;}
+  }
+  & when  (@id="careers")    { background-position:@sprite-icon-width*-1 0;
+    & when (@isHover)        { background-position:@sprite-icon-width*-1 -87px; }
+  }
+  & when  (@id="workshop")   { background-position:@sprite-icon-width*-2 0;
+    & when (@isHover)        { background-position:@sprite-icon-width*-2 -87px; }
+  }
+  & when  (@id="majors")     { background-position:@sprite-icon-width*-3 0;
+    & when (@isHover)        { background-position:@sprite-icon-width*-3 -87px; }
+  }
+  & when  (@id="plans")      { background-position:@sprite-icon-width*-4 0;
+    & when (@isHover)        { background-position:@sprite-icon-width*-4 -87px; }
+  }
+  & when  (@id="courses")    { background-position:@sprite-icon-width*-5 0;
+    & when (@isHover)        { background-position:@sprite-icon-width*-5 -87px; }
+  }
+  & when  (@id="register")   { background-position:@sprite-icon-width*-6 0;
+    & when (@isHover)        { background-position:@sprite-icon-width*-6 -87px; }
+  }
+  & when  (@id="career")     { background-position:@sprite-icon-width*-7 0;
+    & when (@isHover)        { background-position:@sprite-icon-width*-7 -87px; }
+  }
+  & when  (@id="tutor")      { background-position:@sprite-icon-width*-8 0;
+    & when (@isHover)        { background-position:@sprite-icon-width*-9 -87px; }
+  }
+}
+
+.svg-icon              {
+  &.assessment  { &:before{.sprite-icon("assessment"); }  &:hover:before{ .sprite-icon("assessment", true) };  }
+  &.careers     { &:before{.sprite-icon("careers");    }  &:hover:before{ .sprite-icon("careers", true)    };  }
+  &.workshop    { &:before{.sprite-icon("workshop");   }  &:hover:before{ .sprite-icon("workshop", true)   };  }
+  &.majors      { &:before{.sprite-icon("majors");     }  &:hover:before{ .sprite-icon("majors", true)     };  }
+  &.plans       { &:before{.sprite-icon("plans");      }  &:hover:before{ .sprite-icon("plans", true)      };  }
+  &.courses     { &:before{.sprite-icon("courses");    }  &:hover:before{ .sprite-icon("courses", true)    };  }
+  &.register    { &:before{.sprite-icon("register");   }  &:hover:before{ .sprite-icon("register", true)   };  }
+  &.career      { &:before{.sprite-icon("career");     }  &:hover:before{ .sprite-icon("career", true)     };  }
+  &.tutor       { &:before{.sprite-icon("tutor");      }  &:hover:before{ .sprite-icon("tutor", true)      };  }
+}
