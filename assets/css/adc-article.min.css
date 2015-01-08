@@ -265,3 +265,21 @@ body {
 .adc-article .article li {
   margin: 4px 0;
 }
+.adc-article .article .blue-bullets {
+  background: #E7F5F8;
+  width: 565px;
+  padding: 1px 17px;
+  margin-bottom: 2px;
+}
+.adc-article .article .blue-bullets ul {
+  padding: 0;
+}
+.adc-article .article .blue-bullets ul li {
+  margin: 5px 0;
+  list-style: none;
+}
+.adc-article .article .blue-bullets ul li:before {
+  content: "•";
+  vertical-align: middle;
+  margin-right: 5px;
+}
