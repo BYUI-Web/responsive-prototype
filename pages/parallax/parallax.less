@@ -1,0 +1,107 @@
+// Core variables and mixins
+@import "../../_less/bootstrap/variables.less";
+@import "../../_less/custom/variables.less"; // Custom Override
+@import "../../_less/bootstrap/mixins.less";
+@import "../../_less/custom/mixins.less"; // Custom Override
+
+@step-box-width:750px;
+@light-blue: #55C2EF;
+
+.parallax            {
+  *                  { .trans; }
+  h1,h2,h3,h4        { font-family:@font-family-sans-serif; }
+  .step              { background:url(http://www.fillmurray.com/g/1000/800) no-repeat center 100%; background-size:100% auto; padding-top: 150px; font-family:@font-family-sans-serif; .trans(all, 0.5s, cubic-bezier(0.875, 0.000, 0.330, 1), 0, background-position 1ms);
+    .headline        { max-width:565px; margin:0 auto; color:black; text-align:center; margin-bottom:130px;
+      h1             { font-weight:bold; }
+      p              { font-size:16px; }
+    }
+    .step-box        { width:@step-box-width; margin:0 auto; min-height:210px; color:white; padding:23px 0 90px 60px;
+      &.navy         { background:fade(#0A6CB5, 90%); }
+      &.green        { background:fade(#62BC4B, 90%); }
+      &.orange       { background:fade(#F58300, 90%); }
+      &.red          { background:fade(#E42226, 90%); }
+      &.light-blue   { background:fade(#55C2EF, 90%); }
+      &.purple       { background:fade(#A5216F, 90%); }
+      h1             { font-weight:bold; }
+      h3             { font-size:18px; border-bottom:dotted 1px white; padding-bottom: 10px;}
+      p              { margin:34px 0 0 0; max-width: 495px; }
+    }
+  }
+
+  .step-details      { .drop-shadow(0, 2px); font-family:@font-family-sans-serif; background:white; margin:-20px 0 -10px; z-index:1000; position:relative;
+    .content         { width:960px; margin:0 auto; text-align:center; padding:20px 0 100px;
+      .sub-item      { border-right:dotted 1px #c4c4c4;
+        .svg-icon    { margin:0 auto; .trans(none);
+          &:before   { display:block; content:""; margin:0 auto; }
+          &:hover    { text-decoration:none;
+            h3       { color:#0080B5;  }
+          }
+          h3         { color:@light-blue; font-size:17px; margin-top: 3px; text-decoration:none; }
+        }
+        &:last-child { border-right:none; }
+      }
+      ul             { list-style-type: none; padding:0; margin:0; font-size:13px; margin-top: 38px;
+        li           { padding:3px 0;
+          a          { color:#ADADAD; }
+        }
+        &:before     { content:"LEARN MORE"; font-size:10px; display:block; font-weight:bold; margin-bottom:9px; color:#ADADAD; }
+      }
+    }
+  }
+
+  // Media Queries
+  @media(max-width: @screen-xs-max)   {
+    .step                             { padding-top: 0; background-image:none !important;
+      .headline                       { margin-bottom:0; padding: 0px 30px 8px;
+        h1                            { font-size: 25px; }
+        p                             { font-size: 13px; }
+      }
+      .step-box                       { width:100%; padding:11px 57px 49px 60px;
+        h1                            { font-size: 26px; margin: 0; line-height: 1.3; }
+        p                             { margin:13px 0 0 0; }
+      }
+    }
+    .step-details                     {
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+      .content                        { width: 100%;
+        .sub-item                     { margin-bottom: 18px;
+          .svg-icon                   { .scale(0.7); }
+        }
+        h3                            { margin-top: -12px; }
+        ul                            { margin-top:0;
+          li                          { padding: 2px 0; }
+        }
+      }
+    }
+  }
+  @media(min-width: @screen-sm-min) and (max-width: @screen-sm-max)     {
+    .step                             { padding-top: 80px;
+      .headline                       { margin-bottom:0; }
+      .step-box                       { width:@screen-sm-min; padding:11px 57px 49px 60px;
+      }
+    }
+    .step-details                     {
+      .content                        { width:100%;
+        .sub-item                     { }
+        ul                            { margin-top:20px;
+          li                          {  }
+        }
+      }
+    }
+  }
+  @media(min-width: @screen-md-min) and (max-width: @screen-md-max)     {
+    .step                             {
+      .step-box                       { }
+    }
+    .step-details                     {
+      .content                        { width: 780px;
+        .sub-item                     { }
+        ul                            {
+          li                          {  }
+        }
+      }
+    }
+  }
+}

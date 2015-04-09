@@ -1,0 +1,20 @@
+@import "adc.less";
+
+.adc-article       {
+  .article         { padding:10px 80px 35px 40px; background:white; border-radius:15px;
+    h2             { font-size:18px; color:@p-gray; }
+    h4             { font-size:14px; font-weight:bold; color:@p-gray; }
+    .indented      { padding-left:20px; }
+    a              { text-decoration:underline; }
+    p              { line-height:23px; }
+    ol             { padding:0 0 0 20px; }
+    li             { margin:4px 0; }
+    .blue-bullets  { background:#E7F5F8; width:565px; padding: 1px 17px; margin-bottom:2px;
+      ul           { padding:0;
+        li         { margin:5px 0; list-style: none;
+          &:before { content:"•";  vertical-align:middle; margin-right: 5px; }
+        }
+      }
+    }
+  }
+}

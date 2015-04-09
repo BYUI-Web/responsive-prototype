@@ -1,0 +1,38 @@
+// Core variables and mixins
+@import "../../_less/bootstrap/variables.less";
+@import "../../_less/custom/variables.less"; // Custom Override
+@import "../../_less/bootstrap/mixins.less";
+@import "../../_less/custom/mixins.less"; // Custom Override
+
+.audience-heading {
+	background: @brand-primary;
+	&.list-group-item {
+		color: #fff;
+		&:hover, &:active {
+			color: @brand-primary;
+		}
+	}
+}
+.audience-news {
+	.list-group-item {
+		margin-top: 0;
+	}
+}
+.mybyui-nav {
+	margin-bottom: 20px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #eee;
+}
+.mybyui-btn {
+	@media(max-width: @screen-sm-min) {
+		padding-bottom: 15px;
+	}
+}
+.mybyui-btn-row {
+	padding-bottom: 15px;
+}
+.audience-links-btn {
+	position: absolute;
+	top: 10px;
+	right: 30px;
+}
