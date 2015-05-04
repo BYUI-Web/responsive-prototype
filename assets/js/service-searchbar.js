@@ -8,6 +8,8 @@ serviceSearchbar.controller('ServicesSearchbar', ['$scope', "$filter", "dataServ
         $scope.servicesPerPage = 3;
         $scope.currentPage = 1;
         $scope.query = "";
+        $scope.show_more = false;
+        $scope.show_more_query = "";
 
          delayLoad = function() {
             dataService.getData(function (data) {
@@ -48,10 +50,19 @@ serviceSearchbar.filter('startFrom', function () {
 });
 
 serviceSearchbar.filter('hasValue', function() {
-    return function (input) {
+    return function (input, $scope) {
         if (angular.element('#servicesQuery').val()) {
+            if (input.length > $scope.servicesPerPage) {
+                $scope.show_more = true;
+                $scope.show_more_query = escape(angular.element('#servicesQuery').val());
+            } else {
+                $scope.show_more = false;
+                $scope.show_more_query = "";
+            }
             return input;
         }
+        $scope.show_more = false;
+        $scope.show_more_query = "";
         return [];
     }
 });
@@ -79,6 +90,7 @@ serviceSearchbar.filter("filterTags", ["$filter", function ($filter) {
             numSelectedTags;
 
         if (input === undefined) {
+            // $scope.show_more = false;
             return input;
         }
 
@@ -158,7 +170,8 @@ serviceSearchbar.factory("dataService", ["$http",
 
         service.getData = function (cb) {
             function retrieveData() {
-                $http.get('/assets/data/services.json').success(function (data) {
+                $http.get('/data/services.json').success(function (data) {
+                    console.log(data);
                     data.tags = extractAllTags(data.services);
                     data.departments = extractAllDepartments(data.services);
                     window.localStorage.setItem('services', JSON.stringify(data));
