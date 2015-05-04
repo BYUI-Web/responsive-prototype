@@ -159,7 +159,6 @@ serviceSearchbar.factory("dataService", ["$http",
         service.getData = function (cb) {
             function retrieveData() {
                 $http.get('/assets/data/services.json').success(function (data) {
-                    console.log(data);
                     data.tags = extractAllTags(data.services);
                     data.departments = extractAllDepartments(data.services);
                     window.localStorage.setItem('services', JSON.stringify(data));
