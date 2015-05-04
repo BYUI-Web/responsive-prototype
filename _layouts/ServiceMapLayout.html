@@ -1,0 +1,35 @@
+---
+layout: Layout
+showEmergency: false
+---
+
+{% if page.showEmergency == true %}
+
+{% include emergency-global/emergency-global.html %}
+
+{% endif %}
+
+{% include header/header.html %}
+
+{% if page.showEmergency == true %}
+
+   {% if page.pageName == "home" %}
+
+   {% include emergency-home/emergency-home.html %}
+
+   {% endif %}
+{% endif %}
+<!-- Some Page-Specific Loads -->
+    <script src="{{ site.baseurl }}/assets/js/angular.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/angular-route.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/service-searchbar.js"></script>
+
+<main role="main" class="site-content container">
+<!-- pause Main layout-->
+    {{ content }}
+<!-- re-begin Main layout-->
+</main>
+
+{% include footer/servicemap-footer.html %}
+<script src="{{ site.baseurl }}/assets/js/bootstrap.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/main.min.js"></script>
