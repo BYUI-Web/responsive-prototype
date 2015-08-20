@@ -2,7 +2,6 @@
 // List groups
 // --------------------------------------------------
 
-
 // Base class
 //
 // Easily usable on <ul>, <ol>, or <div>.
@@ -12,7 +11,6 @@
   margin-bottom: 20px;
   padding-left: 0; // reset padding because ul and ol
 }
-
 
 // Individual list items
 //
@@ -34,6 +32,14 @@
   &:last-child {
     margin-bottom: 0;
     .border-bottom-radius(@list-group-border-radius);
+  }
+
+  // Align badges within list items
+  > .badge {
+    float: right;
+  }
+  > .badge + .badge {
+    margin-right: 5px;
   }
 }
 
