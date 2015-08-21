@@ -28,18 +28,18 @@
 // Columns, offsets, pushes, and pulls for extra small devices like
 // smartphones.
 
-.make-grid-columns-float(all);
-.make-grid(@grid-columns, all, width);
-.make-grid(@grid-columns, all, pull);
-.make-grid(@grid-columns, all, push);
-.make-grid(@grid-columns, all, offset);
+.float-grid-columns(all);
+.loop-grid-columns(@grid-columns, all, width);
+.loop-grid-columns(@grid-columns, all, pull);
+.loop-grid-columns(@grid-columns, all, push);
+.loop-grid-columns(@grid-columns, all, offset);
 
 @media (min-width: @screen-xs-min) {
-  .make-grid-columns-float(xs);
-  .make-grid(@grid-columns, xs, width);
-  .make-grid(@grid-columns, xs, pull);
-  .make-grid(@grid-columns, xs, push);
-  .make-grid(@grid-columns, xs, offset);
+  .float-grid-columns(xs);
+  .loop-grid-columns(@grid-columns, xs, width);
+  .loop-grid-columns(@grid-columns, xs, pull);
+  .loop-grid-columns(@grid-columns, xs, push);
+  .loop-grid-columns(@grid-columns, xs, offset);
 }
 
 
@@ -49,11 +49,11 @@
 // to tablets.
 
 @media (min-width: @screen-sm-min) {
-  .make-grid-columns-float(sm);
-  .make-grid(@grid-columns, sm, width);
-  .make-grid(@grid-columns, sm, pull);
-  .make-grid(@grid-columns, sm, push);
-  .make-grid(@grid-columns, sm, offset);
+  .float-grid-columns(sm);
+  .loop-grid-columns(@grid-columns, sm, width);
+  .loop-grid-columns(@grid-columns, sm, pull);
+  .loop-grid-columns(@grid-columns, sm, push);
+  .loop-grid-columns(@grid-columns, sm, offset);
 }
 
 
@@ -62,10 +62,10 @@
 // Columns, offsets, pushes, and pulls for the desktop device range.
 
 @media (min-width: @screen-md-min) {
-  .make-grid-columns-float(md);
-  .make-grid(@grid-columns, md, width);
-  .make-grid(@grid-columns, md, pull);
-  .make-grid(@grid-columns, md, push);
-  .make-grid(@grid-columns, md, offset);
+  .float-grid-columns(md);
+  .loop-grid-columns(@grid-columns, md, width);
+  .loop-grid-columns(@grid-columns, md, pull);
+  .loop-grid-columns(@grid-columns, md, push);
+  .loop-grid-columns(@grid-columns, md, offset);
 }
 
