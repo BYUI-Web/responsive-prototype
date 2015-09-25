@@ -3,7 +3,7 @@ module.exports = function (grunt) {
     "use strict";
 
     require("load-grunt-tasks")(grunt);
-    var taskList = ["less:pages", "less:global", "autoprefixer", "jekyll:build", "uglify"],
+    var taskList = ["less:pages", "less:global","less:includes", "autoprefixer", "jekyll:build", "uglify"],
         watchList = taskList.concat([]),
         banner = "/* DO NO EDIT THIS FILE.  This file is built from a source file.  Edit that file instead. */";
 
@@ -54,6 +54,20 @@ module.exports = function (grunt) {
                         src: ["pages/**/*.less"],
                         dest: "assets/css",
                         ext: ".min.css"
+                    }
+                ]
+            },
+            includes: {
+                options: {
+                    paths: ["assets/css/includes"]
+                },
+                files: [
+                    {
+                        expand: true,
+                        flatten: true,
+                        src: ["_includes/**/*.less"],
+                        dest: "assets/css/includes",
+                        ext: ".include.css"
                     }
                 ]
             },
