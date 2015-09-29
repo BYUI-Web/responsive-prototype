@@ -115,6 +115,9 @@
   background-position: -706.4px 0;
   background-position: -794.7px -87px;
 }
+.content {
+  background-color: blue;
+}
 .content .quicklinks {
   border-top: 1px solid #eeeeee;
   margin-top: 2em;
