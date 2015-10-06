@@ -6,7 +6,7 @@
 // Headings
 // -------------------------
 
-h1, h2, h3, h4, h5, h6,
+h1, h2, h3,  h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: @headings-font-family;
   font-weight: @headings-font-weight;
@@ -20,6 +20,85 @@ h1, h2, h3, h4, h5, h6,
     color: @headings-small-color;
   }
 }
+
+h2,
+.h2{
+  font-family: @font-family-open-sans-light;
+  font-weight: @headings-font-weight;
+  line-height: @headings-line-height;
+  color: @headings-color;
+
+  small,
+  .small {
+    font-weight: normal;
+    line-height: 1;
+    color: @headings-small-color;
+  }
+}
+
+h3,
+.h3{
+  font-family: @font-family-open-sans-semibold;
+  font-weight: @headings-font-weight;
+  line-height: @headings-line-height;
+  color: @headings-color;
+  
+  small,
+  .small {
+    font-weight: normal;
+    line-height: 1;
+    color: @headings-small-color;
+  }
+}
+
+h4,
+.h4{
+  font-family: @font-family-open-sans-semibold;
+  font-weight: @headings-font-weight;
+  line-height: @headings-line-height;
+  color: @headings-color;
+  
+  small,
+  .small {
+    font-weight: normal;
+    line-height: 1;
+    color: @headings-small-color;
+  }
+}
+
+h5,
+.h5{
+  font-family: @font-family-open-sans-bold;
+  font-weight: bold;
+  line-height: @headings-line-height;
+  color: @headings-color;
+  
+  small,
+  .small {
+    font-weight: normal;
+    line-height: 1;
+    color: @headings-small-color;
+  }
+
+}
+
+h6,
+.h6{
+  font-family: @font-family-open-sans-bold;
+  font-weight: bold;
+  line-height: @headings-line-height;
+  color: @headings-color;
+  
+  small,
+  .small {
+    font-weight: normal;
+    line-height: 1;
+    color: @headings-small-color;
+  }
+
+}
+
+
 
 h1,
 h2,
@@ -69,6 +148,23 @@ p {
   @media (min-width: @screen-sm-min) {
     font-size: (@font-size-base * 1.5);
   }
+
+}
+
+.open-sentence{
+  font-family: @font-family-sans-serif;
+  color: #026BB5;
+  font-size: @font-size-open-sentence;
+  margin-bottom: @line-height-computed;
+  line-height: 1.4;
+   }
+
+.open-paragraph{
+  font-family: @font-family-sans-serif;
+  color: #026BB5;
+  font-size: @font-size-open-paragraph;
+  margin-bottom: @line-height-computed;
+  line-height: 1.4;
 }
 
 
