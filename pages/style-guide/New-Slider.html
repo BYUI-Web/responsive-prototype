@@ -86,6 +86,23 @@ pageName: New Slider
 }
 </style>
 
+<script>
+	$(window).resize(function(){
+			if ($(window).width() <= 991){
+					$("#high-link").hide();
+					$("#important-date").hide();
+					$("#high-link1").show();
+					$("#important-date1").show();
+			}
+			else{
+				$("#high-link").show();
+				$("#important-date").show();
+				$("#high-link1").hide();
+				$("#important-date1").hide();
+			}
+	});
+</script>
+
 <div class="row">
   <div class="col-md-12 col-lg-12">
       {% include top-carousel/top-carousel-variant1.html %}
@@ -138,7 +155,7 @@ pageName: New Slider
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div style="margin-bottom:35px;">
+					<div id="high-link" style="margin-bottom:35px;">
 						<ul style="list-style: none; padding-left:0;">
 							<li class="li-title uppercase"><span style="font-size:15px; color:#056cb6;">Highlighted Links</span><span style="float:right; padding-top:3px; color:#056cb6;" class="icon-link"></span></li>
 							<div class="div-around-li">
@@ -150,7 +167,7 @@ pageName: New Slider
 						</ul>
 					</div>
 
-					<div>
+					<div id="important-date">
 						<ul style="list-style: none; padding-left:0;">
 							<li class="li-title-calender uppercase"><span style="font-size:15px;">Important Dates</span><span style="float:right; padding-top:3px;" class="icon-calendar"></span></li>
 							<div class="div-around-li-calender">
@@ -200,6 +217,33 @@ pageName: New Slider
 							</div>
 						</div>
 				    <hr/>
+					</div>
+
+					<div class="col-md-4">
+						<div id="high-link1" style="margin-bottom:35px;">
+							<ul style="list-style: none; padding-left:0;">
+								<li class="li-title uppercase"><span style="font-size:15px; color:#056cb6;">Highlighted Links</span><span style="float:right; padding-top:3px; color:#056cb6;" class="icon-link"></span></li>
+								<div class="div-around-li">
+									<li class="li-bottom"><a href="#">Link to Narnia</a></li>
+									<li class="li-bottom"><a href="#">Link to Family Tree</a></li>
+									<li class="li-bottom"><a href="#">Link to Deathstar Website</a></li>
+									<li class="li-bottom"><a href="#">Link to Time Travel</a></li>
+								</div>
+							</ul>
+						</div>
+
+						<div id="important-date1">
+							<ul style="list-style: none; padding-left:0;">
+								<li class="li-title-calender uppercase"><span style="font-size:15px;">Important Dates</span><span style="float:right; padding-top:3px;" class="icon-calendar"></span></li>
+								<div class="div-around-li-calender">
+									<li class="li-bottom-calender"><a href="#" class="color-change"><span class="uppercase move-right date-time">Sep 8</span>Join Us at the Barista!</a></li>
+									<li class="li-bottom-calender"><a href="#" class="color-change"><span class="uppercase move-right date-time">Sep 9</span>Family Devotional Conference</a></li>
+									<li class="li-bottom-calender"><a href="#" class="color-change"><span class="uppercase move-right date-time">Sep 10</span>Testing Center Revolt</a></li>
+									<li class="li-bottom-calender"><a href="#" class="color-change"><span class="uppercase move-right date-time">Sep 11</span>Smith Building Birthday Bash</a></li>
+									<li class="li-bottom-calender-bot"><a href="#" class="color-change"><span class="uppercase move-right date-time">Sep 12</span>Contruction Finally Halts</a></li>
+								</div>
+							</ul>
+						</div>
 					</div>
 			</div>
   </div>
