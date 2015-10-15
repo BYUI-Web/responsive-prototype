@@ -84,24 +84,20 @@ pageName: New Slider
 	font-family: 'BYUI Open Sans';
 	font-weight: bold;
 }
+#high-link1, #important-date1{
+	display:none !important;
+}
+/* Small Devices, Tablets */
+	@media only screen and (max-width : 991px) {
+	  #high-link, #important-date{
+			display:none !important;
+		}
+		#high-link1, #important-date1{
+			display:block !important;
+		}
+	}
 </style>
 
-<script>
-	$(window).resize(function(){
-			if ($(window).width() <= 991){
-					$("#high-link").hide();
-					$("#important-date").hide();
-					$("#high-link1").show();
-					$("#important-date1").show();
-			}
-			else{
-				$("#high-link").show();
-				$("#important-date").show();
-				$("#high-link1").hide();
-				$("#important-date1").hide();
-			}
-	});
-</script>
 
 <div class="row">
   <div class="col-md-12 col-lg-12">
