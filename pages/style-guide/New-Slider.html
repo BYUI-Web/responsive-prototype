@@ -1,0 +1,246 @@
+---
+layout: MainLayout
+pageName: New Slider
+---
+
+<script src="//code.jquery.com/jquery-1.11.3.min.js" type="text/javascript"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+<link href="{{ site.baseurl }}/assets/css/style-guide.min.css" rel="stylesheet" />
+
+<style>
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+.Open-Sentence{
+	font-family: "Open Sans";
+	font-weight: 300;
+	font-size: 30px;
+	color: #026BB5;
+}
+.h3-news{
+	font-family: "Open Sans";
+	color: #026BB5;
+}
+.h4-name{
+	color: #026BB5;
+}
+.date-under{
+	color: #8F8F8F;
+	margin-bottom: 5px;
+}
+.pic-home{
+	padding: 2px;
+	border: 1px solid #8F8F8F;
+	border-radius: 4px;
+}
+.uppercase{
+	text-transform: uppercase;
+}
+.li-title{
+	background-color: #F5FAFF;
+	padding: 10px;
+	border-radius: 5px 5px 0 0;
+	border:2px solid #056cb6;
+}
+.li-bottom{
+	padding: 10px;
+  color:#056cb6;
+	border-bottom: 1px solid #E6E6E6;
+}
+.div-around-li{
+	border-left: 2px solid #056cb6;
+	border-right: 2px solid #056cb6;
+	border-bottom: 2px solid #056cb6;
+	border-radius: 0 0 5px 5px;
+}
+.li-title-calender{
+	padding: 10px;
+	border-radius: 5px 5px 0 0;
+	border: 1px solid gray;
+}
+.div-around-li-calender{
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	border-bottom: 1px solid gray;
+	border-radius: 0 0 5px 5px;
+}
+.li-bottom-calender{
+	padding: 10px;
+	color: gray;
+	border-bottom: 1px solid gray;
+}
+.li-bottom-calender-bot{
+	padding: 10px;
+	color: gray;
+}
+.move-right{
+	padding-right:20px;
+}
+.date-time{
+	font-weight: bold;
+}
+.color-change{
+	color: black;
+}
+.h4-bot-info{
+	font-family: 'BYUI Open Sans';
+	font-weight: bold;
+}
+#high-link1, #important-date1{
+	display:none !important;
+}
+/* Small Devices, Tablets */
+	@media only screen and (max-width : 991px) {
+	  #high-link, #important-date{
+			display:none !important;
+		}
+		#high-link1, #important-date1{
+			display:block !important;
+		}
+	}
+</style>
+
+
+<div class="row">
+  <div class="col-md-12 col-lg-12">
+      {% include top-carousel/top-carousel-variant1.html %}
+      <h1>Welcome to Language &amp; Letters</h1>
+      <hr style="margin-top:0;"/>
+      <p style="padding-left:45px; margin-bottom:40px;" class="Open-Sentence">Life is not a spectator sport. Life is a contact sport. The worst thinig that can happen to you is to return to the locker room with a clean uniform."-William W. Purkey"</p>
+			<div class="row">
+				<div class="col-md-8">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pellentesque accumsan ex, a egestas libero malesuada nec. Curabitur nibh massa, vestibulum at enim ut, ultrices efficitur dui. Pellentesque ut cursus nunc. In hac habitasse platea dictumst. Sed scelerisque rutrum neque in rhoncus. Morbi porta, mi laoreet fermentum vestibulum, lectus nulla tincidunt mi, tempor laoreet leo dolor vitae mauris. Etiam id varius neque, convallis sagittis lorem. Sed venenatis elit nulla, et tempus eros rhoncus et. Nulla nunc eros, finibus vel aliquam a, lobortis vitae lorem. Fusce a cursus odio. Fusce mi eros, aliquam ut orci id, feugiat dapibus justo. Aliquam erat volutpat. Vivamus volutpat nunc sed orci ultricies volutpat.</p>
+					<h3 style="margin-bottom:0;" class="h3-news uppercase">news</h3>
+					<hr style="margin-top:0;"/>
+					<div class="row">
+						<div class="col-all-4" style="padding-right:15px;">
+							<img class="pic-home" src="Images/Branding/LI.png">
+						</div>
+						<div style="padding-left:0; padding-right:0;" class="col-all-8">
+							<h4 style="margin-top:0; margin-bottom:0;" class="h4-name">Faculty Spotlight: Eric Stuart</h4>
+							<p class="date-under">January 15, 2015</p>
+							<p style="margin-bottom:10px;">Lorem ipsim dolor sit amwt, consectetur laborum sit eligendi dolorum quis, error fugin vel qui corporis eveniet dolor nihil culpa repellendus mollitia dolermque placeat molestias quos.</p>
+							<a href="#" class="btn btn-primary uppercase">read more</a>
+						</div>
+					</div>
+					<hr/>
+					<div class="row">
+						<div class="col-all-4" style="padding-right:15px;">
+							<img class="pic-home" src="Images/Branding/LI.png">
+						</div>
+						<div style="padding-left:0; padding-right:0;" class="col-all-8">
+							<h4 style="margin-top:0; margin-bottom:0;" class="h4-name">Alumni Spotlight: Jessica Reed</h4>
+							<p class="date-under">January 15, 2015</p>
+							<p style="margin-bottom:10px;">Lorem ipsim dolor sit amwt, consectetur laborum sit eligendi dolorum quis, error fugin vel qui corporis eveniet dolor nihil culpa repellendus mollitia dolermque placeat molestias quos.</p>
+							<a href="#" class="btn btn-primary uppercase">read more</a>
+						</div>
+					</div>
+				  <hr/>
+					<div class="row">
+						<div class="col-all-4" style="padding-right:15px;">
+							<img class="pic-home" src="Images/Branding/LI.png">
+						</div>
+						<div style="padding-left:0; padding-right:0;" class="col-all-8">
+							<h4 style="margin-top:0; margin-bottom:0;" class="h4-name">Internship Report: Edward Kingston</h4>
+							<p class="date-under">January 15, 2015</p>
+							<p style="margin-bottom:10px;">Lorem ipsim dolor sit amwt, consectetur laborum sit eligendi dolorum quis, error fugin vel qui corporis eveniet dolor nihil culpa repellendus mollitia dolermque placeat molestias quos.</p>
+							<a href="#" class="btn btn-primary uppercase">read more</a>
+						</div>
+					</div>
+					<hr/>
+					<div style="text-align:center; margin-bottom:30px;">
+						<a href="#" class="btn btn-primary uppercase">see all</a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div id="high-link" style="margin-bottom:35px;">
+						<ul style="list-style: none; padding-left:0;">
+							<li class="li-title uppercase"><span style="font-size:15px; color:#056cb6;">Highlighted Links</span><span style="float:right; padding-top:3px; color:#056cb6;" class="icon-link"></span></li>
+							<div class="div-around-li">
+								<li class="li-bottom"><a href="#">Link to Narnia</a></li>
+								<li class="li-bottom"><a href="#">Link to Family Tree</a></li>
+								<li class="li-bottom"><a href="#">Link to Deathstar Website</a></li>
+								<li class="li-bottom"><a href="#">Link to Time Travel</a></li>
+							</div>
+						</ul>
+					</div>
+
+					<div id="important-date">
+						<ul style="list-style: none; padding-left:0;">
+							<li class="li-title-calender uppercase"><span style="font-size:15px;">Important Dates</span><span style="float:right; padding-top:3px;" class="icon-calendar"></span></li>
+							<div class="div-around-li-calender">
+								<li class="li-bottom-calender"><a href="#" class="color-change"><span class="uppercase move-right date-time">Sep 8</span>Join Us at the Barista!</a></li>
+								<li class="li-bottom-calender"><a href="#" class="color-change"><span class="uppercase move-right date-time">Sep 9</span>Family Devotional Conference</a></li>
+								<li class="li-bottom-calender"><a href="#" class="color-change"><span class="uppercase move-right date-time">Sep 10</span>Testing Center Revolt</a></li>
+								<li class="li-bottom-calender"><a href="#" class="color-change"><span class="uppercase move-right date-time">Sep 11</span>Smith Building Birthday Bash</a></li>
+								<li class="li-bottom-calender-bot"><a href="#" class="color-change"><span class="uppercase move-right date-time">Sep 12</span>Contruction Finally Halts</a></li>
+							</div>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+					<div class="col-md-12">
+						<hr/>
+						<div class="row">
+						  <div class="col-md-7">
+								<h4 class="uppercase h4-bot-info">New To Language and Letters?</h4>
+								<p>Lorem ipsim dolor sit amwt, consectetur laborum sit eligendi dolorum quis, error fugin vel qui corporis eveniet dolor nihil culpa repellendus mollitia dolermque placeat molestias quos. Lorem ipsim dolor sit amwt, consectetur laborum sit eligendi dolorum quis, error fugin vel qui corporis eveniet dolor nihil culpa repellendus mollitia dolermque placeat.</p>
+								<a href="#" style="margin-bottom:15px;" class="btn btn-primary uppercase">New Students</a>
+							</div>
+							<div class="col-md-5">
+								<img src="http://lorempixel.com/output/nightlife-q-c-640-480-4.jpg" />
+							</div>
+						</div>
+						<hr/>
+						<div class="row">
+							<div class="col-md-5">
+								<img src="http://lorempixel.com/output/nightlife-q-c-640-480-4.jpg" />
+							</div>
+							<div class="col-md-7">
+								<h4 style="float:right;" class="uppercase h4-bot-info">Do you know what majors we offer?</h4>
+								<p style="float:right; text-align:right;">Lorem ipsim dolor sit amwt, consectetur laborum sit eligendi dolorum quis, error fugin vel qui corporis eveniet dolor nihil culpa repellendus mollitia dolermque placeat molestias quos. Lorem ipsim dolor sit amwt, consectetur laborum sit eligendi dolorum quis, error fugin vel qui corporis eveniet dolor nihil culpa repellendus mollitia dolermque placeat.</p>
+								<a style="float:right;" href="#" style="margin-bottom:15px;" class="btn btn-primary uppercase">Majors</a>
+							</div>
+						</div>
+						<hr/>
+						<div class="row">
+						  <div class="col-md-7">
+								<h4 class="uppercase h4-bot-info">Confused? We can help!</h4>
+								<p>Lorem ipsim dolor sit amwt, consectetur laborum sit eligendi dolorum quis, error fugin vel qui corporis eveniet dolor nihil culpa repellendus mollitia dolermque placeat molestias quos. Lorem ipsim dolor sit amwt, consectetur laborum sit eligendi dolorum quis, error fugin vel qui corporis eveniet dolor nihil culpa repellendus mollitia dolermque placeat.</p>
+								<a href="#" style="margin-bottom:15px;" class="btn btn-primary uppercase">Contact Us</a>
+							</div>
+							<div class="col-md-5">
+								<img src="http://lorempixel.com/output/nightlife-q-c-640-480-4.jpg" />
+							</div>
+						</div>
+				    <hr/>
+					</div>
+
+					<div class="col-md-4">
+						<div id="high-link1" style="margin-bottom:35px;">
+							<ul style="list-style: none; padding-left:0;">
+								<li class="li-title uppercase"><span style="font-size:15px; color:#056cb6;">Highlighted Links</span><span style="float:right; padding-top:3px; color:#056cb6;" class="icon-link"></span></li>
+								<div class="div-around-li">
+									<li class="li-bottom"><a href="#">Link to Narnia</a></li>
+									<li class="li-bottom"><a href="#">Link to Family Tree</a></li>
+									<li class="li-bottom"><a href="#">Link to Deathstar Website</a></li>
+									<li class="li-bottom"><a href="#">Link to Time Travel</a></li>
+								</div>
+							</ul>
+						</div>
+
+						<div id="important-date1">
+							<ul style="list-style: none; padding-left:0;">
+								<li class="li-title-calender uppercase"><span style="font-size:15px;">Important Dates</span><span style="float:right; padding-top:3px;" class="icon-calendar"></span></li>
+								<div class="div-around-li-calender">
+									<li class="li-bottom-calender"><a href="#" class="color-change"><span class="uppercase move-right date-time">Sep 8</span>Join Us at the Barista!</a></li>
+									<li class="li-bottom-calender"><a href="#" class="color-change"><span class="uppercase move-right date-time">Sep 9</span>Family Devotional Conference</a></li>
+									<li class="li-bottom-calender"><a href="#" class="color-change"><span class="uppercase move-right date-time">Sep 10</span>Testing Center Revolt</a></li>
+									<li class="li-bottom-calender"><a href="#" class="color-change"><span class="uppercase move-right date-time">Sep 11</span>Smith Building Birthday Bash</a></li>
+									<li class="li-bottom-calender-bot"><a href="#" class="color-change"><span class="uppercase move-right date-time">Sep 12</span>Contruction Finally Halts</a></li>
+								</div>
+							</ul>
+						</div>
+					</div>
+			</div>
+  </div>
+</div>
