@@ -1,2 +1,333 @@
-/* DO NO EDIT THIS FILE.  This file is built from a source file.  Edit that file instead. */
-.svg-icon.assessment:before{width:88.3px;height:88.3px;background:url(/assets/images/icons-sprite.svg) no-repeat}.svg-icon.assessment:hover:before{width:88.3px;height:88.3px;background:url(/assets/images/icons-sprite.svg) -71px -53px no-repeat}.svg-icon.careers:before{width:88.3px;height:88.3px;background:url(/assets/images/icons-sprite.svg) -88.3px 0 no-repeat}.svg-icon.careers:hover:before{width:88.3px;height:88.3px;background:url(/assets/images/icons-sprite.svg) -88.3px -87px no-repeat}.svg-icon.workshop:before{width:88.3px;height:88.3px;background:url(/assets/images/icons-sprite.svg) -176.6px 0 no-repeat}.svg-icon.workshop:hover:before{width:88.3px;height:88.3px;background:url(/assets/images/icons-sprite.svg) -176.6px -87px no-repeat}.svg-icon.majors:before{width:88.3px;height:88.3px;background:url(/assets/images/icons-sprite.svg) -264.9px 0 no-repeat}.svg-icon.majors:hover:before{width:88.3px;height:88.3px;background:url(/assets/images/icons-sprite.svg) -264.9px -87px no-repeat}.svg-icon.plans:before{width:88.3px;height:88.3px;background:url(/assets/images/icons-sprite.svg) -353.2px 0 no-repeat}.svg-icon.plans:hover:before{width:88.3px;height:88.3px;background:url(/assets/images/icons-sprite.svg) -353.2px -87px no-repeat}.svg-icon.courses:before{width:88.3px;height:88.3px;background:url(/assets/images/icons-sprite.svg) -441.5px 0 no-repeat}.svg-icon.courses:hover:before{width:88.3px;height:88.3px;background:url(/assets/images/icons-sprite.svg) -441.5px -87px no-repeat}.svg-icon.register:before{width:88.3px;height:88.3px;background:url(/assets/images/icons-sprite.svg) -529.8px 0 no-repeat}.svg-icon.register:hover:before{width:88.3px;height:88.3px;background:url(/assets/images/icons-sprite.svg) -529.8px -87px no-repeat}.svg-icon.career:before{width:88.3px;height:88.3px;background:url(/assets/images/icons-sprite.svg) -618.1px 0 no-repeat}.svg-icon.career:hover:before{width:88.3px;height:88.3px;background:url(/assets/images/icons-sprite.svg) -618.1px -87px no-repeat}.svg-icon.tutor:before{width:88.3px;height:88.3px;background:url(/assets/images/icons-sprite.svg) -706.4px 0 no-repeat}.svg-icon.tutor:hover:before{width:88.3px;height:88.3px;background:url(/assets/images/icons-sprite.svg) -794.7px -87px no-repeat}.parallax *{-webkit-transition:all .5s cubic-bezier(0.875,0,.33,1) 0,content;-moz-transition:all .5s cubic-bezier(0.875,0,.33,1) 0,content;-o-transition:all .5s cubic-bezier(0.875,0,.33,1) 0,content;transition:all .5s cubic-bezier(0.875,0,.33,1) 0,content}.parallax h1,.parallax h2,.parallax h3,.parallax h4{font-family:"BYUI Open Sans","Open Sans","Lucida Sans Unicode","Lucida Grande",Verdana,sans-serif}.parallax .step{background:url(http://www.fillmurray.com/g/1000/800) center 100%/100% auto no-repeat;padding-top:150px;font-family:"BYUI Open Sans","Open Sans","Lucida Sans Unicode","Lucida Grande",Verdana,sans-serif;-webkit-transition:all .5s cubic-bezier(0.875,0,.33,1) 0,background-position 1ms;-moz-transition:all .5s cubic-bezier(0.875,0,.33,1) 0,background-position 1ms;-o-transition:all .5s cubic-bezier(0.875,0,.33,1) 0,background-position 1ms;transition:all .5s cubic-bezier(0.875,0,.33,1) 0,background-position 1ms}.parallax .step .headline{max-width:565px;margin:0 auto 130px;color:#000;text-align:center}.parallax .step .headline h1{font-weight:700}.parallax .step .headline p{font-size:16px}.parallax .step .step-box{width:750px;margin:0 auto;min-height:210px;color:#fff;padding:23px 0 90px 60px}.parallax .step .step-box.navy{background:rgba(10,108,181,.9)}.parallax .step .step-box.green{background:rgba(98,188,75,.9)}.parallax .step .step-box.orange{background:rgba(245,131,0,.9)}.parallax .step .step-box.red{background:rgba(228,34,38,.9)}.parallax .step .step-box.light-blue{background:rgba(85,194,239,.9)}.parallax .step .step-box.purple{background:rgba(165,33,111,.9)}.parallax .step .step-box h1{font-weight:700}.parallax .step .step-box h3{font-size:18px;border-bottom:dotted 1px #fff;padding-bottom:10px}.parallax .step .step-box p{margin:34px 0 0;max-width:495px}.parallax .step-details{-webkit-box-shadow:0 2px 8px 1px rgba(0,0,0,.25);-moz-box-shadow:0 2px 8px 1px rgba(0,0,0,.25);box-shadow:0 2px 8px 1px rgba(0,0,0,.25);font-family:"BYUI Open Sans","Open Sans","Lucida Sans Unicode","Lucida Grande",Verdana,sans-serif;background:#fff;margin:-20px 0 -10px;z-index:1000;position:relative}.parallax .step-details .content{width:960px;margin:0 auto;text-align:center;padding:20px 0 100px}.parallax .step-details .content .sub-item{border-right:dotted 1px #c4c4c4}.parallax .step-details .content .sub-item .svg-icon{margin:0 auto;-webkit-transition:none .5s cubic-bezier(0.875,0,.33,1) 0,content;-moz-transition:none .5s cubic-bezier(0.875,0,.33,1) 0,content;-o-transition:none .5s cubic-bezier(0.875,0,.33,1) 0,content;transition:none .5s cubic-bezier(0.875,0,.33,1) 0,content}.parallax .step-details .content .sub-item .svg-icon:before{display:block;content:"";margin:0 auto}.parallax .step-details .content .sub-item .svg-icon:hover{text-decoration:none}.parallax .step-details .content .sub-item .svg-icon:hover h3{color:#0080B5}.parallax .step-details .content .sub-item .svg-icon h3{color:#55c2ef;font-size:17px;margin-top:3px;text-decoration:none}.parallax .step-details .content .sub-item:last-child{border-right:none}.parallax .step-details .content ul{list-style-type:none;padding:0;margin:38px 0 0;font-size:13px}.parallax .step-details .content ul li{padding:3px 0}.parallax .step-details .content ul li a{color:#ADADAD}.parallax .step-details .content ul:before{content:"LEARN MORE";font-size:10px;display:block;font-weight:700;margin-bottom:9px;color:#ADADAD}@media (max-width:767px){.parallax .step{padding-top:0;background-image:none!important}.parallax .step .headline{margin-bottom:0;padding:0 30px 8px}.parallax .step .headline h1{font-size:25px}.parallax .step .headline p{font-size:13px}.parallax .step .step-box{width:100%;padding:11px 57px 49px 60px}.parallax .step .step-box h1{font-size:26px;margin:0;line-height:1.3}.parallax .step .step-box p{margin:13px 0 0}.parallax .step-details{-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none}.parallax .step-details .content{width:100%}.parallax .step-details .content .sub-item{margin-bottom:18px}.parallax .step-details .content .sub-item .svg-icon{-ms-transform:scale(0.7);-webkit-transform:scale(0.7);-o-transform:scale(0.7);transform:scale(0.7)}.parallax .step-details .content h3{margin-top:-12px}.parallax .step-details .content ul{margin-top:0}.parallax .step-details .content ul li{padding:2px 0}}@media (min-width:768px) and (max-width:991px){.parallax .step{padding-top:80px}.parallax .step .headline{margin-bottom:0}.parallax .step .step-box{width:768px;padding:11px 57px 49px 60px}.parallax .step-details .content{width:100%}.parallax .step-details .content ul{margin-top:20px}}@media (min-width:992px) and (max-width:1199px){.parallax .step-details .content{width:780px}}
+.svg-icon.assessment:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: 0 0;
+}
+.svg-icon.assessment:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: 0 0;
+  background-position: -71px -53px;
+}
+.svg-icon.careers:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -88.3px 0;
+}
+.svg-icon.careers:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -88.3px 0;
+  background-position: -88.3px -87px;
+}
+.svg-icon.workshop:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -176.6px 0;
+}
+.svg-icon.workshop:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -176.6px 0;
+  background-position: -176.6px -87px;
+}
+.svg-icon.majors:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -264.9px 0;
+}
+.svg-icon.majors:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -264.9px 0;
+  background-position: -264.9px -87px;
+}
+.svg-icon.plans:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -353.2px 0;
+}
+.svg-icon.plans:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -353.2px 0;
+  background-position: -353.2px -87px;
+}
+.svg-icon.courses:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -441.5px 0;
+}
+.svg-icon.courses:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -441.5px 0;
+  background-position: -441.5px -87px;
+}
+.svg-icon.register:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -529.8px 0;
+}
+.svg-icon.register:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -529.8px 0;
+  background-position: -529.8px -87px;
+}
+.svg-icon.career:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -618.1px 0;
+}
+.svg-icon.career:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -618.1px 0;
+  background-position: -618.1px -87px;
+}
+.svg-icon.tutor:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -706.4px 0;
+}
+.svg-icon.tutor:hover:before {
+  width: 88.3px;
+  height: 88.3px;
+  background: url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+  background-position: -706.4px 0;
+  background-position: -794.7px -87px;
+}
+.parallax * {
+  -webkit-transition: all 0.5s cubic-bezier(0.875, 0, 0.33, 1) 0, content;
+  -moz-transition: all 0.5s cubic-bezier(0.875, 0, 0.33, 1) 0, content;
+  -o-transition: all 0.5s cubic-bezier(0.875, 0, 0.33, 1) 0, content;
+  transition: all 0.5s cubic-bezier(0.875, 0, 0.33, 1) 0, content;
+}
+.parallax h1,
+.parallax h2,
+.parallax h3,
+.parallax h4 {
+  font-family: "BYUI Open Sans", "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Verdana, sans-serif;
+}
+.parallax .step {
+  background: url(http://www.fillmurray.com/g/1000/800) no-repeat center 100%;
+  background-size: 100% auto;
+  padding-top: 150px;
+  font-family: "BYUI Open Sans", "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Verdana, sans-serif;
+  -webkit-transition: all 0.5s cubic-bezier(0.875, 0, 0.33, 1) 0, background-position 1ms;
+  -moz-transition: all 0.5s cubic-bezier(0.875, 0, 0.33, 1) 0, background-position 1ms;
+  -o-transition: all 0.5s cubic-bezier(0.875, 0, 0.33, 1) 0, background-position 1ms;
+  transition: all 0.5s cubic-bezier(0.875, 0, 0.33, 1) 0, background-position 1ms;
+}
+.parallax .step .headline {
+  max-width: 565px;
+  margin: 0 auto;
+  color: black;
+  text-align: center;
+  margin-bottom: 130px;
+}
+.parallax .step .headline h1 {
+  font-weight: bold;
+}
+.parallax .step .headline p {
+  font-size: 16px;
+}
+.parallax .step .step-box {
+  width: 750px;
+  margin: 0 auto;
+  min-height: 210px;
+  color: white;
+  padding: 23px 0 90px 60px;
+}
+.parallax .step .step-box.navy {
+  background: rgba(10, 108, 181, 0.9);
+}
+.parallax .step .step-box.green {
+  background: rgba(98, 188, 75, 0.9);
+}
+.parallax .step .step-box.orange {
+  background: rgba(245, 131, 0, 0.9);
+}
+.parallax .step .step-box.red {
+  background: rgba(228, 34, 38, 0.9);
+}
+.parallax .step .step-box.light-blue {
+  background: rgba(85, 194, 239, 0.9);
+}
+.parallax .step .step-box.purple {
+  background: rgba(165, 33, 111, 0.9);
+}
+.parallax .step .step-box h1 {
+  font-weight: bold;
+}
+.parallax .step .step-box h3 {
+  font-size: 18px;
+  border-bottom: dotted 1px white;
+  padding-bottom: 10px;
+}
+.parallax .step .step-box p {
+  margin: 34px 0 0 0;
+  max-width: 495px;
+}
+.parallax .step-details {
+  -webkit-box-shadow: 0 2px 8px 1px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 2px 8px 1px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2px 8px 1px rgba(0, 0, 0, 0.25);
+  font-family: "BYUI Open Sans", "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Verdana, sans-serif;
+  background: white;
+  margin: -20px 0 -10px;
+  z-index: 1000;
+  position: relative;
+}
+.parallax .step-details .content {
+  width: 960px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0 100px;
+}
+.parallax .step-details .content .sub-item {
+  border-right: dotted 1px #c4c4c4;
+}
+.parallax .step-details .content .sub-item .svg-icon {
+  margin: 0 auto;
+  -webkit-transition: none 0.5s cubic-bezier(0.875, 0, 0.33, 1) 0, content;
+  -moz-transition: none 0.5s cubic-bezier(0.875, 0, 0.33, 1) 0, content;
+  -o-transition: none 0.5s cubic-bezier(0.875, 0, 0.33, 1) 0, content;
+  transition: none 0.5s cubic-bezier(0.875, 0, 0.33, 1) 0, content;
+}
+.parallax .step-details .content .sub-item .svg-icon:before {
+  display: block;
+  content: "";
+  margin: 0 auto;
+}
+.parallax .step-details .content .sub-item .svg-icon:hover {
+  text-decoration: none;
+}
+.parallax .step-details .content .sub-item .svg-icon:hover h3 {
+  color: #0080B5;
+}
+.parallax .step-details .content .sub-item .svg-icon h3 {
+  color: #55c2ef;
+  font-size: 17px;
+  margin-top: 3px;
+  text-decoration: none;
+}
+.parallax .step-details .content .sub-item:last-child {
+  border-right: none;
+}
+.parallax .step-details .content ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+  margin-top: 38px;
+}
+.parallax .step-details .content ul li {
+  padding: 3px 0;
+}
+.parallax .step-details .content ul li a {
+  color: #ADADAD;
+}
+.parallax .step-details .content ul:before {
+  content: "LEARN MORE";
+  font-size: 10px;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 9px;
+  color: #ADADAD;
+}
+@media (max-width: 767px) {
+  .parallax .step {
+    padding-top: 0;
+    background-image: none !important;
+  }
+  .parallax .step .headline {
+    margin-bottom: 0;
+    padding: 0px 30px 8px;
+  }
+  .parallax .step .headline h1 {
+    font-size: 25px;
+  }
+  .parallax .step .headline p {
+    font-size: 13px;
+  }
+  .parallax .step .step-box {
+    width: 100%;
+    padding: 11px 57px 49px 60px;
+  }
+  .parallax .step .step-box h1 {
+    font-size: 26px;
+    margin: 0;
+    line-height: 1.3;
+  }
+  .parallax .step .step-box p {
+    margin: 13px 0 0 0;
+  }
+  .parallax .step-details {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+  .parallax .step-details .content {
+    width: 100%;
+  }
+  .parallax .step-details .content .sub-item {
+    margin-bottom: 18px;
+  }
+  .parallax .step-details .content .sub-item .svg-icon {
+    -ms-transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+    -o-transform: scale(0.7);
+    transform: scale(0.7);
+  }
+  .parallax .step-details .content h3 {
+    margin-top: -12px;
+  }
+  .parallax .step-details .content ul {
+    margin-top: 0;
+  }
+  .parallax .step-details .content ul li {
+    padding: 2px 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .parallax .step {
+    padding-top: 80px;
+  }
+  .parallax .step .headline {
+    margin-bottom: 0;
+  }
+  .parallax .step .step-box {
+    width: 768px;
+    padding: 11px 57px 49px 60px;
+  }
+  .parallax .step-details .content {
+    width: 100%;
+  }
+  .parallax .step-details .content ul {
+    margin-top: 20px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .parallax .step-details .content {
+    width: 780px;
+  }
+}
