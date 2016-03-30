@@ -227,15 +227,35 @@ pageName: Become An Online Instructor
       padding:10px;
     }
   }
+  .inactiveLink {
+     pointer-events: none;
+     cursor: default;
+  }
 </style>
 
 <div class="row">
   <div class="col-sm-12">
     <h1 class="top-h1">Become an Online Instructor</h1>
     <hr class="hr-no-top-marg">
-    <a href="#">
-      <img class="img-responsive" src="img/become-online-instructor.png" alt="lady sitting in chair with laptop on table" />
+    <a href="" data-toggle="modal" data-target="#myModal">
+      <img class="img-responsive" src="Images/Online-Learning/become-online-instructor.png" alt="lady sitting in chair with laptop on table" />
     </a>
+  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="myModal" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body">
+        <iframe id="kaltura_player" src="https://cdnapisec.kaltura.com/p/1157612/sp/115761200/embedIframeJs/uiconf_id/29018071/partner_id/1157612?iframeembed=true&playerId=kaltura_player&entry_id=0_0mm8jtqw&flashvars[streamerType]=auto&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;&wid=0_it9sgkwg" width="100%" height="402" allowfullscreen webkitallowfullscreen mozAllowFullScreen frameborder="0"></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
   </div>
 </div>
 <div class="row move-down">
@@ -275,14 +295,14 @@ pageName: Become An Online Instructor
 </div>
 <div class="row mv-down">
   <div class="col-xs-10 col-md-5">
-    <a class="btn btn-info link-btn-info" href="#">BYU-IDAHO ONLINE TEACHING</a>
+    <a class="btn btn-info link-btn-info inactiveLink">BYU-IDAHO ONLINE TEACHING</a>
   </div>
 </div>
 <div class="row">
   <div class="col-md-10">
     <div class="row mv-down">
       <div class="col-sm-4">
-        <img src="img/man-and-child-at-desk.png" alt="" />
+        <img src="Images/Online-Learning/man-and-child-at-desk.png" alt="" />
       </div>
       <div class="col-md-8 no-padding">
         <p class="blue-semi-bold">
@@ -295,7 +315,7 @@ pageName: Become An Online Instructor
     </div>
     <div class="row mv-down">
       <div class="col-sm-4">
-        <img src="img/church-building.png" alt="" />
+        <img src="Images/Online-Learning/church-building.png" alt="" />
       </div>
       <div class="col-md-8 no-padding">
         <p class="blue-semi-bold">
@@ -308,7 +328,7 @@ pageName: Become An Online Instructor
     </div>
     <div class="row mv-down">
       <div class="col-sm-4">
-        <img src="img/student-with-pen.png" alt="" />
+        <img src="Images/Online-Learning/student-with-pen.png" alt="" />
       </div>
       <div class="col-md-8 no-padding">
         <p class="blue-semi-bold">
@@ -351,7 +371,7 @@ pageName: Become An Online Instructor
 <div style="margin-top:-25px;" class="row" id="help">
   <div class="col-md-12">
     <div id="help-edit">
-      <h2 style="margin-top:0; margin-bottom:4px;">Contact Us!</h2>
+      <h2 style="margin-top:0; margin-bottom:4px; font-family:'BYUI Open Sans Light';">Contact Us!</h2>
       <p>
         The BYU-Idaho Online Human Resource team is here to answer any of your questions as you navigate our hiring process
       </p>
