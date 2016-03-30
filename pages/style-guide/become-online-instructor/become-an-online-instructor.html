@@ -6,6 +6,7 @@ pageName: Become An Online Instructor
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 <style media="screen">
+   /*This css is mainly for the page*/
   .top-h1{
     margin-bottom:0px;
   }
@@ -85,6 +86,127 @@ pageName: Become An Online Instructor
   }
   @media screen and (max-width:737px){
     .mv-caret{margin-left: 5px;}
+  }
+  /*This css if for the bottom footer*/
+  .interestedIn
+  {
+    background-color: #ffa632;
+    height: 85px;
+  }
+
+  .interestedIn p
+  {
+    color: white !important;
+    padding: 15px ;
+    font-family: sans-serif !important;
+    font-size: 24px !important;
+    padding-top: 10px;
+  }
+
+  .rightArrow
+  {
+    border-style: solid;
+    border-width: 42.5px 0 42.5px 42.5px;
+    border-color: transparent transparent transparent #ffa632;
+    margin-left: -15px;
+  }
+
+  .interestedLinks
+  {
+    background-color: #ffbe69;
+    height: 85px;
+  }
+
+  .interestedItems {
+    padding-top: 8px;
+  }
+
+  .linkItem a
+  {
+    color: #945605 !important;
+    text-decoration: none !important;
+  }
+
+  .linkItem {
+    list-style: none !important;
+    padding-top: 10px !important;
+  }
+
+  .interestedLinks a:hover
+  {
+    color: #404041 !important;
+  }
+
+
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+
+    .linkItem {
+      list-style: none !important;
+      padding-top: 2px !important;
+    }
+
+    .interestedItems {
+      padding-top: 2px !important;
+    }
+
+  }
+
+
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+
+    .interestedLinks {
+      height: 105px !important;
+    }
+
+    .interestedIn {
+      height: 48px !important;
+    }
+
+    .rightArrow {
+      border-width: 53.5px 0 52.5px 42.5px !important;
+    }
+
+  }
+
+  @media screen and (max-width: 480px) {
+    .linkItem {
+      list-style: none !important;
+      padding-top: 3px !important;
+    }
+
+    .interestedItems {
+      padding-top: 0px !important;
+      bottom: 7em !important;
+      margin-left: 1em !important;
+    }
+    .interestedLinks {
+      height: 108px !important;
+    }
+
+    .rightArrow {
+      border-width: 54.5px 0 54.5px 42.5px !important;
+    }
+  }
+  /*This css is for the rotation of the caret*/
+  .rotate{
+    -moz-transition: all 0.1s linear;
+    -webkit-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+  }
+  .rotate.down{
+    -moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    transform:rotate(90deg);
+  }
+  /*handles the contact look*/
+  .help
+  {
+     width: 285px;
+     padding: 20px;
+     height: 286px;
+     background-color: #ebebeb;
+     border-top: 6px solid #88acca;
+     float: right;
   }
 </style>
 
@@ -187,11 +309,51 @@ pageName: Become An Online Instructor
 </div>
 <div class="row mv-down-xs">
   <div class="col-sm-4">
-    <a class="btn btn-info link-btn-info" href="#">NEED HELP? <i class="fa fa-caret-right fa-lg mv-caret"></i></a>
+    <a onclick="dropDown('help')" class="btn btn-info link-btn-info">NEED HELP? <i class="fa fa-caret-right rotate fa-lg mv-caret"></i></a>
+  </div>
+
+  <div id="help">
+    test
+  </div>
+
+  <script type="text/javascript">// <![CDATA[
+  function dropDown(id)
+  {
+     toggle_visibility(id)
+  }
+
+  function toggle_visibility(id) {
+         var e = document.getElementById(id);
+         if(e.style.display == 'none')
+            e.style.display = 'block';
+         else
+            e.style.display = 'none';
+      }
+  $(document).ready(function () {
+     toggle_visibility("help");
+  });
+  // ]]>
+  </script>
+
+</div>
+
+<div>
+  <div class="col-xs-12 col-sm-5 col-md-4 interestedIn">
+    <p>YOU MAY ALSO BE INTERESTED IN:</p>
+  </div>
+  <div class="col-xs-12 col-sm-7 col-md-8 interestedLinks">
+    <div class="col-xs-1 rightArrow"></div>
+    <ul class="col-xs-10 interestedItems">
+      <li class="col-xs-6 linkItem"><a href="x95178.xml">FAQ's</a></li>
+      <li class="col-xs-6 linkItem"><a href="x95196.xml">WHY TEACH AT BYU-IDAHO</a></li>
+      <li class="col-xs-6 linkItem"><a href="x95661.xml">REQUIREMENTS</a></li>
+      <li class="col-xs-6 linkItem"><a href="x95176.xml">HIRING PROCESS</a></li>
+    </ul>
   </div>
 </div>
-<div class="row">
-  <div class="col-md-12">
-    <img src="img/bottom-interested-in.png" alt="" />
-  </div>
-</div>
+
+<script type="text/javascript">
+  $(".rotate").click(function(){
+    $(this).toggleClass("down");
+  })
+</script>
