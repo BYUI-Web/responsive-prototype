@@ -45,10 +45,18 @@ pageName: Become An Online Instructor
     border-color: #89BC73;
     width: 177px;
   }
+  .link-btn-success:hover{
+    background-color: #12893A;
+    border-color: #12893A;
+  }
   .link-btn-success-2{
     background-color: #89BC73;
     border-color: #89BC73;
     width: 244px;
+  }
+  .link-btn-success-2:hover{
+    background-color: #12893A;
+    border-color: #12893A;
   }
   .link-btn-info{
     background-color: #74AFD5;
@@ -57,6 +65,10 @@ pageName: Become An Online Instructor
     width: 100%;
     font-size: 22px;
     text-align: left;
+  }
+  .link-btn-info:hover{
+    background-color: #5091B5;
+    border-color: #5091B5;
   }
   .mv-down{
     margin-bottom: 50px;
@@ -77,15 +89,8 @@ pageName: Become An Online Instructor
   .mv-down-xs{
     margin-bottom: 25px;
   }
-  .mv-caret{
-    margin-left: 42%;
-  }
   @media screen and (max-width:991px){
     .no-padding{padding-left: 15px;}
-    .mv-caret{margin-left: 20%}
-  }
-  @media screen and (max-width:737px){
-    .mv-caret{margin-left: 5px;}
   }
   /*This css if for the bottom footer*/
   .interestedIn
@@ -146,7 +151,8 @@ pageName: Become An Online Instructor
     }
 
     .interestedItems {
-      padding-top: 2px !important;
+      padding-top: 0 !important;
+      margin-top:8px;
     }
 
   }
@@ -161,9 +167,19 @@ pageName: Become An Online Instructor
     .interestedIn {
       height: 48px !important;
     }
+    .linkItem {
+      list-style: none !important;
+      padding-top: 3px !important;
+    }
 
+    .interestedItems {
+      padding-top: 0px !important;
+      bottom: -16px !important;
+      margin-left: -16px !important;
+    }
     .rightArrow {
-      border-width: 53.5px 0 52.5px 42.5px !important;
+      /*border-width: 53.5px 0 52.5px 42.5px !important;*/
+      display: none;
     }
 
   }
@@ -176,37 +192,39 @@ pageName: Become An Online Instructor
 
     .interestedItems {
       padding-top: 0px !important;
-      bottom: 7em !important;
-      margin-left: 1em !important;
+      bottom: -8px !important;
+      margin-left: -16px !important;
     }
     .interestedLinks {
       height: 108px !important;
     }
 
     .rightArrow {
-      border-width: 54.5px 0 54.5px 42.5px !important;
+      /*border-width: 54.5px 0 54.5px 42.5px !important;*/
+      display: none;
     }
   }
   /*This css is for the rotation of the caret*/
   .rotate{
-    -moz-transition: all 0.1s linear;
-    -webkit-transition: all 0.1s linear;
-    transition: all 0.1s linear;
+    -moz-transition: all 0.099s linear;
+    -webkit-transition: all 0.099s linear;
+    transition: all 0.099s linear;
   }
   .rotate.down{
     -moz-transform:rotate(90deg);
     -webkit-transform:rotate(90deg);
     transform:rotate(90deg);
   }
-  /*handles the contact look*/
-  .help
-  {
-     width: 285px;
-     padding: 20px;
-     height: 286px;
-     background-color: #ebebeb;
-     border-top: 6px solid #88acca;
-     float: right;
+  /*contact us edits*/
+  #help-edit{
+    background-color: #E0E0E0;
+    padding: 25px;
+    margin-bottom: 25px;
+  }
+  @media screen and (max-width: 480px){
+    #help-edit{
+      padding:10px;
+    }
   }
 </style>
 
@@ -309,32 +327,42 @@ pageName: Become An Online Instructor
 </div>
 <div class="row mv-down-xs">
   <div class="col-sm-4">
-    <a onclick="dropDown('help')" class="btn btn-info link-btn-info">NEED HELP? <i class="fa fa-caret-right rotate fa-lg mv-caret"></i></a>
+    <a onclick="dropDown('help')" class="btn btn-info link-btn-info rotate-parent">NEED HELP? <i style="margin-top:5px;" class="fa fa-caret-right rotate fa-lg pull-right"></i></a>
   </div>
-
-  <div id="help">
-    test
-  </div>
-
   <script type="text/javascript">// <![CDATA[
-  function dropDown(id)
-  {
-     toggle_visibility(id)
-  }
-
-  function toggle_visibility(id) {
-         var e = document.getElementById(id);
-         if(e.style.display == 'none')
-            e.style.display = 'block';
-         else
-            e.style.display = 'none';
-      }
-  $(document).ready(function () {
-     toggle_visibility("help");
-  });
-  // ]]>
+    function dropDown(id)
+    {
+       toggle_visibility(id)
+    }
+    function toggle_visibility(id) {
+           var e = document.getElementById(id);
+           if(e.style.display == 'none')
+              e.style.display = 'block';
+           else
+              e.style.display = 'none';
+        }
+    $(document).ready(function () {
+       toggle_visibility("help");
+    });
+    // ]]>
   </script>
-
+</div>
+<div style="margin-top:-25px;" class="row" id="help">
+  <div class="col-md-12">
+    <div id="help-edit">
+      <h2 style="margin-top:0; margin-bottom:4px;">Contact Us!</h2>
+      <p>
+        The BYU-Idaho Online Human Resource team is here to answer any of your questions as you navigate our hiring process
+      </p>
+      <p>
+        Have you completed your application?
+      </p>
+      <p>
+        <span style="margin-right:10px;">Yes?</span> <i class="fa fa-phone"></i> (208) 496-1539 or <a href="mailto:onlinehr@byui.edu">onlinehr@byui.edu</a><br>
+        <span style="margin-right:14px;">No?</span> <i class="fa fa-phone"></i> (208) 496-1539 or <a href="mailto:recruitment@byui.edu">recruitment@byui.edu</a>
+      </p>
+    </div>
+  </div>
 </div>
 
 <div>
@@ -353,7 +381,7 @@ pageName: Become An Online Instructor
 </div>
 
 <script type="text/javascript">
-  $(".rotate").click(function(){
-    $(this).toggleClass("down");
+  $(".rotate-parent").click(function(){
+    $(".rotate").toggleClass("down");
   })
 </script>
