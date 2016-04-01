@@ -1,0 +1,420 @@
+---
+layout: MainLayout
+pageName: Hiring Process
+---
+<link href="{{ site.baseurl }}/assets/css/style-guide.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<!-- Developer Josh Higgins -->
+<style media="screen">
+   /*This css is mainly for the page*/
+  .top-h1{
+    margin-bottom:0px;
+  }
+  .hr-no-top-marg{
+    margin-top:0px;
+    /*margin-left: 52px;
+    margin-right: 52px;*/
+  }
+  .links-in-three-top{
+    font-family: "BYUI Open Sans", "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .links-in-three{
+    font-family: "BYUI Open Sans", "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Verdana, sans-serif;
+    font-size: 14px;
+    text-align: center;
+  }
+  .padding-to-three-links{
+    padding: 8px 45px 20px 45px;
+  }
+  .border-left{
+    border-left: .5px solid #939598;
+  }
+  .move-down{
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+  @media screen and (max-width:991px){
+    .border-left{border-left: none;}
+  }
+  .link-btn-success{
+    background-color: #89BC73;
+    border-color: #89BC73;
+    width: 177px;
+  }
+  .link-btn-success:hover{
+    background-color: #12893A;
+    border-color: #12893A;
+  }
+  .link-btn-success-2{
+    background-color: #89BC73;
+    border-color: #89BC73;
+    /*width: 244px;*/
+  }
+  .link-btn-success-2:hover{
+    background-color: #12893A;
+    border-color: #12893A;
+  }
+  .link-btn-info{
+    background-color: #74AFD5;
+    border-color: #74AFD5;
+    border-radius: 0;
+    width: 100%;
+    font-size: 22px;
+    text-align: left;
+  }
+  .link-btn-info:hover{
+    background-color: #5091B5;
+    border-color: #5091B5;
+  }
+  .mv-down{
+    margin-bottom: 50px;
+  }
+  .blue-semi-bold{
+    font-size: 18px;
+    font-weight: 600;
+    color: #255C85;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+  .no-padding{
+    padding-left: 0;
+  }
+  .mv-down-sml{
+    margin-bottom: 45px;
+  }
+  .mv-down-xs{
+    margin-bottom: 25px;
+  }
+  @media screen and (max-width:991px){
+    .no-padding{padding-left: 15px;}
+  }
+  /*This css if for the bottom footer*/
+  .interestedIn
+  {
+    background-color: #ffa632;
+    height: 85px;
+  }
+
+  .interestedIn p
+  {
+    color: white !important;
+    padding: 15px ;
+    font-family: sans-serif !important;
+    font-size: 24px !important;
+    padding-top: 10px;
+  }
+
+  .rightArrow
+  {
+    border-style: solid;
+    border-width: 42.5px 0 42.5px 42.5px;
+    border-color: transparent transparent transparent #ffa632;
+    margin-left: -15px;
+  }
+
+  .interestedLinks
+  {
+    background-color: #ffbe69;
+    height: 85px;
+  }
+
+  .interestedItems {
+    padding-top: 8px;
+  }
+
+  .linkItem a
+  {
+    color: #945605 !important;
+    text-decoration: none !important;
+  }
+
+  .linkItem {
+    list-style: none !important;
+    padding-top: 10px !important;
+  }
+
+  .interestedLinks a:hover
+  {
+    color: #404041 !important;
+  }
+
+
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+
+    .linkItem {
+      list-style: none !important;
+      padding-top: 2px !important;
+    }
+
+    .interestedItems {
+      padding-top: 0 !important;
+      margin-top:8px;
+    }
+
+  }
+
+
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+
+    .interestedLinks {
+      height: 105px !important;
+    }
+
+    .interestedIn {
+      height: 48px !important;
+    }
+    .linkItem {
+      list-style: none !important;
+      padding-top: 3px !important;
+    }
+
+    .interestedItems {
+      padding-top: 0px !important;
+      bottom: -6px !important;
+      margin-left: -16px !important;
+    }
+    .rightArrow {
+      /*border-width: 53.5px 0 52.5px 42.5px !important;*/
+      display: none;
+    }
+
+  }
+
+  @media screen and (max-width: 480px) {
+    .linkItem {
+      list-style: none !important;
+      padding-top: 3px !important;
+    }
+
+    .interestedItems {
+      padding-top: 0px !important;
+      bottom: -8px !important;
+      margin-left: -16px !important;
+    }
+    .interestedLinks {
+      height: 108px !important;
+    }
+
+    .rightArrow {
+      /*border-width: 54.5px 0 54.5px 42.5px !important;*/
+      display: none;
+    }
+  }
+  /*This css is for the rotation of the caret*/
+  .rotate{
+    -moz-transition: all 0.099s linear;
+    -webkit-transition: all 0.099s linear;
+    transition: all 0.099s linear;
+  }
+  .rotate.down{
+    -moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    transform:rotate(90deg);
+  }
+  /*contact us edits*/
+  #help-edit{
+    background-color: #E0E0E0;
+    padding: 25px;
+    margin-bottom: 25px;
+  }
+  @media screen and (max-width: 480px){
+    #help-edit{
+      padding:10px;
+    }
+  }
+  .inactiveLink {
+     pointer-events: none;
+     cursor: default;
+  }
+  .make-cursor{
+    cursor:pointer;
+  }
+  .move-list-down{
+    margin-bottom: 15px;
+  }
+</style>
+
+[x94650]
+
+<div class="row">
+  <div class="col-sm-12">
+    <h1 class="top-h1">Future Instructors Hiring Process</h1>
+    <hr class="hr-no-top-marg">
+  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="myModal" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body">
+        <iframe id="kaltura_player" src="https://cdnapisec.kaltura.com/p/1157612/sp/115761200/embedIframeJs/uiconf_id/29018071/partner_id/1157612?iframeembed=true&playerId=kaltura_player&entry_id=0_owbrypkv&flashvars[streamerType]=auto&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;&wid=0_pm92tuki" width="100%" height="402" allowfullscreen webkitallowfullscreen mozAllowFullScreen frameborder="0"></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+<div class="row move-down">
+  <div class="col-md-4 padding-to-three-links">
+    <p class="links-in-three-top">
+      REQUIREMENTS
+    </p>
+    <p class="links-in-three">
+      Find out if you may qualify to teach online at BYU-Idaho
+    </p>
+    <div class="text-center">
+      <a class="btn btn-success link-btn-success" href="x95661.xml">VIEW REQUIREMENTS</a>
+    </div>
+  </div>
+  <div class="col-md-4 padding-to-three-links border-left">
+    <p class="links-in-three-top">
+      APPLY
+    </p>
+    <p class="links-in-three">
+      Apply now to teach as an online adjunct at BYU-Idaho
+    </p>
+    <div class="text-center">
+      <a class="btn btn-success link-btn-success" href="x110337.xml">APPLY NOW</a>
+    </div>
+  </div>
+  <div class="col-md-4 padding-to-three-links border-left">
+    <p class="links-in-three-top">
+      CONTACT
+    </p>
+    <p class="links-in-three">
+      Questions about online adjunct positions at BYU-Idaho?
+    </p>
+    <div class="text-center">
+      <a onclick="dropDown('help')" class="btn btn-success link-btn-success rotate-parent" href="#helpme">CONTACT US</a>
+    </div>
+  </div>
+</div>
+<div class="row mv-down-xs">
+  <div class="col-xs-6 col-md-4">
+    <a class="btn btn-info link-btn-info inactiveLink">HIRING STEPS</a>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-8 mv-down-xs">
+    <ul>
+      <li class="move-list-down">Online application (as hiring needs arise, applications will be reviewed).</li>
+      <li class="move-list-down">Evaluation Course (online asynchronous two-week course, 7-10 hours per week).</li>
+      <li class="move-list-down">HR interview (20-30 minutes, does not require travel to Rexburg).</li>
+    </ul>
+    <p>
+      Applicants may be dismissed from further consideration after any one of these steps. Applicants will only receive notification when there is a change to your application status, such as dismissal from the process or invitation to proceed. Your application will remain on the interest list of the course for which you've applied for two years at which time it will expire and you will need to reapply.
+    </p>
+  </div>
+</div>
+<div class="row mv-down-xs">
+  <div class="col-xs-6 col-md-4">
+    <a class="btn btn-info link-btn-info inactiveLink">COMPENSATION</a>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-8 mv-down-xs">
+    <p>
+      Instructors with a master's degree or higher will be compensated at a rate of $1,000 per credit and instructors with a bachelor's degree will receive $900 per credit taught during the semester.
+    </p>
+  </div>
+</div>
+<div class="row mv-down-xs">
+  <div class="col-xs-6 col-md-4">
+    <a class="btn btn-info link-btn-info inactiveLink">TRAINING</a>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-8 mv-down-xs">
+    <p>
+      New employees are required to complete an online asynchronous training for which they will be compensated $300.00. This training requires a time commitment of 7-10 hours each week. (Note: This is not the same as the Evaluation Course which is a part of the hiring process.)
+    </p>
+  </div>
+</div>
+<div class="row mv-down-xs">
+  <div class="col-xs-6 col-md-4">
+    <a class="btn btn-info link-btn-info inactiveLink">TIME COMMITMENT</a>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-8 mv-down-xs">
+    <p>
+      Online instructors are expected to spend 3.5 hours per credit each week fulfilling the requirements of the course they teach. Instructors should support and convey the ideals of the LDS Church, the mission of BYU-Idaho, and the BYU-Idaho Learning Model as they guide students to become faithful disciples and capable leaders.
+    </p>
+  </div>
+</div>
+<div class="row mv-down-sml">
+  <div class="col-md-12">
+    <a class="btn btn-success link-btn-success-2" target="_blank" href="https://employment.byui.net/postings/search?query=&query_v0_posted_at_date=&query_organizational_tier_3_id=any&417=&418=8&commit=Search">VIEW OPEN POSITIONS</a>
+  </div>
+</div>
+<div id="helpme">
+
+</div>
+<div class="row mv-down-xs">
+  <div class="col-xs-6 col-md-4">
+    <a onclick="dropDown('help')" class="btn btn-info link-btn-info rotate-parent">NEED HELP? <i style="margin-top:5px;" class="fa fa-caret-right rotate fa-lg pull-right"></i></a>
+  </div>
+  <script type="text/javascript">// <![CDATA[
+    function dropDown(id)
+    {
+       toggle_visibility(id)
+    }
+    function toggle_visibility(id) {
+           var e = document.getElementById(id);
+           if(e.style.display == 'none')
+              e.style.display = 'block';
+           else
+              e.style.display = 'none';
+        }
+    $(document).ready(function () {
+       toggle_visibility("help");
+    });
+    // ]]>
+  </script>
+</div>
+<div style="margin-top:-25px;" class="row" id="help">
+  <div class="col-md-12">
+    <div id="help-edit">
+      <h2 style="margin-top:0; margin-bottom:4px; font-family:'BYUI Open Sans Light';">Contact Us!</h2>
+      <p>
+        The BYU-Idaho Online Human Resource team is here to answer any of your questions as you navigate our hiring process
+      </p>
+      <p>
+        Have you completed your application?
+      </p>
+      <p>
+        <span style="margin-right:10px;">Yes?</span> <i class="fa fa-phone"></i> (208) 496-1539 or <a href="mailto:onlinehr@byui.edu">onlinehr@byui.edu</a><br>
+        <span style="margin-right:14px;">No?</span> <i class="fa fa-phone"></i> (208) 496-1539 or <a href="mailto:recruitment@byui.edu">recruitment@byui.edu</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div>
+  <div class="col-xs-12 col-sm-5 col-md-4 interestedIn">
+    <p>YOU MAY ALSO BE INTERESTED IN:</p>
+  </div>
+  <div class="col-xs-12 col-sm-7 col-md-8 interestedLinks">
+    <div class="col-xs-1 rightArrow"></div>
+    <ul class="col-xs-10 interestedItems">
+      <li class="col-sm-6 linkItem"><a href="x95178.xml">FAQ's</a></li>
+      <li class="col-sm-6 linkItem"><a href="x95196.xml">WHY TEACH AT BYU-IDAHO</a></li>
+      <li class="col-sm-6 linkItem"><a href="x95661.xml">REQUIREMENTS</a></li>
+      <li class="col-sm-6 linkItem"><a href="x95176.xml">HIRING PROCESS</a></li>
+    </ul>
+  </div>
+</div>
+
+<script type="text/javascript">
+  $(".rotate-parent").click(function(){
+    $(".rotate").toggleClass("down");
+  })
+</script>
